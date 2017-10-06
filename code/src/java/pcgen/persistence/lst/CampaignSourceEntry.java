@@ -112,11 +112,9 @@ public class CampaignSourceEntry implements SourceEntry
 		String localizedDataFilePath = localizedDataBaseDirPath + File.separator + dataFileRelativeUri.toString();
 		File localizedDataFile = new File(localizedDataFilePath);
 		if(localizedDataFile.exists()) {
-			System.err.println(String.format("Find localized file: [%s] for [%s]", localizedDataFilePath, rawUri));
 			Logging.log(Logging.INFO, String.format("Find localized file: [%s] for [%s]", localizedDataFilePath, rawUri));
 			return localizedDataFile.toURI();
 		} else {
-			//System.out.println(String.format("Localized file: [%s] not found", localizedDataFilePath));
 			Logging.log(Logging.INFO, String.format("Localized file: [%s] not found", localizedDataFilePath));
 		}
 		return rawUri;
