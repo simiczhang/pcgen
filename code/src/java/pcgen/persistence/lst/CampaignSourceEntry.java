@@ -22,11 +22,12 @@ package pcgen.persistence.lst;
 
 import java.io.File;
 import java.net.URI;
-import java.net.URISyntaxException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 import java.util.StringTokenizer;
+
+import org.apache.commons.lang3.StringUtils;
 
 import pcgen.base.lang.StringUtil;
 import pcgen.base.util.HashMapToList;
@@ -106,18 +107,7 @@ public class CampaignSourceEntry implements SourceEntry
 	public URI getURI()
 	{
 		URI rawUri = uri.getURI();
-    	URI dataBaseDirUri = new File(ConfigurationSettings.getPccFilesDir()).toURI();
-    	URI dataFileRelativeUri = dataBaseDirUri.relativize(rawUri);
-		String localizedDataBaseDirPath = ConfigurationSettings.getLocalizedPccFilesDir();
-		String localizedDataFilePath = localizedDataBaseDirPath + File.separator + dataFileRelativeUri.toString();
-		File localizedDataFile = new File(localizedDataFilePath);
-		if(localizedDataFile.exists()) {
-			Logging.log(Logging.INFO, String.format("Find localized file: [%s] for [%s]", localizedDataFilePath, rawUri));
-			return localizedDataFile.toURI();
-		} else {
-			Logging.log(Logging.INFO, String.format("Localized file: [%s] not found", localizedDataFilePath));
-		}
-		return rawUri;
+    	return getLocalizedVersionIfPresent(rawUri);
 	}
 
 	/**
@@ -400,6 +390,30 @@ public class CampaignSourceEntry implements SourceEntry
 				validatePrereqs(prereq.getPrerequisites(), sourceUri);
 			}
 		}
+	}
+	
+	private URI getLocalizedVersionIfPresent(URI rawUri) {
+		String dataBaseDirPath = ConfigurationSettings.getPccFilesDir();
+		String localizedDataBaseDirPath = ConfigurationSettings.getLocalizedPccFilesDir();
+		File rawFile = new File(rawUri);
+		String rawPath = rawFile.getAbsolutePath();
+		if(rawPath.startsWith(dataBaseDirPath)) {
+			String localizedDataFilePath = localizedDataBaseDirPath + StringUtils.removeStart(rawPath, dataBaseDirPath);
+			File localizedDataFile = new File(localizedDataFilePath); 
+			if(localizedDataFile.exists()) {
+				System.out.println(String.format("Find localized file: [%s] for [%s]", localizedDataFilePath, rawPath));
+				Logging.log(Logging.INFO, String.format("Find localized file: [%s] for [%s]", localizedDataFilePath, rawPath));
+				return localizedDataFile.toURI();
+			}
+		} else if(rawPath.startsWith(localizedDataBaseDirPath)) {
+			if(!rawFile.exists()) {
+				String dataFilePath = dataBaseDirPath + StringUtils.removeStart(rawPath, localizedDataBaseDirPath);
+				System.out.println(String.format("Choose default data file: [%s] for [%s]", dataFilePath, rawPath));
+				Logging.log(Logging.INFO, String.format("Choose default data file: [%s] for [%s]", dataFilePath, rawPath));
+				return new File(dataFilePath).toURI();
+			}
+		}
+		return rawUri;		
 	}
 
 	/**

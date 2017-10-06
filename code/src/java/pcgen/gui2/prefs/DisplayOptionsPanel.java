@@ -128,7 +128,7 @@ public class DisplayOptionsPanel extends PCGenPrefsPanel
 //		options.put(in_useAutoWaitCursor, waitCursor);
 		options.put(in_useOutputNamesEquipment, useOutputNamesEquipment);
 		options.put(in_useOutputNamesSpells, useOutputNamesSpells);
-		options.put(in_useOutputNamesOther, useOutputNamesOther);
+		//options.put(in_useOutputNamesOther, useOutputNamesOther);
 		
 		for (Map.Entry<String, JComponent> entry : options.entrySet())
 		{

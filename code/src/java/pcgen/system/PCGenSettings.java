@@ -105,7 +105,7 @@ public final class PCGenSettings extends PropertyContext
 		setProperty(HOMEBREW_DATA_DIR, "@homebrewdata");
 		setProperty(CUSTOM_DATA_DIR, "@data/customsources".replace('/', File.separatorChar));
 		OutputDB.registerBooleanPreference(
-			OPTION_SHOW_OUTPUT_NAME_FOR_OTHER_ITEMS, false);
+			OPTION_SHOW_OUTPUT_NAME_FOR_OTHER_ITEMS, true);
 	}
 
 	@Override

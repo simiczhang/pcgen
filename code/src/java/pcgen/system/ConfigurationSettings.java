@@ -58,7 +58,7 @@ public final class ConfigurationSettings extends PropertyContext
 		setProperty(PREVIEW_DIR, "@preview");
 		setProperty(DOCS_DIR, "@docs");
 		setProperty(PCC_FILES_DIR, "@data");
-		setProperty(LOCALIZED_PCC_FILES_DIR, "@i18n/data/" +  SystemUtils.USER_LANGUAGE + "_" + SystemUtils.USER_COUNTRY );
+		setProperty(LOCALIZED_PCC_FILES_DIR, ("@i18n/data/" + SystemUtils.USER_LANGUAGE + "_" + SystemUtils.USER_COUNTRY).replace('/', File.separatorChar));
 	}
 
 	@Override
