@@ -50,11 +50,12 @@ import javax.swing.table.TableCellEditor;
 import javax.swing.table.TableCellRenderer;
 import javax.swing.table.TableColumn;
 
+import pcgen.core.PCStat;
 import pcgen.facade.core.CharacterFacade;
 import pcgen.facade.core.StatFacade;
+import pcgen.facade.util.ListFacade;
 import pcgen.facade.util.event.ReferenceEvent;
 import pcgen.facade.util.event.ReferenceListener;
-import pcgen.facade.util.ListFacade;
 import pcgen.gui2.tabs.Utilities;
 import pcgen.gui2.util.FontManipulation;
 import pcgen.gui2.util.PrettyIntegerFormat;
@@ -507,7 +508,7 @@ public class StatTableModel extends AbstractTableModel implements ReferenceListe
 			setForeground(jTable.getForeground());
 			StatFacade stat = (StatFacade) value;
 			//TODO: this should really call stat.toString()
-			setText(stat.getName());
+			setText(((PCStat)stat).getOutputName());
 			return this;
 		}
 
