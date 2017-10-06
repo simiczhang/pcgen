@@ -20,7 +20,9 @@
  */
 package pcgen.persistence.lst;
 
+import java.io.File;
 import java.net.URI;
+import java.net.URISyntaxException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
@@ -36,6 +38,7 @@ import pcgen.core.utils.CoreUtility;
 import pcgen.persistence.PersistenceLayerException;
 import pcgen.persistence.lst.output.prereq.PrerequisiteWriter;
 import pcgen.persistence.lst.prereq.PreParserFactory;
+import pcgen.system.ConfigurationSettings;
 import pcgen.util.Logging;
 
 /**
@@ -102,7 +105,21 @@ public class CampaignSourceEntry implements SourceEntry
     @Override
 	public URI getURI()
 	{
-		return uri.getURI();
+		URI rawUri = uri.getURI();
+    	URI dataBaseDirUri = new File(ConfigurationSettings.getPccFilesDir()).toURI();
+    	URI dataFileRelativeUri = dataBaseDirUri.relativize(rawUri);
+		String localizedDataBaseDirPath = ConfigurationSettings.getLocalizedPccFilesDir();
+		String localizedDataFilePath = localizedDataBaseDirPath + File.separator + dataFileRelativeUri.toString();
+		File localizedDataFile = new File(localizedDataFilePath);
+		if(localizedDataFile.exists()) {
+			System.err.println(String.format("Find localized file: [%s] for [%s]", localizedDataFilePath, rawUri));
+			Logging.log(Logging.INFO, String.format("Find localized file: [%s] for [%s]", localizedDataFilePath, rawUri));
+			return localizedDataFile.toURI();
+		} else {
+			//System.out.println(String.format("Localized file: [%s] not found", localizedDataFilePath));
+			Logging.log(Logging.INFO, String.format("Localized file: [%s] not found", localizedDataFilePath));
+		}
+		return rawUri;
 	}
 
 	/**

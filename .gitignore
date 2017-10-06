@@ -51,3 +51,4 @@ data/customsources/*
 /.checkstyle
 /installers/win-installer/includes/data.nsh
 /.nb-gradle-properties
+/bin/

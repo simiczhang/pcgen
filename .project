@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>pcgendev</name>
-	<comment></comment>
+	<name>pcgen</name>
+	<comment>Project pcgen created by Buildship.</comment>
 	<projects>
 	</projects>
 	<buildSpec>
@@ -11,20 +11,13 @@
 			</arguments>
 		</buildCommand>
 		<buildCommand>
-			<name>com.ibm.etools.ctc.serviceprojectbuilder</name>
-			<arguments>
-			</arguments>
-		</buildCommand>
-		<buildCommand>
-			<name>com.teaminabox.eclipse.metrics.MetricsBuilder</name>
+			<name>org.eclipse.buildship.core.gradleprojectbuilder</name>
 			<arguments>
 			</arguments>
 		</buildCommand>
 	</buildSpec>
 	<natures>
-		<nature>org.springsource.ide.eclipse.gradle.core.nature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
-		<nature>com.ibm.etools.ctc.javaprojectnature</nature>
-		<nature>com.teaminabox.eclipse.metrics.MetricsNature</nature>
+		<nature>org.eclipse.buildship.core.gradleprojectnature</nature>
 	</natures>
 </projectDescription>

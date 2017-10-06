@@ -38,6 +38,8 @@ public final class ConfigurationSettings extends PropertyContext
 	public static final String HOMEBREW_DATA_DIR = "homebrewdataPath";
 	public static final String DOCS_DIR = "docsPath";
 	public static final String PCC_FILES_DIR = "pccFilesPath";
+	public static final String LOCALIZED_PCC_FILES_DIR = "localizedPccFilesPath";
+	
 	public static final String CUSTOM_DATA_DIR = "customPath";
 	private static ConfigurationSettings instance = null;
 	/** APPLICATION directory name, used in <em>~/.&lt;APPLICATION&gt;</em>, etc. */
@@ -56,6 +58,7 @@ public final class ConfigurationSettings extends PropertyContext
 		setProperty(PREVIEW_DIR, "@preview");
 		setProperty(DOCS_DIR, "@docs");
 		setProperty(PCC_FILES_DIR, "@data");
+		setProperty(LOCALIZED_PCC_FILES_DIR, "@i18n/data/" +  SystemUtils.USER_LANGUAGE + "_" + SystemUtils.USER_COUNTRY );
 	}
 
 	@Override
@@ -68,6 +71,7 @@ public final class ConfigurationSettings extends PropertyContext
 		relativize(PREVIEW_DIR);
 		relativize(DOCS_DIR);
 		relativize(PCC_FILES_DIR);
+		relativize(LOCALIZED_PCC_FILES_DIR);
 	}
 
 	public static String getLanguage()
@@ -147,6 +151,11 @@ public final class ConfigurationSettings extends PropertyContext
 	public static String getPccFilesDir()
 	{
 		return getDirectory(PCC_FILES_DIR);
+	}
+	
+	public static String getLocalizedPccFilesDir()
+	{
+		return getDirectory(LOCALIZED_PCC_FILES_DIR);
 	}
 
 	public static String getSettingsDir()
