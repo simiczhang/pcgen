@@ -931,7 +931,7 @@ public final class SettingsHandler
 		setGrimHPMode(getPCGenOption("grimHPMode", false)); //$NON-NLS-1$
 		setGrittyACMode(getPCGenOption("grittyACMode", false)); //$NON-NLS-1$
 		setGUIUsesOutputNameEquipment(getPCGenOption("GUIUsesOutputNameEquipment", false)); //$NON-NLS-1$
-		setGUIUsesOutputNameSpells(getPCGenOption("GUIUsesOutputNameSpells", false)); //$NON-NLS-1$
+		setGUIUsesOutputNameSpells(getPCGenOption("GUIUsesOutputNameSpells", true)); //$NON-NLS-1$
 		setHideMonsterClasses(getPCGenOption("hideMonsterClasses", false)); //$NON-NLS-1$
 		setHPMaxAtFirstLevel(getPCGenOption("hpMaxAtFirstLevel", true)); //$NON-NLS-1$
 		setHPMaxAtFirstClassLevel(getPCGenOption("hpMaxAtFirstClassLevel", false)); //$NON-NLS-1$

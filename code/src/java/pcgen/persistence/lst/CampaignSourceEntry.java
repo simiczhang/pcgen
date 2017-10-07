@@ -401,14 +401,12 @@ public class CampaignSourceEntry implements SourceEntry
 			String localizedDataFilePath = localizedDataBaseDirPath + StringUtils.removeStart(rawPath, dataBaseDirPath);
 			File localizedDataFile = new File(localizedDataFilePath); 
 			if(localizedDataFile.exists()) {
-				System.out.println(String.format("Find localized file: [%s] for [%s]", localizedDataFilePath, rawPath));
 				Logging.log(Logging.INFO, String.format("Find localized file: [%s] for [%s]", localizedDataFilePath, rawPath));
 				return localizedDataFile.toURI();
 			}
 		} else if(rawPath.startsWith(localizedDataBaseDirPath)) {
 			if(!rawFile.exists()) {
 				String dataFilePath = dataBaseDirPath + StringUtils.removeStart(rawPath, localizedDataBaseDirPath);
-				System.out.println(String.format("Choose default data file: [%s] for [%s]", dataFilePath, rawPath));
 				Logging.log(Logging.INFO, String.format("Choose default data file: [%s] for [%s]", dataFilePath, rawPath));
 				return new File(dataFilePath).toURI();
 			}
