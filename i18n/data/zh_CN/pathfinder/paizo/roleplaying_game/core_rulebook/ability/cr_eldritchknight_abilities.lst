@@ -1,0 +1,2 @@
+﻿CATEGORY=Special Ability|Eldritch Knight ~ Diverse Training.MOD	OUTPUTNAME:多樣化訓練（Diverse Training）	DESC:.CLEAR	DESC:在決定是否滿足專長先決條件時，角色可將他的奧法騎士等級加在他的戰士等級上（如果他沒有戰士等級，將他的奧法騎士等級視為戰士等級）。同樣的情況下，奧法騎士等級也可加在他的奧術施法者職業等級上。	
+CATEGORY=Special Ability|Eldritch Knight ~ Spell Critical.MOD	OUTPUTNAME:重擊施法（Spell Critical）	DESC:.CLEAR	DESC:在第10級，奧法騎士無論何時成功造成重擊，他可以用一個迅捷動作施展一個法術。重擊的目標必須是法術的目標之一、或者在法術效果範圍內。施展這個法術不會引起藉機攻擊。施法者仍然要滿足所有的法術成分，必要時要投施法失敗率。	

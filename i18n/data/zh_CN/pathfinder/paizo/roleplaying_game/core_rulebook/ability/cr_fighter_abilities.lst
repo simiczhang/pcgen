@@ -106,7 +106,6 @@ CATEGORY=Special Ability|Dirty Fighter ~ Speedy Tricks.MOD	OUTPUTNAME:快速陰�
 CATEGORY=Special Ability|Dirty Fighter ~ Double Tricks.MOD	OUTPUTNAME:多重陰招（Double Tricks）	DESC:.CLEAR	DESC:13級時，當陰招戰士成功進行一次陰招戰技時，他可以對自己的對手造成兩個不同的狀態，而不是一個。每一個不良狀態都需要花費獨立的動作去解除。在17級時，他可以同時造成三個不同的狀態。這一能力取代武器訓練3和4。	
 CATEGORY=Special Ability|Foehammer ~ Sledgehammer.MOD	OUTPUTNAME:大錘（Sledgehammer）	DESC:.CLEAR	DESC:3級時，破敵之錘在持用錘類武器時在衝撞、闖越、卸武和絆摔的戰技檢定上獲得+2環境加值。這一能力取代盔甲訓練1。	
 CATEGORY=Special Ability|Foehammer ~ Weapon Training.MOD	OUTPUTNAME:武器訓練（Weapon Training）	DESC:.CLEAR	DESC:5級時，破敵之錘必須選擇錘類武器並且不會獲得其他武器組的【武器訓練】。他的武器訓練加值在5級後的每4級都會再+1。	
-CATEGORY=Special Ability|Foehammer ~ Hammer to the Ground.MOD	OUTPUTNAME:捶倒在地（Hammer to the Ground）	DESC:.CLEAR	DESC:7級時，當破敵之錘進行了一次成功的衝撞檢定時，他可以在衝撞結束後進行一次絆摔戰技。即使他沒有跟隨目標移動，衝擊的力量仍然可能摔倒他的敵人，但他需要在絆摔的戰技檢定中承受-5減值。15級時，任何破敵之錘成功衝撞的目標都會在衝撞結束後被自動擊倒。這一能力取代護甲訓練2和4。	
 CATEGORY=Special Ability|Foehammer ~ Rhythmic Blows.MOD	OUTPUTNAME:一鼓作氣（Rhythmic Blows）	DESC:.CLEAR	DESC:9級時，每當破敵之錘擊中目標，他都在對該目標的攻擊檢定上獲得+1加值。每次命中這一目標時，加值都會疊加，但是只會持續存在到破敵之錘的回合結束。這一能力取代武器訓練2。	
 CATEGORY=Special Ability|Foehammer ~ Piledriver.MOD	OUTPUTNAME:打樁機（Piledriver）	DESC:.CLEAR	DESC:11級時，以一個標準動作，破敵之錘可以使用錘類武器組中的武器進行一次單獨的近戰攻擊。若攻擊命中，他能以一個不引發藉機攻擊的自由動作對其攻擊的目標進行一個衝撞或絆摔戰技。這一能力取代盔甲訓練3。	
 CATEGORY=Special Ability|Foehammer ~ Ground Breaker.MOD	OUTPUTNAME:撼地者（Ground Breaker）	DESC:.CLEAR	DESC:13級時，以一個整輪動作，破敵之錘可以用他的錘子猛擊地面。若攻擊造成了大於地面硬度的傷害，他所佔據的方格及其所有臨近方格都變為困難地形。在這些方格內的生物，除了破敵之錘自己，都會摔倒在地（通過DC15反射豁免則無效）。這一能力取代武器訓練3。	
