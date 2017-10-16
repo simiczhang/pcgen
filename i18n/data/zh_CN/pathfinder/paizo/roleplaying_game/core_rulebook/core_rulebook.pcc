@@ -111,6 +111,9 @@ DOMAIN:common/cr_domains.lst
 DOMAIN:common/apg_domains.lst
 DOMAIN:common/um_domains.lst
 LANGUAGE:common/cr_languages.lst
+# Equipment
+EQUIPMENT:equipment/weapons.lst
+EQUIPMOD:equipment/equipmods.lst
 # Spells
 SPELL:spell/cr_spells.lst
 SPELL:spell/apg_spells.lst

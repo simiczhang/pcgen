@@ -760,7 +760,7 @@ public class Gui2InfoFactory implements InfoFactory
 		final StringBuilder title = new StringBuilder(50);
 		title.append(OutputNameFormatting.piString(equip, false));
 
-		if (!equip.longName().equals(equip.getName()))
+		if (!equip.longName().equals(equip.getOutputAwareName()))
 		{
 			title.append("(").append(equip.longName()).append(")");
 		}

@@ -30,6 +30,7 @@ import pcgen.cdom.base.FormulaFactory;
 import pcgen.cdom.content.SpellResistance;
 import pcgen.cdom.enumeration.ListKey;
 import pcgen.cdom.enumeration.ObjectKey;
+import pcgen.cdom.enumeration.StringKey;
 import pcgen.cdom.enumeration.Type;
 import pcgen.core.analysis.BonusCalc;
 import pcgen.core.bonus.Bonus;
@@ -262,8 +263,14 @@ public final class EquipmentModifier extends PObject implements Comparable<Objec
 	@Override
 	public String toString()
 	{
-		return getDisplayName();
+		if (SettingsHandler.guiUsesOutputNameEquipment()) {
+			return get(StringKey.NAME_TEXT) == null? getOutputName() : get(StringKey.NAME_TEXT);
+		} else {
+			return getDisplayName();
+		}
 	}
+
+	
 
 	public int getSR(Equipment parent, PlayerCharacter aPC)
 	{

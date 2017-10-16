@@ -1106,9 +1106,27 @@ public final class Equipment extends PObject implements Serializable,
 	 */
 	public String getItemNameFromModifiers()
 	{
-		return getItemNameFromModifiers(getBaseItemName());
+		return getItemNameFromModifiers(getOutputAwareBaseItemName());
 	}
 
+	/**
+	 * Similar as getBaseItemName() but it aware of output name
+	 * 
+	 * @return
+	 */
+	private String getOutputAwareBaseItemName() {
+		CDOMSingleRef<Equipment> baseItem = get(ObjectKey.BASE_ITEM);
+		if (baseItem == null)
+		{
+			return getKeyName();
+		}
+		if (SettingsHandler.guiUsesOutputNameEquipment()) { 
+			return baseItem.get().getOutputName();
+		} else {
+			return baseItem.get().getDisplayName();
+		}
+	}
+	
 	/**
 	 * Get the item name based off the modifiers
 	 * 
@@ -1478,8 +1496,26 @@ public final class Equipment extends PObject implements Serializable,
 	public String getName()
 	{
 		final StringBuilder buffer = new StringBuilder(100);
-	
 		buffer.append(getDisplayName());
+		if (!modifiedName.isEmpty())
+		{
+			buffer.append(" (").append(modifiedName).append(")");
+		}
+
+		return buffer.toString();
+	}
+	
+	/**
+	 * Similar as getName() , but it is aware of output name
+	 * @return
+	 */
+	public String getOutputAwareName() {
+		final StringBuilder buffer = new StringBuilder(100);
+		if (SettingsHandler.guiUsesOutputNameEquipment()) {
+			buffer.append(getOutputName());
+		} else {
+			buffer.append(getDisplayName());
+		}
 		if (!modifiedName.isEmpty())
 		{
 			buffer.append(" (").append(modifiedName).append(")");
@@ -3352,7 +3388,7 @@ public final class Equipment extends PObject implements Serializable,
 	public String nameItemFromModifiers(final PlayerCharacter pc)
 	{
 
-		final String itemName = getItemNameFromModifiers(getBaseItemName());
+		final String itemName = getItemNameFromModifiers(getOutputAwareBaseItemName());
 		setDefaultCrit(pc);
 		setName(itemName);
 		String itemKey =
