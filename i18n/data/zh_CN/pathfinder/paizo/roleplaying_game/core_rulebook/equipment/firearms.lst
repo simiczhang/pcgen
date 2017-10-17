@@ -1,0 +1,38 @@
+Alchemical Cartridge (Dragon's Breath).MOD	OUTPUTNAME:龍息彈（Alchemical Cartridge (Dragon's Breath)）	DESC:.CLEAR	DESC:這種定裝彈包含有一種煉金混合物，當擊發時，它會取代單手火器或雙手火器的一般攻擊，產生一道具有霰彈特性的錐形火焰。這一道非魔法的火焰會給處於霰彈錐形中的所有目標造成2d6點火焰傷害（通過DC為15的反射豁免可以減半）。這些定裝彈不能用於沒有霰彈特性的火器。因為這種定裝彈是引發豁免檢定而非攻擊檢定，啞火率的規則會有些微區別。如果你在任意一個傷害檢定中投骰為1，火器將啞火。	
+Alchemical Cartridge (Entangling Shot).MOD	OUTPUTNAME:糾纏彈（Alchemical Cartridge (Entangling Shot)）	DESC:.CLEAR	DESC:這種經過煉金處理、強韌程度足以承受發射的樹脂與黑火藥的混合物只能被裝填入雷筒、龍銃或其它霰彈武器中。它會給被火器錐形範圍內被擊中的目標造成一半傷害，並使他們進行DC為15的反射豁免，不通過將會陷入糾纏狀態2d4輪。一發糾纏彈使啞火值提高1。	
+Alchemical Cartridge (Flare).MOD	OUTPUTNAME:閃光彈（Alchemical Cartridge (Flare)）	DESC:.CLEAR	DESC:當一發閃光彈擊中目標，它造成一半傷害，並使這個目標目盲1回合（通過DC為15的強韌檢定則目眩），以目標為中心20尺爆發範圍的其他生物目眩1回合（通過DC為15的強韌豁免避免該效果）。閃光彈也可以用作信號彈。發射一發閃光彈會使啞火值提高2，但若是用雷筒或龍銃發射，則只會提高1。閃光彈只能用於攻擊單一目標，它們不能用來發動霰彈武器的錐形射擊。	
+Alchemical Cartridge (Paper/Bullet).MOD	OUTPUTNAME:紙包彈（Alchemical Cartridge (Paper/Bullet)）	DESC:.CLEAR	DESC:這種黑火藥和子彈或霰彈的簡單混合使啞火值提高1。	
+Alchemical Cartridge (Paper/Pellet).MOD	OUTPUTNAME:紙包彈（Alchemical Cartridge (Paper/Pellet)）	DESC:.CLEAR	DESC:這種黑火藥和子彈或霰彈的簡單混合使啞火值提高1。	
+Alchemical Cartridge (Salt Shot).MOD	OUTPUTNAME:鹽彈（Alchemical Cartridge (Salt Shot)）	DESC:.CLEAR	DESC:這種黑火藥和石鹽的混合物只能被裝填入雷筒、龍銃或其它霰彈武器中。它造成非致命傷害，並使啞火值提高1。它只能用來發動霰彈武器的錐形射擊。	
+Musket (Axe).MOD	OUTPUTNAME:戰斧式滑膛槍（Musket (Axe)）	DESC:.CLEAR	DESC:這把滑膛槍的槍管末端有一把斧頭。它可以當或戰斧或滑膛槍使用。在製作精製品和魔法武器時，戰斧式滑膛槍被視作雙頭武器。當這把武器破損時，戰斧和火槍都必須承受破損減值。戰斧式滑膛槍的彈藥為1顆彈頭加1份黑火藥，或1發煉金定裝彈。這是一件早期火器。	
+Black Powder (Dose).MOD	OUTPUTNAME:黑火藥（份）（Black Powder（Dose））	DESC:.CLEAR	DESC:黑火藥是使火器運作的關鍵爆炸成分，但大劑量的這種煉金材料同樣極具破壞力。1份黑火藥足以讓大部分的單手或雙手火器開火，而一門加農火炮則需要10份。黑火藥經常用木桶來儲存和運輸（內有100份），但是這麼大量的黑火藥自身也變得危險。暴露於火、電或啞火火器的爆炸都將誘爆黑火藥——一桶以此方式爆炸的黑火藥會給20尺爆發範圍的所有事物造成5d6火焰傷害（通過DC為15的反射豁免將減半）。把黑火藥儲存於一個火藥筒中將使這些火藥免於爆炸。	
+Black Powder (Keg).MOD	OUTPUTNAME:黑火藥（桶）（Black Powder（Keg））	DESC:.CLEAR	DESC:黑火藥是使火器運作的關鍵爆炸成分，但大劑量的這種煉金材料同樣極具破壞力。1份黑火藥足以讓大部分的單手或雙手火器開火，而一門加農火炮則需要10份。黑火藥經常用木桶來儲存和運輸（內有100份），但是這麼大量的黑火藥自身也變得危險。暴露於火、電或啞火火器的爆炸都將誘爆黑火藥——一桶以此方式爆炸的黑火藥會給20尺爆發範圍的所有事物造成5d6火焰傷害（通過DC為15的反射豁免將減半）。把黑火藥儲存於一個火藥筒中將使這些火藥免於爆炸。	
+Blunderbuss.MOD	OUTPUTNAME:雷筒（Blunderbuss）	DESC:.CLEAR	DESC:這種武器可以從喇叭狀的槍口發射散彈或彈頭，這使其成為一把獵捕野禽時很方便的武器，或者是在近距離戰鬥中很有效的個人防身武器。雷筒發射散彈的範圍是15尺錐形，而發射一般彈頭時則有著10尺的射程增量。雷筒的彈藥為1顆彈頭或一包霰彈、外加1份黑火藥，或1發煉金定裝彈（彈頭或霰彈）。這是一件早期火器。	
+Buckler Gun.MOD	OUTPUTNAME:圓盾槍（Buckler Gun）	DESC:.CLEAR	DESC:這隻小圓盾的前方配有一把雙管槍，當裝備著小圓盾的時候可以用它來射擊。和一般雙管手槍不同的是，圓盾槍一次只能擊出一發子彈。你必須卸除小圓盾才可以為圓盾槍裝填彈藥。圓盾槍的彈藥為1顆彈頭加1份黑火藥，或1發煉金定裝彈。由於圓盾槍設計特殊，它永遠被視為副手武器。這是一件早期火器。	
+Bullet (Firearm).MOD	OUTPUTNAME:彈頭（Bullet (Firearm)）	DESC:.CLEAR	DESC:大部分單手和雙手火器的彈藥。彈頭的典型形態是一個小鉛球，或其它金屬。	
+Bullet (Adamantine).MOD	OUTPUTNAME:精金彈頭（Bullet (Adamantine)）	DESC:.CLEAR	DESC:這種昂貴的彈頭由精金加工而成。它在攻擊物品時將忽略20或以下的硬度。	
+Bullet (Firearm/Pitted).MOD	OUTPUTNAME:帶坑彈頭（Bullet (Firearm/Pitted)）	DESC:.CLEAR	DESC:這種彈藥上有小坑點，讓專門配方的毒藥填入。一份毒藥是通過煉金處理成固體的標準毒素衍生物，可以通過一個DC額外+4的工藝（毒藥）檢定製造出所有標準的傷口或接觸型毒素的固體毒藥版本。購買一份已經準備好、用於帶坑彈頭的固體毒藥的花費相當於「基礎價格+20」gp。被製造出來後，毒藥可以被填入彈頭的小坑中並硬化。完成後，該彈頭可以被一件合適的火器發射，將毒素釋放到被它擊中的目標中，但毒素的豁免DC將-2。一顆帶坑彈頭不能用於煉金定裝彈。	
+Bullet (Firearm/Silver).MOD	OUTPUTNAME:銀彈頭（Bullet (Firearm/Silver)）	DESC:.CLEAR	DESC:這種彈藥專門由煉銀製成。儘管沒有魔法，它對獸化人仍然效果拔群，對他們的重擊確認將自動成功。發射銀彈頭的火器傷害檢定-1（至少為1）。	
+Pistol (Coat).MOD	OUTPUTNAME:袖槍（Pistol (Coat)）	DESC:.CLEAR	DESC:雖然比其他火槍威力弱一點，但這把手槍非常小，很容易藏在外套或者大衣中。將袖槍藏在身上的巧手技能檢定+2。袖槍的彈藥為1顆彈頭加1份黑火藥，或1發煉金定裝彈。這是一件早期火器。	
+Culverin.MOD	OUTPUTNAME:長管炮（Culverin）	DESC:.CLEAR	DESC:長管炮又被稱作手炮（Hand Bombard），由一個滑膛炮管組成，一端密封起來、只留一個小孔來點燃火藥。包圍在炮管外的木製槍托方便持用者在發射時將其夾在腋下。發射長管炮時如果沒有支撐（例如牆壁、窗口或是支架）會使攻擊檢定遭受-4減值，而且持用者會被強烈的後坐力擊倒。長管炮的彈藥為一包霰彈和4份黑火藥。注意上述數據用於一般的手持長管炮，更大型的長管炮將視為加農火炮與攻城兵器來處理。這是一件早期火器。	
+Pistol (Dagger).MOD	OUTPUTNAME:短刃手槍（Pistol (Dagger)）	DESC:.CLEAR	DESC:結合了匕首和袖槍，短刃手槍可以當作兩種武器來用。這種特殊的配置意味著你把它藏在身上時，不再獲得他們分開時的巧手檢定加值。在製作精製品和魔法武器時，短刃手槍被視作雙頭武器；當這把武器破損時，匕首和袖槍都必須承受破損減值。短刃手槍的彈藥為1顆彈頭加1份黑火藥，或1發煉金定裝彈。這是一件早期火器。	
+Double Hackbut.MOD	OUTPUTNAME:雙管架槍（Double Hackbut）	DESC:.CLEAR	DESC:這種槍身有一般步槍兩倍長的火繩槍，用一對耳軸裝在一個雙輪車架的旋轉台上。使用這把槍需要先花一個整輪動作把它的支架和輪子裝好保持穩定。和一般的雙手火器不同，如果沒有架設好抬槍，攻擊檢定會遭受-4減值，而且持用者會被強烈的後坐力擊倒。體型為大型或以上的生物可以持用型號小於自身體型的抬槍發射，無需架設、也不會被擊倒，但是仍須承受使用越型武器所帶來的減值。這是一件早期火器。	
+Musket (Double-Barreled).MOD	OUTPUTNAME:雙管滑膛槍（Musket (Double-Barreled)）	DESC:.CLEAR	DESC:這把滑膛槍有兩個平行的槍管，每個槍管可以由單獨的攻擊分別射擊，或由一個標準動作（攻擊動作）同時射擊。如果同時射擊，它們必須針對同一目標，且雙管滑膛槍會變的非常不准，攻擊檢定受到-4減值。雙管滑膛槍的彈藥為1顆彈頭加1份黑火藥，或1發煉金定裝彈。這是一件早期火器。	
+Pistol (Double-barreled).MOD	OUTPUTNAME:雙管手槍（Pistol (Double-barreled)）	DESC:.CLEAR	DESC:這把手槍有兩個平行的槍管，兩個槍管可以單獨射擊，或者通過一次攻擊同時射擊。如果同時射擊，它們必須針對同一目標，且雙管滑膛槍會變的非常不准，攻擊檢定受到-4減值。這是一件早期火器。	
+Shotgun (Double-Barreled).MOD	OUTPUTNAME:雙管霰彈槍（Shotgun (Double-Barreled)）	DESC:.CLEAR	DESC:這把霰彈槍有雙重槍管，每個槍管可以由單獨的攻擊分別射擊，或由一個標準動作（攻擊動作）同時射擊。雙重射擊很難精確，攻擊檢定受到-4減值。雙重射擊將彈頭射向同一生物，並將每個槍管的傷害升至2d6（小型）或2d8（中型），使得總傷害達到4d6或4d8。雙管霰彈槍的彈藥為金屬定裝彈（內包彈頭或霰彈）。這是一件近代火器。	
+Pistol (Dragon).MOD	OUTPUTNAME:龍銃（Pistol (Dragon)）	DESC:.CLEAR	DESC:就像縮小版的雷筒，龍銃可以用它的槍管擊發一般彈頭或是霰彈。龍銃發射散彈的範圍是15尺錐形，而發射一般子彈則有著10尺的射程增量。龍銃的彈藥為1顆彈頭或一包霰彈、外加1份黑火藥，或1發煉金定裝彈（彈頭或霰彈）。這是一件早期火器。	
+Fire Lance.MOD	OUTPUTNAME:突火矛（Fire Lance）	DESC:.CLEAR	DESC:這種原始的火器就只是一根長管，點燃後會從閘門射出火焰和標槍。和其他火器不同，飛火矛非常不精準，攻擊目標的AC而非接觸AC。飛火矛的啞火效果總是視為破損。飛火矛的彈藥為1支標槍和2份黑火藥。這是一件早期火器。	
+Gunsmith's Kit.MOD	OUTPUTNAME:炮匠工具（Gunsmith's Kit）	DESC:.CLEAR	DESC:這種小工具套有用來製造、維修和儲存一件火器所需的所有工具，除了必須的原料。沒有炮匠工具，你將無法正常地製造或保養火器。	
+Metal Cartridge.MOD	OUTPUTNAME:金屬定裝彈（Metal Cartridge）	DESC:.CLEAR	DESC:這些煉金定裝彈的強化版提供給近代火器。它們可以裝配彈頭或霰彈。	
+Musket.MOD	OUTPUTNAME:滑膛槍（Musket）	DESC:.CLEAR	DESC:這種長管火器的射程比手槍遠很多。滑膛槍的彈藥為1顆彈頭加1份黑火藥，或1發煉金定裝彈。這是一件早期火器。	
+Pellets (Handful).MOD	OUTPUTNAME:霰彈（1包）（Pellets (Handful)）	DESC:.CLEAR	DESC:一包霰彈通常與1份黑火藥配合，用作具有霰彈特性的單手火器或雙手火器的彈藥；儘管碎石或別的小塊硬物也能當霰彈來用。如果一件霰彈武器使用霰彈或煉金定裝彈以外的物品來進行錐形攻擊，將使啞火值提高1（不過這種提升將在轉為使用標準彈藥時移除）。30包霰彈重1/2磅。	
+Pellets (Handful/30).MOD	OUTPUTNAME:霰彈（30包）（Pellets (Handful/30)）	DESC:.CLEAR	DESC:一包霰彈通常與1份黑火藥配合，用作具有霰彈特性的單手火器或雙手火器的彈藥；儘管碎石或別的小塊硬物也能當霰彈來用。如果一件霰彈武器使用霰彈或煉金定裝彈以外的物品來進行錐形攻擊，將使啞火值提高1（不過這種提升將在轉為使用標準彈藥時移除）。30包霰彈重1/2磅。	
+Pepperbox.MOD	OUTPUTNAME:胡椒罐手槍（Pepperbox）	DESC:.CLEAR	DESC:這把奇特的槍有六個槍管，槍管可以在射擊間用手旋轉（自由動作，需要一支空閒的手），使它在6發子彈全射完以前不用填裝。胡椒罐手槍的每個槍管的彈藥為1顆彈頭加1份黑火藥，或1發煉金定裝彈。這是一件早期火器。	
+Rifle (Pepperbox).MOD	OUTPUTNAME:胡椒罐步槍（Rifle (Pepperbox)）	DESC:.CLEAR	DESC:這把步槍的四隻槍管安裝在可旋轉的卡箍上，可以在兩次射擊之間迅速旋轉切換（一個自由動作）。胡椒罐步槍的彈藥為金屬定裝彈。這是一件近代火器。	
+Pistol.MOD	OUTPUTNAME:手槍（Pistol）	DESC:.CLEAR	DESC:手槍是最常見的火器之一，但是在大多數時候它也是個足以引起眾人的羨幕或好奇心的物品了。因此手槍的設計多姿多彩，從裝點奢華的噴火龍型到樸實簡約的木柄槍身，甚至單純只有金屬槍管和擊髮結構。手槍的彈藥為1顆彈頭加1份黑火藥，或1發煉金定裝彈。這是一件早期火器。	
+Powder Horn.MOD	OUTPUTNAME:火藥筒（Powder Horn）	DESC:.CLEAR	DESC:通常由動物的角製成，但由各種各樣形狀的金屬製成的火藥筒也越來越多。一個火藥筒可以儲存10份黑火藥。火藥筒可以保護儲存其中的黑火藥免受火、電、啞火的火器和水的影響。	
+Revolver.MOD	OUTPUTNAME:左輪手槍（Revolver）	DESC:.CLEAR	DESC:左輪手槍是裝有包含6個彈艙的轉輪的手槍。每個彈艙可以容納1發金屬定裝彈，並且每當發射出1發後，轉輪將自動旋轉（無需多餘的手或動作），令下一個彈艙準備好發射彈藥。左輪手槍的彈藥為金屬定裝彈。這是一件近代火器。	
+Rifle.MOD	OUTPUTNAME:步槍（Rifle）	DESC:.CLEAR	DESC:這把滑膛槍上出現的先進設計是有膛線的槍管，能夠射出迴旋前進的子彈，使其穩定飛行、避免簡易火器發射時常見的翻跟頭現象。結果是使得步槍的射程和精度都遠超早期長管火器。步槍的彈藥為金屬定裝彈。這是一件近代火器。	
+Shotgun.MOD	OUTPUTNAME:霰彈槍（Shotgun）	DESC:.CLEAR	DESC:這件雷筒的升級版本發射霰彈時區域為30尺錐形，而在發射彈頭時射程增量為20尺。霰彈槍既可以簡樸實用，也可以精心裝點和雕琢，有著華麗的槍托和槍身。上層社會人士使用的霰彈槍還會飾以狩獵動物、家族紋章、精美徽記等等。霰彈槍的彈藥為金屬定裝彈（內包彈頭或霰彈）。這是一件近代火器。	
+Pistol (Sword Cane).MOD	OUTPUTNAME:杖劍手槍（Pistol (Sword Cane)）	DESC:.CLEAR	DESC:這是一件將袖槍組合在杖劍上的組合武器。在製作精製品和魔法武器時，杖劍手槍被視作雙頭武器。多了手槍的部份，使得這件武器較難以偽裝。觀察者必須通過DC15的察覺檢定才能發現這是一把武器而不是普通的枴杖。如果經手這把武器，察覺DC下降到5。杖劍手槍的彈藥為1顆彈頭加1份黑火藥，或1發煉金定裝彈。必須把劍的部份拆卸下來才可以為這把槍裝填子彈。這是一件早期火器。	
+Musket (Warhammer).MOD	OUTPUTNAME:戰錘式滑膛槍（Musket (Warhammer)）	DESC:.CLEAR	DESC:這把滑膛槍的槍管末端有一把戰錘。它可以當或戰錘或滑膛槍使用。在製作精製品和魔法武器時，戰錘式滑膛槍被視作雙頭武器。當這把武器破損時，戰錘和火槍都必須承受破損減值。戰錘式滑膛槍的彈藥為1顆彈頭加1份黑火藥，或1發煉金定裝彈。這是一件早期火器。	
