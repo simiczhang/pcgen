@@ -180,8 +180,8 @@ public final class SettingsHandler
 	private static String postExportCommandStandard = ""; //$NON-NLS-1$
 	private static String postExportCommandPDF = ""; //$NON-NLS-1$
 	private static boolean hideMonsterClasses = false;
-	private static boolean guiUsesOutputNameEquipment = false;
-	private static boolean guiUsesOutputNameSpells = false;
+	private static boolean guiUsesOutputNameEquipment = true;
+	private static boolean guiUsesOutputNameSpells = true;
 	private static int lastTipShown = -1;
 	private static boolean showMemoryArea = false;
 	private static boolean showImagePreview = true;
@@ -930,7 +930,7 @@ public final class SettingsHandler
 		setGearTab_SellRate(sellRate);
 		setGrimHPMode(getPCGenOption("grimHPMode", false)); //$NON-NLS-1$
 		setGrittyACMode(getPCGenOption("grittyACMode", false)); //$NON-NLS-1$
-		setGUIUsesOutputNameEquipment(getPCGenOption("GUIUsesOutputNameEquipment", false)); //$NON-NLS-1$
+		setGUIUsesOutputNameEquipment(getPCGenOption("GUIUsesOutputNameEquipment", true)); //$NON-NLS-1$
 		setGUIUsesOutputNameSpells(getPCGenOption("GUIUsesOutputNameSpells", true)); //$NON-NLS-1$
 		setHideMonsterClasses(getPCGenOption("hideMonsterClasses", false)); //$NON-NLS-1$
 		setHPMaxAtFirstLevel(getPCGenOption("hpMaxAtFirstLevel", true)); //$NON-NLS-1$

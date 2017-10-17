@@ -85,6 +85,10 @@ public final class PCGenSettings extends PropertyContext
 	public static final String CONVERT_DATA_LOG_FILE = "pcgen.convert.dataLogFile";
 	
 	public static final PropertyContext GMGEN_OPTIONS_CONTEXT = instance.createChildContext("gmgen.options");
+
+	static {
+		OPTIONS_CONTEXT.setBoolean(PCGenSettings.OPTION_SHOW_OUTPUT_NAME_FOR_OTHER_ITEMS, true);
+	}
 	
 	private PCGenSettings()
 	{

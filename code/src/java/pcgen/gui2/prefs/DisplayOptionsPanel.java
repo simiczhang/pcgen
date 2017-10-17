@@ -118,6 +118,11 @@ public class DisplayOptionsPanel extends PCGenPrefsPanel
 		// Automatically sort the options alphabetically.
 		final SortedMap<String, JComponent> options =
                 new TreeMap<>();
+		
+		useOutputNamesEquipment.setSelected(SettingsHandler.guiUsesOutputNameEquipment());
+		useOutputNamesSpells.setSelected(SettingsHandler.guiUsesOutputNameSpells());
+		useOutputNamesOther.setSelected(PCGenSettings.OPTIONS_CONTEXT.getBoolean(
+				PCGenSettings.OPTION_SHOW_OUTPUT_NAME_FOR_OTHER_ITEMS));
 
 //		options.put(in_showMemory, showMemory);
 //		options.put(in_showImagePreview, showImagePreview);
@@ -223,8 +228,7 @@ public class DisplayOptionsPanel extends PCGenPrefsPanel
 		useOutputNamesSpells.setSelected(SettingsHandler
 			.guiUsesOutputNameSpells());
 		useOutputNamesOther.setSelected(PCGenSettings.OPTIONS_CONTEXT
-			.getBoolean(PCGenSettings.OPTION_SHOW_OUTPUT_NAME_FOR_OTHER_ITEMS,
-				false));
+			.getBoolean(PCGenSettings.OPTION_SHOW_OUTPUT_NAME_FOR_OTHER_ITEMS, true));
 		//		waitCursor.setSelected(SettingsHandler.getUseWaitCursor());
 	}
 
