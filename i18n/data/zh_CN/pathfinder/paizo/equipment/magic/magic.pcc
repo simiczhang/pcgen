@@ -6,5 +6,6 @@ PCC:armor/armor.pcc
 PCC:ring/ring.pcc
 PCC:rod/rod.pcc
 PCC:staff/staff.pcc
+PCC:wondrous/wondrous.pcc
 
 EQUIPMOD:basic_equipmods.lst
