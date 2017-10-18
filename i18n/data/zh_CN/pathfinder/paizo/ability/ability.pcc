@@ -49,3 +49,6 @@ ABILITY:apg_masterspy_abilities.lst
 ABILITY:apg_naturewarden_abilities.lst
 ABILITY:apg_rageprophet_abilities.lst
 ABILITY:apg_stalwartdefender_abilities.lst
+
+#ARG Race Ability
+ABILITY:arg_abilities_race.lst
