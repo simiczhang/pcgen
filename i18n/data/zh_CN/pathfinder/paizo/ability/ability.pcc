@@ -12,6 +12,7 @@ ABILITY:cr_ranger_abilities.lst
 ABILITY:cr_rogue_abilities.lst
 ABILITY:cr_sorcerer_abilities.lst
 ABILITY:cr_wizard_abilities.lst
+ABILITY:cr_abilities_race.lst
 
 # APG Class Ability
 ABILITY:apg_alchemist_abilities.lst
