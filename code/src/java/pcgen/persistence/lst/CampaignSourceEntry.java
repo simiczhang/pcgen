@@ -20,14 +20,11 @@
  */
 package pcgen.persistence.lst;
 
-import java.io.File;
 import java.net.URI;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 import java.util.StringTokenizer;
-
-import org.apache.commons.lang3.StringUtils;
 
 import pcgen.base.lang.StringUtil;
 import pcgen.base.util.HashMapToList;
@@ -39,7 +36,6 @@ import pcgen.core.utils.CoreUtility;
 import pcgen.persistence.PersistenceLayerException;
 import pcgen.persistence.lst.output.prereq.PrerequisiteWriter;
 import pcgen.persistence.lst.prereq.PreParserFactory;
-import pcgen.system.ConfigurationSettings;
 import pcgen.util.Logging;
 
 /**
@@ -107,7 +103,7 @@ public class CampaignSourceEntry implements SourceEntry
 	public URI getURI()
 	{
 		URI rawUri = uri.getURI();
-    	return getLocalizedVersionIfPresent(rawUri);
+    	return CoreUtility.getLocalizedVersionIfPresent(rawUri);
 	}
 
 	/**
@@ -392,28 +388,6 @@ public class CampaignSourceEntry implements SourceEntry
 		}
 	}
 	
-	private URI getLocalizedVersionIfPresent(URI rawUri) {
-		String dataBaseDirPath = ConfigurationSettings.getPccFilesDir();
-		String localizedDataBaseDirPath = ConfigurationSettings.getLocalizedPccFilesDir();
-		File rawFile = new File(rawUri);
-		String rawPath = rawFile.getAbsolutePath();
-		if(rawPath.startsWith(dataBaseDirPath)) {
-			String localizedDataFilePath = localizedDataBaseDirPath + StringUtils.removeStart(rawPath, dataBaseDirPath);
-			File localizedDataFile = new File(localizedDataFilePath); 
-			if(localizedDataFile.exists()) {
-				Logging.log(Logging.INFO, String.format("Find localized file: [%s] for [%s]", localizedDataFilePath, rawPath));
-				return localizedDataFile.toURI();
-			}
-		} else if(rawPath.startsWith(localizedDataBaseDirPath)) {
-			if(!rawFile.exists()) {
-				String dataFilePath = dataBaseDirPath + StringUtils.removeStart(rawPath, localizedDataBaseDirPath);
-				Logging.log(Logging.INFO, String.format("Choose default data file: [%s] for [%s]", dataFilePath, rawPath));
-				return new File(dataFilePath).toURI();
-			}
-		}
-		return rawUri;		
-	}
-
 	/**
 	 * Split an include or exclude string accounting for the possible presence 
 	 * of a leading category.

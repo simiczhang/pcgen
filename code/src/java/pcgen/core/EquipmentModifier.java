@@ -264,13 +264,15 @@ public final class EquipmentModifier extends PObject implements Comparable<Objec
 	public String toString()
 	{
 		if (SettingsHandler.guiUsesOutputNameEquipment()) {
-			return get(StringKey.NAME_TEXT) == null? getOutputName() : get(StringKey.NAME_TEXT);
+			if(get(StringKey.NAME_TEXT) != null) {
+				put(StringKey.OUTPUT_NAME, get(StringKey.NAME_TEXT) );
+			}
+			return getOutputName();
+			//return get(StringKey.NAME_TEXT) == null? getOutputName() : get(StringKey.NAME_TEXT);
 		} else {
 			return getDisplayName();
 		}
 	}
-
-	
 
 	public int getSR(Equipment parent, PlayerCharacter aPC)
 	{

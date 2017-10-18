@@ -26,6 +26,7 @@ import java.util.LinkedList;
 
 import pcgen.core.Campaign;
 import pcgen.core.Globals;
+import pcgen.core.utils.CoreUtility;
 import pcgen.persistence.lst.CampaignLoader;
 import pcgen.system.ConfigurationSettings;
 import pcgen.system.LanguageBundle;
@@ -98,7 +99,7 @@ public class CampaignFileLoader extends PCGenTask
 				findPCCFiles(file);
 				continue;
 			}
-			campaignFiles.add(file.toURI());
+			campaignFiles.add(CoreUtility.getLocalizedVersionIfPresent(file.toURI()));
 		}
 	}
 

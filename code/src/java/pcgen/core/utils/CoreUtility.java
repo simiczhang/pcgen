@@ -19,6 +19,7 @@ package pcgen.core.utils;
 
 import java.io.File;
 import java.net.MalformedURLException;
+import java.net.URI;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -27,9 +28,12 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.regex.Pattern;
 
+import org.apache.commons.lang3.StringUtils;
+
 import pcgen.cdom.base.Constants;
 import pcgen.core.Equipment;
 import pcgen.core.SettingsHandler;
+import pcgen.system.ConfigurationSettings;
 import pcgen.system.PCGenPropBundle;
 import pcgen.util.Logging;
 
@@ -649,5 +653,33 @@ public final class CoreUtility
 		}
 	
 		return new URL("file:" + inputPath);
+	}
+	
+	/**
+	 * Replace the source entry URI with the localized one if any found under same relative path under localized base folder
+	 * 
+	 * @param rawUri
+	 * @return
+	 */
+	public static URI getLocalizedVersionIfPresent(URI rawUri) {
+		String dataBaseDirPath = ConfigurationSettings.getPccFilesDir();
+		String localizedDataBaseDirPath = ConfigurationSettings.getLocalizedPccFilesDir();
+		File rawFile = new File(rawUri);
+		String rawPath = rawFile.getAbsolutePath();
+		if(rawPath.startsWith(dataBaseDirPath)) {
+			String localizedDataFilePath = localizedDataBaseDirPath + StringUtils.removeStart(rawPath, dataBaseDirPath);
+			File localizedDataFile = new File(localizedDataFilePath); 
+			if(localizedDataFile.exists()) {
+				Logging.log(Logging.INFO, String.format("Find localized file: [%s] for [%s]", localizedDataFilePath, rawPath));
+				return localizedDataFile.toURI();
+			}
+		} else if(rawPath.startsWith(localizedDataBaseDirPath)) {
+			if(!rawFile.exists()) {
+				String dataFilePath = dataBaseDirPath + StringUtils.removeStart(rawPath, localizedDataBaseDirPath);
+				Logging.log(Logging.INFO, String.format("Choose default data file: [%s] for [%s]", dataFilePath, rawPath));
+				return new File(dataFilePath).toURI();
+			}
+		}
+		return rawUri;		
 	}
 }
