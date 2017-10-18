@@ -1,0 +1,100 @@
+# Commons
+ALIGNMENT:common/cr__align.lst
+STAT:common/cr__stats.lst
+SAVE:common/cr__saves.lst
+DEITY:common/cr_deities.lst
+DOMAIN:common/cr_domains.lst
+DOMAIN:common/apg_domains.lst
+DOMAIN:common/um_domains.lst
+LANGUAGE:common/cr_languages.lst
+# Equipment
+EQUIPMENT:equipment/weapons.lst
+EQUIPMENT:equipment/firearms.lst
+EQUIPMENT:equipment/siegeengines.lst
+EQUIPMENT:equipment/armors.lst
+EQUIPMENT:equipment/magicweapons.lst
+EQUIPMENT:equipment/magicarmors.lst
+EQUIPMENT:equipment/rings.lst
+EQUIPMENT:equipment/rods.lst
+EQUIPMENT:equipment/staves.lst
+EQUIPMOD:equipment/equipmods.lst
+# Spells
+SPELL:spell/cr_spells.lst
+SPELL:spell/apg_spells.lst
+SPELL:spell/acg_spells.lst
+SPELL:spell/um_spells.lst
+SPELL:spell/uc_spells.lst
+# Feats
+ABILITY:feat/cr_feats.lst
+ABILITY:feat/apg_feats.lst
+ABILITY:feat/acg_feats.lst
+ABILITY:feat/arg_feats.lst
+ABILITY:feat/um_feats.lst
+ABILITY:feat/uc_feats.lst
+ABILITY:feat/uca_feats.lst
+ABILITY:feat/b1_feats.lst
+# Races
+RACE:race/cr_races.lst
+RACE:race/arg_races.lst
+ABILITY:race/arg_sub_races.lst
+# Classes
+CLASS:class/cr_classes.lst
+CLASS:class/apg_classes.lst
+CLASS:class/acg_classes.lst
+CLASS:class/um_classes.lst
+CLASS:class/uc_classes.lst
+# Archetype
+ABILITY:class/apg_classes_archetype.lst
+ABILITY:class/acg_classes_archetype.lst
+ABILITY:class/arg_classes_archetype.lst
+ABILITY:class/um_classes_archetype.lst
+ABILITY:class/uc_classes_archetype.lst
+# CRB Class Ability
+ABILITY:ability/cr_barbarian_abilities.lst
+ABILITY:ability/cr_bard_abilities.lst
+ABILITY:ability/cr_cleric_abilities.lst
+ABILITY:ability/cr_druid_abilities.lst
+ABILITY:ability/cr_fighter_abilities.lst
+ABILITY:ability/cr_monk_abilities.lst
+ABILITY:ability/cr_paladin_abilities.lst
+ABILITY:ability/cr_ranger_abilities.lst
+ABILITY:ability/cr_rogue_abilities.lst
+ABILITY:ability/cr_sorcerer_abilities.lst
+ABILITY:ability/cr_wizard_abilities.lst
+# APG Class Ability
+ABILITY:ability/apg_alchemist_abilities.lst
+ABILITY:ability/apg_antipaladin_abilities.lst
+ABILITY:ability/apg_cavalier_abilities.lst
+ABILITY:ability/apg_inquisitor_abilities.lst
+ABILITY:ability/apg_oracle_abilities.lst
+ABILITY:ability/apg_summoner_abilities.lst
+ABILITY:ability/apg_witch_abilities.lst
+# UC Class Ability
+ABILITY:ability/uc_gunslinger_abilities.lst
+ABILITY:ability/uc_ninja_abilities.lst
+ABILITY:ability/uc_samurai_abilities.lst
+# UM Class Ability
+ABILITY:ability/um_magus_abilities.lst
+# Advanced Class Ability
+ABILITY:ability/cr_arcanetrickster_abilities.lst
+ABILITY:ability/cr_arcanearcher_abilities.lst
+ABILITY:ability/cr_assassin_abilities.lst
+ABILITY:ability/cr_dragondisciple_abilities.lst
+ABILITY:ability/cr_duelist_abilities.lst
+ABILITY:ability/cr_eldritchknight_abilities.lst
+ABILITY:ability/cr_loremaster_abilities.lst
+ABILITY:ability/cr_mystictheurge_abilities.lst
+ABILITY:ability/cr_pathfinderchronicler_abilities.lst
+ABILITY:ability/cr_shadowdancer_abilities.lst
+ABILITY:ability/apg_battleherald_abilities.lst
+ABILITY:ability/apg_holyvindicator_abilities.lst
+ABILITY:ability/apg_horizonwalker_abilities.lst
+ABILITY:ability/apg_masterchymist_abilities.lst
+ABILITY:ability/apg_masterspy_abilities.lst
+ABILITY:ability/apg_naturewarden_abilities.lst
+ABILITY:ability/apg_rageprophet_abilities.lst
+ABILITY:ability/apg_stalwartdefender_abilities.lst
+# Skills
+SKILL:skill/cr_skills.lst
+# Traits
+ABILITY:trait/traits.lst
