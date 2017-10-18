@@ -1,0 +1,8 @@
+CAMPAIGN:Localization_Equipment_Weapon
+KEY:Localization_Equipment_Weapon
+
+EQUIPMENT:apg_weaponmods.lst
+EQUIPMENT:arg_weaponmods.lst
+EQUIPMENT:cr_weaponmods.lst
+EQUIPMENT:uc_weaponmods.lst
+EQUIPMENT:ue_weaponmods.lst

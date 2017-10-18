@@ -1,0 +1,52 @@
+# Metamagic
+Rod (Bouncing/Lesser).MOD	OUTPUTNAME:彈性超魔權杖（Bouncing Metamagic Rod, Lesser）
+Rod (Bouncing/Normal).MOD	OUTPUTNAME:彈性超魔權杖（Bouncing Metamagic Rod, Normal）
+Rod (Bouncing/Greater).MOD	OUTPUTNAME:彈性超魔權杖（Bouncing Metamagic Rod, Greater）
+Rod (Dazing/Lesser).MOD	OUTPUTNAME:暈眩超魔權杖（Dazing Metamagic Rod, Lesser）
+Rod (Dazing/Normal).MOD	OUTPUTNAME:暈眩超魔權杖（Dazing Metamagic Rod, Normal）
+Rod (Dazing/Greater).MOD	OUTPUTNAME:暈眩超魔權杖（Dazing Metamagic Rod, Greater）
+Rod (Disruptive/Lesser).MOD	OUTPUTNAME:擾咒超魔權杖（Disruptive Metamagic Rod, Lesser）
+Rod (Disruptive/Normal).MOD	OUTPUTNAME:擾咒超魔權杖（Disruptive Metamagic Rod, Normal）
+Rod (Disruptive/Greater).MOD	OUTPUTNAME:擾咒超魔權杖（Disruptive Metamagic Rod, Greater）
+Rod (Ectoplasmic/Lesser).MOD	OUTPUTNAME:跨界超魔權杖（Ectoplasmic Metamagic Rod, Lesser）
+Rod (Ectoplasmic/Normal).MOD	OUTPUTNAME:跨界超魔權杖（Ectoplasmic Metamagic Rod, Normal）
+Rod (Ectoplasmic/Greater).MOD	OUTPUTNAME:跨界超魔權杖（Ectoplasmic Metamagic Rod, Greater）
+Rod (Elemental Acid/Lesser).MOD	OUTPUTNAME:元素超魔權杖（強酸）（Elemental Metamagic Rod（Acid）, Lesser）
+Rod (Elemental Acid/Normal).MOD	OUTPUTNAME:元素超魔權杖（強酸）（Elemental Metamagic Rod（Acid）, Normal）
+Rod (Elemental Acid/Greater).MOD	OUTPUTNAME:元素超魔權杖（強酸）（Elemental Metamagic Rod（Acid）, Greater）
+Rod (Elemental Cold/Lesser).MOD	OUTPUTNAME:元素超魔權杖（寒冷）（Elemental Metamagic Rod（Cold）, Lesser）
+Rod (Elemental Cold/Normal).MOD	OUTPUTNAME:元素超魔權杖（寒冷）（Elemental Metamagic Rod（Cold）, Normal）
+Rod (Elemental Cold/Greater).MOD	OUTPUTNAME:元素超魔權杖（寒冷）（Elemental Metamagic Rod（Cold）, Greater）
+Rod (Elemental Electricity/Lesser).MOD	OUTPUTNAME:元素超魔權杖（閃電）（Elemental Metamagic Rod（Electricity）, Lesser）
+Rod (Elemental Electricity/Normal).MOD	OUTPUTNAME:元素超魔權杖（閃電）（Elemental Metamagic Rod（Electricity）, Normal）
+Rod (Elemental Electricity/Greater).MOD	OUTPUTNAME:元素超魔權杖（閃電）（Elemental Metamagic Rod（Electricity）, Greater）
+Rod (Elemental Fire/Lesser).MOD	OUTPUTNAME:元素超魔權杖（火焰）（Elemental Metamagic Rod（Fire）, Lesser）
+Rod (Elemental Fire/Normal).MOD	OUTPUTNAME:元素超魔權杖（火焰）（Elemental Metamagic Rod（Fire）, Normal）
+Rod (Elemental Fire/Greater).MOD	OUTPUTNAME:元素超魔權杖（火焰）（Elemental Metamagic Rod（Fire）, Greater）
+Rod (Focused/Lesser).MOD	OUTPUTNAME:集中超魔權杖（Focused Metamagic Rod, Lesser）
+Rod (Focused/Normal).MOD	OUTPUTNAME:集中超魔權杖（Focused Metamagic Rod, Normal）
+Rod (Focused/Greater).MOD	OUTPUTNAME:集中超魔權杖（Focused Metamagic Rod, Greater）
+Rod (Intensified/Lesser).MOD	OUTPUTNAME:強化超魔權杖（Intensified Metamagic Rod, Lesser）
+Rod (Intensified/Normal).MOD	OUTPUTNAME:強化超魔權杖（Intensified Metamagic Rod, Normal）
+Rod (Intensified/Greater).MOD	OUTPUTNAME:強化超魔權杖（Intensified Metamagic Rod, Greater）
+Rod (Lingering/Lesser).MOD	OUTPUTNAME:延續超魔權杖（Lingering Metamagic Rod, Lesser）
+Rod (Lingering/Normal).MOD	OUTPUTNAME:延續超魔權杖（Lingering Metamagic Rod, Normal）
+Rod (Lingering/Greater).MOD	OUTPUTNAME:延續超魔權杖（Lingering Metamagic Rod, Greater）
+Rod (Merciful/Lesser).MOD	OUTPUTNAME:慈憫超魔權杖（Merciful Metamagic Rod, Lesser）
+Rod (Merciful/Normal).MOD	OUTPUTNAME:慈憫超魔權杖（Merciful Metamagic Rod, Normal）
+Rod (Merciful/Greater).MOD	OUTPUTNAME:慈憫超魔權杖（Merciful Metamagic Rod, Greater）
+Rod (Persistent/Lesser).MOD	OUTPUTNAME:頑強超魔權杖（Persistent Metamagic Rod, Lesser）
+Rod (Persistent/Normal).MOD	OUTPUTNAME:頑強超魔權杖（Persistent Metamagic Rod, Normal）
+Rod (Persistent/Greater).MOD	OUTPUTNAME:頑強超魔權杖（Persistent Metamagic Rod, Greater）
+Rod (Reach/Lesser).MOD	OUTPUTNAME:及遠超魔權杖（Reach Metamagic Rod, Lesser）
+Rod (Reach/Normal).MOD	OUTPUTNAME:及遠超魔權杖（Reach Metamagic Rod, Normal）
+Rod (Reach/Greater).MOD	OUTPUTNAME:及遠超魔權杖（Reach Metamagic Rod, Greater）
+Rod (Selective/Lesser).MOD	OUTPUTNAME:甄選超魔權杖（Selective Metamagic Rod, Lesser）
+Rod (Selective/Normal).MOD	OUTPUTNAME:甄選超魔權杖（Selective Metamagic Rod, Normal）
+Rod (Selective/Greater).MOD	OUTPUTNAME:甄選超魔權杖（Selective Metamagic Rod, Greater）
+Rod (Sickening/Lesser).MOD	OUTPUTNAME:感染超魔權杖（Sickening Metamagic Rod, Lesser）
+Rod (Sickening/Normal).MOD	OUTPUTNAME:感染超魔權杖（Sickening Metamagic Rod, Normal）
+Rod (Sickening/Greater).MOD	OUTPUTNAME:感染超魔權杖（Sickening Metamagic Rod, Greater）
+Rod (Thundering/Lesser).MOD	OUTPUTNAME:暴雷超魔權杖（Thundering Metamagic Rod, Lesser）
+Rod (Thundering/Normal).MOD	OUTPUTNAME:暴雷超魔權杖（Thundering Metamagic Rod, Normal）
+Rod (Thundering/Greater).MOD	OUTPUTNAME:暴雷超魔權杖（Thundering Metamagic Rod, Greater）

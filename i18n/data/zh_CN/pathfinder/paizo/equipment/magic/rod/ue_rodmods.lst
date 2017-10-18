@@ -1,0 +1,47 @@
+Rod (Aboleth).MOD	OUTPUTNAME:底棲魔魚權杖 （Rod of the Aboleth）
+Rod (Balance).MOD	OUTPUTNAME:平衡權杖 （Rod of Balance）
+Rod (Beguiling).MOD	OUTPUTNAME:誘騙權杖 （Rod of Beguiling）
+Rod (Conduit).MOD	OUTPUTNAME:傳導權杖 （Conduit Rod）
+Rod (Escape).MOD	OUTPUTNAME:逃脫權杖 （Rod of Escape）
+Rod (Fiery Nimbus).MOD	OUTPUTNAME:火焰光環權杖 （Fiery Nimbus Rod）
+Rod (Grounding).MOD	OUTPUTNAME:接地權杖 （Grounding Rod）
+Rod (Ice).MOD	OUTPUTNAME:冰凍權杖 （Rod of Ice）
+Rod (Liberator's).MOD	OUTPUTNAME:解放者權杖 （Liberator's Rod）
+Rod (Mind Mastery).MOD	OUTPUTNAME:心靈掌控權杖 （Rod of Mind Mastery）
+Rod (Nettles).MOD	OUTPUTNAME:蕁麻權杖 （Rod of Nettles）
+Rod (Ruin).MOD	OUTPUTNAME:廢墟權杖 （Rod of Ruin）
+Rod (Sapling).MOD	OUTPUTNAME:樹苗權杖 （Sapling Rod）
+Rod (Thunder and Lightning).MOD	OUTPUTNAME:雷鳴力量權杖 （Rod of Thunderous Force）
+Rod (Trap-Stealer's).MOD	OUTPUTNAME:盜墓權杖 （Trap-Stealer's Rod）
+Rod (Wayang).MOD	OUTPUTNAME:剪影人權杖 （Rod of the Wayang）
+Scepter of Heaven.MOD	OUTPUTNAME:天堂節杖 （Scepter of Heaven）
+Suzerain Scepter.MOD	OUTPUTNAME:領主節杖 （Suzerain Scepter）
+
+# Metamagic
+Rod (Burning/Lesser).MOD	OUTPUTNAME:燃燒超魔權杖（Burning Metamagic Rod, Lesser）
+Rod (Burning).MOD	OUTPUTNAME:燃燒超魔權杖（Burning Metamagic Rod, Normal）
+Rod (Burning/Greater).MOD	OUTPUTNAME:燃燒超魔權杖（Burning Metamagic Rod, Greater）
+Rod (Concussive/Lesser).MOD	OUTPUTNAME:震盪超魔權杖（Concussive Metamagic Rod, Lesser）
+Rod (Concussive).MOD	OUTPUTNAME:震盪超魔權杖（Concussive Metamagic Rod, Normal）
+Rod (Concussive/Greater).MOD	OUTPUTNAME:震盪超魔權杖（Concussive Metamagic Rod, Greater）
+Rod (Echoing/Lesser).MOD	OUTPUTNAME:回音超魔權杖（Echoing Metamagic Rod, Lesser）
+Rod (Echoing).MOD	OUTPUTNAME:回音超魔權杖（Echoing Metamagic Rod, Normal）
+Rod (Echoing/Greater).MOD	OUTPUTNAME:回音超魔權杖（Echoing Metamagic Rod, Greater）
+Rod (Flaring/Lesser).MOD	OUTPUTNAME:閃耀超魔權杖（Flaring Metamagic Rod, Lesser）
+Rod (Flaring).MOD	OUTPUTNAME:閃耀超魔權杖（Flaring Metamagic Rod, Normal）
+Rod (Flaring/Greater).MOD	OUTPUTNAME:閃耀超魔權杖（Flaring Metamagic Rod, Greater）
+Rod (Piercing/Lesser).MOD	OUTPUTNAME:穿刺超魔權杖（Piercing Metamagic Rod, Lesser）
+Rod (Piercing).MOD	OUTPUTNAME:穿刺超魔權杖（Piercing Metamagic Rod, Normal）
+Rod (Piercing/Greater).MOD	OUTPUTNAME:穿刺超魔權杖（Piercing Metamagic Rod, Greater）
+Rod (Rime/Lesser).MOD	OUTPUTNAME:霜凍超魔權杖（Rime Metamagic Rod, Lesser）
+Rod (Rime).MOD	OUTPUTNAME:霜凍超魔權杖（Rime Metamagic Rod, Normal）
+Rod (Rime/Greater).MOD	OUTPUTNAME:霜凍超魔權杖（Rime Metamagic Rod, Greater）
+Rod (Thanatopic/Lesser).MOD	OUTPUTNAME:死聖超魔權杖（Thanatopic Metamagic Rod, Lesser）
+Rod (Thanatopic).MOD	OUTPUTNAME:死聖超魔權杖（Thanatopic Metamagic Rod, Normal）
+Rod (Thanatopic/Greater).MOD	OUTPUTNAME:死聖超魔權杖（Thanatopic Metamagic Rod, Greater）
+Rod (Threnodic/Lesser).MOD	OUTPUTNAME:通靈超魔權杖（Threnodic Metamagic Rod, Lesser）
+Rod (Threnodic).MOD	OUTPUTNAME:通靈超魔權杖（Threnodic Metamagic Rod, Normal）
+Rod (Threnodic/Greater).MOD	OUTPUTNAME:通靈超魔權杖（Threnodic Metamagic Rod, Greater）
+Rod (Toppling/Lesser).MOD	OUTPUTNAME:擊倒超魔權杖（Toppling Metamagic Rod, Lesser）
+Rod (Toppling).MOD	OUTPUTNAME:擊倒超魔權杖（Toppling Metamagic Rod, Normal）
+Rod (Toppling/Greater).MOD	OUTPUTNAME:擊倒超魔權杖（Toppling Metamagic Rod, Greater）

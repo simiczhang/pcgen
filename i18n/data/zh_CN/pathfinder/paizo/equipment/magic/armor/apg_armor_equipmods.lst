@@ -1,0 +1,10 @@
+# Armor
+CHAMP.MOD	OUTPUTNAME:勇士 （Champion）
+DSTRD.MOD	OUTPUTNAME:卑劣 （Dastard）
+DTRMN.MOD	OUTPUTNAME:決心 （Determination）
+JSTNG.MOD	OUTPUTNAME:騎術 （Jousting）
+RGHTS.MOD	OUTPUTNAME:正義 （Righteous）
+UNRGHTS.MOD	OUTPUTNAME:邪道 （Unrighteous）
+
+# Shield
+DTRMN.MOD	OUTPUTNAME:決心 （Determination）

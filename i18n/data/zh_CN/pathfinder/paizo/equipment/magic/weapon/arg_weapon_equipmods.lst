@@ -1,0 +1,13 @@
+# Melee Weapon
+CRUEL.MOD	OUTPUTNAME:殘忍 （Cruel）
+DEADLY.MOD	OUTPUTNAME:致命 （Deadly）
+FURYBORN.MOD	OUTPUTNAME:漸狂 （Furyborn）
+IGNITING.MOD	OUTPUTNAME:引燃 （Igniting）
+
+# Ranged Weapon
+CRUEL.MOD	OUTPUTNAME:殘忍 (Cruel)
+IGNITING.MOD	OUTPUTNAME:引燃 (Igniting)
+
+# Ammo
+CRUEL.MOD	OUTPUTNAME:殘忍 (Cruel)
+IGNITING.MOD	OUTPUTNAME:引燃 (Igniting)

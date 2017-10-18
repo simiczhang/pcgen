@@ -1,0 +1,10 @@
+CAMPAIGN:Localization_Equipment_Magic
+KEY:Localization_Equipment_Magic
+
+PCC:weapon/weapon.pcc
+PCC:armor/armor.pcc
+PCC:ring/ring.pcc
+PCC:rod/rod.pcc
+PCC:staff/staff.pcc
+
+EQUIPMOD:basic_equipmods.lst

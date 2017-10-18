@@ -1,0 +1,70 @@
+# Armor 
+ETHERE.MOD	OUTPUTNAME:靈化 （Etherealness）	DESC:.CLEAR	DESC:每天一次，一個命令啟動，該防具的穿戴者變化為靈體 (如同法術『幻化靈體』)。任務可以自由決定保持靈體的時間，但他一旦轉化為正常狀態，當天就不能再轉化為靈體。
+FRT_HVY.MOD	OUTPUTNAME:高等護命 （Fortification, heavy）
+FRT_LGHT.MOD	OUTPUTNAME:次等護命 （Fortification, light）
+FRT_MOD.MOD	OUTPUTNAME:中等護命 （Fortification, moderate）
+GHOST_A.MOD	OUTPUTNAME:幽冥 （Ghost Touch）
+GLAM.MOD	OUTPUTNAME:無相 （Glamered）
+INVULN.MOD	OUTPUTNAME:堅韌 （Invulnerability）
+RES_ACD_GRT.MOD	OUTPUTNAME:高等抗能（強酸）（Energy Resistance, greater（Acid））
+RES_CLD_GRT.MOD	OUTPUTNAME:高等抗能（寒冷）（Energy Resistance, greater（Cold））
+RES_ELC_GRT.MOD	OUTPUTNAME:高等抗能（閃電）（Energy Resistance, greater（Electricity））
+RES_FIR_GRT.MOD	OUTPUTNAME:高等抗能（火焰）（Energy Resistance, greater（Fire））
+RES_SNC_GRT.MOD	OUTPUTNAME:高等抗能（音波）（Energy Resistance, greater（Sonic））
+RST_ACD.MOD	OUTPUTNAME:抗能（強酸）（Energy Resistance（Acid））
+RST_ACD_IMP.MOD	OUTPUTNAME:強化抗能（強酸）（Energy Resistance, improved（Acid））
+RST_CLD.MOD	OUTPUTNAME:抗能（寒冷）（Energy Resistance（Cold））
+RST_CLD_IMP.MOD	OUTPUTNAME:強化抗能（寒冷）（Energy Resistance, improved（Cold））
+RST_ELC.MOD	OUTPUTNAME:抗能（閃電）（Energy Resistance（Electricity））
+RST_ELC_IMP.MOD	OUTPUTNAME:強化抗能（閃電）（Energy Resistance, improved（Electricity））
+RST_FIR.MOD	OUTPUTNAME:抗能（火焰）（Energy Resistance（Fire））
+RST_FIR_IMP.MOD	OUTPUTNAME:強化抗能（火焰）（Energy Resistance, improved（Fire））
+RST_SNC.MOD	OUTPUTNAME:抗能（音波）（Energy Resistance（Sonic））
+RST_SNC_IMP.MOD	OUTPUTNAME:強化抗能（音波）（Energy Resistance, improved（Sonic））
+SHDW.MOD	OUTPUTNAME:暗影 （Shadow）
+SHDW_GRT.MOD	OUTPUTNAME:高等暗影 （Shadow, greater）
+SHDW_IMP.MOD	OUTPUTNAME:強化暗影 （Shadow, improved）
+SLK.MOD	OUTPUTNAME:滑溜 （Slick）
+SLK_GRT.MOD	OUTPUTNAME:高等滑溜 （Slick, greater）
+SLK_IMP.MOD	OUTPUTNAME:強化滑溜 （Slick, improved）
+SPELL_RES_13.MOD	OUTPUTNAME:抗法13 （Spell Resistance, 13）
+SPELL_RES_15.MOD	OUTPUTNAME:抗法15 （Spell Resistance, 15）
+SPELL_RES_17.MOD	OUTPUTNAME:抗法17 （Spell Resistance, 17）
+SPELL_RES_19.MOD	OUTPUTNAME:抗法19 （Spell Resistance, 19）
+UNDEAD.MOD	OUTPUTNAME:操靈 （Undead Controlling）
+WILD_A.MOD	OUTPUTNAME:野性 （Wild）
+
+# Shield
+ANMATD.MOD	OUTPUTNAME:活化 （Animated）
+ARW_CAT.MOD	OUTPUTNAME:吸矢 （Arrow Catching）
+ARW_DEF.MOD	OUTPUTNAME:辟矢 （Arrow Deflection）
+BASH_H.MOD	OUTPUTNAME:猛擊 （Bashing）
+BASH_L.MOD	OUTPUTNAME:猛擊 （Bashing）
+BLIND.MOD	OUTPUTNAME:目盲 （Blinding）
+FRT_HVY.MOD	OUTPUTNAME:高等護命 （Fortification, heavy）
+FRT_LGHT.MOD	OUTPUTNAME:次等護命 （Fortification, light）
+FRT_MOD.MOD	OUTPUTNAME:中等護命 （Fortification, moderate）
+GHOST_A.MOD	OUTPUTNAME:幽冥 （Ghost Touch）
+REFLC.MOD	OUTPUTNAME:鏡反 （Reflecting）
+RES_ACD_GRT.MOD	OUTPUTNAME:高等抗能（強酸）（Energy Resistance, greater（Acid））
+RES_CLD_GRT.MOD	OUTPUTNAME:高等抗能（寒冷）（Energy Resistance, greater（Cold））
+RES_ELC_GRT.MOD	OUTPUTNAME:高等抗能（閃電）（Energy Resistance, greater（Electricity））
+RES_FIR_GRT.MOD	OUTPUTNAME:高等抗能（火焰）（Energy Resistance, greater（Fire））
+RES_SNC_GRT.MOD	OUTPUTNAME:高等抗能（音波）（Energy Resistance, greater（Sonic））
+RST_ACD.MOD	OUTPUTNAME:抗能（強酸）（Energy Resistance（Acid））
+RST_ACD_IMP.MOD	OUTPUTNAME:強化抗能（強酸）（Energy Resistance, improved（Acid））
+RST_CLD.MOD	OUTPUTNAME:抗能（寒冷）（Energy Resistance（Cold））
+RST_CLD_IMP.MOD	OUTPUTNAME:強化抗能（寒冷）（Energy Resistance, improved（Cold））
+RST_ELC.MOD	OUTPUTNAME:抗能（閃電）（Energy Resistance（Electricity））
+RST_ELC_IMP.MOD	OUTPUTNAME:強化抗能（閃電）（Energy Resistance, improved（Electricity））
+RST_FIR.MOD	OUTPUTNAME:抗能（火焰）（Energy Resistance（Fire））
+RST_FIR_IMP.MOD	OUTPUTNAME:強化抗能（火焰）（Energy Resistance, improved（Fire））
+RST_SNC.MOD	OUTPUTNAME:抗能（音波）（Energy Resistance（Sonic））
+RST_SNC_IMP.MOD	OUTPUTNAME:強化抗能（音波）（Energy Resistance, improved（Sonic））
+SPELL_RES_13.MOD	OUTPUTNAME:抗法13 （Spell Resistance, 13）
+SPELL_RES_15.MOD	OUTPUTNAME:抗法15 （Spell Resistance, 15）
+SPELL_RES_17.MOD	OUTPUTNAME:抗法17 （Spell Resistance, 17）
+SPELL_RES_19.MOD	OUTPUTNAME:抗法19 （Spell Resistance, 19）
+UNDEAD.MOD	OUTPUTNAME:操靈 （Undead Controlling）
+WILD_S.MOD	OUTPUTNAME:野性 （Wild）
+

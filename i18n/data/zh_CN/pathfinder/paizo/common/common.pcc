@@ -1,0 +1,11 @@
+CAMPAIGN:Localization_Common
+KEY:Localization_Common
+# Commons
+ALIGNMENT:cr__align.lst
+STAT:cr__stats.lst
+SAVE:cr__saves.lst
+DEITY:cr_deities.lst
+DOMAIN:cr_domains.lst
+DOMAIN:apg_domains.lst
+DOMAIN:um_domains.lst
+LANGUAGE:cr_languages.lst

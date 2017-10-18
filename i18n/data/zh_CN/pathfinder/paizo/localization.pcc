@@ -1,0 +1,21 @@
+CAMPAIGN:Localization
+KEY:Localization
+
+# Common
+PCC:common/common.pcc
+# Race
+PCC:race/race.pcc
+# Class
+PCC:class/class.pcc
+# Ability
+PCC:ability/ability.pcc
+# Feat
+PCC:feat/feat.pcc
+# Skill
+PCC:skill/skill.pcc
+# Spell
+PCC:spell/spell.pcc
+# Trait
+PCC:trait/trait.pcc
+# Equipment
+PCC:equipment/equipment.pcc

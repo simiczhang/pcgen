@@ -1,0 +1,38 @@
+Rod (Absorption).MOD	OUTPUTNAME:吸收權杖 （Rod of Absorption）	DESC:.CLEAR	DESC:這根權杖能夠吸收法術或者類法術能力並儲存在自身。被吸收的法術必須是單一目標的法術或者是以持杖者或她的裝備為目標的射線。這根權杖會中和該法術的效果並儲存法術的能量，直到使用者以她自己法術的形式釋放那些能量。當權杖吸收法術能量的時候，她可以即時知曉該法術的環位。當吸收權杖在使用者的手中時，吸收不需要任何動作。總共被吸收 (和使用) 的法術等級應該被記錄。使用者可以使用被吸收的法術能量釋放任何她準備的法術，而不需要真正消耗那個法術本身。唯一的限制是儲存的法術環位必須大於或等於試圖用此方法釋放的法術環位，任何所需的材料成分必須具備，並且該權杖必須被法術的施放者持有。對於不需要準備法術的自發施法者比如詩人或者術士，權杖的能量可以被用來釋放任何施法者知道的合適環位的法術。一根吸收權杖可以吸收最多50環的法術，此後只能釋放已經儲存的能力。這根權杖不能被重新充能。使用者知道該權杖剩餘的法術吸收能力和當前已儲存的能量。為了決定新發現的吸收權杖的剩餘吸收能力，投d%%然後將結果除2。然後再投一次d%%，如果結果區間位於71 – 100，則已吸收級別的一半依然被儲存在權杖中。
+Rod (Alertness).MOD	OUTPUTNAME:警戒權杖 （Rod of Alertness）
+Rod (Cancellation).MOD	OUTPUTNAME:抹消權杖 （Rod of Cancellation）
+Rod (Enemy Detection).MOD	OUTPUTNAME:索敵權杖 （Rod of Enemy Detection）
+Rod (Flailing).MOD	OUTPUTNAME:鏈枷權杖 （Rod of Flailing）
+Rod (Flame Extinguishing).MOD	OUTPUTNAME:滅火權杖 （Rod of Flame Extinguishing）
+Rod (Immovable).MOD	OUTPUTNAME:不動權杖 （Immovable Rod）
+Rod (Lordly Might).MOD	OUTPUTNAME:王者力量權杖 （Rod of Lordly Might）
+Rod (Metal and Mineral Detection).MOD	OUTPUTNAME:金屬探測權杖 （Rod of Metal and Mineral Detection）
+Rod (Negation).MOD	OUTPUTNAME:否定權杖 （Rod of Negation）
+Rod (Python).MOD	OUTPUTNAME:巨蟒權杖 （Rod of the Python）
+Rod (Rulership).MOD	OUTPUTNAME:統治者權杖 （Rod of Rulership）
+Rod (Security).MOD	OUTPUTNAME:庇護權杖 （Rod of Security）
+Rod (Splendor).MOD	OUTPUTNAME:光彩權杖 （Rod of Splendor）
+Rod (Thunder and Lightning).MOD	OUTPUTNAME:雷電權杖 （Rod of Thunder and Lightning）
+Rod (Viper).MOD	OUTPUTNAME:毒蛇權杖 （Rod of the Viper）
+Rod (Withering).MOD	OUTPUTNAME:枯萎權杖 （Rod of Withering）
+Rod (Wonder).MOD	OUTPUTNAME:驚奇權杖 （Rod of Wonder）
+
+# Metamagic
+Rod (Empower/Lesser).MOD	OUTPUTNAME:強效超魔權杖（Empower Metamagic Rod, Lesser）
+Rod (Empower).MOD	OUTPUTNAME:強效超魔權杖（Empower Metamagic Rod, Normal）
+Rod (Empower/Greater).MOD	OUTPUTNAME:強效超魔權杖（Empower Metamagic Rod, Greater）
+Rod (Enlarge/Lesser).MOD	OUTPUTNAME:增遠超魔權杖（Enlarge Metamagic Rod, Lesser）
+Rod (Enlarge).MOD	OUTPUTNAME:增遠超魔權杖（Enlarge Metamagic Rod, Normal）
+Rod (Enlarge/Greater).MOD	OUTPUTNAME:增遠超魔權杖（Enlarge Metamagic Rod, Greater）
+Rod (Extend/Lesser).MOD	OUTPUTNAME:延時超魔權杖（Extend Metamagic Rod, Lesser）
+Rod (Extend).MOD	OUTPUTNAME:延時超魔權杖（Extend Metamagic Rod, Normal）
+Rod (Extend/Greater).MOD	OUTPUTNAME:延時超魔權杖（Extend Metamagic Rod, Greater）
+Rod (Maximize/Lesser).MOD	OUTPUTNAME:極效超魔權杖（Maximize Metamagic Rod, Lesser）
+Rod (Maximize).MOD	OUTPUTNAME:極效超魔權杖（Maximize Metamagic Rod, Normal）
+Rod (Maximize/Greater).MOD	OUTPUTNAME:極效超魔權杖（Maximize Metamagic Rod, Greater）
+Rod (Quicken/Lesser).MOD	OUTPUTNAME:瞬發超魔權杖（Quicken Metamagic Rod, Lesser）
+Rod (Quicken).MOD	OUTPUTNAME:瞬發超魔權杖（Quicken Metamagic Rod, Normal）
+Rod (Quicken/Greater).MOD	OUTPUTNAME:瞬發超魔權杖（Quicken Metamagic Rod, Greater）
+Rod (Silent/Lesser).MOD	OUTPUTNAME:默發超魔權杖（Silent Metamagic Rod, Lesser）
+Rod (Silent).MOD	OUTPUTNAME:默發超魔權杖（Silent Metamagic Rod, Normal）
+Rod (Silent/Greater).MOD	OUTPUTNAME:默發超魔權杖（Silent Metamagic Rod, Greater）

@@ -1,0 +1,4 @@
+Dogslicer.MOD	OUTPUTNAME:屠狗刃（Dogslicer）	DESC:.CLEAR	DESC:這把短彎刀是地精首創的，它們在刀身上鑽了無數小洞來減輕武器重量。屠狗刃的武器型號多為小型。
+Horsechopper.MOD	OUTPUTNAME:斬馬刀（Horsechopper）	DESC:.CLEAR	DESC:地精為了戰馬【譯註：不是騎戰馬，是和馬戰！】而發明了這件裝有鉤刃的長戟。斬馬刀的武器型號多為小型。
+Underwater Crossbow (Heavy).MOD	OUTPUTNAME:水下重弩（Underwater Crossbow (Heavy)）	DESC:.CLEAR	DESC:這件武器在水上和重弩別無二致。你能在水下使用它，此時射程增量為20尺。它在決定武器擅長和其他特性時被視為重弩。
+Underwater Crossbow (Light).MOD	OUTPUTNAME:水下輕弩（Underwater Crossbow (Light)）	DESC:.CLEAR	DESC:水下輕弩在水上的功能和輕弩相似，並能在水下使用。在水下射擊時，這把弩的射程增量為20尺。任何擅長普通輕弩的人都能操作水下輕弩。

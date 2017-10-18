@@ -1,0 +1,33 @@
+# Melee Weapon
+Answering.MOD	OUTPUTNAME:回應（Answering）
+BloodHunting.MOD	OUTPUTNAME:血狩（Blood-Hunting） 
+Bloodsong.MOD	OUTPUTNAME:血歌（Bloodsong） 
+Brawling.MOD	OUTPUTNAME:鬥毆（Brawling） 
+Confounding.MOD	OUTPUTNAME:花招（Confounding） 
+Distracting.MOD	OUTPUTNAME:分神（Distracting）
+Distracting_Greater.MOD	OUTPUTNAME:高等分神（Distracting, Greater）
+Exclusionary.MOD	OUTPUTNAME:排斥（Exclusionary）
+Exhausting.MOD	OUTPUTNAME:力竭（Exhausting）
+FateStealing.MOD	OUTPUTNAME:盜運（Fate-Stealing）
+Flamboyant.MOD	OUTPUTNAME:華麗（Flamboyant）
+Flamboyant_Greater.MOD	OUTPUTNAME:高等華麗（Flamboyant, Greater） 
+Flying.MOD	OUTPUTNAME:飛空（Flying）
+Fortuitous.MOD	OUTPUTNAME:破則（Fortuitous）
+Inspired.MOD	OUTPUTNAME:啟發（Inspired）
+Prehensile.MOD	OUTPUTNAME:卷縛（Prehensile）
+Sacred.MOD	OUTPUTNAME:祀神（Sacred）
+Sneaky.MOD	OUTPUTNAME:鬼祟（Sneaky）
+SpiritHunting.MOD	OUTPUTNAME:獵魄（Spirit-Hunting）
+
+# Ranged Weapon
+Answering.MOD	OUTPUTNAME:回應（Answering）
+BloodHunting.MOD	OUTPUTNAME:血狩（Blood-Hunting） 
+Confounding.MOD	OUTPUTNAME:花招（Confounding） 
+Distracting.MOD	OUTPUTNAME:分神（Distracting）
+Exclusionary.MOD	OUTPUTNAME:排斥（Exclusionary）
+Inspired.MOD	OUTPUTNAME:啟發（Inspired）
+Sacred.MOD	OUTPUTNAME:祀神（Sacred）
+SpiritHunting.MOD	OUTPUTNAME:獵魄（Spirit-Hunting）
+
+# Ammo
+Phantom_Ammunition.MOD	OUTPUTNAME:虛彈（Phantom Ammunition）

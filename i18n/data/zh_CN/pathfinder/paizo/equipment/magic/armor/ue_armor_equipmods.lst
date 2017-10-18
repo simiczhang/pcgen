@@ -1,0 +1,46 @@
+# Armor
+ADHV.MOD	OUTPUTNAME:黏著 （Adhesive）
+BAL.MOD	OUTPUTNAME:平衡 （Balanced）
+BENE.MOD	OUTPUTNAME:仁慈 （Benevolent）
+BLSTR.MOD	OUTPUTNAME:激勵 （Bolstering）
+BRWLG.MOD	OUTPUTNAME:喧嘩 （Brawling）
+BTTR.MOD	OUTPUTNAME:苦澀 （Bitter）
+CREEP.MOD	OUTPUTNAME:潛行 （Creeping）
+DFNT.MOD	OUTPUTNAME:挑戰 （Defiant）
+DLVG.MOD	OUTPUTNAME:挖掘 （Delving）
+DTHLS.MOD	OUTPUTNAME:拒亡 （Deathless）
+EXPED.MOD	OUTPUTNAME:超速 （Expeditious）
+GRNDG.MOD	OUTPUTNAME:尖刺 （Grinding）
+HRMZG.MOD	OUTPUTNAME:協調 （Harmonizing）
+HSTL_A.MOD	OUTPUTNAME:存貯 （Hosteling）
+IMPRVS.MOD	OUTPUTNAME:堅固 （Impervious）
+MIRROR.MOD	OUTPUTNAME:鏡映 （Mirrored）
+MRTYG.MOD	OUTPUTNAME:殉難 （Martyring）
+PSN_RST.MOD	OUTPUTNAME:抗毒 （Poison-Resistant）
+PTRD.MOD	OUTPUTNAME:惡臭 （Putrid）
+RDNT.MOD	OUTPUTNAME:光亮 （Radiant）
+RLYG.MOD	OUTPUTNAME:增援 （Rallying）
+SPL_STO.MOD	OUTPUTNAME:儲法 （Spell Storing）
+STNCHG.MOD	OUTPUTNAME:止血 （Stanching）
+TTNC.MOD	OUTPUTNAME:巨大 （Titanic）
+UNBND.MOD	OUTPUTNAME:無拘 （Unbound）
+VGLNT.MOD	OUTPUTNAME:機警 （Vigilant）
+WRDG.MOD	OUTPUTNAME:戒備 （Warding）
+
+# Shield
+BLSTR.MOD	OUTPUTNAME:激勵 （Bolstering）
+CLANG.MOD	OUTPUTNAME:嘹亮 （Clangorous）
+DFNT.MOD	OUTPUTNAME:挑戰 （Defiant）
+GRNDG.MOD	OUTPUTNAME:尖刺 （Grinding）
+HSTL_A.MOD	OUTPUTNAME:存貯 （Hosteling）
+IMPRVS.MOD	OUTPUTNAME:堅固 （Impervious）
+MIRROR.MOD	OUTPUTNAME:鏡映 （Mirrored）
+MTGG.MOD	OUTPUTNAME:融合 （Merging）
+PSN_RST.MOD	OUTPUTNAME:抗毒 （Poison-Resistant）
+RAMG.MOD	OUTPUTNAME:猛衝 （Ramming）
+RDNT.MOD	OUTPUTNAME:光亮 （Radiant）
+RLYG.MOD	OUTPUTNAME:增援 （Rallying）
+WRMSB_A.MOD	OUTPUTNAME:龍息（強酸）（Wyrmsbreath（Acid））
+WRMSB_C.MOD	OUTPUTNAME:龍息（寒冷）（Wyrmsbreath（Cold））
+WRMSB_E.MOD	OUTPUTNAME:龍息（閃電）（Wyrmsbreath（Electricity））
+WRMSB_F.MOD	OUTPUTNAME:龍息（火焰）（Wyrmsbreath（Fire））

@@ -1,0 +1,27 @@
+Amentum.MOD	OUTPUTNAME:投槍索（Amentum）	DESC:.CLEAR	DESC:投槍索是一條與標準標槍相連的皮帶。投擲前將投槍索纏繞在標槍的柄上，再緊握投槍索原地旋轉好幾周，這樣可以大大提升標槍的射程。將標槍與投槍索相連是一個移動動作，而將其纏繞則是一個整輪動作。標槍可以事先被纏好。被投槍索纏好的標槍視為軍用武器。
+Atlatl.MOD	OUTPUTNAME:擲鏢器（Atlatl）	DESC:.CLEAR	DESC:這種石器時代的武器是一片薄木片或鹿角片，當作猛擲特製飛鏢的槓桿。擲鏢器大大提升了飛鏢的射程，但必須如同投射武器一樣裝填妥當。你在使用擲鏢器時能將力量修正加至傷害檢定，如同投擲武器。你能單手用它投擲，但不能單手裝填擲鏢。為擲鏢器裝填是一個需要用到兩隻手、並且會引發藉機攻擊的移動動作。「快速裝填」專長可以應用於擲鏢器，令你能夠以自由動作裝填擲鏢。
+Broadsword (Nine Ring).MOD	OUTPUTNAME:九環大刀（Broadsword (Nine Ring)）	DESC:.CLEAR	DESC:這種沉厚單刃砍刀在刀背上掛有數個金屬環，以額外的重量增強其劈砍的力道。
+Butterfly sword.MOD	OUTPUTNAME:蝴蝶雙刀（Butterfly sword）	DESC:.CLEAR	DESC:這種成對設計的短劍可以收在一起，看上去就如同一把獨立的武器。你可以將他們同時拔出並以一個自由動作拆解成一對武器，這樣能更好的發揮它們猛惡的削斬威力。蝴蝶刀的劍身寬而短，長度只有1尺左右。它們的硬木握把覆有繩套，裝有可以保護持用手的D字形金屬框。上表中給出的價格為一對蝴蝶刀。一對精製蝴蝶刀價格增加320gp。若要為蝴蝶雙刀添加增強加值或其他附魔，將其中每一把劍獨立處理（舉例而言，為一對精製蝴蝶刀添加+1增強價值會使價格增加4000gp）。
+Double chicken saber.MOD	OUTPUTNAME:雞刀鐮（Double chicken saber）	DESC:.CLEAR	DESC:這把先端長約3尺的直刃劍被扭作令人驚訝的兩枝，其相對的銳刺可以用來從對手的手中拖拽武器。
+Gladius.MOD	OUTPUTNAME:闊短劍（Gladius）	DESC:.CLEAR	DESC:較尋常短劍為重的闊短劍是角鬥士們的最愛。影響短劍的專長和能力同樣作用於闊短劍。
+Hooked lance.MOD	OUTPUTNAME:鉤鐮槍（Hooked lance）	DESC:.CLEAR	DESC:這種纖細，約有10尺長度的長槍在槍頭上還裝有一個突出的倒鉤，可以用來在戰鬥中鉤掛對手的衣甲。
+Iron brush.MOD	OUTPUTNAME:判官筆（Iron brush）	DESC:.CLEAR	DESC:這種看起來像是普通毛筆的武器筆身為鋼製，筆尾裝有尖釘。雖然並不是非常有威力的武器，但判官筆很容易藏匿（使用者在將判官筆藏在身上的巧手檢定+2），也可以將之拋擲出一段距離來打擊對手，或用來擊打對手身上秘孔要穴、造成難以預料的破壞。
+Jutte.MOD	OUTPUTNAME:十手（Jutte）	DESC:.CLEAR	DESC:這種鐵尺似的武器裝有一個反轉的鐵鉤，可以用來格擋或鉗制住對方的兵器。部分十手還有特製的尖頭甚至開刃。
+Kerambit.MOD	OUTPUTNAME:虎牙刺（Kerambit）	DESC:.CLEAR	DESC:這件纖小，彎曲的匕首在握把的底端有一個圓環，讓它可以套在手指上或是藏在頭髮內。雖然並不大，這把造型狠毒的小武器可以造成十分嚴重的傷害。虎牙刺非常易於隱藏（使用者在將虎牙刺藏在身上的巧手檢定+2），所以忍者和刺客愛用這種武器。
+Lungchuan tamo.MOD	OUTPUTNAME:杖隱刃（Lungchuan tamo）	DESC:.CLEAR	DESC:這支短棍形的劍鞘裡裝有一對纖細的短刀，它們的設計非常適合投擲。
+Mattock.MOD	OUTPUTNAME:鶴嘴鋤（Mattock）	DESC:.CLEAR	DESC:鶴嘴鋤是一把雙手長鎬，不過尖端為鑿狀而非尖刺。
+Mere club.MOD	OUTPUTNAME:石磨棒（Mere club）	DESC:.CLEAR	DESC:這件石器時代的傳統武器是石塊雕刻而成，邊緣平齊、尖端鋒銳。
+Monk's spade.MOD	OUTPUTNAME:禪杖（Monk's spade）	DESC:.CLEAR	DESC:禪杖是一件雙頭長兵器，一頭是斧狀的鏟刃、另一頭則是類似公牛雙角的月牙刃。根據使用者用禪杖的不同頭進行攻擊，這件武器可以造成多種不同類型的傷害：鏟刃可以造成鈍擊或揮砍傷害，月牙刃可以造成揮砍或穿刺傷害。
+Naginata.MOD	OUTPUTNAME:薙刀（Naginata）	DESC:.CLEAR	DESC:薙刀由一段6尺長的刀柄和長約2尺、類似劍刃但略彎的刀身組成，薙刀的長度可以讓使用者在不受到對方的刀劍、以及類似短兵器威脅的情況下從容地展開攻擊。
+Nodachi.MOD	OUTPUTNAME:野太刀（Nodachi）	DESC:.CLEAR	DESC:這把長刀有著長達4尺、銳利無比的刀身。步兵常利用它來對抗騎馬的敵人，既可以用來將騎手挑下馬背，也可以支在地面上對抗騎兵衝鋒。
+Poisoned sand tube.MOD	OUTPUTNAME:毒砂管（Poisoned sand tube）	DESC:.CLEAR	DESC:這支用金屬或竹節製造的，外形類似卷軸匣的吹管填滿了浸泡過吸入或接觸毒藥的細膩毒砂。當裝填滿三劑毒藥後，毒砂管的使用者可以通過大力吹動吹管，將毒砂揚到15尺錐形範圍內敵人的臉上。每一個處於影響範圍內的敵人都會受到一劑毒藥的影響。即使沙塵並未浸毒，被吹到的生物也必須通過一個DC12的強韌檢定否則將目眩1輪。每次使用之後毒砂管都必須重新裝入毒砂。裝填毒砂管是一個整輪動作，如果你擁有「快速裝填」專長，那麼裝填毒砂管是一個標準動作。
+Scizore.MOD	OUTPUTNAME:角鬥剪（Scizore）	DESC:.CLEAR	DESC:角鬥剪是一件恰好包裹前臂、末端加裝半月刃的硬管，用來發動兇惡的拳擊。角鬥剪帶來AC盾牌加值+1，但若你用其攻擊，你會在這一輪失去其AC加值並在攻擊檢定中承受-1減值。在裝備角鬥剪時，你無法用這隻手做任何其他事情。角鬥剪在抵抗針對其本身的卸武戰技時令你的CMD+10。裝備上一件角鬥剪是一個整輪動作。
+Shang gou.MOD	OUTPUTNAME:雙鉤（Shang gou）	DESC:.CLEAR	DESC:這對精鋼打造的長劍有一個回鉤的彎頭，而它的護手也被製造成可以防護整個持用手的月牙刃狀，鉤尖和月牙刃都被打磨的足夠銳利可以用來戰鬥。雙鉤可以合成一具武器或是分解開來進行雙武器戰鬥。當拆開的時候，雙鉤獲得卸武特性；而在組合使用時，雙鉤具有絆摔特性。
+Sibat.MOD	OUTPUTNAME:倒鉤矛（Sibat）	DESC:.CLEAR	DESC:這件武器類似於一把用有彈性的竹篙為手柄，裝有倒鉤矛頭的短矛。在成功造成重擊時，矛頭可以鉤入對手的肉體或護甲。這時，倒鉤矛的使用者可以以一個自由動作擒抱目標，在你以此法發動擒抱時不會受到擒抱目標的藉機攻擊。當使用倒鉤矛擒抱目標時，使用者只能對目標造成移動或傷害效果，而且使用者也被視為受到擒抱——雖然它不需要一直保持鄰接目標來維持擒抱。不過，如果你移出了倒鉤矛的觸及範圍，你會因為同一個動作結束擒抱。
+Sword (Tri-Point Double-Edged).MOD	OUTPUTNAME:三尖兩刃刀（Sword (Tri-Point Double-Edged)）	DESC:.CLEAR	DESC:如其名所示，這支長兵器在長5尺的手柄前端裝有一支雙刃反曲、刀尖開裂成三瓣蓮花般的鋼刃。三尖兩刃刀異常大型的刀刃設計可以讓它對目標造成可怕的多重傷口。
+Tepoztopilli.MOD	OUTPUTNAME:石刃戰棍（Tepoztopilli）	DESC:.CLEAR	DESC:這件石器時代的木製長兵器邊緣鑲嵌有黑曜石、琉璃、獸牙或類似材料。寬闊的前端使它能夠發動穿刺或揮砍攻擊。
+Terbutje.MOD	OUTPUTNAME:石刃劍（Terbutje）	DESC:.CLEAR	DESC:這件石器時代的武器又被稱為鯊齒劍，是用一段烘烤退火後的木料製成的。它的全身都鑲嵌有黑曜石、琉璃、獸牙或類似材料。
+Tiger fork.MOD	OUTPUTNAME:三股叉（Tiger fork）	DESC:.CLEAR	DESC:這支頎長，造型類似三叉戟的鋼叉在8尺長的手柄前端裝有三股尖頭。三股叉可以像棍棒一樣揮舞攻擊，持用者也可以雙手握緊叉柄衝刺戳擊目標。三股叉也可以用作反衝鋒武器。
+Tonfa.MOD	OUTPUTNAME:旋棍（Tonfa）	DESC:.CLEAR	DESC:這支L形的格鬥棍棒非常適合在戳打的同時擋格對方的攻擊。當使用者握住旋棍的手柄時，他可以選擇旋轉棍身敲擊或是直接利用與手臂平行的部分擊打。
+Tube arrow shooter.MOD	OUTPUTNAME:袖箭（Tube arrow shooter）	DESC:.CLEAR	DESC:這件武器的主體部分（一支小金屬管）可以藏進衣袖裡，袖箭內的彈簧機關可以用來彈射一發短小的竹矢。使用者將袖箭藏在身上的巧手檢定+2，扣動袖箭上的機關就可以讓竹矢射出。在發射以後，袖箭需要重新裝填才能使用。裝填袖箭需要一個整輪動作，如果你擁有「快速裝填」專長，那麼裝填袖箭是一個標準動作。
+Wushu dart.MOD	OUTPUTNAME:武師鏢（Wushu dart）	DESC:.CLEAR	DESC:這支一端削尖的木釘可以作為近戰武器使用，同時也是完美的投擲武器。

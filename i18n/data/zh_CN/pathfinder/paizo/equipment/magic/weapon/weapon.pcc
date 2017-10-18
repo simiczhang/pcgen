@@ -1,0 +1,14 @@
+CAMPAIGN:Localization_Equipment_Magic_Weapon
+KEY:Localization_Equipment_Magic_Weapon
+
+EQUIPMENT:acg_weaponmods.lst
+EQUIPMENT:apg_weaponmods.lst
+EQUIPMENT:arg_weaponmods.lst
+EQUIPMENT:cr_weaponmods.lst
+EQUIPMENT:ue_weaponmods.lst
+
+EQUIPMOD:acg_weapon_equipmods.lst
+EQUIPMOD:apg_weapon_equipmods.lst
+EQUIPMOD:arg_weapon_equipmods.lst
+EQUIPMOD:cr_weapon_equipmods.lst
+EQUIPMOD:ue_weapon_equipmods.lst

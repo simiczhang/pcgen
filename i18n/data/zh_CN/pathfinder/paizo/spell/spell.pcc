@@ -1,0 +1,8 @@
+CAMPAIGN:Localization_Spell
+KEY:Localization_Spell
+
+SPELL:cr_spells.lst
+SPELL:apg_spells.lst
+SPELL:acg_spells.lst
+SPELL:um_spells.lst
+SPELL:uc_spells.lst

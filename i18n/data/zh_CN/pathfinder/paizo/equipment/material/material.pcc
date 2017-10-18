@@ -1,0 +1,7 @@
+CAMPAIGN:Localization_Equipment_Material
+KEY:Localization_Equipment_Material
+
+EQUIPMOD:arg_materialmods.lst
+EQUIPMOD:cr_materialmods.lst
+EQUIPMOD:uc_materialmods.lst
+EQUIPMOD:ue_materialmods.lst

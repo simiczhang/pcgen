@@ -1,0 +1,11 @@
+CAMPAIGN:Localization_Feat
+KEY:Localization_Feat
+
+ABILITY:cr_feats.lst
+ABILITY:apg_feats.lst
+ABILITY:acg_feats.lst
+ABILITY:arg_feats.lst
+ABILITY:um_feats.lst
+ABILITY:uc_feats.lst
+ABILITY:uca_feats.lst
+ABILITY:b1_feats.lst

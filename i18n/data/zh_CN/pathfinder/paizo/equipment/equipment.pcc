@@ -1,0 +1,9 @@
+CAMPAIGN:Localization_Equipment
+KEY:Localization_Equipment
+
+PCC:material/material.pcc
+PCC:weapon/weapon.pcc
+PCC:firearm/firearm.pcc
+PCC:siegeengine/siegeengine.pcc
+PCC:armor/armor.pcc
+PCC:magic/magic.pcc

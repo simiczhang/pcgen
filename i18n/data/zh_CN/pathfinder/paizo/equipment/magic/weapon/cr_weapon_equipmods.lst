@@ -1,0 +1,66 @@
+# Melee Weapon
+Anarchic.MOD	OUTPUTNAME:混沌 （Anarchic）	DESC:.CLEAR	DESC:混沌武器屬於混亂陣營，灌注有混亂的力量，並因此能夠穿透相應的傷害減免。攻擊秩序陣營的生物時，武器能造成2d6點額外傷害。任何企圖使用此武器的秩序陣營生物會遭受1個負向等級。只要武器在手中負向等級就一直存在，除非把武器扔掉。這個負向等級並沒有造成真正的等級降低，但是只要武器在手中，負向等級便不能以任何方式移除 (包括『復原術 (restoration)』)。
+Axiomatic.MOD	OUTPUTNAME:公理 （Axiomatic）
+Bane.MOD	OUTPUTNAME:破敵 （Bane）
+Brilliant Energy.MOD	OUTPUTNAME:光能 （Brilliant Energy）
+Dancing.MOD	OUTPUTNAME:舞空 （Dancing）
+Defending.MOD	OUTPUTNAME:護體 （Defending）
+Disruption.MOD	OUTPUTNAME:瓦解 （Disruption）
+Flaming Burst.MOD	OUTPUTNAME:焰爆 （Flaming Burst）
+Flaming.MOD	OUTPUTNAME:熾焰 （Flaming）
+Frost.MOD	OUTPUTNAME:凍寒 （Frost）
+Ghost Touch.MOD	OUTPUTNAME:幽冥 （Ghost Touch）
+Holy.MOD	OUTPUTNAME:神聖 （Holy）
+Icy Burst.MOD	OUTPUTNAME:冰爆 （Icy Burst）
+Keen.MOD	OUTPUTNAME:銳鋒 （Keen）
+Ki Focus.MOD	OUTPUTNAME:真氣 （Ki Focus）
+Merciful.MOD	OUTPUTNAME:慈憫 （Merciful）
+Mighty Cleaving.MOD	OUTPUTNAME:狂斬 （Mighty Cleaving）
+Shock.MOD	OUTPUTNAME:電擊 （Shock）
+Shocking Burst.MOD	OUTPUTNAME:電爆 （Shocking Burst）
+Speed.MOD	OUTPUTNAME:追擊 （Speed）
+Spell Storing.MOD	OUTPUTNAME:儲法 （Spell Storing）
+Throwing.MOD	OUTPUTNAME:投擲 （Throwing）
+Thundering.MOD	OUTPUTNAME:雷鳴 （Thundering）
+Unholy.MOD	OUTPUTNAME:邪惡 （Unholy）
+Vicious.MOD	OUTPUTNAME:反噬 （Vicious）
+Vorpal.MOD	OUTPUTNAME:斬首 （Vorpal）
+Wounding.MOD	OUTPUTNAME:血光 （Wounding）
+
+# Ranged Weapon
+Anarchic.MOD	OUTPUTNAME:混沌 (Anarchic)
+Axiomatic.MOD	OUTPUTNAME:公理 (Axiomatic)
+Bane.MOD	OUTPUTNAME:破敵 (Bane)
+Brilliant Energy.MOD	OUTPUTNAME:光能 (Brilliant Energy)
+Distance.MOD	OUTPUTNAME:及遠 (Distance)
+Flaming Burst.MOD	OUTPUTNAME:焰爆 (Flaming Burst)
+Flaming.MOD	OUTPUTNAME:熾焰 (Flaming)
+Frost.MOD	OUTPUTNAME:凍寒 (Frost)
+Holy.MOD	OUTPUTNAME:神聖 (Holy)
+Icy Burst.MOD	OUTPUTNAME:冰爆 (Icy Burst)
+Merciful.MOD	OUTPUTNAME:慈憫 (Merciful)
+Returning.MOD	OUTPUTNAME:回力 (Returning)
+Seeking.MOD	OUTPUTNAME:尋蹤 (Seeking)
+Shock.MOD	OUTPUTNAME:電擊 (Shock)
+Shocking Burst.MOD	OUTPUTNAME:電爆 (Shocking Burst)
+Speed.MOD	OUTPUTNAME:追擊 (Speed)
+Thundering.MOD	OUTPUTNAME:雷鳴 (Thundering)
+Unholy.MOD	OUTPUTNAME:邪惡 (Unholy)
+
+# Ammo
+Anarchic.MOD	OUTPUTNAME:混沌 (Anarchic)
+Axiomatic.MOD	OUTPUTNAME:公理 (Axiomatic)
+Bane.MOD	OUTPUTNAME:破敵 (Bane)
+Brilliant Energy.MOD	OUTPUTNAME:光能 (Brilliant Energy)
+Flaming Burst.MOD	OUTPUTNAME:焰爆 (Flaming Burst)
+Flaming.MOD	OUTPUTNAME:熾焰 (Flaming)
+Frost.MOD	OUTPUTNAME:凍寒 (Frost)
+Ghost Touch.MOD	OUTPUTNAME:幽冥 (Ghost Touch)
+Holy.MOD	OUTPUTNAME:神聖 (Holy)
+Icy Burst.MOD	OUTPUTNAME:冰爆 (Icy Burst)
+Merciful.MOD	OUTPUTNAME:慈憫 (Merciful)
+Seeking.MOD	OUTPUTNAME:尋蹤 (Seeking)
+Shock.MOD	OUTPUTNAME:電擊 (Shock)
+Shocking Burst.MOD	OUTPUTNAME:電爆 (Shocking Burst)
+Thundering.MOD	OUTPUTNAME:雷鳴 (Thundering)
+Unholy.MOD	OUTPUTNAME:邪惡 (Unholy)

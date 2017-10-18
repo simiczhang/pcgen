@@ -1,0 +1,14 @@
+CAMPAIGN:Localization_Equipment_Magic_Armor
+KEY:Localization_Equipment_Magic_Armor
+
+EQUIPMENT:acg_armormods.lst
+EQUIPMENT:apg_armormods.lst
+EQUIPMENT:arg_armormods.lst
+EQUIPMENT:cr_armormods.lst
+EQUIPMENT:ue_armormods.lst
+
+EQUIPMOD:acg_armor_equipmods.lst
+EQUIPMOD:apg_armor_equipmods.lst
+EQUIPMOD:arg_armor_equipmods.lst
+EQUIPMOD:cr_armor_equipmods.lst
+EQUIPMOD:ue_armor_equipmods.lst

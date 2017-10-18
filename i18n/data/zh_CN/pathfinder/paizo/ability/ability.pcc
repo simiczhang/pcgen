@@ -1,0 +1,51 @@
+CAMPAIGN:Localization_Ability
+KEY:Localization_Ability
+# CRB Class Ability
+ABILITY:cr_barbarian_abilities.lst
+ABILITY:cr_bard_abilities.lst
+ABILITY:cr_cleric_abilities.lst
+ABILITY:cr_druid_abilities.lst
+ABILITY:cr_fighter_abilities.lst
+ABILITY:cr_monk_abilities.lst
+ABILITY:cr_paladin_abilities.lst
+ABILITY:cr_ranger_abilities.lst
+ABILITY:cr_rogue_abilities.lst
+ABILITY:cr_sorcerer_abilities.lst
+ABILITY:cr_wizard_abilities.lst
+
+# APG Class Ability
+ABILITY:apg_alchemist_abilities.lst
+ABILITY:apg_antipaladin_abilities.lst
+ABILITY:apg_cavalier_abilities.lst
+ABILITY:apg_inquisitor_abilities.lst
+ABILITY:apg_oracle_abilities.lst
+ABILITY:apg_summoner_abilities.lst
+ABILITY:apg_witch_abilities.lst
+
+# UC Class Ability
+ABILITY:uc_gunslinger_abilities.lst
+ABILITY:uc_ninja_abilities.lst
+ABILITY:uc_samurai_abilities.lst
+
+# UM Class Ability
+ABILITY:um_magus_abilities.lst
+
+# Advanced Class Ability
+ABILITY:cr_arcanetrickster_abilities.lst
+ABILITY:cr_arcanearcher_abilities.lst
+ABILITY:cr_assassin_abilities.lst
+ABILITY:cr_dragondisciple_abilities.lst
+ABILITY:cr_duelist_abilities.lst
+ABILITY:cr_eldritchknight_abilities.lst
+ABILITY:cr_loremaster_abilities.lst
+ABILITY:cr_mystictheurge_abilities.lst
+ABILITY:cr_pathfinderchronicler_abilities.lst
+ABILITY:cr_shadowdancer_abilities.lst
+ABILITY:apg_battleherald_abilities.lst
+ABILITY:apg_holyvindicator_abilities.lst
+ABILITY:apg_horizonwalker_abilities.lst
+ABILITY:apg_masterchymist_abilities.lst
+ABILITY:apg_masterspy_abilities.lst
+ABILITY:apg_naturewarden_abilities.lst
+ABILITY:apg_rageprophet_abilities.lst
+ABILITY:apg_stalwartdefender_abilities.lst
