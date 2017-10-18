@@ -86,7 +86,7 @@ public class Gui2CampaignInfoFactory implements CampaignInfoFactory
 		}
 		Campaign aCamp = (Campaign) campaign;
 		
-		final HtmlInfoBuilder infoText = new HtmlInfoBuilder(aCamp.getDisplayName());
+		final HtmlInfoBuilder infoText = new HtmlInfoBuilder(aCamp.toString());
 		appendCampaignInfo(aCamp, infoText);
 
 		return infoText.toString();

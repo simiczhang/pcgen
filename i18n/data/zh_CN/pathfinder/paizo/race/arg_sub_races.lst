@@ -1,0 +1,6 @@
+CATEGORY=Special Ability|Human Racial Subtype ~ Cosmopolitan.MOD		OUTPUTNAME:熟練工（Cosmopolitan）	DESC:.CLEAR	DESC:居住在城市多年，這些人類游弋於人群之中，並能作為各行各業的熟練能手滿足僱主需求。用【街道之心】特性替換獎勵技能，用【精研】替代獎勵專長。
+CATEGORY=Special Ability|Human Racial Subtype ~ Country Folk.MOD		OUTPUTNAME:鄉巴佬（Country Folk）	DESC:.CLEAR	DESC:這些人類適合鄉村生活。用工廠之心替代獎勵技能，用精研替代獎勵專長。
+CATEGORY=Special Ability|Human Racial Subtype ~ Gutter Rat.MOD			OUTPUTNAME:窮光蛋（Gutter Rat）		DESC:.CLEAR	DESC:這些賤民生活在貧民窟和下水道，拚命工作以勉強維持生計。用【貧民窟之心】特性替換獎勵技能，用【文化交融－街道之心】替代獎勵專長。
+CATEGORY=Special Ability|Human Racial Subtype ~ Imperious Human.MOD		OUTPUTNAME:驕貴人（Imperious Human）	DESC:.CLEAR	DESC:出身皇族或統治階級的他們傲慢、自我膨脹，將他人捲入自己的野心中。用【雄辯】替代獎勵技能，用【天賦之眼】替代獎勵專長。
+CATEGORY=Special Ability|Human Racial Subtype ~ Trailblazer.MOD			OUTPUTNAME:開拓者（Trailblazer）	DESC:.CLEAR	DESC:富有適應性與進取心的這些傢伙肯定不缺急智和好運，才能在他們拓展的地域定居下來。用【野性之心】替代獎勵技能，用【天命】替代獎勵專長。GM可以根據這些人定居之處的地形，將【野性之心】改為【山脈之心】、【海洋之心】、【雪之心】或【旭日之心】。
+CATEGORY=Special Ability|Human Racial Subtype ~ Versatile Human.MOD		OUTPUTNAME:多面手（Versatile Human）	DESC:.CLEAR	DESC:雖然缺少其他人類常接受的訓練，他們與生俱來的天賦彌補了這一缺憾。用【雙重天賦】替代單項屬性+2、獎勵技能和獎勵專長。

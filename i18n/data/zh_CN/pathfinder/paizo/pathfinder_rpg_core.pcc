@@ -1,5 +1,6 @@
 # CVS $Revision$ $Author$ -- Sat Nov 23 14:46:39 2013 -- reformated by prettylst.pl v1.50 (build 22134)
 CAMPAIGN:Pathfinder RPG Core Supplements
+OUTPUTNAME:Pathfinder 进阶规则
 KEY:Pathfinder RPG Core Supplements
 GAMEMODE:Pathfinder|Pathfinder_PFS
 TYPE:Paizo Publishing
@@ -49,6 +50,8 @@ PCC:@/pathfinder/paizo/roleplaying_game/ultimate_equipment/ultimate_equipment.pc
 # Using new file style
 PCC:@/pathfinder/paizo/roleplaying_game/ultimate_campaign/_ultimate_campaign.pcc
 PCC:@/pathfinder/paizo/roleplaying_game/advanced_class_guide/_advanced_class_guide.pcc
+# Localized PCC
+PCC:localization.pcc
 
 #localized files
 PCC:localization.pcc

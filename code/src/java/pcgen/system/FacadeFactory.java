@@ -141,7 +141,7 @@ public class FacadeFactory
 				GameModeFacade game = gameModeList.getElementAt(0);
 				ListFacade<CampaignFacade> list =
                         new DefaultListFacade<>(Collections.singleton(campaign));
-				quickSources.addElement(new BasicSourceSelectionFacade(campaign.getName(), list, game));
+				quickSources.addElement(new BasicSourceSelectionFacade(campaign.toString(), list, game));
 			}
 		}
 	}
