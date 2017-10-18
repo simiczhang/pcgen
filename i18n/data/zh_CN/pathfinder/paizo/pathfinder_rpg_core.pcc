@@ -62,7 +62,14 @@ DOMAIN:common/um_domains.lst
 LANGUAGE:common/cr_languages.lst
 # Equipment
 EQUIPMENT:equipment/weapons.lst
+EQUIPMENT:equipment/firearms.lst
+EQUIPMENT:equipment/siegeengines.lst
 EQUIPMENT:equipment/armors.lst
+EQUIPMENT:equipment/magicweapons.lst
+EQUIPMENT:equipment/magicarmors.lst
+EQUIPMENT:equipment/rings.lst
+EQUIPMENT:equipment/rods.lst
+EQUIPMENT:equipment/staves.lst
 EQUIPMOD:equipment/equipmods.lst
 # Spells
 SPELL:spell/cr_spells.lst
