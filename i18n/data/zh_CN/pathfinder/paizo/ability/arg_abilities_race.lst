@@ -1,0 +1,23 @@
+# Human
+CATEGORY=Special Ability|Human Racial Subtype ~ Cosmopolitan.MOD		OUTPUTNAME:熟練工（Cosmopolitan）		DESC:.CLEAR	DESC:居住在城市多年，這些人類游弋於人群之中，並能作為各行各業的熟練能手滿足僱主需求。用【街道之心】特性替換獎勵技能，用【精研】替代獎勵專長。
+CATEGORY=Special Ability|Human Racial Subtype ~ Country Folk.MOD		OUTPUTNAME:鄉巴佬（Country Folk）		DESC:.CLEAR	DESC:這些人類適合鄉村生活。用工廠之心替代獎勵技能，用精研替代獎勵專長。
+CATEGORY=Special Ability|Human Racial Subtype ~ Gutter Rat.MOD			OUTPUTNAME:窮光蛋（Gutter Rat）			DESC:.CLEAR	DESC:這些賤民生活在貧民窟和下水道，拚命工作以勉強維持生計。用【貧民窟之心】特性替換獎勵技能，用【文化交融－街道之心】替代獎勵專長。
+CATEGORY=Special Ability|Human Racial Subtype ~ Imperious Human.MOD		OUTPUTNAME:驕貴人（Imperious Human）	DESC:.CLEAR	DESC:出身皇族或統治階級的他們傲慢、自我膨脹，將他人捲入自己的野心中。用【雄辯】替代獎勵技能，用【天賦之眼】替代獎勵專長。
+CATEGORY=Special Ability|Human Racial Subtype ~ Trailblazer.MOD			OUTPUTNAME:開拓者（Trailblazer）		DESC:.CLEAR	DESC:富有適應性與進取心的這些傢伙肯定不缺急智和好運，才能在他們拓展的地域定居下來。用【野性之心】替代獎勵技能，用【天命】替代獎勵專長。GM可以根據這些人定居之處的地形，將【野性之心】改為【山脈之心】、【海洋之心】、【雪之心】或【旭日之心】。
+CATEGORY=Special Ability|Human Racial Subtype ~ Versatile Human.MOD		OUTPUTNAME:多面手（Versatile Human）	DESC:.CLEAR	DESC:雖然缺少其他人類常接受的訓練，他們與生俱來的天賦彌補了這一缺憾。用【雙重天賦】替代單項屬性+2、獎勵技能和獎勵專長。
+
+# Human Racial Trait Abilities
+CATEGORY=Special Ability|Human ~ Adoptive Parentage.MOD		OUTPUTNAME:養子（Adoptive Parentage）		DESC:.CLEAR	DESC:人類孤兒有時會被其他種族收養。選擇一種不具備人類亞種的種族。你使用該種族的起始語言以及【武器熟悉】種族特性（如果有）。如果該種族沒有武器熟悉，作為替代你獲得一種和該種族風格相符的「技能專攻」或者「武器專攻」。這個種族特性取代獎勵專長。
+CATEGORY=Special Ability|Human ~ Dual Talent.MOD		OUTPUTNAME:雙重天賦（Dual Talent）		DESC:.CLEAR	DESC:部分人類能夠充分發揮他們的天賦，選擇兩種屬性獲得+2種族加值。這個種族特性取代單項屬性+2，獎勵專長以及獎勵技能。
+CATEGORY=Special Ability|Human ~ Eye for Talent.MOD		OUTPUTNAME:天賦之眼（Eye for Talent）		DESC:.CLEAR	DESC:人類擁有強大、潛藏的直覺，他們在察言觀色檢定上獲得+2種族加值，同時，如果他們有動物夥伴、獎勵坐騎、追隨者或是魔寵的話，這些生物可以選擇一個屬性值，讓該屬性得到+2的加值，這個種族特性取代獎勵專長。
+CATEGORY=Special Ability|Human ~ Focused Study.MOD		OUTPUTNAME:精研（Focused Study）		DESC:.CLEAR	DESC:所有人類都是多才多藝的，但是其中一部分人更傾向於專精某些領域，而不是成為通才。在1級、8級以及16級時，這些人選擇一項技能，獲得該技能的「技能專攻」專長。這個種族特性取代獎勵專長。
+CATEGORY=Special Ability|Human ~ Heart of the Fields.MOD		OUTPUTNAME:工廠之心（Heart of the Fields）		DESC:.CLEAR	DESC:出生在農村的人類以辛勤勞動著名。他們在他們的工藝和專業檢定上得到相當於他們職業等級一半的加值，同時，每日一次，他們可以忽略一個會讓他們疲勞或力竭的效果。這個種族特性取代獎勵技能。
+CATEGORY=Special Ability|Human ~ Heart of the Mountain.MOD		OUTPUTNAME:山脈之心（Heart of the Mountains）		DESC:.CLEAR	DESC:出生在群山之中的人類擅長翻越高山和峭壁。他們在狹窄平面或不平地勢上移動時進行的攀爬和特技檢定獲得+2種族加值。此外，他們適應高原反應。這個種族特性取代獎勵技能。
+CATEGORY=Special Ability|Human ~ Heart of the Sea.MOD		OUTPUTNAME:海洋之心（Heart of the Sea）		DESC:.CLEAR	DESC:海邊出生的人總是被它的魅力所吸引。他們總是視專業（水手）以及游泳為本職技能，並且在這些技能檢定上獲得+2種族加值。他們屏息的時間是通常的兩倍，並且嘗試在水下施法時專注獲得+4種族加值。這個種族特性取代獎勵技能。
+CATEGORY=Special Ability|Human ~ Heart of the Slums.MOD		OUTPUTNAME:貧民窟之心（Heart of the Slums）		DESC:.CLEAR	DESC:只有敏捷而又機警的人才能在城市中擁擠的貧民窟勉強維持生計。他們的巧手和潛行檢定獲得+2種族加值，並且在城市與地下的設施的生存檢定獲得+4種族加值。此外他們在進行預防疾病的豁免時可以骰兩次取高。這個種族特性取代獎勵技能。
+CATEGORY=Special Ability|Human ~ Heart of the Snow.MOD		OUTPUTNAME:雪之心（Heart of the Snows）		DESC:.CLEAR	DESC:出生在寒帶的人類並不畏懼凜冬。他們在抵禦寒冷氣候的強韌豁免、避免滑倒或者墜落的檢定或者豁免，以及對抗絆摔的CMD獲得+2種族加值。這些獎勵加值同樣適用於在滑溜平面的特技以及攀爬檢定上。這個種族特性取代獎勵技能。
+CATEGORY=Special Ability|Human ~ Heart of the Sun.MOD		OUTPUTNAME:旭日之心（Heart of the Sun）		DESC:.CLEAR	DESC:出生在熱帶的人類並不懼怕酷暑。他們在進行炎熱氣候帶來影響的強韌豁免、毒素的豁免以及昆蟲集群的「擾亂心神」能力的豁免時獲得+2種族加值。這個種族特性取代獎勵技能。【特性速查】擾亂心神（Distraction, Ex）：有這種能力的生物能通過傷害對手來讓其反胃。任何被擁有此能力的生物傷害的對手會反胃1輪；通過DC等於「10+1/2生物HD+體質修正」的強韌豁免則不受影響。
+CATEGORY=Special Ability|Human ~ Heart of the Wilderness.MOD		OUTPUTNAME:野性之心（Heart of the Wilderness）		DESC:.CLEAR	DESC:在野外生活的人們經過總總磨難學會了強者生存的真諦。他們在求生檢定上獲得相當於他們職業等級一半的加值，同時他們在穩定瀕死的強韌檢定上獲得+5種族加值，此外，在決定死亡的負生命值時，他們可以將職業等級的一半加到體質上。這個種族特性取代獎勵技能。
+CATEGORY=Special Ability|Human ~ Heroic.MOD		OUTPUTNAME:天命（Heroic）		DESC:.CLEAR	DESC:有的人天生就是英雄。如果在一次戰役中使用了「英雄點（Hero Points, APG）」系統，他們每次提升級別可以獲得2點英雄點而非1點。如果他們選擇了「碧血丹心（Blood of Heroes, APG）」專長，每次提升級別時可以獲得3點英雄點而非2點。這個種族特性取代獎勵專長。
+CATEGORY=Special Ability|Human ~ Mixed Heritage.MOD		OUTPUTNAME:文化交融（Mixed Heritage）		DESC:.CLEAR	DESC:有時人類文明可以劃分為多種特徵。擁有這個種族特性的人類可以選擇第二個帶有【…之心（heart of the…）】描述的種族特性。這個種族特性取代獎勵專長。
+CATEGORY=Special Ability|Human ~ Silver Tongued.MOD		OUTPUTNAME:雄辯（Silver Tongued）		DESC:.CLEAR	DESC:人類善於輕鬆地誘導並玩弄他們的死敵。擁有這個特性的人類在交涉以及唬騙檢定上獲得+2加值。此外當他們使用交涉技能改善生物態度的時候，最多可以改善三級而不是原本的兩級。這個種族特性取代獎勵技能。
