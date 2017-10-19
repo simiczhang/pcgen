@@ -1,0 +1,54 @@
+# Human Racial Trait Abilities
+CATEGORY=Special Ability|Human ~ Bonus Feat.MOD		OUTPUTNAME:獎勵專長（Bonus Feat）		DESC:.CLEAR	DESC:人類角色在1級時獲得一個額外專長。
+CATEGORY=Special Ability|Human ~ Skilled.MOD		OUTPUTNAME:獎勵技能（Skilled）		DESC:.CLEAR	DESC:人類在1級以及以後每次升級時獲得1點額外技能點。
+
+# Dwarf Racial Trait Abilities
+CATEGORY=Special Ability|Dwarf ~ Steady.MOD		OUTPUTNAME:慢而穩（Steady）		DESC:.CLEAR	DESC:矮人擁有20尺基本速度，但是其速度不會受到負重以及盔甲影響。
+CATEGORY=Special Ability|Dwarf ~ Darkvision.MOD		OUTPUTNAME:黑暗視覺（Darkvision）		DESC:.CLEAR	DESC:矮人在黑暗中能夠看到60尺遠。
+CATEGORY=Special Ability|Dwarf ~ Defensive Training.MOD		OUTPUTNAME:防禦訓練（Defensive Training）		DESC:.CLEAR	DESC:矮人在對抗巨人子類的生物時，AC獲得+4閃避加值。
+CATEGORY=Special Ability|Dwarf ~ Greed.MOD		OUTPUTNAME:貪婪（Greed）		DESC:.CLEAR	DESC:矮人在使用估價檢定判斷含有珍貴金屬或寶石的非魔法物品的價值時，獲得+2種族加值。
+CATEGORY=Special Ability|Dwarf ~ Hatred.MOD		OUTPUTNAME:仇恨（Hatred）		DESC:.CLEAR	DESC:由於經過專門的針對性訓練，矮人在對抗類人生物中，獸人子類以及地精子類的生物時，他們的攻擊檢定獲得+1種族加值。
+CATEGORY=Special Ability|Dwarf ~ Hardy.MOD		OUTPUTNAME:堅韌（Hardy）		DESC:.CLEAR	DESC:矮人在對抗毒素，法術以及類法術能力時，豁免檢定獲得+2種族加值。
+CATEGORY=Special Ability|Dwarf ~ Stability.MOD		OUTPUTNAME:穩固（Stability）		DESC:.CLEAR	DESC:當矮人站立在實體地面上時，他們對抗衝撞以及絆摔戰技的CMD獲得+4種族加值。
+CATEGORY=Special Ability|Dwarf ~ Stonecunning.MOD		OUTPUTNAME:岩石敏銳（Stonecunning）		DESC:.CLEAR	DESC:矮人在察覺異常的石製造物（比如石牆與石製地板中隱藏的陷阱與密門）時，察覺檢定+2。當他們在這些石製造物10尺範圍內時，就可以進行檢定，無論他們是否在主動搜索。
+CATEGORY=Special Ability|Dwarf ~ Weapon Familiarity.MOD		OUTPUTNAME:武器熟悉（Weapon Familiarity）		DESC:.CLEAR	DESC:矮人擅長戰斧，重型十字鎬以及戰錘，並且將任何冠以「矮人」之名的武器視為軍用武器。
+CATEGORY=Special Ability|Dwarf ~ Language.MOD		OUTPUTNAME:起始語言（Language）		DESC:.CLEAR	DESC:通用語以及矮人語。擁有足夠智力的矮人可以選擇下列語言作為額外語言：巨人語，侏儒語，地精語，獸人語，土族語以及地底通用語。
+
+# Elf Racial Trait Abilities
+CATEGORY=Special Ability|Elf ~ Low-Light Vision.MOD		OUTPUTNAME:昏暗視覺（Low-Light Vision）		DESC:.CLEAR	DESC:精靈擁有昏暗視覺，在昏暗光照下能夠看到的距離是人類的兩倍遠。
+CATEGORY=Special Ability|Elf ~ Elven Immunities.MOD		OUTPUTNAME:精靈免疫（Elven Immunities）		DESC:.CLEAR	DESC:精靈免疫魔法睡眠效果，並且在對抗惑控系法術以及效果時，豁免檢定獲得+2種族加值。
+CATEGORY=Special Ability|Elf ~ Elven Magic.MOD		OUTPUTNAME:精靈魔法（Elven Magic）		DESC:.CLEAR	DESC:精靈在克服法術抗力時的施法者等級檢定獲得+2種族加值。此外在使用法術辨識技能檢定辨認魔法物品的特性時，獲得+2種族加值。
+CATEGORY=Special Ability|Elf ~ Keen Senses.MOD		OUTPUTNAME:敏銳感官（Keen Senses）		DESC:.CLEAR	DESC:精靈的察覺檢定獲得+2種族加值。
+CATEGORY=Special Ability|Elf ~ Weapon Familiarity.MOD		OUTPUTNAME:武器熟悉（Weapon Familiarity）		DESC:.CLEAR	DESC:精靈擅長長弓（包括復合長弓）、長劍、細劍以及短弓（包括復合短弓），並且將任何冠以「精靈」之名的武器視為軍用武器。
+
+# Gnome Racial Trait Abilities
+CATEGORY=Special Ability|Gnome ~ Low-Light Vision.MOD		OUTPUTNAME:昏暗視覺（Low-Light Vision）		DESC:.CLEAR	DESC:侏儒擁有昏暗視覺，在昏暗光照下能夠看到的距離是人類的兩倍遠。
+CATEGORY=Special Ability|Gnome ~ Defensive Training.MOD		OUTPUTNAME:防禦訓練（Defensive Training）		DESC:.CLEAR	DESC:侏儒在對抗巨人子類的生物時，AC獲得+4閃避加值。
+CATEGORY=Special Ability|Gnome ~ Gnome Magic.MOD		OUTPUTNAME:侏儒魔法（Gnome Magic）		DESC:.CLEAR	DESC:侏儒所施放的所有幻術學派法術的豁免DC增加1點。擁有11或更高魅力屬性的侏儒獲得下列類法術能力：每天1次－『舞光術』，『幻音術』，『魔法伎倆』，『動物交談』。這些效果的施法者等級等同於侏儒的角色等級，豁免DC等同於「10+法術環級+侏儒魅力修正」。
+CATEGORY=Special Ability|Gnome ~ Hatred.MOD		OUTPUTNAME:仇恨（Hatred）		DESC:.CLEAR	DESC:由於經過專門的針對性訓練，侏儒在對抗類人生物中爬蟲子類以及地精子類的生物時，攻擊檢定+1。
+CATEGORY=Special Ability|Gnome ~ Illusion Resistance.MOD		OUTPUTNAME:幻術抗性（Illusion Resistance）		DESC:.CLEAR	DESC:侏儒在對抗任何幻術系法術以及效果時，豁免檢定獲得+2種族加值。
+CATEGORY=Special Ability|Gnome ~ Keen Senses.MOD		OUTPUTNAME:敏銳感官（Keen Senses）		DESC:.CLEAR	DESC:侏儒的察覺檢定獲得+2種族加值。
+CATEGORY=Special Ability|Gnome ~ Obsessive.MOD		OUTPUTNAME:工作狂（Obsessive）		DESC:.CLEAR	DESC:侏儒自選的一種工藝或專業技能獲得+2種族加值。
+CATEGORY=Special Ability|Gnome ~ Weapon Familiarity.MOD		OUTPUTNAME:武器熟悉（Weapon Familiarity）		DESC:.CLEAR	DESC:侏儒將任何冠以「侏儒」之名的武器視為軍用武器。
+
+# Half-Elf Racial Trait Abilities
+CATEGORY=Special Ability|Half-Elf ~ Low-Light Vision.MOD		OUTPUTNAME:昏暗視覺（Low-Light Vision）		DESC:.CLEAR	DESC:半精靈擁有昏暗視覺，在昏暗光照下能夠看到的距離是人類的兩倍遠。
+CATEGORY=Special Ability|Half-Elf ~ Adaptability.MOD		OUTPUTNAME:適應力（Adaptability）		DESC:.CLEAR	DESC:半精靈在1級時獲得「技能專攻」作為獎勵專長。【專長速查】技能專攻（Skill Focus）：選定技能檢定+3（受訓10級以上+6）。
+CATEGORY=Special Ability|Half-Elf ~ Elf Blood.MOD		OUTPUTNAME:精靈血脈（Elf Blood）		DESC:.CLEAR	DESC:在判斷與種族相關的效果時，半精靈同時被視為精靈與人類。
+CATEGORY=Special Ability|Half-Elf ~ Elven Immunities.MOD		OUTPUTNAME:精靈免疫（Elven Immunities）		DESC:.CLEAR	DESC:半精靈免疫魔法睡眠效果，並且在對抗惑控系法術以及效果時，豁免檢定獲得+2種族加值。
+CATEGORY=Special Ability|Half-Elf ~ Keen Senses.MOD		OUTPUTNAME:敏銳感官（Keen Senses）		DESC:.CLEAR	DESC:半精靈的察覺檢定獲得+2種族加值。
+CATEGORY=Special Ability|Half-Elf ~ Multitalented.MOD		OUTPUTNAME:多才多藝（Multitalented）		DESC:.CLEAR	DESC:半精靈在1級時選擇兩個天賦職業，並且無論其中哪個天賦職業提升等級時，均可以獲得+1生命值或者+1技能點的獎勵。
+
+# Halfling Racial Trait Abilities
+CATEGORY=Special Ability|Halfling ~ Fearless.MOD		OUTPUTNAME:無畏（Fearless）		DESC:.CLEAR	DESC:半身人對恐懼的豁免檢定有+2種族加值。這個加值與【半身人幸運】疊加。
+CATEGORY=Special Ability|Halfling ~ Halfling Luck.MOD		OUTPUTNAME:半身人幸運（Halfling Luck）		DESC:.CLEAR	DESC:半身人的任何豁免檢定有+1種族加值。
+CATEGORY=Special Ability|Halfling ~ Sure-Footed.MOD		OUTPUTNAME:銳足（Sure-Footed）		DESC:.CLEAR	DESC:半身人的特技和攀爬技能檢定有+2種族加值。
+CATEGORY=Special Ability|Halfling ~ Keen Senses.MOD		OUTPUTNAME:敏銳感知（Keen Senses）		DESC:.CLEAR	DESC:半身人在察覺檢定上具有+2種族加值。
+CATEGORY=Special Ability|Halfling ~ Weapon Familiarity.MOD		OUTPUTNAME:武器熟悉（Weapon Familiarity）		DESC:.CLEAR	DESC:半身人擅長投石索，並將任何冠以「半身人」之名的武器視為軍用武器。
+
+# Half-Orc Racial Trait Abilities
+CATEGORY=Special Ability|Half-Orc ~ Darkvision.MOD		OUTPUTNAME:黑暗視覺（Darkvision）		DESC:.CLEAR	DESC:半獸人在黑暗中能夠看到60尺遠。
+CATEGORY=Special Ability|Half-Orc ~ Intimidating.MOD		OUTPUTNAME:威懾力（Intimidating）		DESC:.CLEAR	DESC:由於半獸人令人生畏的天性，他們的威嚇檢定獲得+2種族加值。
+CATEGORY=Special Ability|Half-Orc ~ Orc Blood.MOD		OUTPUTNAME:獸人血脈（Orc Blood）		DESC:.CLEAR	DESC:在判斷與種族相關的效果時，半獸人同時被視為獸人與人類。
+CATEGORY=Special Ability|Half-Orc ~ Orc Ferocity.MOD		OUTPUTNAME:獸人兇猛（Orc Ferocity）		DESC:.CLEAR	DESC:每天1次，當半獸人的生命值低於0但是並沒有被殺害時，他能以癱瘓狀態繼續戰鬥1輪。在他的下一輪結束後，除非生命值恢復到0點以上，否則他會立刻失去意識並且進入瀕死狀態。
+CATEGORY=Special Ability|Half-Orc ~ Weapon Familiarity.MOD		OUTPUTNAME:武器熟悉（Weapon Familiarity）		DESC:.CLEAR	DESC:半獸人擅長巨斧以及彎刃大刀，並且將任何冠以「獸人」之名的武器視為軍用武器。

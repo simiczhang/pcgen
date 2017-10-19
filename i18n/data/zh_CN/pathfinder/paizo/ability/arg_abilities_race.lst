@@ -6,6 +6,45 @@ CATEGORY=Special Ability|Human Racial Subtype ~ Imperious Human.MOD		OUTPUTNAME:
 CATEGORY=Special Ability|Human Racial Subtype ~ Trailblazer.MOD			OUTPUTNAME:開拓者（Trailblazer）		DESC:.CLEAR	DESC:富有適應性與進取心的這些傢伙肯定不缺急智和好運，才能在他們拓展的地域定居下來。用【野性之心】替代獎勵技能，用【天命】替代獎勵專長。GM可以根據這些人定居之處的地形，將【野性之心】改為【山脈之心】、【海洋之心】、【雪之心】或【旭日之心】。
 CATEGORY=Special Ability|Human Racial Subtype ~ Versatile Human.MOD		OUTPUTNAME:多面手（Versatile Human）	DESC:.CLEAR	DESC:雖然缺少其他人類常接受的訓練，他們與生俱來的天賦彌補了這一缺憾。用【雙重天賦】替代單項屬性+2、獎勵技能和獎勵專長。
 
+# Dwarf
+CATEGORY=Special Ability|Dwarf Racial Subtype ~ Deep Delver.MOD		OUTPUTNAME:地底掘者（Deep Delver）		DESC:.CLEAR	DESC:長居於地底的矮人擁有【礦坑視覺】和【深土戰士】種族特性。地底掘者施法者可以將【岩石敏銳】換為【岩石歌者】種族特性。
+CATEGORY=Special Ability|Dwarf Racial Subtype ~ Elder Dwarf.MOD		OUTPUTNAME:矮人長老（Elder Dwarf）		DESC:.CLEAR	DESC:遵循古老血統的傳統矮人擁有遠古敵意和史卷管理人種族特性，並擁有【魔法抗力】或【頑固】特性之一。
+CATEGORY=Special Ability|Dwarf Racial Subtype ~ Exiled Dwarf.MOD		OUTPUTNAME:流亡矮人（Exiled Dwarf）		DESC:.CLEAR	DESC:失去了家園的矮人往往擁有【不可阻擋】和【頑固】種族特性，並也常帶有【巨龍鞭笞者】特性。
+CATEGORY=Special Ability|Dwarf Racial Subtype ~ Mountain Dwarf.MOD		OUTPUTNAME:山嶺矮人（Mountain Dwarf）		DESC:.CLEAR	DESC:生活在高山險峰的矮人擁有【登山者】種族特性，並也常帶有【地表住民】特性。山嶺矮人同樣受訓於保衛家園，因此可能選擇【戒空哨兵】和【排外】特性。
+
+# Elf
+CATEGORY=Special Ability|Elf Racial Subtype ~ Arctic Elf.MOD		OUTPUTNAME:寒精靈（Arctic Elf）		DESC:.CLEAR	DESC:有些精靈在南北極地的凍土大地出生長大，並習慣了和冰砂、極夜和恐怖寒冬為伍。這些精靈擁有【黑暗視覺】、【沙漠跑者】和【元素抗力】種族特性。
+CATEGORY=Special Ability|Elf Racial Subtype ~ Dusk Elf.MOD		OUTPUTNAME:暮精靈（Dusk Elf）		DESC:.CLEAR	DESC:並非與自然地域相聯繫，有些精靈和夜幕本身相互羈絆。儘管不會像惡魔崇拜的卓爾精靈那樣邪惡，這些精靈或多或少地令魔力與黑暗和陰影等概念同調。這些精靈擁有【奧術專攻】、【黑暗視覺】、【夢語者】和【寂靜獵手】種族特性。
+CATEGORY=Special Ability|Elf Racial Subtype ~ Savage Elf.MOD		OUTPUTNAME:野精靈（Savage Elf）		DESC:.CLEAR	DESC:在那些每日都要為生存而盡死力的遠離文明之域，精靈們攻守迅捷，為保護家人平安而徹夜不眠。這些精靈擁有【永恆仇恨】和【飛毛腿】種族特性。
+CATEGORY=Special Ability|Elf Racial Subtype ~ Tower Elf.MOD		OUTPUTNAME:塔精靈（Tower Elf）		DESC:.CLEAR	DESC:有些從事魔法研究的精靈研究所其歷史可追溯數世紀，而整個部族的精靈都世代作為守護者、學徒和導師在這個自給自足的法師塔周圍生活。這些精靈擁有【奧術專攻】和【都市精靈】種族特性。
+
+# Gnomes
+CATEGORY=Special Ability|Gnome Racial Subtype ~ Dread Gnome.MOD		OUTPUTNAME:可怖侏儒（Dread Gnomes）		DESC:.CLEAR	DESC:可怖侏儒的精類血統較為黑暗，他們比起其他侏儒更加情緒化、不寬容和殘忍。儘管並非所有可怖侏儒都是邪惡的，他們確實都以看他人受苦為樂，並缺少其他表親的那種對光芒和喜悅的追求。可怖侏儒擁有【兇惡魔法】和【用毒訣竅】種族特性。
+CATEGORY=Special Ability|Gnome Racial Subtype ~ Gear Gnome.MOD		OUTPUTNAME:機巧侏儒（Gear Gnomes）		DESC:.CLEAR	DESC:有時並非一個侏儒醉心於某項工程，整個家族都會投身於這項需要世代相繼才能完成的大手筆。這些工程往往和複雜機械裝置（或者乾脆就是幢機工建築）有關，而降生於這個家族、並終生為之添磚加瓦的侏儒就被稱為機巧侏儒。機巧侏儒擁有【院士】和【精通機械】種族特性。
+CATEGORY=Special Ability|Gnome Racial Subtype ~ Lava Gnome.MOD		OUTPUTNAME:熔岩侏儒（Lava Gnomes）		DESC:.CLEAR	DESC:被岩漿之力吸引並居住在活火山下的溶洞裡，熔岩侏儒即便在其他侏儒眼中也是激情澎湃和捉摸不定的。熔岩侏儒擁有【黑暗視覺】和【縱火狂】種族特性。
+CATEGORY=Special Ability|Gnome Racial Subtype ~ Traveler Gnome.MOD		OUTPUTNAME:行旅侏儒（Traveler Gnomes）		DESC:.CLEAR	DESC:這些侏儒在旅途中降生，他們的家庭就在船舶或篷車上。行旅侏儒擁有【魔法語言學家】種族特性，並擁有【探險家】和【天賜巧舌】特性之一。
+
+# Half-Elf
+CATEGORY=Special Ability|Half-Elf Racial Subtype ~ Drow-Descended.MOD		OUTPUTNAME:卓爾後裔（Drow-Descended）		DESC:.CLEAR	DESC:這些半精靈明顯地攜帶者黑暗精靈父母的特徵，無論其企圖或人品如何，都常遭到他人的懷疑目光。這些半精靈擁有【卓爾血脈】和【卓爾魔法】種族特性。
+CATEGORY=Special Ability|Half-Elf Racial Subtype ~ Elf-Raised.MOD		OUTPUTNAME:精靈撫養（Elf-Raised）		DESC:.CLEAR	DESC:這些半精靈受到了精靈親人的呵護，並接受了典型純血精靈式的傳統文化熏陶和教育。這些半精靈擁有【祖傳武器】和【奧術訓練】種族特性。
+CATEGORY=Special Ability|Half-Elf Racial Subtype ~ Human-Raised.MOD		OUTPUTNAME:人類撫養（Human-Raised）		DESC:.CLEAR	DESC:這些半精靈在人類社群中出生長大並逐漸接受週遭環境，撫養他們的常為獨戶或教會、神殿等慈善機構。這些半精靈擁有【親和力】和【警惕性】種族特性。
+
+# Halfling
+CATEGORY=Special Ability|Halfling Racial Subtype ~ Avenging.MOD		OUTPUTNAME:鬥爭者（Avenging）		DESC:.CLEAR	DESC:不像大多數半身人，這一類型半身人對那些社會中的輕視和欺凌尋求報復。當對抗地方惡霸、怪物或者暴虐的統治部隊時，半身人勇士們戴著面具進行反擊和抗爭。他們具有以下種族特性：下盤打擊、低位防守、戰爭投石者。
+CATEGORY=Special Ability|Halfling Racial Subtype ~ Nomadic.MOD		OUTPUTNAME:旅行家（Nomadic）		DESC:.CLEAR	DESC:這一類型的半身人出生於旅途中並且大多數會一生都在旅行。他們的行動輕快並且不會放過任何一次冒險和利潤。他們具有以下種族特性：大步、語言天賦、旅者。
+CATEGORY=Special Ability|Halfling Racial Subtype ~ Slave Born.MOD		OUTPUTNAME:奴隸種（Slave Born）		DESC:.CLEAR	DESC:這些半身人花費了無數代人的積累才脫離了奴隸身份。雖然他們自由了，沉重的奴隸制度依然壓搾著他們的靈魂，使他們渴望尊重並且時常沒來由的恐懼什麼。他們具有以下種族特性：膽小鬼、奉承主義。
+
+# Half-Orc
+CATEGORY=Special Ability|Half-Orc Racial Subtype ~ Arena-Bred.MOD		OUTPUTNAME:競技士（Arena-Bred）		DESC:.CLEAR	DESC:很多半獸人為了被送進競技場而長大，雙親常常是兩位半獸人、甚至一位半獸人和一位人類。這些為角鬥場而生的半獸人失去了獸人祖先的野蠻外表，看上去更像人類。他們擁有【市民】和【技能受訓】種族特性。
+CATEGORY=Special Ability|Half-Orc Racial Subtype ~ Deep Kin.MOD		OUTPUTNAME:地底人（Deep Kin）		DESC:.CLEAR	DESC:有些半獸人生長在依然居住在永恆黑暗籠罩的地下的獸人部落。這些部落的半獸人體格稍小，並比那些地表獸人更習慣地下的世界。這些半獸人擁有【敏銳黑暗視覺】和【穴居人】種族特性。
+CATEGORY=Special Ability|Half-Orc Racial Subtype ~ Feral.MOD		OUTPUTNAME:野生兒（Feral）		DESC:.CLEAR	DESC:還在嬰兒或幼兒時便被遺棄的半獸人孩子很難在荒野中生存下來，但有少數能夠如「野孩子」般地啃出活路、堅強求生，但完全和文明無緣。野生兒擁有【林間行者】和【獠牙】種族特性。
+CATEGORY=Special Ability|Half-Orc Racial Subtype ~ Mountain Clan.MOD		OUTPUTNAME:山嶽族（Mountain Clan）		DESC:.CLEAR	DESC:多山地區的半獸人更為機敏，並對故鄉的一聲一響都極為敏感。山嶽族擁有【獸性】和【攀巖者】種族特性。
+CATEGORY=Special Ability|Half-Orc Racial Subtype ~ Mystic.MOD		OUTPUTNAME:神秘者（Mystic）		DESC:.CLEAR	DESC:獸人薩滿是野蠻的教師，他們有時會為了消除未來的潛在對手而殺害或弄殘最出色的學生。從薩滿導師的虐待中存活下來的半獸人遍體鱗傷，精神也被這種經歷所深深影響。薩滿學徒很早就學到，狡猾和幸運往往是求生之路僅有的救命稻草。他們擁有「薩滿學徒」和「神聖紋身」種族特性。
+CATEGORY=Special Ability|Half-Orc Racial Subtype ~ Deep Kin.MOD		OUTPUTNAME:地底人（Deep Kin）		DESC:.CLEAR	DESC:有些半獸人生長在依然居住在永恆黑暗籠罩的地下的獸人部落。這些部落的半獸人體格稍小，並比那些地表獸人更習慣地下的世界。這些半獸人擁有「敏銳黑暗視覺」和「穴居人」種族特性。
+CATEGORY=Special Ability|Half-Orc Racial Subtype ~ Feral.MOD		OUTPUTNAME:野生兒（Feral）		DESC:.CLEAR	DESC:還在嬰兒或幼兒時便被遺棄的半獸人孩子很難在荒野中生存下來，但有少數能夠如「野孩子」般地啃出活路、堅強求生，但完全和文明無緣。野生兒擁有「林間行者」和「獠牙」種族特性。
+CATEGORY=Special Ability|Half-Orc Racial Subtype ~ Mountain Clan.MOD		OUTPUTNAME:山嶽族（Mountain Clan）		DESC:.CLEAR	DESC:多山地區的半獸人更為機敏，並對故鄉的一聲一響都極為敏感。山嶽族擁有「獸性」和「攀岩者」種族特性。
+CATEGORY=Special Ability|Half-Orc Racial Subtype ~ Mystic.MOD		OUTPUTNAME:神秘者（Mystic）		DESC:.CLEAR	DESC:獸人薩滿是野蠻的教師，他們有時會為了消除未來的潛在對手而殺害或弄殘最出色的學生。從薩滿導師的虐待中存活下來的半獸人遍體鱗傷，精神也被這種經歷所深深影響。薩滿學徒很早就學到，狡猾和幸運往往是求生之路僅有的救命稻草。他們擁有「薩滿學徒」和「神聖紋身」種族特性。
+
 # Human Racial Trait Abilities
 CATEGORY=Special Ability|Human ~ Adoptive Parentage.MOD		OUTPUTNAME:養子（Adoptive Parentage）		DESC:.CLEAR	DESC:人類孤兒有時會被其他種族收養。選擇一種不具備人類亞種的種族。你使用該種族的起始語言以及【武器熟悉】種族特性（如果有）。如果該種族沒有武器熟悉，作為替代你獲得一種和該種族風格相符的「技能專攻」或者「武器專攻」。這個種族特性取代獎勵專長。
 CATEGORY=Special Ability|Human ~ Dual Talent.MOD		OUTPUTNAME:雙重天賦（Dual Talent）		DESC:.CLEAR	DESC:部分人類能夠充分發揮他們的天賦，選擇兩種屬性獲得+2種族加值。這個種族特性取代單項屬性+2，獎勵專長以及獎勵技能。
@@ -21,3 +60,423 @@ CATEGORY=Special Ability|Human ~ Heart of the Wilderness.MOD		OUTPUTNAME:野性�
 CATEGORY=Special Ability|Human ~ Heroic.MOD		OUTPUTNAME:天命（Heroic）		DESC:.CLEAR	DESC:有的人天生就是英雄。如果在一次戰役中使用了「英雄點（Hero Points, APG）」系統，他們每次提升級別可以獲得2點英雄點而非1點。如果他們選擇了「碧血丹心（Blood of Heroes, APG）」專長，每次提升級別時可以獲得3點英雄點而非2點。這個種族特性取代獎勵專長。
 CATEGORY=Special Ability|Human ~ Mixed Heritage.MOD		OUTPUTNAME:文化交融（Mixed Heritage）		DESC:.CLEAR	DESC:有時人類文明可以劃分為多種特徵。擁有這個種族特性的人類可以選擇第二個帶有【…之心（heart of the…）】描述的種族特性。這個種族特性取代獎勵專長。
 CATEGORY=Special Ability|Human ~ Silver Tongued.MOD		OUTPUTNAME:雄辯（Silver Tongued）		DESC:.CLEAR	DESC:人類善於輕鬆地誘導並玩弄他們的死敵。擁有這個特性的人類在交涉以及唬騙檢定上獲得+2加值。此外當他們使用交涉技能改善生物態度的時候，最多可以改善三級而不是原本的兩級。這個種族特性取代獎勵技能。
+
+# Dwarf Racial Trait Abilities
+CATEGORY=Special Ability|Dwarf ~ Ancient Enmity.MOD		OUTPUTNAME:遠古敵意（Ancient Enmity）		DESC:.CLEAR	DESC:矮人與精靈的衝突由來已久，尤其是對卓爾精靈。擁有該種族特性的矮人在對抗屬於類人生物精靈子類的生物時，攻擊檢定獲得+1種族加值。該特性取代仇恨。
+CATEGORY=Special Ability|Dwarf ~ Craftsman.MOD		OUTPUTNAME:工匠（Craftsman）		DESC:.CLEAR	DESC:當談到冶金以及石工時，矮人卓越的技藝是眾所周知的。擁有該種族特性的矮人在進行與金屬與岩石有關的工藝或專業檢定時，獲得+2種族加值。該特性取代貪婪。
+CATEGORY=Special Ability|Dwarf ~ Deep Warrior.MOD		OUTPUTNAME:深土戰士（Deep Warrior）		DESC:.CLEAR	DESC:擁有該種族特性的矮人在危機四伏的地下世界長大。他們在對抗異怪類怪物時，AC獲得+2閃避加值，並且對這些生物進行的擒抱戰技檢定（或維持擒抱時）獲得+2種族加值。該特性取代防禦訓練。
+CATEGORY=Special Ability|Dwarf ~ Giant Hunter.MOD		OUTPUTNAME:巨人獵手（Giant Hunter）		DESC:.CLEAR	DESC:擁有該種族特性的矮人在對抗屬於類人生物巨人子類的生物時，攻擊檢定獲得+1種族加值。此外，他們在使用生存檢定發現並追蹤這些生物時獲得+2加值。該特性取代仇恨。
+CATEGORY=Special Ability|Dwarf ~ Lorekeeper.MOD		OUTPUTNAME:史卷管理人（Lorekeeper）		DESC:.CLEAR	DESC:矮人保存著大量關於他們歷史以及週遭世界的記錄。擁有該種族特性的矮人在進行關於矮人以及矮人之敵的知識（歷史）檢定時獲得+2種族加值。他們可以在未受訓的情況下進行上述檢定。該特性取代貪婪。
+CATEGORY=Special Ability|Dwarf ~ Magic Resistant.MOD		OUTPUTNAME:魔法抗力（Magic Resistant）		DESC:.CLEAR	DESC:一些古老的矮人氏族對魔法有著較強的耐性。擁有該種族特性的矮人擁有等同於「5+角色等級」的法術抗力。這個抗力能夠以一個標準動作壓制1輪。此外擁有該種族特性的矮人進行所有與奧術相關的專注檢定均會受到-2減值。該特性取代堅韌。
+CATEGORY=Special Ability|Dwarf ~ Minesight.MOD		OUTPUTNAME:礦坑視覺（Minesight）		DESC:.CLEAR	DESC:擁有該種族特性的矮人的黑暗視覺擴展到90尺；不過他們在明亮的光線下會目眩，而且在對抗帶有「光」描述符的效果時，豁免檢定受到-2減值。該特性取代黑暗視覺。
+CATEGORY=Special Ability|Dwarf ~ Mountaineer.MOD		OUTPUTNAME:登山者（Mountaineer）		DESC:.CLEAR	DESC:山脈矮人擅長攀爬以及穿越狹窄的巖架。擁有該種族特性的矮人免疫高原病，並且在使用攀爬以及特技動作檢定通過狹窄或光滑的表面時，AC不會失去敏捷帶來的加值。該特性取代穩固。
+CATEGORY=Special Ability|Dwarf ~ Relentless.MOD		OUTPUTNAME:不可阻擋（Relentless）		DESC:.CLEAR	DESC:矮人擅長在戰場上向前推進並輕鬆地打翻弱小的敵人。擁有該種族特性的矮人在進行衝撞或闖越戰技檢定時獲得+2加值。只有矮人和他的敵人都站立在地面上時，才能應用這些加值。該特性取代穩固。
+CATEGORY=Special Ability|Dwarf ~ Rock Stepper.MOD		OUTPUTNAME:巖地舞者（Rock Stepper）		DESC:.CLEAR	DESC:擁有該種族特性的矮人能夠巧妙地穿越岩石地形。當他們進行五尺快步時，能夠忽略由碎巖、坑窪的地面以及陡坡造成的困難地形。該特性取代岩石敏銳。
+CATEGORY=Special Ability|Dwarf ~ Saltbeard.MOD		OUTPUTNAME:鹽須（Saltbeard）		DESC:.CLEAR	DESC:矮人有時能夠在崎嶇的海岸邊發現鋼鐵都市，並且在這些城市定居。這些矮人在專業（水手）以及在海上的生存檢定上獲得+2加值。他們在對抗水棲或者水生亞種的生物時，攻擊檢定獲得+1種族加值，並且在AC上獲得+2閃避加值。他們的【貪婪】種族特性只對在水下發現的寶物有效，不過該能力對任何寶物均會生效，無論它是否帶有金屬或寶石。該特性取代防禦訓練，仇恨以及岩石敏銳。
+CATEGORY=Special Ability|Dwarf ~ Sky Sentinel.MOD		OUTPUTNAME:戒空哨兵（Sky Sentinel）		DESC:.CLEAR	DESC:作為與地面有著緊密聯繫的生物，矮人總是警惕著來自上方的攻擊。敵人在高處對擁有該種族特性的矮人進行攻擊時，攻擊檢定不會因地形獲得加值。同時這些矮人在對抗飛行生物時，攻擊檢定獲得+1種族加值，AC獲得+2閃避加值，察覺檢定+2。該特性取代防禦訓練，仇恨以及岩石敏銳。
+CATEGORY=Special Ability|Dwarf ~ Stonesinger.MOD		OUTPUTNAME:岩石歌者（Stonesinger）		DESC:.CLEAR	DESC:部分矮人從他們與大地的聯繫中獲得了強大的力量。擁有該種族特性的矮人在施放帶有「土」描述符的法術、使用土領域的神授力量以及元素血統（土）及厚土血統的血統力量時，視其等級比實際高1級。該能力不會使他們提早獲得這些能力；它只影響在計算該能力效果時的有效等級。該特性取代岩石敏銳。
+CATEGORY=Special Ability|Dwarf ~ Stubborn.MOD		OUTPUTNAME:頑固（Stubborn）		DESC:.CLEAR	DESC:任何人都知道矮人的牛脾氣。擁有該種族特性的矮人在對抗屬於惑控系（魅惑和脅迫子學派）的法術和類法術能力時，意志豁免檢定獲得+2種族加值。此外，如果他們在上述豁免中失敗，也可以在1輪後進行另一次豁免以結束這些效果（如果這些效果的持續時間大於1輪）。第二次豁免與第一次的DC相同。如果矮人通過其他來源獲得類似的能力（比如盜賊的【心智靈活】高等盜賊天賦），他每輪只能使用其中的一種，不過它能夠在第一次重骰失敗後使用其他能力繼續進行嘗試。該特性取代堅韌。
+CATEGORY=Special Ability|Dwarf ~ Surface Survivalist.MOD		OUTPUTNAME:地表住民（Surface Survivalist）		DESC:.CLEAR	DESC:部分矮人在地表生存的時間太長了，以至於他們失去了在夜晚視物的能力。然而他們卻適應了部分極端環境，這使得他們視風的強度（判斷他們是否需要進行檢定或被吹走時）以及寒冷或炎熱氣候（選其一）比正常低一級。該特性取代黑暗視覺。
+CATEGORY=Special Ability|Dwarf ~ Xenophobic.MOD		OUTPUTNAME:排外（Xenophobic）		DESC:.CLEAR	DESC:信奉孤立主義的矮人蔑視任何矮人之外的類人種族。他們只說矮人語並且不會由於較高的智力獲得額外語言。此外他們在語言學上投入2點技能點才能學習1種語言。然而他們質疑一切的天性使得他們在對抗〔影響心靈〕效果時（恐懼除外），豁免檢定+1。該特性取代了矮人常規的語言特性。
+CATEGORY=Special Ability|Dwarf ~ Wyrmscourged.MOD		OUTPUTNAME:巨龍鞭笞者（Wyrmscourged）		DESC:.CLEAR	DESC:擁有該種族特性的矮人在對抗龍類時，攻擊檢定+1，AC獲得+2閃避加值，並且在對抗龍類的特異能力、超自然能力以及類法術能力時豁免檢定+2。此外他們在辨識龍類時，知識（奧秘）檢定獲得+2種族加值，並且無需受訓也可以進行檢定。該特性取代防禦訓練，仇恨以及岩石敏銳。
+
+# Elf Racial Trait Abilities
+CATEGORY=Special Ability|Elf ~ Arcane Focus.MOD		OUTPUTNAME:奧術專攻（Arcane Focus）		DESC:.CLEAR	DESC:有些精靈家族經常會出現成為法師（或其他奧術施法者）的成員，這些家族在養育年輕的族人時會以她們注定要成為強大的施法者為前提，因此她們不需要過多地關心尋常的技巧——比如武器技巧。擁有該種族特性的精靈在進行防禦式施法施放奧術時，專注檢定獲得+2種族加值。該特性取代武器熟悉。
+CATEGORY=Special Ability|Elf ~ Darkvision.MOD		OUTPUTNAME:黑暗視覺（Darkvision）		DESC:.CLEAR	DESC:雖然這種情況極為罕見，但是某些精靈群體天生就擁有黑暗視覺，而非昏暗視覺。在大多數情況下，這代表著這個群體的祖先帶有卓爾精靈的血脈，並會因此導致這些精靈在家園內遭到迫害。擁有該種族特性的精靈擁有60尺黑暗視覺，但是同時會在明亮光線的區域或『晝明術』範圍內目眩。該特性取代感官中的昏暗視覺。
+CATEGORY=Special Ability|Elf ~ Desert Runner.MOD		OUTPUTNAME:沙漠跑者（Desert Runner）		DESC:.CLEAR	DESC:部分精靈在沙漠的深處長大成人，她們永遠漫遊在燃燒般灼熱的土地之上。擁有該種族特性的精靈在為了避免疲乏、力竭，或者奔跑、急行軍、飢餓、口渴、炎熱以及寒冷環境造成的不良效果時，專注檢定以及強韌豁免獲得+4種族加值。該特性取代精靈魔法。
+CATEGORY=Special Ability|Elf ~ Dreamspeaker.MOD		OUTPUTNAME:夢語者（Dreamspeaker）		DESC:.CLEAR	DESC:少數精靈有能力利用睡眠，夢境以及臆想之力。擁有該種族特性的精靈所施放的預言系法術以及睡眠效果的豁免DC增加1點。此外，擁有15或更高魅力屬性的精靈能夠每天以類法術能力使用1次『托夢術』，施法者等級等同於精靈的角色等級。該特性取代精靈免疫。
+CATEGORY=Special Ability|Elf ~ Elemental Resistance.MOD		OUTPUTNAME:元素抗力（Elemental Resistance）		DESC:.CLEAR	DESC:從寒帶的荒原到火山平原，這些生活在最極端環境中的精靈們在經歷數代之後終於獲得了天生的抗力以對抗家園中的危險。擁有該種族特性的精靈獲得強酸、寒冷、閃電或火焰抗力5。該選擇必須在建立角色時決定，一旦選擇無法更改。該特性取代精靈免疫。
+CATEGORY=Special Ability|Elf ~ Envoy.MOD		OUTPUTNAME:外交官（Envoy）		DESC:.CLEAR	DESC:精靈經常會遇到一些其他種族的鄰居造成的麻煩，尤其是那些壽命不怎麼長的種族。因此，部分精靈接受了基礎魔法訓練——學習那些特別適於在與非精靈種族交流時使用的法術。擁有該種族特性的精靈如果具有11或更高的智力屬性，則每天能夠使用下列類法術能力各1次：『通曉語言』，『偵測魔法』，『偵測毒素』以及『閱讀魔法』。這些效果的施法者等級等同於精靈的角色等級。該特性取代精靈魔法。
+CATEGORY=Special Ability|Elf ~ Eternal Grudge.MOD		OUTPUTNAME:永恆仇恨（Eternal Grudge）		DESC:.CLEAR	DESC:一些精靈在與世隔絕的、孤立的社區中成長，在那裡世代都充斥徘徊者著永恆的血仇。由於經過專門的針對性訓練，擁有該種族特性的精靈在對抗屬於類人生物矮人子類和獸人子類的生物時，攻擊檢定獲得+1種族加值。該特性取代精靈魔法。
+CATEGORY=Special Ability|Elf ~ Fleet-Footed.MOD		OUTPUTNAME:飛毛腿（Fleet-Footed）		DESC:.CLEAR	DESC:雖然所有精靈天生都輕盈並且迅捷，但是其中的一部分更加神速，並且總是有著奮勇向前的冒險精神，而不會顧慮前路的危險。擁有該種族特性的精靈獲得「飛跑」作為獎勵專長，並且先攻檢定獲得+2種族加值。該特性取代敏銳感官以及武器熟悉。【專長速查】飛跑（Run）：以正常速度的5倍奔跑（重甲4倍），且不會在奔跑後措手不及。
+CATEGORY=Special Ability|Elf ~ Lightbringer.MOD		OUTPUTNAME:光明使者（Lightbringer）		DESC:.CLEAR	DESC:許多精靈崇敬太陽、月亮以及星星，但是有些精靈是確實獲得了來自天堂的力量。擁有該種族特性的精靈免疫基於光亮的目盲與目眩效果。並且當她們施放基於光亮的法術或效果（包括類法術能力以及超自然能力）時，視其等級比正常高1級。擁有10或更高的智力屬性的精靈還能夠以類法術能力隨意使用『光亮術』。該特性取代精靈免疫以及精靈魔法。
+CATEGORY=Special Ability|Elf ~ Silent Hunter.MOD		OUTPUTNAME:寂靜獵手（Silent Hunter）		DESC:.CLEAR	DESC:精靈以直覺敏銳與充滿才能著稱。擁有該種族特性的精靈能夠降低5點在使用隱匿檢定移動時受到的減值。此外還能夠在奔跑時以-20的減值（該數值已經計算從該種族特性中獲得的加值）進行隱匿檢定。該特性取代精靈魔法。
+CATEGORY=Special Ability|Elf ~ Spirit of the Waters.MOD		OUTPUTNAME:水之精魂（Spirit of the Waters）		DESC:.CLEAR	DESC:有的精靈已經適應了與大海和諧相處，亦或熟悉了在蘆葦深處的河流與湖泊周邊的生活。她們在游泳檢定上獲得+4種族加值，並且總能夠在游泳檢定上取10，此外她們還能夠選擇水族語作為獎勵語言。這些精靈擅長長矛、三叉矛以及捕網。該特性取代精靈魔法以及武器熟悉。
+CATEGORY=Special Ability|Elf ~ Urbanite.MOD		OUTPUTNAME:都市精靈（Urbanite）		DESC:.CLEAR	DESC:在城市中生活一個世紀以上的精靈們瞭解社會的動態，就如同她們生活在森林中的遠親瞭解荒野中的規矩一般。擁有該種族特性的精靈在使用交涉檢定收集信息、以及使用察言觀色檢定在社會情境獲得直覺時獲得+2種族加值。該特性取代敏銳感官。
+CATEGORY=Special Ability|Elf ~ Woodcraft.MOD		OUTPUTNAME:林生技巧（Woodcraft）		DESC:.CLEAR	DESC:沒有人能比精靈更深入瞭解荒野，尤其是關於森林的秘密。擁有該種族特性的精靈的知識（自然）檢定以及生存檢定獲得+1種族加值。在森林地形中，這些加值提升至+2。該特性取代精靈魔法。
+
+# Gnome Racial Trait Abilities
+CATEGORY=Special Ability|Gnome ~ Academician.MOD		OUTPUTNAME:院士（Academician）		DESC:.CLEAR	DESC:有些侏儒比他們的同族更偏向於研究學術問題。擁有該種族特性的侏儒單項知識技能+2。該特性取代工作狂。
+CATEGORY=Special Ability|Gnome ~ Bond to the Land.MOD		OUTPUTNAME:地形羈絆（Bond to the Land）		DESC:.CLEAR	DESC:作為妖精血脈的延續，一部分侏儒與某種特殊的地形有著強烈的聯繫。這些侏儒從遊俠的偏好地形中選擇一種，當他們處於該類地形時AC獲得+2閃避加值。這種選擇必須在建立角色時決定，一旦決定無法更改。該特性取代防禦訓練以及仇恨。
+CATEGORY=Special Ability|Gnome ~ Darkvision.MOD		OUTPUTNAME:黑暗視覺（Darkvision）		DESC:.CLEAR	DESC:有的侏儒在地底深處生活時間之久，以至於他們已經完全放棄依靠光亮，並且獲得了60尺黑暗視覺。該特性取代昏暗視覺以及敏銳感官。
+CATEGORY=Special Ability|Gnome ~ Eternal Hope.MOD		OUTPUTNAME:永恆希望（Eternal Hope）		DESC:.CLEAR	DESC:侏儒很難失去希望並且永保自信，他們相信即使處於絕境之中也能化險為夷。擁有該種族特性的侏儒在對抗〔恐懼〕以及〔絕望〕效果時，豁免檢定獲得+2種族加值。每天1次，如果在一次d20檢定中擲出1，侏儒能夠重骰並且使用第二個結果。該特性取代防禦訓練以及仇恨。
+CATEGORY=Special Ability|Gnome ~ Explorer.MOD		OUTPUTNAME:探險家（Explorer）		DESC:.CLEAR	DESC:許多侏儒都沉迷於探索這大千世界，而非精通某種技藝或專業。這些侏儒的攀爬檢定和一種自選的知識技能檢定獲得+2種族加值。該特性取代仇恨以及工作狂。
+CATEGORY=Special Ability|Gnome ~ Fell Magic.MOD		OUTPUTNAME:兇惡魔法（Fell Magic）		DESC:.CLEAR	DESC:侏儒所施放的所有死靈系法術豁免DC+1。擁有11或更高感知屬性的侏儒獲得下列類法術能力：每天1次－『出血術』，『寒冷之觸』，『偵測毒素』，『疲乏之觸』。這些效果的施法者等級等同於侏儒的角色等級。豁免DC等同於「10+法術環級+侏儒感知修正」。該特性取代侏儒魔法。
+CATEGORY=Special Ability|Gnome ~ Gift of Tongues.MOD		OUTPUTNAME:天賜巧舌（Gift of Tongues）		DESC:.CLEAR	DESC:侏儒熱愛並且學習所有他們遇到的語言。擁有該種族特性的侏儒唬騙以及交涉檢定+1。並且每當他們在語言學技能上投入1點技能時，就可以學會1種額外語言【譯註：大概是1點技能學2種語言的意思】。該特性取代防禦訓練以及仇恨。
+CATEGORY=Special Ability|Gnome ~ Knack with Poison.MOD		OUTPUTNAME:用毒訣竅（Knack with Poison）		DESC:.CLEAR	DESC:部分侏儒對毒藥的功能與運用有一種本能性的理解。他們對抗毒素時的強韌豁免檢定獲得+2種族加值，並且製作毒素的工藝（煉金）檢定+2。如果他們在準備或應用毒素時意外中毒，在對抗毒素時的強韌豁免加值提升至+4。該特性取代幻術抗性以及工作狂。
+CATEGORY=Special Ability|Gnome ~ Magical Linguist.MOD		OUTPUTNAME:魔法語言學家（Magical Linguist）		DESC:.CLEAR	DESC:侏儒研習任何普通或者超自然形式的語言。擁有該種族特性的侏儒所施放的任何帶有依賴語言描述，或者創造刻文（glyphs）、徽記（symbols）以及任何其他形式的魔法文字的法術時，該法術豁免DC+1。同時他們在對抗這些類型的法術時，豁免檢定獲得+2種族加值。擁有11或更高魅力屬性的侏儒獲得下列類法術能力：每天1次－『秘法印記』，『通曉語言』，『傳訊術』，『閱讀魔法』。這些效果的施法者等級等同於侏儒的角色等級。該特性取代侏儒魔法以及幻術抗性。
+CATEGORY=Special Ability|Gnome ~ Master Tinker.MOD		OUTPUTNAME:精通機械（Master Tinker）		DESC:.CLEAR	DESC:侏儒運用各種類型的機械設備進行實驗。擁有該種族特性的侏儒的解除裝置以及知識（工程）檢定+1，並且擅長任何自己親手製作的武器。該特性取代防禦訓練以及仇恨。
+CATEGORY=Special Ability|Gnome ~ Pyromaniac.MOD		OUTPUTNAME:縱火狂（Pyromaniac）		DESC:.CLEAR	DESC:擁有該種族特性的侏儒在施放帶有「火」描述符的法術、使用火領域的神授力量、使用元素血統（火）的血統力量、先知烈火秘示域的啟示以及在決定煉金炸彈造成的火焰傷害時，視其等級比實際高1級（該能力不會使侏儒更早地獲得基於等級的能力；它只影響該能力的施展效果）。有11或更高魅力屬性的侏儒獲得下列類法術能力：每天1次－『舞光術』，『閃光術』，『魔法伎倆』，『燃火術』。這些效果的施法者等級等同於侏儒的角色等級；豁免DC基於魅力。該特性取代侏儒魔法以及幻術抗性。
+CATEGORY=Special Ability|Gnome ~ Warden of Nature.MOD		OUTPUTNAME:自然守衛（Warden of Nature）		DESC:.CLEAR	DESC:侏儒必須時常保護他們的家園免受橫行的異怪與蟲群的侵害。由於他們的特殊訓練，擁有該種族特性的侏儒在對抗異怪、泥怪以及蟲類時，AC獲得+2閃避加值，攻擊檢定+1。該特性取代防禦訓練以及仇恨。
+
+# Half-Elf Racial Trait Abilities
+CATEGORY=Special Ability|Half-Elf ~ Ancestral Arms.MOD		OUTPUTNAME:祖傳武器（Ancestral Arms）		DESC:.CLEAR	DESC:部分半精靈接受過使用罕見武器的訓練。擁有該種族特性的半精靈在1級時針對某一種武器，獲得「擅長異種武器」或「擅長軍用武器」作為獎勵專長。該特性取代適應力。
+CATEGORY=Special Ability|Half-Elf ~ Arcane Training.MOD		OUTPUTNAME:奧術訓練（Arcane Training）		DESC:.CLEAR	DESC:為了精通奧術，半精靈偶爾會從自身的血脈之中尋求幫助。擁有該種族特性的半精靈只能選擇一個天賦職業，並且該職業必須為奧術施法者。他們能夠在使用法術觸發類以及法術完成類物品時視其天賦職業比實際高1級（如果他們在天賦職業上沒有等級，那麼視其為1級）。該特性取代多才多藝。
+CATEGORY=Special Ability|Half-Elf ~ Drow Blooded.MOD		OUTPUTNAME:卓爾血脈（Drow-Blooded）		DESC:.CLEAR	DESC:部分半精靈的父輩是卓爾精靈，他們更多表現出了卓爾的特徵——特別是卓爾精靈的物理特徵——擁有60尺黑暗視覺以及「強光失明」特性。該特性取代昏暗視覺。【特性速查】強光失明（Light Blindness, Ex）：擁有該能力的生物在突然暴露在強光，比如太陽光或者『晝明術』下，就會目盲1輪。只要繼續留在強光下，這些生物還會目眩。
+CATEGORY=Special Ability|Half-Elf ~ Drow Magic.MOD		OUTPUTNAME:卓爾魔法（Drow Magic）		DESC:.CLEAR	DESC:少數擁有卓爾祖先的半精靈呈現出了該種族的魔法特質。擁有該種族特性的半精靈的背景中有著卓爾精靈的血脈，並且每天能夠以類法術能力施放『舞光術』，『黑暗術』以及『妖火』各1次，施法者等級使用半精靈的角色等級。該特性取代適應力以及多才多藝。
+CATEGORY=Special Ability|Half-Elf ~ Dual Minded.MOD		OUTPUTNAME:雙重思維（Dual Minded）		DESC:.CLEAR	DESC:部分半精靈的混合血統能夠助其抵抗精神攻擊。擁有該種族特性的半精靈的所有意志豁免+2。該特性取代適應力。
+CATEGORY=Special Ability|Half-Elf ~ Integrated.MOD		OUTPUTNAME:親和力（Integrated）		DESC:.CLEAR	DESC:許多半精靈擅長討好別人的技巧，使自己像是本地人一樣融入一個群體。擁有該種族特性的半精靈的唬騙、交涉以及知識（地方）檢定+1。該特性取代適應力。
+CATEGORY=Special Ability|Half-Elf ~ Sociable.MOD		OUTPUTNAME:社交能手（Sociable）		DESC:.CLEAR	DESC:半精靈擅長迷住他人並彌補自己的失言。如果擁有該種族特性的半精靈在嘗試改變他人態度的交涉檢定中失敗5點或更多的話，他們能夠在經過24小時之前獲得第二次嘗試影響這些生物的機會。該特性取代適應力。
+CATEGORY=Special Ability|Half-Elf ~ Wary.MOD		OUTPUTNAME:警惕性（Wary）		DESC:.CLEAR	DESC:半精靈經常由於他人的敵意而被驅逐，因此許多半精靈在遷徙中花了大半輩子。這樣的經歷使得他們總是時刻警惕著他人。如果擁有該種族特性的半精靈的察言觀色以及唬騙檢定獲得+1種族加值。該特性取代敏銳感官。
+CATEGORY=Special Ability|Half-Elf ~ Water Child.MOD		OUTPUTNAME:水之子（Water Child）		DESC:.CLEAR	DESC:有些半精靈生於棲息在水邊的精靈族群。這些半精靈的游泳檢定獲得+4種族加值，並且總能夠在游泳檢定上取10，此外還能夠選擇水族語作為獎勵語言。該特性取代適應力以及多才多藝。
+
+# Halflings Racial Trait Abilities
+CATEGORY=Special Ability|Halfling ~ Adaptable Luck.MOD		OUTPUTNAME:萬用幸運（Adaptable Luck）		DESC:.CLEAR	DESC:一些半身人對於自己的幸運有著更大的理解。這種能力使他們在日復一日地為獲取財富、達成目標而奮鬥時有著更多選擇，也可以縮小選擇範圍。一天3次，一個半身人可以在屬性檢定、攻擊檢定、豁免檢定或技能檢定時獲得+2幸運加值。如果半身人在檢定投骰前決定使用該能力，他們獲得完整的+2幸運加值；如果他們選擇在投骰後使用能力，他們只獲得+1獎勵。使用這個能力不需要動作。這個種族特性取代半身人幸運。
+CATEGORY=Special Ability|Halfling ~ Craven.MOD		OUTPUTNAME:膽小鬼（Craven）		DESC:.CLEAR	DESC:雖然大多數半身人無畏而大膽，但有些半身人則是膽小如鼠的傢伙，這種特質使他們在同類中變得特別醒目。他們的先攻獲得+1加值，夾擊敵人時的攻擊檢定獲得額外+1加值（即正常下+3）。他們在對抗恐懼的豁免檢定受到-2的減值，且此時不會得到任何士氣加值。當他們處於恐懼狀態時，他們的基礎移動速度增加10尺並且AC得到+1閃避加值。這個種族特性取代半身人幸運和無畏。
+CATEGORY=Special Ability|Halfling ~ Fleet of Foot.MOD		OUTPUTNAME:大步（Fleet of Foot）		DESC:.CLEAR	DESC:一些半身人非常迅速但不如族人謹慎。具有這個種族特性的半身人的正常基本移動速度為30尺。這個種族特性取代銳足。
+CATEGORY=Special Ability|Halfling ~ Ingratiating.MOD		OUTPUTNAME:奉承主義（Ingratiating）		DESC:.CLEAR	DESC:半身人往往與強大的種族共同生活，因為他們想方設法讓自己顯得更有用，至少是在娛樂大眾上面。具有這個種族特性的半身人選擇的一項表演技能檢定+2，這個表演技能始終視為本職技能。同時他們的工藝和專業技能檢定+2。這個種族特性取代銳足和敏銳感知。
+CATEGORY=Special Ability|Halfling ~ Low Blow.MOD		OUTPUTNAME:下盤打擊（Low Blow）		DESC:.CLEAR	DESC:有些半身人被訓練成和大型生物作戰的專家。他們對體型比自己大的生物的重擊檢定骰+1。這個種族特性取代敏銳感知。
+CATEGORY=Special Ability|Halfling ~ Outrider.MOD		OUTPUTNAME:善騎者（Outrider）		DESC:.CLEAR	DESC:這些半身人特別擅長騎乘作戰。他們的馴養動物和騎術技能檢定+2。這個種族特性取代銳足。
+CATEGORY=Special Ability|Halfling ~ Polyglot.MOD		OUTPUTNAME:語言天賦（Polyglot）		DESC:.CLEAR	DESC:那些長時間旅行的半身人，他們在語言學習擁有天賦。他們的語言學技能檢定獲得+2種族加值，並且語言學技能始終視為本職技能。這一類半身人在創建角色時，能夠在通用語和半身人語之外，選擇任意一種語言作為基礎已知語言（除了秘密語言，比如德魯伊語）。這些半身人依然得到正常的半身人語言列表。這個種族特性取代敏銳感知並且改變半身人起始語言種族特性。
+CATEGORY=Special Ability|Halfling ~ Practicality.MOD		OUTPUTNAME:實用（Practicality）		DESC:.CLEAR	DESC:半身人靠著勤奮工作和豐富的知識在社會上立足。他們的單項工藝或專業技能+2，同時察言觀色技能和對抗幻覺的豁免檢定同樣+2。這個種族特性取代無畏和銳足。
+CATEGORY=Special Ability|Halfling ~ Shiftless.MOD		OUTPUTNAME:不勞而獲（Shiftless）		DESC:.CLEAR	DESC:有人說半身人就是盜竊和欺詐的代名詞，有時的確是當之無愧的。他們的唬騙和巧手技能檢定+2，並且巧手始終視為本職技能。這個種族特性取代銳足。
+CATEGORY=Special Ability|Halfling ~ Swift as Shadows.MOD		OUTPUTNAME:輕如陰影（Swift as Shadows）		DESC:.CLEAR	DESC:即便在移動中，半身人仍然可以爆出令人驚訝的隱秘性。他們在移動中的隱匿技能檢定減值降低5，在狙擊（即隱匿狀態遠程攻擊）後的隱匿技能檢定減值降低10。這個種族特性取代銳足。
+CATEGORY=Special Ability|Halfling ~ Underfoot.MOD		OUTPUTNAME:低位防守（Underfoot）		DESC:.CLEAR	DESC:半身人為了有效的與比他大的生物戰鬥而努力的鍛煉著。在面對比他大的生物時，他的AC得到+1閃避加值，同時對抗「踐踏」的反射豁免檢定+1。這個種族特性取代半身人幸運。
+CATEGORY=Special Ability|Halfling ~ Wanderlust.MOD		OUTPUTNAME:旅者（Wanderlust）		DESC:.CLEAR	DESC:半身人喜歡地圖和旅行。他們的生存和知識（地理）技能檢定+2。在使用能提供或增加移動能力的法術或能力時，他們的施法者等級被視為比實際高1級。這個種族特性取代無畏和半身人幸運。
+CATEGORY=Special Ability|Halfling ~ Warslinger.MOD		OUTPUTNAME:戰爭投石者（Warslinger）		DESC:.CLEAR	DESC:半身人是使用投石索的專家。他們能以自由動作填裝投石索，這個動作仍然需要用上兩隻手，而且會引發藉機攻擊。這個種族特性取代銳足。
+
+# Half-Orc Racial Trait Abilities
+CATEGORY=Special Ability|Half-Orc ~ Acute Darkvision.MOD		OUTPUTNAME:敏銳黑暗視覺（Acute Darkvision）		DESC:.CLEAR	DESC:部分半獸人擁有異常敏銳的黑暗視覺，這使他們的黑暗視覺提升至90尺。該特性取代獸人兇猛。
+CATEGORY=Special Ability|Half-Orc ~ Beastmaster.MOD		OUTPUTNAME:獸王（Beastmaster）		DESC:.CLEAR	DESC:有的半獸人與野獸有著特殊的親切感，他們與野獸一同生活、嬉戲與狩獵。擁有該種族特性的半獸人將鞭子（whips）與捕網（nets）視為軍用武器，並且馴養動物檢定獲得+2種族加值。該特性取代獸人兇猛。
+CATEGORY=Special Ability|Half-Orc ~ Bestial.MOD		OUTPUTNAME:獸性（Bestial）		DESC:.CLEAR	DESC:獸人血脈造成的獸人特徵在部分半獸人身上表現得尤為突出，這使得他們的外表變得更加獸化的同時，感官也更加敏銳。他們的察覺檢定獲得+2種族加值。該特性取代獸人兇猛。
+CATEGORY=Special Ability|Half-Orc ~ Cavewight.MOD		OUTPUTNAME:穴居人（Cavewight）		DESC:.CLEAR	DESC:部分半獸人生活在地表之下的深處，在曲折的洞窟中尋求著自由。擁有該種族特性的半獸人的知識（地城）以及在地下進行的生存檢定獲得+1種族加值。該特性取代威懾力。
+CATEGORY=Special Ability|Half-Orc ~ Chain Fighter.MOD		OUTPUTNAME:鐐銬戰士（Chain Fighter）		DESC:.CLEAR	DESC:有些半獸人從奴役中逃脫，並將束縛他們的鎖鏈重鑄成致命的武器。擁有該種族特性的半獸人擅長輕型鏈枷以及重型鏈枷，並且視雙頭鏈枷以及刺鏈為軍用武器。該特性取代武器熟悉。
+CATEGORY=Special Ability|Half-Orc ~ City-Raised.MOD		OUTPUTNAME:市民（City-Raised）		DESC:.CLEAR	DESC:擁有該種族特性的半獸人對他們的獸人血統所知甚少，並且在大城市中被人類以及其他半獸人撫養大。生長於城市的半獸人擅長長鞭與長劍，並且知識（地方）檢定獲得+2種族加值。該特性取代武器熟悉。
+CATEGORY=Special Ability|Half-Orc ~ Forest Walker.MOD		OUTPUTNAME:林間行者（Forest Walker）		DESC:.CLEAR	DESC:有的獸人十分適應他們周邊的環境，他們在這世間的叢林與森林之間中就彷彿像在家一樣。擁有該種族特性的半獸人擁有昏暗視覺，並且攀爬檢定獲得+2種族加值。該特性取代黑暗視覺。
+CATEGORY=Special Ability|Half-Orc ~ Gatecrasher.MOD		OUTPUTNAME:破門者（Gatecrasher）		DESC:.CLEAR	DESC:許多半獸人沉醉於肆意破壞的行為之中。擁有該種族特性的半獸人在破壞物品時的力量檢定、以及破武戰技檢定獲得+2種族加值。該特性取代獸人兇猛。
+CATEGORY=Special Ability|Half-Orc ~ Rock Climber.MOD		OUTPUTNAME:攀巖者（Rock Climber）		DESC:.CLEAR	DESC:來自山區的半獸人都是出色的攀巖者，他們有時從高處突然躍下伏擊獵物。擁有該種族特性的半獸人的特技以及攀爬檢定獲得+1種族加值。該特性取代威懾力。
+CATEGORY=Special Ability|Half-Orc ~ Sacred Tattoo.MOD		OUTPUTNAME:神聖紋身（Sacred Tattoo）		DESC:.CLEAR	DESC:許多半獸人使用紋身，穿孔以及疤痕儀式裝飾自己，他們會在身上留下神聖的符號。擁有該種族特性的半獸人的所有豁免檢定獲得+1幸運加值。該特性取代獸人兇猛。
+CATEGORY=Special Ability|Half-Orc ~ Scavenger.MOD		OUTPUTNAME:拾荒者（Scavenger）		DESC:.CLEAR	DESC:有的半獸人勉強靠著翻撿社會殘留的大量垃圾過活，他們必須學會從廢料中找出罕見的物品。擁有該種族特性的半獸人的估價檢定、以及使用察覺檢定發現隱藏物件（包括陷阱以及秘門）、判斷食物是否變質或者判斷藥水功能時獲得+2種族加值。該特性取代威懾力。
+CATEGORY=Special Ability|Half-Orc ~ Skilled.MOD		OUTPUTNAME:技能受訓（Skilled）		DESC:.CLEAR	DESC:第二或第三代半獸人一般更加青睞他們的人類傳統而非獸人傳統。擁有該種族特性的半獸人每等級獲得1點額外技能點。該特性取代黑暗視覺。
+CATEGORY=Special Ability|Half-Orc ~ Toothy.MOD		OUTPUTNAME:獠牙（Toothy）		DESC:.CLEAR	DESC:部分半獸人的獠牙又大又尖，這使他們獲得嚙咬攻擊。這是主要天生武器，並且能夠造成1d4點穿刺傷害。該特性取代獸人兇猛。
+CATEGORY=Special Ability|Half-Orc ~ Forest Walker.MOD		OUTPUTNAME:林間行者（Forest Walker）		DESC:.CLEAR	DESC:有的獸人十分適應他們周邊的環境，他們在這世間的叢林與森林之間中就彷彿像在家一樣。擁有該種族特性的半獸人擁有昏暗視覺並且他們的攀爬檢定獲得+2種族加值。該特性取代黑暗視覺。
+CATEGORY=Special Ability|Half-Orc ~ Skilled.MOD		OUTPUTNAME:技能受訓（Skilled）		DESC:.CLEAR	DESC:第二或第三代半獸人一般更加青睞他們的人類傳統而非獸人傳統。擁有該種族特性的半獸人每等級獲得1點額外技能點。該特性取代黑暗視覺。
+CATEGORY=Special Ability|Half-Orc ~ Cavewight.MOD		OUTPUTNAME:穴居人（Cavewight）		DESC:.CLEAR	DESC:部分半獸人生活在地表之下的深處，在曲折的洞窟中尋求著自由。擁有該種族特性的半獸人的知識（地城）以及在地下進行的生存檢定獲得+1種族加值。該特性取代威懾力。
+CATEGORY=Special Ability|Half-Orc ~ Shaman's Apprentice.MOD		OUTPUTNAME:薩滿學徒（Shaman's Apprentice）		DESC:.CLEAR	DESC:只有最強壯的半獸人才能在多年的嚴苛對待下倖存，並滿足成為獸人薩滿的要求。擁有該種族特性的半獸人獲得堅忍（Endurance）作為獎勵專長。該特性取代威懾力。
+CATEGORY=Special Ability|Half-Orc ~ Plagueborn.MOD		OUTPUTNAME:瘟疫之子（Plagueborn）		DESC:.CLEAR	DESC:被迫生活在社會上最腐臭和不衛生的邊緣地帶讓半獸人對疾病習以為常。他們在對抗疾病、食入性毒素和噁心或反胃的豁免檢定上獲得+2種族加值。此特性替換威懾力和獸人兇猛。
+CATEGORY=Special Ability|Half-Orc ~ Acute Darkvision.MOD		OUTPUTNAME:敏銳黑暗視覺（Acute Darkvision）		DESC:.CLEAR	DESC:部分半獸人擁有異常敏銳的黑暗視覺，這使他們的黑暗視覺提升至90尺。該特性取代獸人兇猛。
+CATEGORY=Special Ability|Half-Orc ~ Beastmaster.MOD		OUTPUTNAME:獸王（Beastmaster）		DESC:.CLEAR	DESC:有的半獸人與野獸有著特殊的親切感，他們與野獸一同生活、嬉戲與狩獵。擁有該種族特性的半獸人將鞭子（whips）與捕網（nets）視為軍用武器，並且馴養動物檢定獲得+2種族加值。該特性取代獸人兇猛。
+CATEGORY=Special Ability|Half-Orc ~ Bestial.MOD		OUTPUTNAME:獸性（Bestial）		DESC:.CLEAR	DESC:獸人的血脈造成的獸人特徵在部分半獸人身上表現得尤為突出，這使得他們的外表變得更加獸化的同時感官也更加敏銳。他們的察覺檢定獲得+2種族加值。該特性取代獸人兇猛。
+CATEGORY=Special Ability|Half-Orc ~ Gatecrasher.MOD		OUTPUTNAME:破門者（Gatecrasher）		DESC:.CLEAR	DESC:許多半獸人沉醉於肆意破壞的行為之中。擁有該種族特性的半獸人在破壞物品時的力量檢定以及擊破武器戰技檢定獲得+2種族加值。該特性取代獸人兇猛。
+CATEGORY=Special Ability|Half-Orc ~ Sacred Tattoo.MOD		OUTPUTNAME:神聖紋身（Sacred Tattoo）		DESC:.CLEAR	DESC:許多半獸人使用紋身，穿孔以及疤痕儀式（ritual scarification）裝飾自己，他們會在身上留下神聖的符號。擁有該種族特性的半獸人的所有豁免檢定獲得+1幸運加值。該特性取代獸人兇猛。
+CATEGORY=Special Ability|Half-Orc ~ Toothy.MOD		OUTPUTNAME:獠牙（Toothy）		DESC:.CLEAR	DESC:部分半獸人的獠牙又大又尖，這使他們獲得嚙咬攻擊。這是主要天生武器，並且能夠造成1d4點穿刺傷害。該特性取代獸人兇猛。
+CATEGORY=Special Ability|Half-Orc ~ Chain Fighter.MOD		OUTPUTNAME:鐐銬戰士（Chain Fighter）		DESC:.CLEAR	DESC:有些半獸人從奴役中逃脫，並將束縛他們的鎖鏈重鑄成致命的武器。擁有該種族特性的半獸人擅長輕型鏈枷（flails）以及重型鏈枷（heavy flails），並且視雙頭鏈枷（dire flails）以及刺鏈（spiked chains）為軍用武器。該特性取代武器熟悉。
+CATEGORY=Special Ability|Half-Orc ~ City-Raised.MOD		OUTPUTNAME:市民（City-Raised）		DESC:.CLEAR	DESC:擁有該種族特性的半獸人對他們的獸人血統所知甚少，並且在大城市中被人類以及其他半獸人撫養大。生長於城市的半獸人擅長鞭子（whips）與長劍（longswords），並且知識（地方）檢定獲得+2種族加值。該特性取代武器熟悉。
+
+
+# Aasimar Racial Trait Abilities
+CATEGORY=Special Ability|Aasimar ~ Darkvision.MOD		OUTPUTNAME:黑暗視覺（Darkvision）		DESC:.CLEAR	DESC:神裔擁有60尺黑暗視覺。
+CATEGORY=Special Ability|Aasimar ~ Skilled.MOD		OUTPUTNAME:技能獎勵（Skilled）		DESC:.CLEAR	DESC:神裔在交涉和察覺檢定上擁有+2種族加值。
+CATEGORY=Special Ability|Aasimar ~ Spell-Like Ability.MOD		OUTPUTNAME:類法術能力（Spell-Like Ability）		DESC:.CLEAR	DESC:每天1次，神裔能以類法術能力來施展『晝明術』（施法者等級等於角色等級）。
+CATEGORY=Special Ability|Aasimar ~ Celestial Resistance.MOD		OUTPUTNAME:天界抗力（Celestial Resistance）		DESC:.CLEAR	DESC:神裔對強酸、寒冷和電擊具有5點抗力。
+CATEGORY=Special Ability|Aasimar ~ Celestial Crusader.MOD		OUTPUTNAME:天界先鋒（Celestial Crusader）		DESC:.CLEAR	DESC:一些神裔選擇遵從他們與生俱來對抗邪惡的命運。他們在面對邪惡異界生物時獲得攻擊檢定+1和AC洞察加值+1；在面對邪惡異界生物或擁有邪惡異界類型的魔法物品或效果時，知識（位面）和法術辨識檢定有+2種族加值，他們即使未受訓仍可使用這些技能。該種族特性替換天界抗力和技能獎勵。
+CATEGORY=Special Ability|Aasimar ~ Deathless Spirit.MOD		OUTPUTNAME:不滅之靈（Deathless Spirit）		DESC:.CLEAR	DESC:一些意志特別堅強的神裔可以抵禦死亡的力量。他們獲得5點負能量抗力。當他們獲得負向等級時將不會同時損失生命值，在針對即死效果、能量吸取、負能量和死靈系的法術或類法術效果時，豁免檢定獲得+2種族加值。該種族特性取代天界抗力。
+CATEGORY=Special Ability|Aasimar ~ Exalted Resistance.MOD		OUTPUTNAME:崇善抗力（Exalted Resistance）		DESC:.CLEAR	DESC:在面對擁有〔邪惡〕描述符的法術或類法術，或是由邪惡異界生物施放的法術或類法術時，這項種族特性將賦予神裔相當於「5+角色等級」的法術抗力。該種族特性替換天界抗力。
+CATEGORY=Special Ability|Aasimar ~ Halo.MOD		OUTPUTNAME:光暈（Halo）		DESC:.CLEAR	DESC:有些神裔擁有展現光環的能力。作為一個類法術能力，這項種族特性可以讓她在自己的頭頂創造一道光環。在她激活光環時，她在對邪惡生物進行威嚇檢定和針對目盲或目眩的檢定中獲得+2環境加值。該種族特性替換黑暗視覺。
+CATEGORY=Special Ability|Aasimar ~ Heavenborn.MOD		OUTPUTNAME:生於天界（Heavenborn）		DESC:.CLEAR	DESC:有些神裔在天界出生。該種族特性讓神裔在知識（位面）上獲得+2種族加值，並且他們在施放帶有〔善良〕或〔光亮〕描述符的法術時視為施法者等級比實際高1級。該種族特性取代技能獎勵和類法術能力。
+CATEGORY=Special Ability|Aasimar ~ Immortal Spark.MOD		OUTPUTNAME:不滅之火（Immortal Spark）		DESC:.CLEAR	DESC:這項種族特性讓神裔能對抗死亡的力量。他們的知識（歷史檢定）和針對即死效果的豁免檢定獲得+2種族加值，並且可以每天1次以類法術能力施放『次級歲月抵抗』。該種族特性替換技能獎勵和類法術能力。【法術速查】次級歲月抵抗（Lesser Age Resistance, UM）：忽略中年的老化懲罰。
+CATEGORY=Special Ability|Aasimar ~ Incorruptible.MOD		OUTPUTNAME:抵抗腐蝕（Incorruptible）		DESC:.CLEAR	DESC:有些神裔能讓自己進一步防範和遠離邪惡。該種族特性讓他們可以每天1次以類法術能力施放『褻瀆抵抗』，該次法術只能用於抵抗邪惡。如果神裔將該法術用於她自己，持續時間將增加到1小時/等級。該種族特性替換類法術能力。【法術速查】褻瀆抵抗（Corruption Resistance, APG）：保護生物降低基於陣營攻擊造成的傷害。
+CATEGORY=Special Ability|Aasimar ~ Scion of Humanity.MOD		OUTPUTNAME:人之子（Scion of Humanity）		DESC:.CLEAR	DESC:一些神裔的天界血統已非常淡薄。該種族特性讓神裔在判斷種族時同時被判定為一個本地異界生物和類人生物（人類），在計算專長和法術先決條件時被算作類人生物。她不必使用易容技能即可偽裝成人類。該種族特性從起始語言裡刪除天界語並改變生物類別。
+CATEGORY=Special Ability|Aasimar ~ Truespeaker.MOD		OUTPUTNAME:真實語者（Truespeaker）		DESC:.CLEAR	DESC:有些神裔的語言能力沒有極限。他們的語言學和察言觀色檢定獲得+2種族加值，並且在每次升級語言學技能時可以學習兩種新語言。該種族特性取代技能獎勵。
+
+# Catfolk Racial Trait Abilities
+CATEGORY=Special Ability|Catfolk ~ Low-Light Vision.MOD		OUTPUTNAME:昏暗視覺（Low-Light Vision）		DESC:.CLEAR	DESC:貓族在昏暗中可以看人類的兩倍遠。
+CATEGORY=Special Ability|Catfolk ~ Cat's Luck.MOD		OUTPUTNAME:貓之幸運（Cat's Luck）		DESC:.CLEAR	DESC:每日1次，當貓族骰反射豁免時，他可以骰兩次豁免並且取高。他必須在投骰之前決定是否使用此能力。
+CATEGORY=Special Ability|Catfolk ~ Natural Hunter.MOD		OUTPUTNAME:狩獵本能（Natural Hunter）		DESC:.CLEAR	DESC:貓族在察覺、隱匿、生存上獲得+2種族加值。
+CATEGORY=Special Ability|Catfolk ~ Sprinter.MOD		OUTPUTNAME:短跑健將（Sprinter）		DESC:.CLEAR	DESC:貓族在進行衝鋒、奔跑、撤退動作時獲得10尺種族加值。
+CATEGORY=Special Ability|Catfolk ~ Cat's Claws.MOD		OUTPUTNAME:貓爪（Cat's Claws）		DESC:.CLEAR	DESC:一些貓族的爪子比他們其他族類更加強壯發達，他們可以將其當做武器來進行攻擊。這一對爪子是主要武器，並且能造成1d4點傷害。這一種族特性取代狩獵本能。【編註：主要天生武器採用完整基本攻擊加值進行攻擊，傷害加值為力量修正；能夠和武器攻擊同時展開全力攻擊，但那時將視為次要天生武器，採用基本攻擊加值-5進行攻擊，傷害加值為力量修正一半。】
+CATEGORY=Special Ability|Catfolk ~ Clever Cat.MOD		OUTPUTNAME:貓之狡黠（Clever Cat）		DESC:.CLEAR	DESC:貓族通常天性友善，但是也不能排除那些狡猾的傢伙。他們中的一些將社會的險惡當做了遊戲——參與並且贏下它。這些貓族在唬騙、交涉和察言觀色上獲得+2種族加值。這一種族特性取代狩獵本能。
+CATEGORY=Special Ability|Catfolk ~ Climber.MOD		OUTPUTNAME:攀爬者（Climber）		DESC:.CLEAR	DESC:貓族獵人擅長從樹木或者其他制高點發起狩獵。這些貓族擁有20尺攀爬速度（包括在攀爬檢定上有+8種族加值）。這一種族特性取代短跑健將。
+CATEGORY=Special Ability|Catfolk ~ Curiosity.MOD		OUTPUTNAME:好奇心（Curiosity）		DESC:.CLEAR	DESC:貓族天生就對他們身邊的世界充滿了好奇，不過有些比起他們的同類更加變本加厲。這些貓族在獲得信息的交涉檢定上獲得+4種族加值，並且知識（歷史）和知識（地方）對他們而言總是本職技能。如果他們的職業包括了其中的一個知識技能作為本職技能，則他們在此技能檢定上獲得+2種族加值。這一種族特性取代狩獵本能。
+CATEGORY=Special Ability|Catfolk ~ Nimble Faller.MOD		OUTPUTNAME:貓落（Nimble Faller）		DESC:.CLEAR	DESC:一些貓族擁有驚人的平衡能力，並且對於自身的重心相當敏銳。擁有這一特性的貓族在落地時總是以雙腳著地，即使他們會在這次墜落中受到墜落傷害。此外，擁有這一特性的貓族在對抗摔絆的CMD+1。這一族特性取代短跑健將。
+CATEGORY=Special Ability|Catfolk ~ Scent.MOD		OUTPUTNAME:靈敏嗅覺（Scent）		DESC:.CLEAR	DESC:有些貓族的嗅覺靈敏，不過他們的視力就一般了。擁有這一特性的貓族獲得「靈敏嗅覺」能力。這一種族特性取代昏暗視覺。【能力速查】靈敏嗅覺（Scent, Ex）：這種特殊能力可以讓生物察覺接近的敵人、嗅出隱藏的對手、或者憑借嗅覺展開追蹤。具有靈敏嗅覺能力的生物能夠辨識熟悉的氣味，就像人類能認出熟悉的畫面。憑借嗅覺，生物可以發現30尺以內的敵人。如果對手在上風處，則距離增為60尺；若在下風處，則減為15尺。如果是強烈的氣味，比如濃煙或者腐爛的垃圾味道，可在上述距離兩倍之內聞到。某些無法抵擋的氣味，比如臭鼬或穴居人的惡臭，則可在通常距離的三倍之內聞到。具有靈敏嗅覺的生物無法確定氣味來源的具體位置，只知道它存在於嗅覺範圍內的某處。生物可以用一個移動動作來覺察到氣味來源的方向。只要生物進入氣味源的5尺之內，它就能精確確定源頭的位置。一個具有追蹤專長的靈敏嗅覺生物可以通過氣味來追蹤，這時它用感知（或生存）檢定來找到或追蹤氣味。新鮮痕跡的通常DC是10（無論氣味停留在什麼表面）。該DC會因氣味來源的強弱、生物的數量和痕跡新舊的差別在此基礎上增加或減少。痕跡每經過1小時DC會增加2。除此之外，此能力的判定上都按照追蹤專長的規則。地面狀況和低能見度不會影響通過嗅覺來展開追蹤的生物。
+
+# Dhampir Racial Trait Abilities
+CATEGORY=Special Ability|Dhampir ~ Manipulative.MOD		OUTPUTNAME:操控者（Manipulative）		DESC:.CLEAR	DESC:唬騙與察覺獲得+2種族加值。
+CATEGORY=Special Ability|Dhampir ~ Undead Resistance.MOD		OUTPUTNAME:亡靈抗性（Undead Resistance）		DESC:.CLEAR	DESC:吸血裔在對抗疾病與影響心靈效果的豁免檢定上獲得+2種族加值。
+CATEGORY=Special Ability|Dhampir ~ Light Sensitivity.MOD		OUTPUTNAME:強光敏感（Light Sensitivity）		DESC:.CLEAR	DESC:吸血裔在明亮的日光下以及『晝明術』影響範圍內會目眩。
+CATEGORY=Special Ability|Dhampir ~ Negative Energy Affinity.MOD		OUTPUTNAME:負能量親和（Negative Energy Affinity）		DESC:.CLEAR	DESC:雖然身為活物，但吸血裔對正能量與負能量的反應如同不死亡靈——受正能量傷害，被負能量治癒。
+CATEGORY=Special Ability|Dhampir ~ Spell-Like Ability.MOD		OUTPUTNAME:類法術能力（Spell-Like Ability）		DESC:.CLEAR	DESC:吸血裔每日能以類法術能力使用3次『偵測亡靈』。施法者等級等於吸血裔職業等級。
+CATEGORY=Special Ability|Dhampir ~ Resist Level Drain.MOD		OUTPUTNAME:抵抗等級流失（Resist Level Drain）		DESC:.CLEAR	DESC:吸血裔雖然依舊會由於超過其HD的負向等級而死亡，但是他不會受到能量吸取的懲罰。經過24小時後，吸血裔無須做額外的豁免即可移除其所有的負向等級。
+CATEGORY=Special Ability|Dhampir ~ Dayborn.MOD		OUTPUTNAME:生於白晝（Dayborn）		DESC:.CLEAR	DESC:少數幸運的吸血裔是受到牧師的祝福在日間降生的，與其他同族相比，他們的血液與亡靈血脈的聯繫相對薄弱一些。這些吸血裔不會受到日光的影響，他們失去【強光敏感】種族特性。該特性取代類法術能力。
+CATEGORY=Special Ability|Dhampir ~ Fangs.MOD		OUTPUTNAME:尖牙（Fangs）		DESC:.CLEAR	DESC:有時，吸血裔會繼承他們父親的尖利犬齒。每當吸血裔以擒抱戰技檢定對敵人造成傷害時，他可以選擇嚙咬造成1d3傷害，就如同使用天生武器的嚙咬攻擊一樣。以一個標準動作，吸血裔也可以嚙咬一個被束縛、無助、麻痺或其他類似的無法自衛的敵人。該特性取代類法術能力。
+CATEGORY=Special Ability|Dhampir ~ Vampiric Empathy.MOD		OUTPUTNAME:吸血鬼共鳴（Vampiric Empathy）		DESC:.CLEAR	DESC:儘管吸血裔往往難以被人類所認同，但是一部分吸血裔對低等生物擁有更好的親和力。這些吸血裔獲得如同『動物交談』法術一般（施法者等級等同於1/2吸血裔HD）與蝙蝠，老鼠以及狼溝通的能力。此外，他們在與這些動物進行交涉檢定時獲得+2種族加值。每當吸血裔與這些動物交涉時，它們的起始態度為冷淡。這是一個超自然能力。該特性取代操控者。
+
+# Drow Racial Trait Abilities
+CATEGORY=Special Ability|Drow ~ Darkvision.MOD		OUTPUTNAME:黑暗視覺（Darkvision）		DESC:.CLEAR	DESC:卓爾擁有120尺黑暗視覺。
+CATEGORY=Special Ability|Drow ~ Drow Immunities.MOD		OUTPUTNAME:卓爾免疫（Drow Immunities）		DESC:.CLEAR	DESC:卓爾免疫魔法睡眠效果，並且在對抗惑控系法術以及效果時，豁免檢定獲得+2種族加值。
+CATEGORY=Special Ability|Drow ~ Keen Senses.MOD		OUTPUTNAME:敏銳感官（Keen Senses）		DESC:.CLEAR	DESC:卓爾在察覺檢定上獲得+2種族加值。
+CATEGORY=Special Ability|Drow ~ Poison Use.MOD		OUTPUTNAME:用毒（Poison Use）		DESC:.CLEAR	DESC:卓爾擅長用毒，她們不會在用毒時意外中毒。
+CATEGORY=Special Ability|Drow ~ Spell Resistance.MOD		OUTPUTNAME:法術抗力（Spell Resistance）		DESC:.CLEAR	DESC:卓爾擁有等同於「6+角色等級」的法術抗力。
+CATEGORY=Special Ability|Drow ~ Spell-Like Abilities.MOD		OUTPUTNAME:類法術能力（Spell-Like Abilities）		DESC:.CLEAR	DESC:卓爾每天可以使用『舞光術』，『黑暗術』以及『妖火』各1次，施法者等級等同於她的角色等級。
+CATEGORY=Special Ability|Drow ~ Light Blindness.MOD		OUTPUTNAME:強光致盲（Light Blindness）		DESC:.CLEAR	DESC:突然暴露在強光下會使卓爾目盲1輪；在這之後，只要她們持續在光線影響的範圍內就會目眩。
+CATEGORY=Special Ability|Drow ~ Weapon Familiarity.MOD		OUTPUTNAME:武器熟悉（Weapon Familiarity）		DESC:.CLEAR	DESC:卓爾擅長手弩、細劍以及短劍。
+CATEGORY=Special Ability|Drow ~ Ambitious Schemer.MOD		OUTPUTNAME:野心家（Ambitious Schemer）		DESC:.CLEAR	DESC:即使是在好戰成性的社群，誘惑與背叛也是卓爾社會晉陞的工具。擁有該種族特性的卓爾將唬騙或交涉作為本職技能，並且技能檢定+2。該特性取代敏銳感官。
+CATEGORY=Special Ability|Drow ~ Ancestral Grudge.MOD		OUTPUTNAME:世仇（Ancestral Grudge）		DESC:.CLEAR	DESC:卓爾與矮人間的仇恨由來已久並且根深蒂固。由於經過針對性的訓練，擁有該種族特性的卓爾在針對類人生物矮人子類或精靈子類（卓爾除外）的攻擊檢定+1。該特性取代用毒。
+CATEGORY=Special Ability|Drow ~ Blasphemous Covenant.MOD		OUTPUTNAME:瀆神契約（Blasphemous Covenant）		DESC:.CLEAR	DESC:自從卓爾的扭曲伊始，她們便已經與惡魔有所接觸。有的卓爾與這些生物有著強大的聯繫，她們能夠通過締結古老並且淫穢的契約以驅使惡魔與其協作。擁有該種族特性的卓爾在與惡魔子類的生物進行協商時交涉檢定+2。此外，任何召喚法術召喚的惡魔每HD會額外獲得2點HP。在計算這些卓爾使用『異界盟友』法術召喚出的惡魔所需要的賄賂或報酬時減少百分之20。該特性取代敏銳感官和用毒。
+CATEGORY=Special Ability|Drow ~ Darklands Stalker.MOD		OUTPUTNAME:暗域追蹤者（Darklands Stalker）		DESC:.CLEAR	DESC:從粗鑿的隧道到岩石洞窟，卓爾城市以外的地域充滿了難以應對的危險。擁有該種族特性的卓爾可以在地下的困難地形移動而不受任何懲罰。此外，敏捷屬性13以上的卓爾獲得「靈狐步」作為獎勵專長。該特性取代類法術能力。【專長速查】靈狐步（Nimble Moves）：移動時忽略5尺困難地形。
+CATEGORY=Special Ability|Drow ~ Seducer.MOD		OUTPUTNAME:誘惑者（Seducer）		DESC:.CLEAR	DESC:某些卓爾天生就能夠看透每個人內心潛藏的最黑暗的慾望。擁有該種族特性的卓爾所釋放的惑控系法術以及類法術能力的豁免DC+1。此外，感知屬性15以上的卓爾每天能以類法術能力使用『魅惑人類』1次（施法者等級等同於卓爾的角色等級）。該特性取代卓爾免疫。
+CATEGORY=Special Ability|Drow ~ Surface Infiltrator.MOD		OUTPUTNAME:地表滲透者（Surface Infiltrator）		DESC:.CLEAR	DESC:有的卓爾居住在陸地表面附近，她們可能出於某些人的命令這麼做，也可能是被放逐者。擁有該種族特性的卓爾獲得昏暗視覺，她們在微弱的光照環境下的視覺距離是人類的兩倍。該特性取代黑暗視覺以及強光致盲。
+
+# Fetchling Racial Trait Abilities
+CATEGORY=Special Ability|Fetchling ~ Skilled.MOD		OUTPUTNAME:技能獎勵（Skilled）		DESC:.CLEAR	DESC:竊影鬼在知識（位面）以及隱匿檢定上獲得+2種族加值。
+CATEGORY=Special Ability|Fetchling ~ Shadow Blending.MOD		OUTPUTNAME:融影（Shadow Blending）		DESC:.CLEAR	DESC:在昏暗的環境下攻擊竊影鬼有百分之50失手率而非正常的百分之20失手率。該能力不會賦予竊影鬼全隱蔽；它只是增加了失手率。
+CATEGORY=Special Ability|Fetchling ~ Shadowy Resistance.MOD		OUTPUTNAME:暗影抗力（Shadowy Resistance）		DESC:.CLEAR	DESC:竊影鬼擁有5點寒冷抗力和5點閃電抗力。
+CATEGORY=Special Ability|Fetchling ~ Spell-Like Abilities.MOD		OUTPUTNAME:類法術能力（Spell-Like Abilities）		DESC:.CLEAR	DESC:竊影鬼每天能以類法術能力使用1次『易容術』。他可以使用這個類法術能力變為任何類人生物的樣貌。當竊影鬼的職業等級總和達到9級時，他獲得了每天以類法術能力使用1次『行影術（限自身）』的能力；在達到13級時，他每天可以使用1次『異界傳送（限自身，且只能傳送至主物質位面以及陰影位面）』。竊影鬼的施法者等級等同於其總生命骰。【法術速查】易容術（Disguise Self）：改變你的外貌。【法術速查】行影術（Shadow Walk）：潛入陰影並迅速旅行。【法術速查】異界傳送（Plane Shift）：使最多8個受術者旅行到另一個位面。
+CATEGORY=Special Ability|Fetchling ~ Emissary.MOD		OUTPUTNAME:使者（Emissary）		DESC:.CLEAR	DESC:在極為罕見的情況下，竊影鬼能夠勝任並充當陰影位面以及主物質位面之間的使者。每天1次，竊影鬼可以在唬騙或交涉檢定中骰兩次並取高。該特性取代融影。
+CATEGORY=Special Ability|Fetchling ~ Gloom Shimmer.MOD		OUTPUTNAME:陰影閃現（Gloom Shimmer）		DESC:.CLEAR	DESC:有的竊影鬼可以操縱陰影能量替換他所在的位置而非在影子之間傳送。在達到9級時，這些竊影鬼獲得了每日以類法術能力使用2次『移位術』的能力以取代使用『行影術』類法術能力。該能力的施法者等級等同於竊影鬼的總生命骰。該特性修改了類法術能力。【法術速查】移位術（Displacement）：對受術者的攻擊有百分之50概率失手。
+CATEGORY=Special Ability|Fetchling ~ Shadow Magic.MOD		OUTPUTNAME:暗影魔法（Shadow Magic）		DESC:.CLEAR	DESC:願意求索他們適應的位面中魔法的精微之處的竊影鬼，會對暗影魔法別有領悟。這些竊影鬼施放的所有幻術學派（幽影幻覺子學派）的法術的DC獲得+1種族加值。該特性取代技能獎勵。
+CATEGORY=Special Ability|Fetchling ~ Subtle Manipulator.MOD		OUTPUTNAME:狡詐操縱者（Subtle Manipulator）		DESC:.CLEAR	DESC:相較化身為其他形態，有的竊影鬼更善於破壞其他生物的記憶。這些竊影鬼獲得了每日以類法術能力使用1次『記憶空白』的能力，以取代以類法術能力使用『易容術』。該能力的施法者等級等同於竊影鬼的總生命骰。該特性修改了類法術能力。【法術速查】記憶空白（Memory Lapse, APG）：受術者忘記上輪開始後的事情。
+CATEGORY=Special Ability|Fetchling ~ World Walker.MOD		OUTPUTNAME:世界行者（World Walker）		DESC:.CLEAR	DESC:那些花了大部分時間生活在主物質位面的竊影鬼們變得更容易適應新環境。他們在知識（自然）以及知識（地方）檢定上獲得+1種族加值以取代在知識（位面）上的加值。該特性修改了技能獎勵。
+
+# Goblin Racial Trait Abilities
+CATEGORY=Special Ability|Goblin ~ Darkvision.MOD		OUTPUTNAME:黑暗視覺（Darkvision）		DESC:.CLEAR	DESC:地精擁有60尺黑暗視覺。
+CATEGORY=Special Ability|Goblin ~ Skilled.MOD		OUTPUTNAME:技能獎勵（Skilled）		DESC:.CLEAR	DESC:地精在騎術以及隱匿檢定上獲得+4種族加值。
+CATEGORY=Special Ability|Goblin ~ Cave Crawler.MOD		OUTPUTNAME:穴居地精（Cave Crawler）		DESC:.CLEAR	DESC:有的地精生長在洞穴中並且不見天日。擁有該種族特性的地精獲得10尺攀爬速度，並且在以攀爬檢定進行快速攀爬時獲得+8種族加值。擁有該特性的地精的基礎速度為20尺並且失去迅捷速度種族特性。
+CATEGORY=Special Ability|Goblin ~ City Scavenger.MOD		OUTPUTNAME:城市拾荒者（City Scavenger）		DESC:.CLEAR	DESC:生活在人類城市邊界的地精靠著在垃圾中搜尋食物以及獵殺流浪動物為生。擁有該種族特性的地精在察覺以及生存檢定上獲得+2種族加值，並且可以使用生存技能在城市中搜尋食物。該特性取代技能獎勵。
+CATEGORY=Special Ability|Goblin ~ Eat Anything.MOD		OUTPUTNAME:啥都吃（Eat Anything）		DESC:.CLEAR	DESC:由於打小就幾乎沒吃過什麼像樣的食物，大多數地精都見啥吃啥求生存，因此它們幾乎能消化任何東西還不會生病。擁有該種族特性的地精在以生存檢定搜尋食物時獲得+4種族加值，並且在對抗由於環境引起的反胃和噁心的豁免檢定上獲得+4種族加值。該特性取代技能獎勵。
+CATEGORY=Special Ability|Goblin ~ Hard Head Big Teeth.MOD		OUTPUTNAME:頭大牙尖（Hard Head Big Teeth）		DESC:.CLEAR	DESC:地精靠著他們那球狀大腦袋和大嘴為人所熟知，但是其中一部分有著大得誇張的腦袋和滿嘴尖牙。擁有該種族特性的地精獲得嚙咬攻擊作為主要天生武器，它可以造成1d4傷害。該特性取代技能獎勵。
+CATEGORY=Special Ability|Goblin ~ Over-Sized Ears.MOD		OUTPUTNAME:招風耳（Over-Sized Ears）		DESC:.CLEAR	DESC:雖然地精的耳朵從來都不小，但是有些地精那出奇大的耳朵可以聽取哪怕最細微的聲音。擁有該種族特性的地精在察覺檢定上獲得+4加值。該特性取代技能獎勵。
+CATEGORY=Special Ability|Goblin ~ Tree Runner.MOD		OUTPUTNAME:樹居地精（Tree Runner）		DESC:.CLEAR	DESC:在荒蠻的雨林和沼澤中，很難找到堅硬的地面建造建築。在這些地區生活的地精部族瞭解如何在樹梢上生活。擁有該種族特性的地精在特技以及攀爬檢定上獲得+4種族加值。該特性取代技能獎勵。
+CATEGORY=Special Ability|Goblin ~ Weapon Familiarity.MOD		OUTPUTNAME:武器熟悉（Weapon Familiarity）		DESC:.CLEAR	DESC:地精的傳統武器是屠狗刃（dogslicer）以及斬馬刀（horsechopper），這些武器專門設計用來擊敗他們最痛恨的敵人。擁有該種族特性的地精擅長屠狗刃和斬馬刀，並且將任何冠以「地精」之名的武器視為軍用武器。該特性取代技能獎勵。
+
+# Hobgoblin Racial Trait Abilities
+CATEGORY=Special Ability|Hobgoblin ~ Sneaky.MOD		OUTPUTNAME:鬼祟（Sneaky）		DESC:.CLEAR	DESC:大地精在隱匿檢定上獲得+4種族加值。
+CATEGORY=Special Ability|Hobgoblin ~ Bandy-Legged.MOD		OUTPUTNAME:羅圈腿（Bandy-Legged）		DESC:.CLEAR	DESC:羅圈腿大地精擁有比其他大地精更加誇張的身軀，比如彎曲的雙腿和魁梧的肩膀。擁有該種族特性的大地精的攀爬以及騎術檢定獲得+4種族加值，並且當他站立在堅硬的地面上時，在對抗衝撞以及絆摔戰技檢定的CMD上獲得+2種族加值。羅圈腿大地精的基本速度降低至20尺。
+CATEGORY=Special Ability|Hobgoblin ~ Battle-Hardened.MOD		OUTPUTNAME:久經沙場（Battle-Hardened）		DESC:.CLEAR	DESC:不停地進行訓練使得防禦成為了某些大地精的第二天性。擁有該種族特性的大地精的CMD獲得+1加值。該特性取代鬼祟。
+CATEGORY=Special Ability|Hobgoblin ~ Engineer.MOD		OUTPUTNAME:技師（Engineer）		DESC:.CLEAR	DESC:大地精技師們無盡地製造著燃燒物，爆炸物以及戰爭機器。擁有該種族特性的大地精的工藝（煉金）以及知識（工程）檢定獲得+2種族加值。該特性取代鬼祟。
+CATEGORY=Special Ability|Hobgoblin ~ Fearsome.MOD		OUTPUTNAME:可怖（Fearsome）		DESC:.CLEAR	DESC:有的大地精用狂妄的咆哮蔑視那些謹慎或狡詐的傢伙。擁有該種族特性的大地精的威嚇檢定獲得+4種族加值。該特性取代鬼祟。
+CATEGORY=Special Ability|Hobgoblin ~ Magehunter.MOD		OUTPUTNAME:獵巫人（Magehunter）		DESC:.CLEAR	DESC:大地精對施法者又懼又恨。獵巫人在以法術辨識檢定辨認施展中的法術時獲得+2種族加值，此外對奧術施法者的攻擊檢定獲得+1種族加值。他們只能在對抗能夠施放法術的生物時獲得這些加值，而非那些只能使用類法術能力的生物。該特性取代鬼祟。
+CATEGORY=Special Ability|Hobgoblin ~ Pit Boss.MOD		OUTPUTNAME:工頭（Pit Boss）		DESC:.CLEAR	DESC:奴隸的血就是大地精戰爭機器的燃料。工頭用隨意揮舞的皮鞭從奄奄一息的勞動者身上搾取他們的價值。擁有該種族特性的大地精擅長鞭子，並且在使用長鞭進行絆摔或者卸武的戰技檢定上獲得+1種族加值。該特性取代鬼祟。
+CATEGORY=Special Ability|Hobgoblin ~ Scarred.MOD		OUTPUTNAME:傷疤鎧甲（Scarred）		DESC:.CLEAR	DESC:大地精可以用火焰以及刀刃在自己身上留下傷疤，並把自己的肌膚隱藏在這些大塊的角質傷疤之下。擁有該種族特性的大地精AC獲得+1天生防禦加值。然而長期暴露在火焰之下永久地損害了他們的雙眼。該特性取代黑暗視覺。
+CATEGORY=Special Ability|Hobgoblin ~ Slave Hunter.MOD		OUTPUTNAME:獵奴人（Slave Hunter）		DESC:.CLEAR	DESC:大地精奴隸販子擅長追蹤逃跑的奴隸以及在骯髒的環境下生存。擁有該種族特性的大地精的生存檢定獲得+2種族加值，此外在對抗疾病的強韌檢定上獲得+2種族加值。該特性取代鬼祟。
+CATEGORY=Special Ability|Hobgoblin ~ Unfit.MOD		OUTPUTNAME:失格者（Unfit）		DESC:.CLEAR	DESC:大地精社會中最低的階層就是那些在軍隊中未能取得職位的人，他們很快就會明白巴結上司的價值。擁有該種族特性的大地精擅長一件軍用武器，並且在唬騙以及交涉檢定上獲得+1種族加值。該特性取代鬼祟。
+
+# Ifrit Racial Trait Abilities
+CATEGORY=Special Ability|Ifrit ~ Darkvision.MOD		OUTPUTNAME:黑暗視覺（Darkvision）		DESC:.CLEAR	DESC:火元素裔擁有60尺黑暗視覺。
+CATEGORY=Special Ability|Ifrit ~ Spell-Like Ability.MOD		OUTPUTNAME:類法術能力（Spell-Like Ability）		DESC:.CLEAR	DESC:每天1次『燃燒之手』（施法者等級等同於火元素裔角色等級）。
+CATEGORY=Special Ability|Ifrit ~ Energy Resistance.MOD		OUTPUTNAME:能量抗力（Energy Resistance）		DESC:.CLEAR	DESC:火元素裔擁有5點火焰抗力。
+CATEGORY=Special Ability|Ifrit ~ Fire Affinity.MOD		OUTPUTNAME:火焰親和（Fire Affinity）		DESC:.CLEAR	DESC:元素血統（火）的火元素裔術士在計算所有術士法術以及職業能力時魅力視為比實際高2點。選擇火領域的火元素裔施法者在使用領域力量以及法術時施法者等級視為比實際高1級。
+CATEGORY=Special Ability|Ifrit ~ Desert Mirage.MOD		OUTPUTNAME:沙漠幻影（Desert Mirage）		DESC:.CLEAR	DESC:沙漠環境給予在其中生活成長的火元素裔敏銳的直覺以及耐熱性，這使得他們獲得了巨大的優勢以超越競爭者。那些擁有該種族特性的火元素裔在沙漠環境中的隱匿檢定，以及忍耐飢餓與乾渴時的豁免檢定獲得+2種族加值。該特性取代火焰親和。
+CATEGORY=Special Ability|Ifrit ~ Efreeti Magic.MOD		OUTPUTNAME:火巨靈魔法（Efreeti Magic）		DESC:.CLEAR	DESC:一些火元素裔繼承了火巨靈祖先改變生物大小的魔法能力。每天1次，他們能以類法術能力（施法者等級等同於火元素裔等級）使用『人類變巨術』或『人類縮小術』（使用該能力時由火元素裔選擇使用哪個）。火元素裔可以使用該能力影響其他同族，就如同他們為類人生物一般。該特性取代類法術能力。
+CATEGORY=Special Ability|Ifrit ~ Fire in the Blood.MOD		OUTPUTNAME:血中烈焰（Fire in the Blood）		DESC:.CLEAR	DESC:擁有該種族特性的火元素裔擁有類似於魔蝠（mephit）的痊癒能力，每當他們受到火焰傷害，便會獲得2點快速醫療，持續1輪（無論該傷害是否穿透了他們的火焰抗力）。火元素裔每天最多可以通過該能力恢復每等級2點生命，在這之後這個能力便不再起效。該特性取代火焰親和。
+CATEGORY=Special Ability|Ifrit ~ Fire Insight.MOD		OUTPUTNAME:火之洞悉（Fire Insight）		DESC:.CLEAR	DESC:火元素裔施法者有時候會發現他們繼承的元素之力使得火系生物更願意侍奉他們。當火元素裔使用『召喚怪物』或『召喚自然盟友』法術召喚火系亞種的生物時，召喚生物的存續時間比正常長2輪。該特性取代火焰親和。
+CATEGORY=Special Ability|Ifrit ~ Fire-Starter.MOD		OUTPUTNAME:引火者（Fire-Starter）		DESC:.CLEAR	DESC:擁有該種族特性的火元素裔通過看到別人被燒傷以滿足他們的嗜虐心。每當火元素裔將其他生物點燃，他便會在下一輪進行的單次攻擊檢定，豁免檢定，技能檢定或屬性檢定上獲得+1士氣加值。火元素裔只會在第一次點燃特定生物時獲得該加值；在此後點燃該生物不會再次獲得獎勵。該特性取代火焰親和。
+CATEGORY=Special Ability|Ifrit ~ Forge-Hardened.MOD		OUTPUTNAME:鍛鋼之堅毅（Forge-Hardened）		DESC:.CLEAR	DESC:並非所有火元素裔都是火巨靈的後代——其中部分起源自火矮人，甚至是火蜥蜴也有可能。這些火元素裔在工藝（護甲，武器）檢定以及對抗疲乏與力竭的豁免檢定上獲得+2種族加值。該特性取代類法術能力。
+CATEGORY=Special Ability|Ifrit ~ Hypnotic.MOD		OUTPUTNAME:攝神取念（Hypnotic）		DESC:.CLEAR	DESC:擁有該種族特性的火元素裔獲得了火焰那迷惑人心的本質，他們施放的所有引起迷魂狀態的法術與效果的豁免DC+1。每天1次，當一名生物進行豁免檢定對抗火元素裔造成的迷魂效果時，他能以一個直覺動作迫使該生物重骰豁免檢定並且使用第二次的結果，即使它更糟。火元素裔必須在第一次檢定結果得出之前宣佈使用該能力。該能力取代火焰親和。
+CATEGORY=Special Ability|Ifrit ~ Wildfire Heart.MOD		OUTPUTNAME:野火之心（Wildfire Heart）		DESC:.CLEAR	DESC:擁有該種族特性的火元素裔就像猛烈燃燒的山林野火一般迅捷致命。他們在先攻檢定上獲得+4種族加值。該特性取代能量抗力。
+
+# Kobold Racial Trait Abilities
+CATEGORY=Special Ability|Kobold ~ Darkvision.MOD		OUTPUTNAME:黑暗視覺（Darkvision）		DESC:.CLEAR	DESC:狗頭人擁有60尺黑暗視覺。
+CATEGORY=Special Ability|Kobold ~ Armor.MOD		OUTPUTNAME:防禦（Armor）		DESC:.CLEAR	DESC:狗頭人擁有AC+1天生防禦加值。
+CATEGORY=Special Ability|Kobold ~ Crafty.MOD		OUTPUTNAME:狡詐（Crafty）		DESC:.CLEAR	DESC:狗頭人在工藝（陷阱），察覺以及專業（礦工）檢定上獲得+2種族加值，並且總是視工藝（陷阱）和隱匿為本職技能。
+CATEGORY=Special Ability|Kobold ~ Weakness.MOD		OUTPUTNAME:弱點（Weakness）		DESC:.CLEAR	DESC:強光敏感。【特性速查】強光敏感（Light Sensitivity, Ex）：該生物在強光，比如太陽光或者『晝明術』範圍內就會目眩。
+CATEGORY=Special Ability|Kobold ~ Beast Bond.MOD		OUTPUTNAME:野獸羈絆（Beast Bond）		DESC:.CLEAR	DESC:有的狗頭人擁有訓練動物與野獸在戰場內外幫助他們的才能。擁有該種族特性的狗頭人在馴養動物以及騎術檢定上獲得+2種族加值。並且對他們來說馴養動物與騎術總是視為本職技能。該特性取代狡詐。
+CATEGORY=Special Ability|Kobold ~ Dragon-Scaled.MOD		OUTPUTNAME:龍鱗（Dragon-Scaled）		DESC:.CLEAR	DESC:有的狗頭人生有色彩鮮艷的鱗片，標誌著他與特定種類的有色龍之間的血脈聯繫。無論這種顏色僅僅是個別的巧合，亦或者是一個部族的共同特質，這些狗頭人擁有的抗力使得他們特別適合為有著相似顏色的龍服務。擁有該種族特性的黑鱗與綠鱗狗頭人獲得5點強酸抗力，藍鱗狗頭人獲得5點閃電抗力，紅鱗狗頭人獲得5點火焰抗力，白鱗狗頭人獲得5點寒冷抗力。該特性取代防禦。
+CATEGORY=Special Ability|Kobold ~ Gliding Wings.MOD		OUTPUTNAME:滑翔翼（Gliding Wings）		DESC:.CLEAR	DESC:有的狗頭人生有雙翅，雖然它們過於無力而無法飛行，但是卻可以靠著翅膀以非常緩慢且安全的速度下落。擁有翅膀的狗頭人可以滑翔。它們能夠進行DC為15的飛行技能檢定以使自身從任何高處墜落而不會受到傷害，就如同使用『羽落術』一般。當他安全地墜落時，則可以進行另外一次DC為15的飛行技能檢定進行滑翔，每墜落20尺可以橫向移動5尺。該特性取代狡詐。
+CATEGORY=Special Ability|Kobold ~ Jester.MOD		OUTPUTNAME:弄臣（Jester）		DESC:.CLEAR	DESC:有些狗頭人捨棄自己的自尊，靠著卑躬屈膝、侍奉並取悅強大的主子求生存。擁有該種族特性的狗頭人在交涉和表演檢定上獲得+2種族加值。並且對他們來說交涉與表演總是視為為本職技能。該特性取代狡詐。
+
+# Orc Racial Trait Abilities
+CATEGORY=Special Ability|Orc ~ Darkvision.MOD		OUTPUTNAME:黑暗視覺（Darkvision）		DESC:.CLEAR	DESC:獸人在黑暗中可以看到60尺遠。
+CATEGORY=Special Ability|Orc ~ Light Sensitivity.MOD		OUTPUTNAME:強光敏感（Light Sensitivity）		DESC:.CLEAR	DESC:獸人會在明亮陽光區域或『晝明術』法術範圍內目眩。
+CATEGORY=Special Ability|Orc ~ Ferocity.MOD		OUTPUTNAME:兇猛（Ferocity）		DESC:.CLEAR	DESC:獸人可以在生命值降到0以下時仍然維持意識並繼續戰鬥。在0生命值或以下時，獸人依舊會恍惚，並且每輪正常失去1生命值。
+CATEGORY=Special Ability|Orc ~ Weapon Familiarity.MOD		OUTPUTNAME:武器熟悉（Weapon Familiarity）		DESC:.CLEAR	DESC:獸人總是擅長巨斧和彎刃大刀，並將任何名稱帶有「獸人」的武器視作軍用武器。
+CATEGORY=Special Ability|Orc ~ Dayrunner.MOD		OUTPUTNAME:晝行者（Dayrunner）		DESC:.CLEAR	DESC:獸人拒絕屈服於任何敵人，哪怕是太陽。有些獸人花費了一個又一個小時去凝視太陽，直到他們以視力的代價換取了對亮光的適應。擁有該種族特性的獸人在所有遠程攻擊檢定上承受-2罰值。這一種族特性取代光線敏感。
+CATEGORY=Special Ability|Orc ~ Feral.MOD		OUTPUTNAME:野生種（Feral）		DESC:.CLEAR	DESC:獸人在他們的語言和文化萌芽之前就早已掌握了養活自己的方法。當還是孩童時，野生的獸人就被迫去獵捕蟲子和小動物來填飽自己的肚子，為了生存，他們用盡一切辦法抗爭在死亡線上。擁有該種族特性的獸人獲得生存作為本職技能，且當生命值處於負值時，在使用近戰武器的攻擊和傷害檢定上獲得+1種族加值。這一種族特性取代獸人武器熟悉和起始語言。沒有由高智力值所獲得的額外語言或語言學技能等級的野生獸人，只能通過咕噥聲和手勢來交流。
+CATEGORY=Special Ability|Orc ~ Smeller.MOD		OUTPUTNAME:嗅探者（Smeller）		DESC:.CLEAR	DESC:擁有該種族特性的獸人獲得有限的「靈敏嗅覺」能力，範圍為正常的一半。這一種族特性取代兇猛和武器熟悉。【特性速查】靈敏嗅覺（Scent, Ex）：這種特殊能力可以讓生物察覺接近的敵人、嗅出隱藏的對手、或者憑借嗅覺展開追蹤。具有靈敏嗅覺能力的生物能夠辨識熟悉的氣味，就像人類能認出熟悉的畫面。憑借嗅覺，生物可以發現30尺以內的敵人。如果對手在上風處，則距離增為60尺；若在下風處，則減為15尺。如果是強烈的氣味，比如濃煙或者腐爛的垃圾味道，可在上述距離兩倍之內聞到。某些無法抵擋的氣味，比如臭鼬或穴居人的惡臭，則可在通常距離的三倍之內聞到。具有靈敏嗅覺的生物無法確定氣味來源的具體位置，只知道它存在於嗅覺範圍內的某處。生物可以用一個移動動作來覺察到氣味來源的方向。只要生物進入氣味源的5尺之內，它就能精確確定源頭的位置。一個具有追蹤專長的靈敏嗅覺生物可以通過氣味來追蹤，這時它用感知（或生存）檢定來找到或追蹤氣味。新鮮痕跡的通常DC是10（無論氣味停留在什麼表面）。該DC會因氣味來源的強弱、生物的數量和痕跡新舊的差別在此基礎上增加或減少。痕跡每經過1小時DC會增加2。除此之外，此能力的判定上都按照追蹤專長的規則。地面狀況和低能見度不會影響通過嗅覺來展開追蹤的生物。
+CATEGORY=Special Ability|Orc ~ Squalid.MOD		OUTPUTNAME:污穢種（Squalid）		DESC:.CLEAR	DESC:有些獸人生活在連普通獸人都很難活下去的骯髒污穢、疫病肆虐的環境中。的擁有該種族特性的獸人在對抗反胃、噁心和疾病的豁免檢定上獲得+2種族加值。這一種族特性取代兇猛。
+
+# Oread Racial Trait Abilities
+CATEGORY=Special Ability|Oread ~ Darkvision.MOD		OUTPUTNAME:黑暗視覺（Darkvision）		DESC:.CLEAR	DESC:土元素裔擁有60尺黑暗視覺。
+CATEGORY=Special Ability|Oread ~ Spell-Like Ability.MOD		OUTPUTNAME:類法術能力（Spell-Like Ability）		DESC:.CLEAR	DESC:每天1次『魔石術』（施法者等級等同於土元素裔等級）。
+CATEGORY=Special Ability|Oread ~ Energy Resistance.MOD		OUTPUTNAME:能量抗力（Energy Resistance）		DESC:.CLEAR	DESC:土元素裔擁有5點強酸抗力。
+CATEGORY=Special Ability|Oread ~ Earth Affinity.MOD		OUTPUTNAME:大地親和（Earth Affinity）		DESC:.CLEAR	DESC:元素血統（土）的土元素裔術士在計算所有術士法術以及職業能力時魅力視為比實際高2點。選擇土領域的土元素裔牧師在使用領域力量以及法術時施法者等級視為比實際高1級。
+CATEGORY=Special Ability|Oread ~ Crystalline Form.MOD		OUTPUTNAME:結晶態（Crystalline Form）		DESC:.CLEAR	DESC:擁有該種族特性的土元素裔受益于于他們帶有反射性的水晶皮膚，這使得他們的AC在對抗射線時獲得+2種族加值。此外每天一次，他們可以使單次針對他們的射線攻擊被偏斜，就如同使用了「撥擋飛箭」專長一般。該特性取代大地親和。
+CATEGORY=Special Ability|Oread ~ Earth Insight.MOD		OUTPUTNAME:地之洞悉（Earth Insight）		DESC:.CLEAR	DESC:土元素裔施法者有時候會發現他們繼承的元素之力使得土系生物更願意侍奉他們。由這些土元素裔使用『召喚怪物』或『召喚自然盟友』法術召喚的土系亞種生物存續時間更久，它們會比通常情況召喚的生物多存續2輪。該特性取代大地親和。
+CATEGORY=Special Ability|Oread ~ Ferrous Growth.MOD		OUTPUTNAME:增鐵之觸（Ferrous Growth）		DESC:.CLEAR	DESC:擁有該種族特性的土元素裔懂得如何模仿他們沙旦祖先的魔法。【譯註：原文是shaitan ancestors，雖然查到了Shaitan是古代蘇默人（Sumerian）所敬拜的魔神沙旦（Shaitan），但是不確定是不是沿用的這個含義，所以在此音譯了這個詞。】每天1次，土元素裔能夠通過碰觸一塊非魔法性的鐵或鋼，使其成長至10磅重的，如同劍、撬棍或者輕鋼盾一樣的形態。這件物品會在該形態下保持10分鐘或者直到被摧毀為止，在這之後它就會縮回至原本的大小以及形狀。該特性取代類法術能力。
+CATEGORY=Special Ability|Oread ~ Fertile Soil.MOD		OUTPUTNAME:肥沃之土（Fertile Soil）		DESC:.CLEAR	DESC:蒼翠血統（Verdant Bloodline, APG）的土元素裔術士在計算所有術士法術以及職業能力時魅力視為比實際高2點。選擇植物領域的土元素裔牧師在使用領域力量以及法術時施法者等級視為比實際高1級。該特性取代大地親和。
+CATEGORY=Special Ability|Oread ~ Granite Skin.MOD		OUTPUTNAME:花崗岩皮膚（Granite Skin）		DESC:.CLEAR	DESC:擁有該種族特性的土元素裔體表成長的岩石覆蓋著皮膚。他們的AC天生護甲獲得+1種族加值。該特性取代能量抗力。
+CATEGORY=Special Ability|Oread ~ Mountain-Born.MOD		OUTPUTNAME:生於山巔（Mountain-Born）		DESC:.CLEAR	DESC:有的土元素裔遷移至山脈或其他高海拔地區，在幾個世代之後適應了所處的環境。擁有該種族特性的土元素裔在通過狹窄巖架時的特技檢定、以及對抗高海拔環境產生的疲乏與噁心時的豁免檢定獲得+2種族加值。該特性取代類法術能力。
+CATEGORY=Special Ability|Oread ~ Stone in the Blood.MOD		OUTPUTNAME:血中頑石（Stone in the Blood）		DESC:.CLEAR	DESC:擁有該種族特性的土元素裔擁有類似於魔蝠（mephit）的痊癒能力，每當他們受到強酸傷害，便會獲得2點快速醫療，持續1輪（無論該傷害是否穿透了他們的強酸抗力）。土元素裔每天最多可以通過該能力恢復每等級2點生命，在這之後這個能力便不再起效。該特性取代大地親和。
+CATEGORY=Special Ability|Oread ~ Treacherous Earth.MOD		OUTPUTNAME:變幻之地（Treacherous Earth）		DESC:.CLEAR	DESC:每天1次，擁有該種族特性的土元素裔能夠使大地震顫著發生轉變，他們可以改變以自身碰觸點為中心，半徑10尺範圍的地面，使其中的土地、未經加工的石頭以及沙子將這片區域變為困難地形。該效果持續分鐘數等同於土元素裔的等級，在此之後地面恢復正常。該特性取代類法術能力。
+
+# Ratfolk Racial Trait Abilities
+CATEGORY=Special Ability|Ratfolk ~ Darkvision.MOD		OUTPUTNAME:黑暗視覺（Darkvision）		DESC:.CLEAR	DESC:鼠族擁有60尺黑暗視覺。
+CATEGORY=Special Ability|Ratfolk ~ Rodent Empathy.MOD		OUTPUTNAME:囓齒認同（Rodent Empathy）		DESC:.CLEAR	DESC:鼠族在影響齧齒動物的馴養動物檢定上獲得+4種族加值。
+CATEGORY=Special Ability|Ratfolk ~ Swarming.MOD		OUTPUTNAME:群居（Swarming）		DESC:.CLEAR	DESC:鼠族一向以族群為單位生活以及戰鬥，他們善於以團隊的方式對敵人造成損傷並守護自己的利益。兩名鼠族能夠同時分享同一個方格。若他們如此站位並且攻擊同一個敵人，則視為他們在夾擊敵人就好像他們在相對側的方格一般。
+CATEGORY=Special Ability|Ratfolk ~ Tinker.MOD		OUTPUTNAME:修補匠（Tinker）		DESC:.CLEAR	DESC:鼠族在工藝（煉金）、察覺以及使用魔法裝置檢定上獲得+2種族加值。
+CATEGORY=Special Ability|Ratfolk ~ Cornered Fury.MOD		OUTPUTNAME:困鼠猶斗（Cornered Fury）		DESC:.CLEAR	DESC:鼠族能夠在與盟友的聯繫被切斷時勇猛戰鬥。擁有該種族特性的鼠族在生命減少到一半或更少、並且30尺範圍內沒有任何有意識的盟友時，他在近戰攻擊檢定以及AC上獲得+2種族加值。該特性取代群居。
+CATEGORY=Special Ability|Ratfolk ~ Scent.MOD		OUTPUTNAME:靈敏嗅覺（Scent）		DESC:.CLEAR	DESC:部分鼠族擁有十分靈敏的嗅覺，不過眼睛和耳朵卻沒那麼靈光了。這些鼠族擁有「靈敏嗅覺」能力，但是在所有基於視覺與聽覺的察覺檢定獲得-2減值。該特性取代修補匠。【特性速查】靈敏嗅覺（Scent, Ex）：這種特殊能力可以讓生物察覺接近的敵人、嗅出隱藏的對手、或者憑借嗅覺展開追蹤。具有靈敏嗅覺能力的生物能夠辨識熟悉的氣味，就像人類能認出熟悉的畫面。憑借嗅覺，生物可以發現30尺以內的敵人。如果對手在上風處，則距離增為60尺；若在下風處，則減為15尺。如果是強烈的氣味，比如濃煙或者腐爛的垃圾味道，可在上述距離兩倍之內聞到。某些無法抵擋的氣味，比如臭鼬或穴居人的惡臭，則可在通常距離的三倍之內聞到。具有靈敏嗅覺的生物無法確定氣味來源的具體位置，只知道它存在於嗅覺範圍內的某處。生物可以用一個移動動作來覺察到氣味來源的方向。只要生物進入氣味源的5尺之內，它就能精確確定源頭的位置。一個具有追蹤專長的靈敏嗅覺生物可以通過氣味來追蹤，這時它用感知（或生存）檢定來找到或追蹤氣味。新鮮痕跡的通常DC是10（無論氣味停留在什麼表面）。該DC會因氣味來源的強弱、生物的數量和痕跡新舊的差別在此基礎上增加或減少。痕跡每經過1小時DC會增加2。除此之外，此能力的判定上都按照追蹤專長的規則。地面狀況和低能見度不會影響通過嗅覺來展開追蹤的生物。
+CATEGORY=Special Ability|Ratfolk ~ Skulk.MOD		OUTPUTNAME:潛伏（Skulk）		DESC:.CLEAR	DESC:有的鼠族可以輕鬆地與環境融為一體並輕巧地進行移動。鼠族在隱匿檢定上獲得+2種族加值，並且在以唬騙檢定使生物分心後可以在以隱匿檢定進行躲藏時只受到-5減值（而不是正常的-10減值）。該種族特性取代修補匠。
+CATEGORY=Special Ability|Ratfolk ~ Unnatural.MOD		OUTPUTNAME:過街喊打（Unnatural）		DESC:.CLEAR	DESC:有些鼠族總是會引發動物的攻擊衝動，所以他們被迫學會了如何在這些攻擊下保住自己的小命。這些鼠族在以基於魅力的技能影響動物類生物時獲得-4減值，同時在應對這些動物的攻擊時AC獲得+2閃避加值。動物對這些鼠族的初始態度比正常低一級。該特性取代囓齒認同。
+
+# Sylph Racial Trait Abilities
+CATEGORY=Special Ability|Sylph ~ Darkvision.MOD		OUTPUTNAME:黑暗視覺（Darkvision）		DESC:.CLEAR	DESC:風元素裔擁有60尺黑暗視覺。
+CATEGORY=Special Ability|Sylph ~ Spell-Like Ability.MOD		OUTPUTNAME:類法術能力（Spell-Like Ability）		DESC:.CLEAR	DESC:每天1次『羽落術』（施法者等級等同於風元素裔等級）。
+CATEGORY=Special Ability|Sylph ~ Energy Resistance.MOD		OUTPUTNAME:能量抗力（Energy Resistance）		DESC:.CLEAR	DESC:風元素裔擁有5點閃電抗力。
+CATEGORY=Special Ability|Sylph ~ Air Affinity.MOD		OUTPUTNAME:大氣親和（Air Affinity）		DESC:.CLEAR	DESC:元素血統（氣）的風元素裔術士在計算所有術士法術以及職業能力時魅力視為比實際高2點。選擇氣領域的風元素裔施法者在使用領域力量以及法術時,施法者等級視為比實際高1級。
+CATEGORY=Special Ability|Sylph ~ Air Insight.MOD		OUTPUTNAME:風之洞悉（Air Insight）		DESC:.CLEAR	DESC:風元素裔施法者有時候會發現他們繼承的元素之力使得氣系生物更願意侍奉他們。由這些風元素裔使用『召喚怪物』或『召喚自然盟友』法術召喚的氣系亞種生物存續時間更久，它們會比通常情況召喚的生物多存續2輪。該特性取代大氣親和。
+CATEGORY=Special Ability|Sylph ~ Breeze-Kissed.MOD		OUTPUTNAME:清風之撫（Breeze-Kissed）		DESC:.CLEAR	DESC:無論風元素裔在哪裡，似乎都有清風伴隨，不過其中部分風元素裔比她們的同族更加擅長駕馭這股氣流。擁有該種族特性的風元素裔受到螺旋形氣流的包圍，這使得她們在對抗非魔法性的遠程攻擊時，AC獲得+2種族加值。風元素裔能以一個迅捷動作壓制或者恢復這股氣流。每天1次，風元素裔可以將這股氣流化為一陣風，對30尺內的一個生物進行衝撞或絆摔戰技檢定。無論這次嘗試是否成功，這股氣流會因此暫時耗盡，並且在24小時內不會提供AC上的加值。這是一個超自然能力。該特性取代大氣親和。
+CATEGORY=Special Ability|Sylph ~ Like the Wind.MOD		OUTPUTNAME:迅如風（Like the Wind）		DESC:.CLEAR	DESC:擁有該種族特性的風元素裔的基本速度額外提高5尺。該特性取代能量抗力。
+CATEGORY=Special Ability|Sylph ~ Sky Speaker.MOD		OUTPUTNAME:天空語者（Sky Speaker）		DESC:.CLEAR	DESC:擁有該種族特性的風元素裔能夠感受到與氣系生物的親緣關係，每天1次，她們能夠對鳥類或其他飛行動物使用『動物交談』。該效果的施法者等級等同於她的角色等級。該特性取代類法術能力。
+CATEGORY=Special Ability|Sylph ~ Storm in the Blood.MOD		OUTPUTNAME:血中風暴（Storm in the Blood）		DESC:.CLEAR	DESC:每當擁有該種族特性的風元素裔受到閃電傷害時，便會獲得2點快速醫療，持續1輪（無論該傷害是否穿透了他們的閃電抗力）。風元素裔每天最多可以通過該能力恢復每等級2點生命，在這之後這個能力便不再起效。該特性取代大氣親和。
+CATEGORY=Special Ability|Sylph ~ Thunderous Resilience.MOD		OUTPUTNAME:雷鳴韌性（Thunderous Resilience）		DESC:.CLEAR	DESC:擁有該種族特性的風元素裔獲得5點音波抗力。該特性取代能量抗力。
+CATEGORY=Special Ability|Sylph ~ Weather Savvy.MOD		OUTPUTNAME:知曉天氣（Weather Savvy）		DESC:.CLEAR	DESC:有的風元素裔與氣流和天空是如此的協調，以至於她們能夠感受到大氣環境中的細微變化。擁有該種族特性的風元素裔能夠以一個整輪動作預測一片地區內未來24小時的天氣。風元素裔的預測通常是準確的，但是她無法預測由於法術或超自然效果對天氣的更改。該特性取代類法術能力。
+CATEGORY=Special Ability|Sylph ~ Whispering Wind.MOD		OUTPUTNAME:輕盈之風（Whispering Wind）		DESC:.CLEAR	DESC:有的風元素裔格外地瘦弱，彷彿她們是由空氣而非血肉構成的一般。擁有該種族特性的風元素裔在隱匿檢定上獲得+4種族加值。該特性取代類法術能力。
+
+# Tengu Racial Trait Abilities
+CATEGORY=Special Ability|Tengu ~ Low-Light Vision.MOD		OUTPUTNAME:昏暗視覺（Low-Light Vision）		DESC:.CLEAR	DESC:天狗擁有昏暗視覺。
+CATEGORY=Special Ability|Tengu ~ Sneaky.MOD		OUTPUTNAME:鬼祟（Sneaky）		DESC:.CLEAR	DESC:天狗在察覺以及隱匿檢定上獲得+2種族加值。
+CATEGORY=Special Ability|Tengu ~ Gifted Linguist.MOD		OUTPUTNAME:天生巧言（Gifted Linguist）		DESC:.CLEAR	DESC:天狗在語言學檢定上獲得+4種族加值，並且當她在語言學投入技能點時習得兩門語言而非正常的一門。
+CATEGORY=Special Ability|Tengu ~ Swordtrained.MOD		OUTPUTNAME:劍類訓練（Swordtrained）		DESC:.CLEAR	DESC:天狗從出生起便受到了劍術訓練，因此被視為自動擅長劍類武器（包括重劍，匕首，精靈曲刃，彎刃大刀，巨劍，反曲刀，長劍，拳匕，細劍，彎刀，短劍和雙刃劍）。
+CATEGORY=Special Ability|Tengu ~ Claw Attack.MOD		OUTPUTNAME:天生武器（Claw Attack）		DESC:.CLEAR	DESC:天狗擁有嚙咬攻擊，造成1d3傷害。
+CATEGORY=Special Ability|Tengu ~ Carrion Sense.MOD		OUTPUTNAME:腐臭嗅覺（Carrion Sense）		DESC:.CLEAR	DESC:許多天狗天生擁有嗅出腐肉的能力。雖然他們的嗅覺並沒有辦法精確辨別其他味道，但是他們特別善於分辨創口或死亡的氣味。擁有該種族特性的擁有有限的＜靈敏嗅覺＞能力，它只對死屍以及瀕死的生物（生命小於等於百分之50）生效。該特性取代天生巧言。【特性速查】靈敏嗅覺（Scent, Ex）：這種特殊能力可以讓生物察覺接近的敵人、嗅出隱藏的對手、或者憑借嗅覺展開追蹤。具有靈敏嗅覺能力的生物能夠辨識熟悉的氣味，就像人類能認出熟悉的畫面。憑借嗅覺，生物可以發現30尺以內的敵人。如果對手在上風處，則距離增為60尺；若在下風處，則減為15尺。如果是強烈的氣味，比如濃煙或者腐爛的垃圾味道，可在上述距離兩倍之內聞到。某些無法抵擋的氣味，比如臭鼬或穴居人的惡臭，則可在通常距離的三倍之內聞到。具有靈敏嗅覺的生物無法確定氣味來源的具體位置，只知道它存在於嗅覺範圍內的某處。生物可以用一個移動動作來覺察到氣味來源的方向。只要生物進入氣味源的5尺之內，它就能精確確定源頭的位置。一個具有追蹤專長的靈敏嗅覺生物可以通過氣味來追蹤，這時它用感知（或生存）檢定來找到或追蹤氣味。新鮮痕跡的通常DC是10（無論氣味停留在什麼表面）。該DC會因氣味來源的強弱、生物的數量和痕跡新舊的差別在此基礎上增加或減少。痕跡每經過1小時DC會增加2。除此之外，此能力的判定上都按照追蹤專長的規則。地面狀況和低能見度不會影響通過嗅覺來展開追蹤的生物。
+CATEGORY=Special Ability|Tengu ~ Claw Attack.MOD		OUTPUTNAME:爪擊（Claw Attack）		DESC:.CLEAR	DESC:擁有該種族特性的天狗懂得如何使用他們的爪子作為天生武器。他們獲得2爪抓作為主要天生武器並可以造成1d3傷害，並且視其為擁有「精通徒手擊打」專長作為選擇其他專長的前置條件。該特性取代劍類訓練。
+CATEGORY=Special Ability|Tengu ~ Exotic Weapon Training.MOD		OUTPUTNAME:異種武器訓練（Exotic Weapon Training）		DESC:.CLEAR	DESC:有的天狗受過異種武器的訓練，而非通常的劍類武器。這些天狗可以選擇等同於「3+智力修正」種東方武器（UC）並且擅長它們。該特性取代劍類訓練。
+CATEGORY=Special Ability|Tengu ~ Glide.MOD		OUTPUTNAME:滑翔（Glide）		DESC:.CLEAR	DESC:有的天狗可以使用他們帶有羽毛的四肢滑翔。擁有該種族特性的天狗可以進行DC為15的飛行技能檢定，以使他們自身從任何高處墜落而不會受到傷害，就如同使用『羽落術』一般。當他安全地墜落時，天狗可以進行另外一次DC為15的飛行技能檢定進行滑翔，每墜落20尺可以橫向移動5尺。該特性取代天生巧言。
+
+# Undine Racial Trait Abilities
+CATEGORY=Special Ability|Undine ~ Darkvision.MOD		OUTPUTNAME:黑暗視覺（Darkvision）		DESC:.CLEAR	DESC:水元素裔擁有60尺黑暗視覺。
+CATEGORY=Special Ability|Undine ~ Spell-Like Ability.MOD		OUTPUTNAME:類法術能力（Spell-Like Ability）		DESC:.CLEAR	DESC:每天1次『水流衝擊』（施法者等級等同於水元素裔等級）。【法術速查】水流衝擊（Hydraulic Push, APG）：水流衝撞一名敵人。
+CATEGORY=Special Ability|Undine ~ Energy Resistance.MOD		OUTPUTNAME:能量抗力（Energy Resistance）		DESC:.CLEAR	DESC:水元素裔擁有5點寒冷抗力。
+CATEGORY=Special Ability|Undine ~ Water Affinity.MOD		OUTPUTNAME:水流親和（Water Affinity）		DESC:.CLEAR	DESC:元素血統（水）的水元素裔術士在計算所有術士法術以及職業能力時魅力視為比實際高2點。選擇水領域的水元素裔牧師在使用水領域的領域力量以及法術時施法者等級視為比實際高1級。
+CATEGORY=Special Ability|Undine ~ Acid Breath.MOD		OUTPUTNAME:酸液吐息（Acid Breath）		DESC:.CLEAR	DESC:部分水元素裔的異界血統能夠追溯到那些將酸液作為武器的水魔蝠（Water Mephit, B1）身上。這些水元素裔擁有噴吐武器，每天1次，她們能夠噴出5尺錐形範圍的酸液。噴吐武器造成每2個角色等級1d8點強酸傷害（最高5d8）。成功通過DC為「10+1/2角色等級+體質修正」的反射豁免檢定能夠將傷害減半。該特性取代類法術能力。
+CATEGORY=Special Ability|Undine ~ Amphibious.MOD		OUTPUTNAME:兩棲（Amphibious）		DESC:.CLEAR	DESC:有的水元素裔天生與水保有永久性的聯繫。擁有該種族特性的水元素裔獲得水系亞種以及「兩棲」特殊能力。該特性取代類法術能力。【特性速查】兩棲（Amphibious, Ex）：擁有該特殊能力的生物擁有水系亞種，但是他們能夠永久在陸地上生存。
+CATEGORY=Special Ability|Undine ~ Deepsight.MOD		OUTPUTNAME:深海視域（Deepsight）		DESC:.CLEAR	DESC:有些水元素裔的雙眼十分適合在黑暗的深海中視物，不過她們不怎麼適應空氣環境。擁有該種族特性的水元素裔在水下擁有120尺黑暗視覺，但是在其他情況下則完全沒有黑暗視覺。該特性取代黑暗視覺。
+CATEGORY=Special Ability|Undine ~ Flesh Chameleon.MOD		OUTPUTNAME:肌膚擬態（Flesh Chameleon）		DESC:.CLEAR	DESC:有的水元素裔能夠將她們的皮膚顏色變為與人類相似的色調。以一個標準動作，擁有該種族特性的水元素裔能夠將她天生的藍皮膚轉變為任何普通人類的皮膚色調，並且能夠以一個自由動作恢復原樣。這使得她們在使用易容檢定偽裝為人類時獲得+4種族加值。該特性取代能量抗力。
+CATEGORY=Special Ability|Undine ~ Hydrated Vitality.MOD		OUTPUTNAME:流水活力（Hydrated Vitality）		DESC:.CLEAR	DESC:無論何時，擁有該種族特性的水元素裔只要將她的身體浸沒在天然的海水、淡水或鹽水中時，便可以獲得2點快速醫療並持續1輪。死水、毒潭或蓄水（比如人工水池或者次元袋中儲存的水）無法激活該能力。水元素裔每天最多可以通過該能力恢復每等級2點生命，在這之後這個能力便不再起效。該特性取代水流親和。
+CATEGORY=Special Ability|Undine ~ Nereid Fascination.MOD		OUTPUTNAME:海靈之魅（Nereid Fascination）		DESC:.CLEAR	DESC:有些水元素裔的祖先甚至可以追溯到異界的海妖精（Nereid, B2）。每天一次以一個標準動作，這些水元素裔能夠創造20尺半徑的靈光，使得靈光範圍內的類人生物陷入對她的迷魂狀態，持續的輪數等同於水元素裔角色等級的一半（最低1輪）。目標能夠通過成功的DC為「10+1/2角色等級+體質修正」的豁免檢定抵禦該效果。這是超自然能力。該特性取代類法術能力。
+CATEGORY=Special Ability|Undine ~ Ooze Breath.MOD		OUTPUTNAME:粘液吐息（Ooze Breath）		DESC:.CLEAR	DESC:有些水元素裔的異界血統可以追溯到泥魔蝠（Ooze Mephit, B1）身上。她們可以使用噴吐武器，每天1次，噴出範圍為5尺錐形的粘液。粘液造成每2個角色等級1d4點強酸傷害（最高5d4），並且會使範圍內的生物噁心3輪。成功通過DC為「10+1/2角色等級+體質修正」的反射豁免檢定能夠將傷害減半並且避免噁心。該特性取代類法術能力。
+CATEGORY=Special Ability|Undine ~ Terrain Chameleon.MOD		OUTPUTNAME:環境擬態（Terrain Chameleon）		DESC:.CLEAR	DESC:有些水元素裔能夠改變她們的顏色，將自身變為棕色或者灰色以潛藏於水下的岩層附近，抑或變為綠色潛藏在水草或其他天然水中植物中。以一個標準動作，擁有該種族特性的水元素裔能夠改變她們的顏色，使其在水下環境中的隱匿檢定獲得+4加值，並且能夠以一個自由動作恢復原樣。該特性取代能量抗力。
+CATEGORY=Special Ability|Undine ~ Water Sense.MOD		OUTPUTNAME:水之感官（Water Sense）		DESC:.CLEAR	DESC:擁有該種族特性的水元素裔能夠察覺水中的震動，這使得她們獲得30尺盲感以察覺接觸同一水體的生物。該特性取代能量抗力。【特性速查】盲感（Blindsense, Ex）：利用非可視化感知，就像敏銳的嗅覺和聽覺，一個帶有盲感的生物不用看就可以注意到事物。這類生物通常不需要在盲感範圍內做察覺檢定就可以找到某個生物，前提是要和那個生物有效果線。在對抗盲感生物時，他的對手依然視為擁有全隱蔽，並且盲感生物攻擊時依然會有失手率。能見度依然會對擁有盲感的生物起作用。擁有盲感的生物依然會在對抗他看不見的敵人的攻擊時AC失去敏捷加值。
+
+# Tiefling Racial Trait Abilities
+CATEGORY=Special Ability|Tiefling ~ Darkvision.MOD		OUTPUTNAME:黑暗視覺（Darkvision）		DESC:.CLEAR	DESC:魔裔可以在黑暗中可以看到60尺遠。
+CATEGORY=Special Ability|Tiefling ~ Skilled.MOD		OUTPUTNAME:技能獎勵（Skilled）		DESC:.CLEAR	DESC:魔裔的唬騙和隱匿檢定獲得+2種族加值。
+CATEGORY=Special Ability|Tiefling ~ Spell-Like Ability.MOD		OUTPUTNAME:類法術能力（Spell-Like Ability）		DESC:.CLEAR	DESC:每天一次，魔裔能以類法術能力使用『黑暗術』，施法者等級等於魔裔的職業等級。
+CATEGORY=Special Ability|Tiefling ~ Fiendish Resistance.MOD		OUTPUTNAME:煉獄抗力（Fiendish Resistance）		DESC:.CLEAR	DESC:魔裔擁有5點寒冷抗力，5點閃電抗力以及5點火焰抗力。
+CATEGORY=Special Ability|Tiefling ~ Fiendish Sorcery.MOD		OUTPUTNAME:煉獄魔力（Fiendish Sorcery）		DESC:.CLEAR	DESC:深淵或煉獄血統的魔裔術士在計算職業能力時視為魅力比正常高2點。
+CATEGORY=Special Ability|Tiefling ~ Beguiling Liar.MOD		OUTPUTNAME:妄語讒言（Beguiling Liar）		DESC:.CLEAR	DESC:許多魔裔發現世間最好的處事方法就是說別人想聽的話。這些魔裔擅長欺騙敵人，並把謊言說得和真的一樣，這使得他們在唬騙檢定上獲得+4種族加值。該種族特性取代技能獎勵。
+CATEGORY=Special Ability|Tiefling ~ Fiendish Sprinter.MOD		OUTPUTNAME:煉獄闊步（Fiendish Sprinter）		DESC:.CLEAR	DESC:和人類相比，有的魔裔的雙足如同野獸一般。很多魔裔的腳部都類似於動物的腳爪或偶蹄，這一特性使得他們的移動速度在衝鋒、奔跑或撤退時獲得10尺種族加值。該特性取代技能獎勵。
+CATEGORY=Special Ability|Tiefling ~ Maw.MOD		OUTPUTNAME:尖牙（Maw）		DESC:.CLEAR	DESC:有的魔裔呈現出更多他們殘忍祖先的獸性特徵。這些魔裔擁有強有力的尖牙。魔裔可以選擇造成1d6傷害的嚙咬攻擊。這些攻擊方式屬於天生武器。該特性取代類法術能力。
+CATEGORY=Special Ability|Tiefling ~ Claw.MOD		OUTPUTNAME:利爪（Claw）		DESC:.CLEAR	DESC:有的魔裔呈現出更多他們殘忍祖先的獸性特徵。這些魔裔擁有危險的利爪。魔裔可以選擇造成每隻造成1d4傷害的雙爪。這些攻擊方式屬於天生武器。該特性取代類法術能力。
+CATEGORY=Special Ability|Tiefling ~ Prehensile Tail.MOD		OUTPUTNAME:卷尾（Prehensile Tail）		DESC:.CLEAR	DESC:很多魔裔都生有尾巴，而只有部分魔裔的尾巴比較長。這些靈活的尾巴可以用來抓取物品。雖然他們不能用尾巴持握武器，不過他們能以一個迅捷動作用其拾取輕小物品。該種族特性取代煉獄魔力。
+CATEGORY=Special Ability|Tiefling ~ Scaled Skin (Cold).MOD		OUTPUTNAME:鱗片皮膚 寒冷（Scaled Skin (Cold)）		DESC:.CLEAR	DESC:某些魔裔的皮膚給予他們能量抗力，同時也堅硬如甲。擁有5點寒冷能量抗力，並且還獲得1點天生防禦。該特性取代煉獄抗力。
+CATEGORY=Special Ability|Tiefling ~ Scaled Skin (Electricity).MOD		OUTPUTNAME:鱗片皮膚 闪电（Scaled Skin (Electricity)）		DESC:.CLEAR	DESC:某些魔裔的皮膚給予他們能量抗力，同時也堅硬如甲。擁有該特性的魔裔獲得5點閃電能量抗力，並且還獲得1點天生防禦。該特性取代煉獄抗力。
+CATEGORY=Special Ability|Tiefling ~ Scaled Skin (Fire).MOD		OUTPUTNAME:鱗片皮膚 火焰（Scaled Skin (Fire)）		DESC:.CLEAR	DESC:某些魔裔的皮膚給予他們能量抗力，同時也堅硬如甲。擁有該特性的魔裔獲得5點火焰抗力，並且還獲得1點天生防禦。該特性取代煉獄抗力。
+CATEGORY=Special Ability|Tiefling ~ Soul Seer.MOD		OUTPUTNAME:觀魂者（Soul Seer）		DESC:.CLEAR	DESC:極少數魔裔擁有可以看到生物的靈魂狀態的特異視覺。他們能以類法術能力任意使用『觀命術』。該特性取代類法術能力以及煉獄魔力。【法術速查】觀命術（Deathwatch）：查看30尺內的受術者離死亡到底有多近。
+CATEGORY=Special Ability|Tiefling ~ Vestigial Wings.MOD		OUTPUTNAME:殘翼（Vestigial Wings）		DESC:.CLEAR	DESC:有的魔裔擁有一對彷彿在嘲笑著他們自身血統的短小、乾枯、發育不良的翅膀。其中一些的翅膀好似皮革，如蝙蝠一般。其他的則覆蓋著散亂的黑色、紅色或藍紫色羽毛。而其中極少數魔裔擁有更為奇特樣式的翅膀。這些翅膀無法使你真正的飛行，但是卻有足夠的力量以其他的一些方法輔助飛行。這使你在飛行檢定上獲得+4種族加值。該特性取代技能獎勵。
+
+# Changeling Racial Trait Abilities
+CATEGORY=Special Ability|Changeling ~ Hag Racial Trait.MOD		OUTPUTNAME:鬼婆種族特性（Hag Racial Trait）		DESC:.CLEAR	DESC:替換兒繼承了下列種族特性之一，這取決於她母親屬於何種鬼婆。
+CATEGORY=Special Ability|Changeling ~ Annis Hag Hulking Changeling.MOD		OUTPUTNAME:凶拙替換兒（Annis Hag Hulking Changeling）		DESC:.CLEAR	DESC:替換兒的近戰傷害獲得+1種族加值。
+CATEGORY=Special Ability|Changeling ~ Green Hag Green Widow.MOD		OUTPUTNAME:綠寡婦（Green Hag Green Widow）		DESC:.CLEAR	DESC:替換兒在使用唬騙檢定對抗對她有性趣的生物時獲得+2種族加值。
+CATEGORY=Special Ability|Changeling ~ Sea Hag Sea Lungs.MOD		OUTPUTNAME:海肺（Sea Hag Sea Lungs）		DESC:.CLEAR	DESC:替換兒在受到溺斃的危險之前，能夠屏息的輪數等同於她體質的三倍。
+CATEGORY=Special Ability|Changeling ~ Claws.MOD		OUTPUTNAME:利爪（Claws）		DESC:.CLEAR	DESC:替換兒的指甲堅硬而又銳利，這使她們獲得了2爪抓攻擊（每隻造成1d4點傷害）。
+CATEGORY=Special Ability|Changeling ~ Natural Armor.MOD		OUTPUTNAME:天生防禦（Natural Armor）		DESC:.CLEAR	DESC:替換兒擁有AC天生防禦加值+1。
+CATEGORY=Special Ability|Changeling ~ Darkvision.MOD		OUTPUTNAME:黑暗視覺（Darkvision）		DESC:.CLEAR	DESC:替換兒擁有60尺黑暗視覺。
+CATEGORY=Special Ability|Changeling ~ Annis Hag Mist Child.MOD		OUTPUTNAME:迷霧之子（Annis Hag Mist Child）		DESC:.CLEAR	DESC:當替換兒處於隱蔽或者全隱蔽時，對她攻擊的失手率提高百分之5。該特性取代凶拙替換兒。
+CATEGORY=Special Ability|Changeling ~ Green Hag Object of Desire.MOD		OUTPUTNAME:尤物（Green Hag Object of Desire）		DESC:.CLEAR	DESC:當替換兒施放『魅惑人類』以及『魅惑怪物』時施法者等級+1。該特性取代綠寡婦。
+CATEGORY=Special Ability|Changeling ~ Sea Hag Ocean's Daughter.MOD		OUTPUTNAME:海洋之女（Sea Hag Ocean's Daughter）		DESC:.CLEAR	DESC:替換兒的游泳檢定獲得+1背景加值。並且在以游泳檢定避免游泳造成的非致命傷害時自動成功。該特性取代海肺。
+
+# Duergar Racial Trait Abilities
+CATEGORY=Special Ability|Duergar ~ Slow and Steady.MOD		OUTPUTNAME:慢而穩（Slow and Steady）		DESC:.CLEAR	DESC:灰矮人擁有20尺基本速度，但是其速度不會受到負重以及盔甲影響。
+CATEGORY=Special Ability|Duergar ~ Superior Darkvision.MOD		OUTPUTNAME:強力黑暗視覺（Superior Darkvision）		DESC:.CLEAR	DESC:灰矮人在黑暗中能夠看到120尺遠。
+CATEGORY=Special Ability|Duergar ~ Duergar Immunities.MOD		OUTPUTNAME:灰矮人免疫（Duergar Immunities）		DESC:.CLEAR	DESC:灰矮人免疫麻痺，魅影（phantasms）和毒素。同時在對抗法術和類法術能力時，豁免檢定獲得+2種族加值。
+CATEGORY=Special Ability|Duergar ~ Light Sensitivity.MOD		OUTPUTNAME:強光敏感（Light Sensitivity）		DESC:.CLEAR	DESC:灰矮人在強光環境下會目眩。
+
+# Gillman Racial Trait Abilities
+CATEGORY=Special Ability|Gillman ~ Amphibious.MOD		OUTPUTNAME:兩棲（Amphibious）		DESC:.CLEAR	DESC:半魚人擁有水棲亞種，但是她們能夠在水中或空氣中呼吸。
+CATEGORY=Special Ability|Gillman ~ Enchantment Resistance.MOD		OUTPUTNAME:惑控抗力（Enchantment Resistance）		DESC:.CLEAR	DESC:半魚人在對抗非底棲魔魚的惑控學派法術以及效果時，豁免檢定獲得+2種族加值。但是她們在對抗源自底棲魔魚（Aboleth）的此類效果時的豁免檢定受到-2減值。
+CATEGORY=Special Ability|Gillman ~ Water Dependent.MOD		OUTPUTNAME:水之依賴（Water Dependent）		DESC:.CLEAR	DESC:半魚人的身體需要不斷淹沒於淡水或鹹水之中。如果半魚人持續超過1天沒有將身體浸沒在水中的話，她的內部器官就會衰竭、皮膚會開裂，並且在4d6小時內死亡。
+CATEGORY=Special Ability|Gillman ~ Riverfolk.MOD		OUTPUTNAME:河之族裔（Riverfolk）		DESC:.CLEAR	DESC:一些半魚人沿著巨大的河道聚居生活，並且更加適應長時間在陸地上的生活。擁有該種族特性的半魚人的皮膚上有一層油制的薄膜，這使得她們的皮膚能夠在沒有水的環境下不會開裂。然而這種天然油脂同時會使這些半魚人特別易受火焰影響，她們獲得「火焰易傷」特性。該特性取代水之依賴。【特性速查】易傷（Vulnerabilties, Ex/Su）：擁有易傷的生物不管是否通過豁免，都會額外承受一半特定類型的傷害。在對抗有易傷列出傷害類型的法術或者效果時，生物在豁免檢定上承受-4減值（例如有〔光亮〕描述的法術）。有的生物可能還會產生其他效果，詳情在怪物描述中列出。
+CATEGORY=Special Ability|Gillman ~ Slime Hunter.MOD		OUTPUTNAME:變形獵手（Slime Hunter）		DESC:.CLEAR	DESC:從底棲魔魚在災變中解救半魚人的人類祖先起，這些半魚人的先祖就一直在與底棲魔魚進行著抗爭，擁有該種族特性的半魚人就是她們的後裔。她們在對抗底棲魔魚的法術、類法術能力以及超自然能力時的豁免檢定獲得+2種族加值。該特性取代惑控抗力。
+CATEGORY=Special Ability|Gillman ~ Throwback.MOD		OUTPUTNAME:返祖（Throwback）		DESC:.CLEAR	DESC:部分半魚人退變為她們的陸生人類祖先的樣貌。擁有該種族特性的半魚人不具備兩棲種族特性，並且屬於人類子類而非水棲子類，不再具有游泳速度或額外的游泳技能獎勵，不能在水中呼吸，同時失去水之依賴種族特性。
+
+# Kitsune Racial Trait Abilities
+CATEGORY=Special Ability|Kitsune ~ Low-Light Vision.MOD		OUTPUTNAME:昏暗視覺（Low-Light Vision）		DESC:.CLEAR	DESC:狐妖擁有昏暗視覺，在昏暗光照下能夠看到的距離是人類的兩倍遠。
+CATEGORY=Special Ability|Kitsune ~ Change Shape.MOD		OUTPUTNAME:變身（Change Shape）		DESC:.CLEAR	DESC:狐妖能夠呈現出一種同性人類的外貌與形態。當狐妖使用該能力時，總是會變為該種特定的形態。在人類形態下，狐妖無法使用她的嚙咬攻擊，但是當她以此形態偽裝成人類時，易容檢定獲得+10種族加值。變身是一個標準動作。除了狐妖無法調整自身的屬性以外，該能力在其他方面如同『變身術（alter self）』一般運作，並且可以一直保持這個形態。。
+CATEGORY=Special Ability|Kitsune ~ Agile.MOD		OUTPUTNAME:靈巧（Agile）		DESC:.CLEAR	DESC:狐妖在特技檢定上獲得+2種族加值。
+CATEGORY=Special Ability|Kitsune ~ Kitsune Magic.MOD		OUTPUTNAME:狐妖之術（Kitsune Magic）		DESC:.CLEAR	DESC:狐妖施放的任何附魔學派法術的豁免DC均獲得+1加值。擁有11或更高魅力屬性的狐妖每天還能夠以類法術能力施放舞光術（Dancing Lights）3次，施法者等級等於狐妖等級。
+CATEGORY=Special Ability|Kitsune ~ Natural Weapons.MOD		OUTPUTNAME:天生武器（Natural Weapons）		DESC:.CLEAR	DESC:狐妖在她的自然形態下擁有嚙咬攻擊，可以造成1d4點傷害。
+CATEGORY=Special Ability|Kitsune ~ Fast Shifter.MOD		OUTPUTNAME:快速切換（Fast Shifter）		DESC:.CLEAR	DESC:你擁有在兩種形態間變換的天生才能。使用你的【變身】種族能力是移動動作而非原本的標準動作。該特性取代狐妖之術。
+CATEGORY=Special Ability|Kitsune ~ Gregarious.MOD		OUTPUTNAME:擅長交際（Gregarious）		DESC:.CLEAR	DESC:即使在你的種群之中，你的社交能力也是出類拔萃的。當你成功使用交涉技能贏得一名個體的支持之後，該生物在接下來的24小時內，抵抗任何你的基於魅力的技能檢定時均會受到-2減值。該特性取代靈巧。
+
+# Grippli Racial Trait Abilities
+CATEGORY=Special Ability|Grippli ~ Darkvision.MOD		OUTPUTNAME:黑暗視覺（Darkvision）		DESC:.CLEAR	DESC:樹蛙人能夠在黑暗中看到60尺遠。
+CATEGORY=Special Ability|Grippli ~ Camouflage.MOD		OUTPUTNAME:偽裝（Camouflage）		DESC:.CLEAR	DESC:樹蛙人在沼澤以及森林地區時，隱匿檢定獲得+4種族加值。
+CATEGORY=Special Ability|Grippli ~ Swamp Stride.MOD		OUTPUTNAME:沼地闊步（Swamp Stride）		DESC:.CLEAR	DESC:樹蛙人能夠以正常速度在沼澤的困難地形中移動。魔法造成的地形效果如常影響樹蛙人。
+CATEGORY=Special Ability|Grippli ~ Glider.MOD		OUTPUTNAME:滑翔者（Glider）		DESC:.CLEAR	DESC:樹蛙人擁有流線型的身體以及腳趾間的厚膜，這使得樹蛙人能夠在墜落時視實際高度為正常的一半。樹蛙人能夠在墜落時控制自己的身體，最高能夠在滑翔時橫向移動的距離等同於實際墜落距離的一半。當樹蛙人穿戴重甲、重度負重或者無法對墜落做出反應（比如在無助狀態）時無法使用該特性。該特性取代沼地闊步。
+CATEGORY=Special Ability|Grippli ~ Jumper.MOD		OUTPUTNAME:跳躍者（Jumper）		DESC:.CLEAR	DESC:當使用特技動作檢定跳躍時，擁有該種族特性的樹蛙人總是被認為已經進行助跑。該特性取代偽裝。
+CATEGORY=Special Ability|Grippli ~ Princely.MOD		OUTPUTNAME:皇室成員（Princely）		DESC:.CLEAR	DESC:擁有該種族特性的樹蛙人擅長細劍，並且交涉以及威嚇檢定獲得+2種族加值。該特性取代沼地闊步以及武器熟悉。
+CATEGORY=Special Ability|Grippli ~ Toxic Skin.MOD		OUTPUTNAME:毒性皮膚（Toxic Skin）		DESC:.CLEAR	DESC:每天1次以一個迅捷動作，樹蛙人能夠分泌出能夠塗抹在武器上、或者通過接觸攻擊傳遞的毒液。此外，樹蛙人能夠以一個標準動作將毒液塗抹在他的身體上，以此來對第一個使用徒手打擊或者天生武器攻擊他的生物產生影響。毒液會在1小時候失效。樹蛙人對他自身的毒素免疫。該特性取代沼地闊步以及偽裝。
+
+# Merfolk Racial Trait Abilities
+CATEGORY=Special Ability|Merfolk ~ Amphibious.MOD		OUTPUTNAME:兩棲（Amphibious）		DESC:.CLEAR	DESC:人魚是兩棲生物，但是不喜歡長時間離開水。
+CATEGORY=Special Ability|Merfolk ~ Low-Light Vision.MOD		OUTPUTNAME:昏暗視覺（Low-Light Vision）		DESC:.CLEAR	DESC:人魚擁有昏暗視覺。
+CATEGORY=Special Ability|Merfolk ~ Armor.MOD		OUTPUTNAME:防禦（Armor）		DESC:.CLEAR	DESC:人魚擁有AC+2天生防禦加值。
+CATEGORY=Special Ability|Merfolk ~ Legless.MOD		OUTPUTNAME:無腿（Legless）		DESC:.CLEAR	DESC:人魚沒有雙腿，並且不會被絆摔。
+CATEGORY=Special Ability|Merfolk ~ Darkvision.MOD		OUTPUTNAME:黑暗視覺（Darkvision）		DESC:.CLEAR	DESC:有些人魚喜歡深海多於淺海。擁有該種族特性的人魚獲得60尺黑暗視覺以及強光敏感。該特性取代昏暗視覺。【特性速查】強光敏感（Light Sensitivity, Ex）：該生物在強光，比如太陽光或者『晝明術』範圍內就會目眩。
+CATEGORY=Special Ability|Merfolk ~ Seasinger.MOD		OUTPUTNAME:海中歌者（Seasinger）		DESC:.CLEAR	DESC:人魚那動聽的歌聲是世人皆知的。海中歌者的表演（歌唱）檢定獲得+2種族加值，並且所有依賴語言的法術的豁免DC獲得+1種族加值。該特性取代昏暗視覺。
+CATEGORY=Special Ability|Merfolk ~ Strongtail.MOD		OUTPUTNAME:強壯尾部（Strongtail）		DESC:.CLEAR	DESC:少數人魚擁有寬大、強壯的尾部，這種尾部使得她們相對於其他同族的尾部更適合在陸地上行走。擁有該種族特性的人魚在地面上的基本速度為15尺，並且擁有30尺的游泳速度。
+
+# Nagaji Racial Trait Abilities
+CATEGORY=Special Ability|Nagaji ~ Low-Light Vision.MOD		OUTPUTNAME:昏暗視覺（Low-Light Vision）		DESC:.CLEAR	DESC:娜迦裔擁有昏暗視覺，在昏暗光照下能夠看到的距離是人類的兩倍遠。
+CATEGORY=Special Ability|Nagaji ~ Armored Scales.MOD		OUTPUTNAME:鱗片護甲（Armored Scales）		DESC:.CLEAR	DESC:娜迦裔得益於她們帶有鱗片的肌膚，獲得+1AC天生防禦加值。
+CATEGORY=Special Ability|Nagaji ~ Resistant.MOD		OUTPUTNAME:抗力（Resistant）		DESC:.CLEAR	DESC:娜迦裔在對抗〔影響心靈〕效果以及毒素時的豁免檢定獲得+2種族加值。
+CATEGORY=Special Ability|Nagaji ~ Serpent's Sense.MOD		OUTPUTNAME:蛇之感官（Serpent's Sense）		DESC:.CLEAR	DESC:娜迦裔對爬蟲類的馴養動物檢定獲得+2種族加值，並且察覺檢定獲得+2種族加值。
+CATEGORY=Special Ability|Nagaji ~ Hypnotic Gaze.MOD		OUTPUTNAME:催眠凝視（Hypnotic Gaze）		DESC:.CLEAR	DESC:娜迦裔的凝視是如此攝人心魄，以至於她能夠通過視線停止他人的動作。每天1次，她能夠嘗試催眠一個目標，就如同『催眠術』一般（施法者等級等同於娜迦裔的生命骰）。效果的DC等同於「11+魅力修正」。【催眠凝視】的效果只持續1輪。該特性取代蛇之感官。【法術速查】催眠術（Hypnotism）：使HD總和為2d4的生物群陷入迷魂狀態。
+
+# Samsaran Racial Trait Abilities
+CATEGORY=Special Ability|Samsaran ~ Low-Light Vision.MOD		OUTPUTNAME:昏暗視覺（Low-Light Vision）		DESC:.CLEAR	DESC:輪迴者擁有昏暗視覺，在昏暗光照下能夠看到的距離是人類的兩倍遠。
+CATEGORY=Special Ability|Samsaran ~ Lifebound.MOD		OUTPUTNAME:生命之縛（Lifebound）		DESC:.CLEAR	DESC:輪迴者在抵抗即死效果、對抗負能量效果、移除負向等級時的豁免檢定，以及生命降至負值時穩定傷勢的體質檢定獲得+2種族加值。
+CATEGORY=Special Ability|Samsaran ~ Samsaran Magic.MOD		OUTPUTNAME:輪迴者魔法（Samsaran Magic）		DESC:.CLEAR	DESC:魅力屬性達到11或更高的輪迴者獲得下述類法術能力：每天1次『通曉語言』，『觀命術』以及『穩定傷勢』。這些效果的施法者等級等同於輪迴者的角色等級。
+CATEGORY=Special Ability|Samsaran ~ Shards of the Past.MOD		OUTPUTNAME:前世的殘片（Shards of the Past）		DESC:.CLEAR	DESC:輪迴者前世的經歷使她在兩項特定的技能上獲得加值。輪迴者選擇兩個技能——她在這兩個技能上均會獲得+2種族加值，並且無論輪迴者是什麼職業，都視這些技能為本職技能。
+CATEGORY=Special Ability|Samsaran ~ Mystic Past Life.MOD		OUTPUTNAME:前世秘術（Mystic Past Life）		DESC:.CLEAR	DESC:你能夠將其他施法職業的法術加入到你當前的施法職業的法術列表中。加入的法術數量等同於「1+施法職業關鍵屬性修正」（牧師使用感知屬性，等等）。這些法術必須與你將要加入的施法職業類型相同（神術或奧術）。比如，你能夠將『神能（divine power）』加入到你的德魯伊法術列表中，但是由於神能是神術，所以無法加入到你的法師法術列表中。這些法術並不限於你作為1級人物時能夠施放的法術。該能力獲得的法術的數量在等級1級時確定。改變你的屬性數值並不會改變獲得的法術數量。該特性取代前世的殘片。
+
+# Strix Racial Trait Abilities
+CATEGORY=Special Ability|Strix ~ Hatred.MOD		OUTPUTNAME:仇恨（Hatred）		DESC:.CLEAR	DESC:由於針對仇敵的特殊訓練，鴞形人在對抗屬於類人生物人類子類的生物時，攻擊檢定獲得+1種族加值。
+CATEGORY=Special Ability|Strix ~ Nocturnal.MOD		OUTPUTNAME:夜行（Nocturnal）		DESC:.CLEAR	DESC:鴞形人在昏暗或者黑暗環境下，察覺以及隱匿檢定獲得+2種族加值。
+CATEGORY=Special Ability|Strix ~ Suspicious.MOD		OUTPUTNAME:多疑（Suspicious）		DESC:.CLEAR	DESC:鴞形人在對抗幻象法術以及效果時的豁免檢定獲得+2種族加值。
+CATEGORY=Special Ability|Strix ~ Dayguard.MOD		OUTPUTNAME:日間守衛（Dayguard）		DESC:.CLEAR	DESC:部分鴞形人已經熟悉在白天守護部族的技巧，他們在察覺檢定上獲得+2種族加值，並且總是視察覺為本職技能。該特性取代夜行。
+CATEGORY=Special Ability|Strix ~ Frightening.MOD		OUTPUTNAME:駭人（Frightening）		DESC:.CLEAR	DESC:鴞形人看起來極具威脅性，他們會善用這一優勢，這使他們的威嚇檢定獲得+2種族加值。該特性取代夜行。
+CATEGORY=Special Ability|Strix ~ Nimble.MOD		OUTPUTNAME:靈活（Nimble）		DESC:.CLEAR	DESC:鴞形人的反射豁免獲得+1種族加值。該特性取代多疑。
+CATEGORY=Special Ability|Strix ~ Tough.MOD		OUTPUTNAME:堅韌（Tough）		DESC:.CLEAR	DESC:鴞形人的強韌豁免獲得+1種族加值。該特性取代多疑。
+CATEGORY=Special Ability|Strix ~ Wing-Clipped.MOD		OUTPUTNAME:短翼（Wing-Clipped）		DESC:.CLEAR	DESC:無論是由於天生缺陷還是受創造成的結果，短翼鴞形人的飛行能力比正常的族人要弱很多。他們的飛行速度為20尺（機動性不良），同時他們必須進行DC30的飛行檢定才能向上飛行。遭到部族的流放使得他們被迫與其他種族溝通，這些鴞形人在唬騙、攀爬以及交涉檢定上獲得+2種族加值以彌補他們的弱點。
+
+# Svirfneblin Racial Trait Abilities
+CATEGORY=Special Ability|Svirfneblin ~ Defensive Training.MOD		OUTPUTNAME:防禦訓練（Defensive Training）		DESC:.CLEAR	DESC:地底侏儒的AC獲得+2閃避加值。
+CATEGORY=Special Ability|Svirfneblin ~ Senses.MOD		OUTPUTNAME:感官（Senses）		DESC:.CLEAR	DESC:地底侏儒擁有120尺黑暗視覺以及昏暗視覺。
+CATEGORY=Special Ability|Svirfneblin ~ Fortunate.MOD		OUTPUTNAME:好運（Fortunate）		DESC:.CLEAR	DESC:地底侏儒的所有豁免檢定均獲得+2種族加值。
+CATEGORY=Special Ability|Svirfneblin ~ Skilled.MOD		OUTPUTNAME:技能獎勵（Skilled）		DESC:.CLEAR	DESC:地底侏儒的隱匿檢定獲得+2種族加值；這些加值在地下提升至+4。他們還在工藝（煉金）以及察覺檢定上獲得+2種族加值。
+CATEGORY=Special Ability|Svirfneblin ~ Hatred.MOD		OUTPUTNAME:仇恨（Hatred）		DESC:.CLEAR	DESC:由於經過專門的針對性訓練，地底侏儒在對抗類人生物中，矮人子類以及爬蟲子類的生物時，他們的攻擊檢定獲得+1種族加值。
+CATEGORY=Special Ability|Svirfneblin ~ Stonecunning.MOD		OUTPUTNAME:岩石敏銳（Stonecunning）		DESC:.CLEAR	DESC:地底侏儒獲得與矮人一樣的【岩石敏銳】特性。【特性速查】岩石敏銳（Stonecunning）：矮人在察覺異常的石製造物（比如石牆與石製地板中隱藏的陷阱與密門）時，察覺檢定獲得+2加值。當他們在這些石製造物10尺範圍內時，就可以進行檢定，無論他們是否在主動搜索。
+CATEGORY=Special Ability|Svirfneblin ~ Spell Resistance.MOD		OUTPUTNAME:法術抗力（Spell Resistance）		DESC:.CLEAR	DESC:地底侏儒擁有等同於「11+角色等級」的法術抗力。
+CATEGORY=Special Ability|Svirfneblin ~ Svirfneblin Magic.MOD		OUTPUTNAME:地底侏儒魔法（Svirfneblin Magic）		DESC:.CLEAR	DESC:地底侏儒施放的任何幻術系法術豁免DC+1。同時他們還獲得下列類法術能力：常駐－『迴避偵測』；每天1次－『目盲/耳聾術』，『朦朧術』，『易容術』；施法者等級等同於地底侏儒的角色等級。
+CATEGORY=Special Ability|Svirfneblin ~ Healthy.MOD		OUTPUTNAME:健壯（Healthy）		DESC:.CLEAR	DESC:地底侏儒對抗疾病（包括魔法疾病）和毒素的豁免檢定+4。該特性取代好運。
+CATEGORY=Special Ability|Svirfneblin ~ Stoneseer.MOD		OUTPUTNAME:石之先知（Stoneseer）		DESC:.CLEAR	DESC:地底侏儒施放的任何帶有〔土〕描述符的法術施法者等級+1。同時他們還獲得下列類法術能力：常駐－『迴避偵測』；每天1次－『魔石術』，『塑石術』，『石言術』；施法者等級等同於地底侏儒的角色等級。該特性取代地底侏儒魔法。【法術速查】迴避偵測（Nondetection）：隱藏受術者使其不會被預言系法術和探知發現。【法術速查】魔石術（Magic Stone）：將3顆石頭變成+1的投擲物，能造成1d6 +1點傷害。【法術速查】塑石術（Stone Shape）：將石頭塑成任何形狀。【法術速查】石言術（Stone Tell）：可以與天然的或加工過的石頭說話。
+
+# Vanara Racial Trait Abilities
+CATEGORY=Special Ability|Vanara ~ Nimble.MOD		OUTPUTNAME:靈巧（Nimble）		DESC:.CLEAR	DESC:靈猴族在特技動作以及潛行檢定上獲得+2種族加值。
+CATEGORY=Special Ability|Vanara ~ Prehensile Tail.MOD		OUTPUTNAME:靈尾（Prehensile Tail）		DESC:.CLEAR	DESC:靈猴族擁有一條既長又靈活的尾巴，她能夠用其攜帶物品。她的尾巴無法持用武器，但是可以用其以一個迅捷動作拿取她自己裝帶的小物品。
+CATEGORY=Special Ability|Vanara ~ Tree Stranger.MOD		OUTPUTNAME:背樹離鄉（Tree Stranger）		DESC:.CLEAR	DESC:部分靈猴族生命中的很多時間生活在人類之中學習，而非像傳統的族人那樣居住在樹屋中。這些靈猴族將所有知識技能視為本職技能，但是她們失去攀爬速度。
+CATEGORY=Special Ability|Vanara ~ Whitecape.MOD		OUTPUTNAME:白篷（Whitecape）		DESC:.CLEAR	DESC:相比類似叢林猴子的靈猴族來說，罕見的白篷靈猴族部落與居住在草原上的狒狒擁有更多的共同點。他們弓起的身體使得自身在對抗衝撞以及絆摔檢定時的CMD獲得+4種族加值。這些靈猴族的頭肩（稱之為「篷」）通常生有濃密的毛髮，尾巴也比較短。該特性取代靈尾。
+
+# Vishkanya Racial Trait Abilities
+CATEGORY=Special Ability|Vishkanya ~ Low-Light Vision.MOD		OUTPUTNAME:昏暗視覺（Low-Light Vision）		DESC:.CLEAR	DESC:蝮血裔擁有昏暗視覺，在昏暗光照下能夠看到的距離是人類的兩倍遠。
+CATEGORY=Special Ability|Vishkanya ~ Keen Senses.MOD		OUTPUTNAME:敏銳感官（Keen Senses）		DESC:.CLEAR	DESC:蝮血裔的察覺檢定獲得+2種族加值。
+CATEGORY=Special Ability|Vishkanya ~ Limber.MOD		OUTPUTNAME:柔韌（Limber）		DESC:.CLEAR	DESC:蝮血裔的脫逃以及隱匿檢定獲得+2種族加值。
+CATEGORY=Special Ability|Vishkanya ~ Poison Resistance.MOD		OUTPUTNAME:毒性抗力（Poison Resistance）		DESC:.CLEAR	DESC:蝮血裔在對抗毒素時的豁免檢定獲得等同於HD總數的加值。
+CATEGORY=Special Ability|Vishkanya ~ Poison Use.MOD		OUTPUTNAME:用毒（Poison Use）		DESC:.CLEAR	DESC:蝮血裔擅長用毒，她們不會在用毒時意外中毒。
+CATEGORY=Special Ability|Vishkanya ~ Toxic.MOD		OUTPUTNAME:毒液（Toxic）		DESC:.CLEAR	DESC:每天等同於蝮血裔體質修正次（最低每天1次），她能夠使用自己帶毒的唾液或血液，塗抹到正在持用的武器上（如果想要使用血液的話需要蝮血裔受到傷害）。如此用毒是一個迅捷動作。
+CATEGORY=Special Ability|Vishkanya ~ Weapon Familiarity.MOD		OUTPUTNAME:武器熟悉（Weapon Familiarity）		DESC:.CLEAR	DESC:蝮血裔擅長吹箭，反曲刀以及手裡劍。
+CATEGORY=Special Ability|Vishkanya ~ Sensual.MOD		OUTPUTNAME:誘人（Sensual）		DESC:.CLEAR	DESC:你熟習吸引他人注意之道。你的任意一項表演技能+2。該特性取代敏銳感官。
+CATEGORY=Special Ability|Vishkanya ~ Subtle Appearance.MOD		OUTPUTNAME:狡詐容貌（Subtle Appearance）		DESC:.CLEAR	DESC:你有一雙普通（和人類一樣）的眼睛，美麗的外貌也更符合傳統的審美觀。你偽裝成人類時的易容檢定+4。該特性取代昏暗視覺。
+
+# Wayang Racial Trait Abilities
+CATEGORY=Special Ability|Wayang ~ Darkvision.MOD		OUTPUTNAME:黑暗視覺（Darkvision）		DESC:.CLEAR	DESC:剪影人能夠在黑暗中看到60尺遠。
+CATEGORY=Special Ability|Wayang ~ Light and Dark.MOD		OUTPUTNAME:光與暗（Light and Dark）		DESC:.CLEAR	DESC:每天1次以一個直覺動作，剪影人能夠如同不死生物一樣受到正能量傷害並且被負能量治癒。該能力一旦啟動則持續1分鐘。
+CATEGORY=Special Ability|Wayang ~ Lurker.MOD		OUTPUTNAME:潛伏者（Lurker）		DESC:.CLEAR	DESC:剪影人的察覺和隱匿檢定獲得+2種族加值。
+CATEGORY=Special Ability|Wayang ~ Shadow Magic.MOD		OUTPUTNAME:暗影魔法（Shadow Magic）		DESC:.CLEAR	DESC:剪影人所施放的任何幻術系（幽影幻覺子學派）法術的豁免DC+1。擁有11或更高魅力屬性的剪影人獲得以下類法術能力：每天1次－『幻音術』，『行蹤無跡』以及『腹語術』。施法者等級等同於剪影人的角色等級。這些法術的豁免DC等同於「10+法術環級+魅力修正」。【法術速查】幻音術（Ghost Sound）：發出虛幻的聲音。【法術速查】行蹤無跡（Pass without Trace）：每等級可以使一個受術者不留下任何足跡。【法術速查】腹語術（Ventriloquism）：腹語，持續1分鐘/每等級。
+CATEGORY=Special Ability|Wayang ~ Shadow Resistance.MOD		OUTPUTNAME:暗影抗力（Shadow Resistance）		DESC:.CLEAR	DESC:剪影人在對抗任何幻術學派（幽影幻覺子學派）的法術時，豁免檢定獲得+2種族加值。
+CATEGORY=Special Ability|Wayang ~ Dissolution's Child.MOD		OUTPUTNAME:溶影兒（Dissolution's Child）		DESC:.CLEAR	DESC:每天1次，你能夠改變你的容貌，就好像4英尺高的一片陰影一般。你的實體依舊存在，你並非成為虛體——只有你的外觀變化而已。該能力如同『隱形術』一般運作，不過只持續每角色等級1輪（最高5輪）。這是一個超自然能力。該特性取代暗影魔法。

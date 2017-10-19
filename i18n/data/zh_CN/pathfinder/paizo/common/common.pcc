@@ -9,3 +9,4 @@ DOMAIN:cr_domains.lst
 DOMAIN:apg_domains.lst
 DOMAIN:um_domains.lst
 LANGUAGE:cr_languages.lst
+ABILITYCATEGORY:cr_abilitycategories.lst
