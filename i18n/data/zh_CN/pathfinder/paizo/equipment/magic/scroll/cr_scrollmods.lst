@@ -1,0 +1,517 @@
+Scroll (Acid Splash).MOD	OUTPUTNAME:酸液飛濺卷軸（Scroll (Acid Splash)）
+Scroll (Arcane Mark).MOD	OUTPUTNAME:秘法印記卷軸（Scroll (Arcane Mark)）
+Scroll (Bleed/Arcane).MOD	OUTPUTNAME:出血術卷軸（Scroll (Bleed/Arcane)）
+Scroll (Dancing Lights).MOD	OUTPUTNAME:舞光術卷軸（Scroll (Dancing Lights)）
+Scroll (Daze).MOD	OUTPUTNAME:暈眩術卷軸（Scroll (Daze)）
+Scroll (Detect Magic/Arcane).MOD	OUTPUTNAME:偵測魔法卷軸（Scroll (Detect Magic/Arcane)）
+Scroll (Detect Poison/Arcane).MOD	OUTPUTNAME:偵測毒性卷軸（Scroll (Detect Poison/Arcane)）
+Scroll (Disrupt Undead).MOD	OUTPUTNAME:打擊死靈卷軸（Scroll (Disrupt Undead)）
+Scroll (Flare).MOD	OUTPUTNAME:閃光術卷軸（Scroll (Flare)）
+Scroll (Ghost Sound).MOD	OUTPUTNAME:幻音術卷軸（Scroll (Ghost Sound)）
+Scroll (Light/Arcane).MOD	OUTPUTNAME:光亮術卷軸（Scroll (Light/Arcane)）
+Scroll (Mage Hand).MOD	OUTPUTNAME:法師之手卷軸（Scroll (Mage Hand)）
+Scroll (Mending/Arcane).MOD	OUTPUTNAME:修復術卷軸（Scroll (Mending/Arcane)）
+Scroll (Message).MOD	OUTPUTNAME:傳訊術卷軸（Scroll (Message)）
+Scroll (Open/Close).MOD	OUTPUTNAME:開關術卷軸（Scroll (Open/Close)）
+Scroll (Prestidigitation).MOD	OUTPUTNAME:魔法伎倆卷軸（Scroll (Prestidigitation)）
+Scroll (Ray of Frost).MOD	OUTPUTNAME:冰凍射線卷軸（Scroll (Ray of Frost)）
+Scroll (Read Magic/Arcane).MOD	OUTPUTNAME:閱讀魔法卷軸（Scroll (Read Magic/Arcane)）
+Scroll (Resistance/Arcane).MOD	OUTPUTNAME:提升抗力卷軸（Scroll (Resistance/Arcane)）
+Scroll (Touch of Fatigue).MOD	OUTPUTNAME:疲乏之觸卷軸（Scroll (Touch of Fatigue)）
+Scroll (Alarm).MOD	OUTPUTNAME:魔法警報卷軸（Scroll (Alarm)）
+Scroll (Burning Hands).MOD	OUTPUTNAME:燃燒之手卷軸（Scroll (Burning Hands)）
+Scroll (Cause Fear/Arcane).MOD	OUTPUTNAME:驚恐術卷軸（Scroll (Cause Fear/Arcane)）
+Scroll (Charm Person).MOD	OUTPUTNAME:魅惑人類卷軸（Scroll (Charm Person)）
+Scroll (Chill Touch).MOD	OUTPUTNAME:寒冷之觸卷軸（Scroll (Chill Touch)）
+Scroll (Color Spray).MOD	OUTPUTNAME:七彩噴射卷軸（Scroll (Color Spray)）
+Scroll (Comprehend Languages/Arcane).MOD	OUTPUTNAME:通曉語言卷軸（Scroll (Comprehend Languages/Arcane)）
+Scroll (Detect Secret Doors).MOD	OUTPUTNAME:偵測密門卷軸（Scroll (Detect Secret Doors)）
+Scroll (Detect Undead/Arcane).MOD	OUTPUTNAME:偵測死靈卷軸（Scroll (Detect Undead/Arcane)）
+Scroll (Disguise Self).MOD	OUTPUTNAME:易容術卷軸（Scroll (Disguise Self)）
+Scroll (Endure Elements/Arcane).MOD	OUTPUTNAME:忍受環境卷軸（Scroll (Endure Elements/Arcane)）
+Scroll (Enlarge Person).MOD	OUTPUTNAME:變巨術卷軸（Scroll (Enlarge Person)）
+Scroll (Erase).MOD	OUTPUTNAME:抹消術卷軸（Scroll (Erase)）
+Scroll (Expeditious Retreat).MOD	OUTPUTNAME:腳底抹油卷軸（Scroll (Expeditious Retreat)）
+Scroll (Feather Fall).MOD	OUTPUTNAME:羽落術卷軸（Scroll (Feather Fall)）
+Scroll (Floating Disk).MOD	OUTPUTNAME:浮碟術卷軸（Scroll (Floating Disk)）
+Scroll (Grease).MOD	OUTPUTNAME:油膩術卷軸（Scroll (Grease)）
+Scroll (Hold Portal).MOD	OUTPUTNAME:封門術卷軸（Scroll (Hold Portal)）
+Scroll (Hypnotism).MOD	OUTPUTNAME:催眠術卷軸（Scroll (Hypnotism)）
+Scroll (Identify).MOD	OUTPUTNAME:鑒定術卷軸（Scroll (Identify)）
+Scroll (Jump).MOD	OUTPUTNAME:跳躍術卷軸（Scroll (Jump)）
+Scroll (Mage Armor).MOD	OUTPUTNAME:法師護甲卷軸（Scroll (Mage Armor)）
+Scroll (Magic Missile).MOD	OUTPUTNAME:魔法飛彈卷軸（Scroll (Magic Missile)）
+Scroll (Magic Weapon/Arcane).MOD	OUTPUTNAME:魔化武器卷軸（Scroll (Magic Weapon/Arcane)）
+Scroll (Mount).MOD	OUTPUTNAME:坐騎術卷軸（Scroll (Mount)）
+Scroll (Obscuring Mist/Arcane).MOD	OUTPUTNAME:隱霧術卷軸（Scroll (Obscuring Mist/Arcane)）
+Scroll (Protection from Chaos/Arcane).MOD	OUTPUTNAME:防護混亂卷軸（Scroll (Protection from Chaos/Arcane)）
+Scroll (Protection from Evil/Arcane).MOD	OUTPUTNAME:防護邪惡卷軸（Scroll (Protection from Evil/Arcane)）
+Scroll (Protection from Good/Arcane).MOD	OUTPUTNAME:防護善良卷軸（Scroll (Protection from Good/Arcane)）
+Scroll (Protection from Law/Arcane).MOD	OUTPUTNAME:防護秩序卷軸（Scroll (Protection from Law/Arcane)）
+Scroll (Ray of Enfeeblement).MOD	OUTPUTNAME:衰弱射線卷軸（Scroll (Ray of Enfeeblement)）
+Scroll (Reduce Person).MOD	OUTPUTNAME:縮小術卷軸（Scroll (Reduce Person)）
+Scroll (Shield).MOD	OUTPUTNAME:護盾術卷軸（Scroll (Shield)）
+Scroll (Shocking Grasp).MOD	OUTPUTNAME:電爪卷軸（Scroll (Shocking Grasp)）
+Scroll (Silent Image).MOD	OUTPUTNAME:無聲幻影卷軸（Scroll (Silent Image)）
+Scroll (Sleep).MOD	OUTPUTNAME:睡眠術卷軸（Scroll (Sleep)）
+Scroll (Summon Monster I/Arcane).MOD	OUTPUTNAME:召喚怪物 I卷軸（Scroll (Summon Monster I/Arcane)）
+Scroll (True Strike).MOD	OUTPUTNAME:克敵機先卷軸（Scroll (True Strike)）
+Scroll (Unseen Servant).MOD	OUTPUTNAME:隱形僕役卷軸（Scroll (Unseen Servant)）
+Scroll (Ventriloquism).MOD	OUTPUTNAME:腹語術卷軸（Scroll (Ventriloquism)）
+Scroll (Acid Arrow).MOD	OUTPUTNAME:強酸箭卷軸（Scroll (Acid Arrow)）
+Scroll (Alter Self).MOD	OUTPUTNAME:變身術卷軸（Scroll (Alter Self)）
+Scroll (Arcane Lock).MOD	OUTPUTNAME:秘法鎖卷軸（Scroll (Arcane Lock)）
+Scroll (Bear's Endurance/Arcane).MOD	OUTPUTNAME:熊之堅韌卷軸（Scroll (Bear's Endurance/Arcane)）
+Scroll (Blindness/Deafness/Arcane).MOD	OUTPUTNAME:目盲/耳聾術卷軸（Scroll (Blindness/Deafness/Arcane)）
+Scroll (Blur).MOD	OUTPUTNAME:朦朧術卷軸（Scroll (Blur)）
+Scroll (Bull's Strength/Arcane).MOD	OUTPUTNAME:牛之力量卷軸（Scroll (Bull's Strength/Arcane)）
+Scroll (Cat's Grace/Arcane).MOD	OUTPUTNAME:貓之優雅卷軸（Scroll (Cat's Grace/Arcane)）
+Scroll (Command Undead).MOD	OUTPUTNAME:命令死靈卷軸（Scroll (Command Undead)）
+Scroll (Continual Flame/Arcane).MOD	OUTPUTNAME:不滅明焰卷軸（Scroll (Continual Flame/Arcane)）
+Scroll (Darkness/Arcane).MOD	OUTPUTNAME:黑暗術卷軸（Scroll (Darkness/Arcane)）
+Scroll (Darkvision).MOD	OUTPUTNAME:黑暗視覺卷軸（Scroll (Darkvision)）
+Scroll (Daze Monster).MOD	OUTPUTNAME:怪物暈眩術卷軸（Scroll (Daze Monster)）
+Scroll (Detect Thoughts).MOD	OUTPUTNAME:偵測思想卷軸（Scroll (Detect Thoughts)）
+Scroll (Eagle's Splendor/Arcane).MOD	OUTPUTNAME:鷹之威儀卷軸（Scroll (Eagle's Splendor/Arcane)）
+Scroll (False Life).MOD	OUTPUTNAME:虛假生命卷軸（Scroll (False Life)）
+Scroll (Flaming Sphere).MOD	OUTPUTNAME:熾焰法球卷軸（Scroll (Flaming Sphere)）
+Scroll (Fog Cloud).MOD	OUTPUTNAME:雲霧術卷軸（Scroll (Fog Cloud)）
+Scroll (Fox's Cunning/Arcane).MOD	OUTPUTNAME:狐之狡黠卷軸（Scroll (Fox's Cunning/Arcane)）
+Scroll (Ghoul Touch).MOD	OUTPUTNAME:食屍鬼之觸卷軸（Scroll (Ghoul Touch)）
+Scroll (Glitterdust).MOD	OUTPUTNAME:閃光塵卷軸（Scroll (Glitterdust)）
+Scroll (Hideous Laughter).MOD	OUTPUTNAME:狂笑術卷軸（Scroll (Hideous Laughter)）
+Scroll (Hypnotic Pattern).MOD	OUTPUTNAME:催眠圖紋卷軸（Scroll (Hypnotic Pattern)）
+Scroll (Invisibility).MOD	OUTPUTNAME:隱形術卷軸（Scroll (Invisibility)）
+Scroll (Knock).MOD	OUTPUTNAME:敲擊術卷軸（Scroll (Knock)）
+Scroll (Levitate).MOD	OUTPUTNAME:浮空術卷軸（Scroll (Levitate)）
+Scroll (Locate Object/Arcane).MOD	OUTPUTNAME:物品定位術卷軸（Scroll (Locate Object/Arcane)）
+Scroll (Make Whole/Arcane).MOD	OUTPUTNAME:完全修復術卷軸（Scroll (Make Whole/Arcane)）
+Scroll (Minor Image).MOD	OUTPUTNAME:弱效幻影卷軸（Scroll (Minor Image)）
+Scroll (Mirror Image).MOD	OUTPUTNAME:鏡影術卷軸（Scroll (Mirror Image)）
+Scroll (Misdirection).MOD	OUTPUTNAME:誤導術卷軸（Scroll (Misdirection)）
+Scroll (Obscure Object/Arcane).MOD	OUTPUTNAME:遮蔽物品卷軸（Scroll (Obscure Object/Arcane)）
+Scroll (Owl's Wisdom/Arcane).MOD	OUTPUTNAME:梟之睿智卷軸（Scroll (Owl's Wisdom/Arcane)）
+Scroll (Protection from Arrows).MOD	OUTPUTNAME:防護箭矢卷軸（Scroll (Protection from Arrows)）
+Scroll (Pyrotechnics).MOD	OUTPUTNAME:煙火術卷軸（Scroll (Pyrotechnics)）
+Scroll (Resist Energy/Arcane).MOD	OUTPUTNAME:抵抗能量傷害卷軸（Scroll (Resist Energy/Arcane)）
+Scroll (Rope Trick).MOD	OUTPUTNAME:魔繩術卷軸（Scroll (Rope Trick)）
+Scroll (Scare).MOD	OUTPUTNAME:恐嚇術卷軸（Scroll (Scare)）
+Scroll (Scorching Ray).MOD	OUTPUTNAME:灼熱射線卷軸（Scroll (Scorching Ray)）
+Scroll (See Invisibility).MOD	OUTPUTNAME:識破隱形卷軸（Scroll (See Invisibility)）
+Scroll (Shatter/Arcane).MOD	OUTPUTNAME:粉碎音波卷軸（Scroll (Shatter/Arcane)）
+Scroll (Spectral Hand).MOD	OUTPUTNAME:幽靈手卷軸（Scroll (Spectral Hand)）
+Scroll (Spider Climb).MOD	OUTPUTNAME:蛛行術卷軸（Scroll (Spider Climb)）
+Scroll (Summon Monster II/Arcane).MOD	OUTPUTNAME:召喚怪物 II卷軸（Scroll (Summon Monster II/Arcane)）
+Scroll (Summon Swarm).MOD	OUTPUTNAME:飛蟲走獸卷軸（Scroll (Summon Swarm)）
+Scroll (Touch of Idiocy).MOD	OUTPUTNAME:愚者之觸卷軸（Scroll (Touch of Idiocy)）
+Scroll (Web).MOD	OUTPUTNAME:蛛網術卷軸（Scroll (Web)）
+Scroll (Whispering Wind).MOD	OUTPUTNAME:風訊術卷軸（Scroll (Whispering Wind)）
+Scroll (Arcane Sight).MOD	OUTPUTNAME:秘法視力卷軸（Scroll (Arcane Sight)）
+Scroll (Beast Shape I).MOD	OUTPUTNAME:野獸形態 I卷軸（Scroll (Beast Shape I)）
+Scroll (Blink).MOD	OUTPUTNAME:閃現術卷軸（Scroll (Blink)）
+Scroll (Clairaudience/Clairvoyance).MOD	OUTPUTNAME:銳耳術/鷹眼術卷軸（Scroll (Clairaudience/Clairvoyance)）
+Scroll (Daylight/Arcane).MOD	OUTPUTNAME:晝明術卷軸（Scroll (Daylight/Arcane)）
+Scroll (Deep Slumber).MOD	OUTPUTNAME:深度睡眠卷軸（Scroll (Deep Slumber)）
+Scroll (Dispel Magic/Arcane).MOD	OUTPUTNAME:解除魔法卷軸（Scroll (Dispel Magic/Arcane)）
+Scroll (Displacement).MOD	OUTPUTNAME:移位術卷軸（Scroll (Displacement)）
+Scroll (Explosive Runes).MOD	OUTPUTNAME:爆裂符文卷軸（Scroll (Explosive Runes)）
+Scroll (Fireball).MOD	OUTPUTNAME:火球術卷軸（Scroll (Fireball)）
+Scroll (Flame Arrow).MOD	OUTPUTNAME:火焰箭卷軸（Scroll (Flame Arrow)）
+Scroll (Fly).MOD	OUTPUTNAME:飛行術卷軸（Scroll (Fly)）
+Scroll (Gaseous Form).MOD	OUTPUTNAME:氣化形體卷軸（Scroll (Gaseous Form)）
+Scroll (Gentle Repose/Arcane).MOD	OUTPUTNAME:遺體防腐卷軸（Scroll (Gentle Repose/Arcane)）
+Scroll (Haste).MOD	OUTPUTNAME:加速術卷軸（Scroll (Haste)）
+Scroll (Heroism).MOD	OUTPUTNAME:英雄氣概卷軸（Scroll (Heroism)）
+Scroll (Hold Person/Arcane).MOD	OUTPUTNAME:人類定身術卷軸（Scroll (Hold Person/Arcane)）
+Scroll (Invisibility Sphere).MOD	OUTPUTNAME:隱形法球卷軸（Scroll (Invisibility Sphere)）
+Scroll (Keen Edge).MOD	OUTPUTNAME:銳鋒術卷軸（Scroll (Keen Edge)）
+Scroll (Lightning Bolt).MOD	OUTPUTNAME:閃電束卷軸（Scroll (Lightning Bolt)）
+Scroll (Magic Circle Against Chaos/Arcane).MOD	OUTPUTNAME:反混亂法陣卷軸（Scroll (Magic Circle Against Chaos/Arcane)）
+Scroll (Magic Circle Against Evil/Arcane).MOD	OUTPUTNAME:反邪惡法陣卷軸（Scroll (Magic Circle Against Evil/Arcane)）
+Scroll (Magic Circle Against Good/Arcane).MOD	OUTPUTNAME:反善良法陣卷軸（Scroll (Magic Circle Against Good/Arcane)）
+Scroll (Magic Circle Against Law/Arcane).MOD	OUTPUTNAME:反秩序法陣卷軸（Scroll (Magic Circle Against Law/Arcane)）
+Scroll (Magic Weapon (Greater)/Arcane).MOD	OUTPUTNAME:高等魔化武器卷軸（Scroll (Magic Weapon (Greater)/Arcane)）
+Scroll (Major Image).MOD	OUTPUTNAME:強效幻影卷軸（Scroll (Major Image)）
+Scroll (Nondetection).MOD	OUTPUTNAME:迴避偵測卷軸（Scroll (Nondetection)）
+Scroll (Protection from Energy/Arcane).MOD	OUTPUTNAME:防護能量傷害卷軸（Scroll (Protection from Energy/Arcane)）
+Scroll (Rage).MOD	OUTPUTNAME:狂暴術卷軸（Scroll (Rage)）
+Scroll (Ray of Exhaustion).MOD	OUTPUTNAME:力竭射線卷軸（Scroll (Ray of Exhaustion)）
+Scroll (Shrink Item).MOD	OUTPUTNAME:縮物術卷軸（Scroll (Shrink Item)）
+Scroll (Sleet Storm).MOD	OUTPUTNAME:雪風暴卷軸（Scroll (Sleet Storm)）
+Scroll (Slow).MOD	OUTPUTNAME:緩慢術卷軸（Scroll (Slow)）
+Scroll (Stinking Cloud).MOD	OUTPUTNAME:臭雲術卷軸（Scroll (Stinking Cloud)）
+Scroll (Suggestion).MOD	OUTPUTNAME:暗示術卷軸（Scroll (Suggestion)）
+Scroll (Summon Monster III/Arcane).MOD	OUTPUTNAME:召喚怪物 III卷軸（Scroll (Summon Monster III/Arcane)）
+Scroll (Tongues/Arcane).MOD	OUTPUTNAME:巧言術卷軸（Scroll (Tongues/Arcane)）
+Scroll (Vampiric Touch).MOD	OUTPUTNAME:吸血鬼之觸卷軸（Scroll (Vampiric Touch)）
+Scroll (Water Breathing/Arcane).MOD	OUTPUTNAME:水中呼吸卷軸（Scroll (Water Breathing/Arcane)）
+Scroll (Wind Wall/Arcane).MOD	OUTPUTNAME:風牆術卷軸（Scroll (Wind Wall/Arcane)）
+Scroll (Animate Dead/Arcane).MOD	OUTPUTNAME:操縱死屍卷軸（Scroll (Animate Dead/Arcane)）
+Scroll (Arcane Eye).MOD	OUTPUTNAME:秘法眼卷軸（Scroll (Arcane Eye)）
+Scroll (Beast Shape II).MOD	OUTPUTNAME:野獸形態 II卷軸（Scroll (Beast Shape II)）
+Scroll (Bestow Curse/Arcane).MOD	OUTPUTNAME:降咒卷軸（Scroll (Bestow Curse/Arcane)）
+Scroll (Black Tentacles).MOD	OUTPUTNAME:黑觸手卷軸（Scroll (Black Tentacles)）
+Scroll (Charm Monster).MOD	OUTPUTNAME:魅惑怪物卷軸（Scroll (Charm Monster)）
+Scroll (Confusion).MOD	OUTPUTNAME:困惑術卷軸（Scroll (Confusion)）
+Scroll (Contagion/Arcane).MOD	OUTPUTNAME:疫病術卷軸（Scroll (Contagion/Arcane)）
+Scroll (Crushing Despair).MOD	OUTPUTNAME:極度絕望卷軸（Scroll (Crushing Despair)）
+Scroll (Detect Scrying).MOD	OUTPUTNAME:偵測探知卷軸（Scroll (Detect Scrying)）
+Scroll (Dimension Door).MOD	OUTPUTNAME:任意門卷軸（Scroll (Dimension Door)）
+Scroll (Dimensional Anchor/Arcane).MOD	OUTPUTNAME:次元錨卷軸（Scroll (Dimensional Anchor/Arcane)）
+Scroll (Elemental Body I).MOD	OUTPUTNAME:元素形態 I卷軸（Scroll (Elemental Body I)）
+Scroll (Enervation).MOD	OUTPUTNAME:弱能術卷軸（Scroll (Enervation)）
+Scroll (Enlarge Person (Mass)).MOD	OUTPUTNAME:群體變巨術卷軸（Scroll (Enlarge Person (Mass))）
+Scroll (Fear).MOD	OUTPUTNAME:恐懼術卷軸（Scroll (Fear)）
+Scroll (Fire Shield).MOD	OUTPUTNAME:火焰護盾卷軸（Scroll (Fire Shield)）
+Scroll (Fire Trap).MOD	OUTPUTNAME:火焰陷阱卷軸（Scroll (Fire Trap)）
+Scroll (Geas (Lesser)).MOD	OUTPUTNAME:次等指使術卷軸（Scroll (Geas (Lesser))）
+Scroll (Globe of Invulnerability (Lesser)).MOD	OUTPUTNAME:次等法術無效結界卷軸（Scroll (Globe of Invulnerability (Lesser))）
+Scroll (Hallucinatory Terrain).MOD	OUTPUTNAME:幻景卷軸（Scroll (Hallucinatory Terrain)）
+Scroll (Ice Storm).MOD	OUTPUTNAME:冰風暴卷軸（Scroll (Ice Storm)）
+Scroll (Illusory Wall).MOD	OUTPUTNAME:幻牆術卷軸（Scroll (Illusory Wall)）
+Scroll (Invisibility (Greater)).MOD	OUTPUTNAME:高等隱形術卷軸（Scroll (Invisibility (Greater))）
+Scroll (Locate Creature).MOD	OUTPUTNAME:生物定位術卷軸（Scroll (Locate Creature)）
+Scroll (Phantasmal Killer).MOD	OUTPUTNAME:魅影殺手卷軸（Scroll (Phantasmal Killer)）
+Scroll (Reduce Person (Mass)).MOD	OUTPUTNAME:群體縮小術卷軸（Scroll (Reduce Person (Mass))）
+Scroll (Remove Curse/Arcane).MOD	OUTPUTNAME:移除詛咒卷軸（Scroll (Remove Curse/Arcane)）
+Scroll (Scrying/Arcane).MOD	OUTPUTNAME:探知卷軸（Scroll (Scrying/Arcane)）
+Scroll (Shout).MOD	OUTPUTNAME:咆哮術卷軸（Scroll (Shout)）
+Scroll (Solid Fog).MOD	OUTPUTNAME:重霧術卷軸（Scroll (Solid Fog)）
+Scroll (Stone Shape/Arcane).MOD	OUTPUTNAME:塑石術卷軸（Scroll (Stone Shape/Arcane)）
+Scroll (Stoneskin).MOD	OUTPUTNAME:石膚術卷軸（Scroll (Stoneskin)）
+Scroll (Summon Monster IV/Arcane).MOD	OUTPUTNAME:召喚怪物 IV卷軸（Scroll (Summon Monster IV/Arcane)）
+Scroll (Wall of Fire).MOD	OUTPUTNAME:火牆術卷軸（Scroll (Wall of Fire)）
+Scroll (Wall of Ice).MOD	OUTPUTNAME:冰牆術卷軸（Scroll (Wall of Ice)）
+Scroll (Animal Growth).MOD	OUTPUTNAME:動物異變卷軸（Scroll (Animal Growth)）
+Scroll (Baleful Polymorph).MOD	OUTPUTNAME:惡意變形術卷軸（Scroll (Baleful Polymorph)）
+Scroll (Beast Shape III).MOD	OUTPUTNAME:野獸形態 III卷軸（Scroll (Beast Shape III)）
+Scroll (Break Enchantment/Arcane).MOD	OUTPUTNAME:破除結界卷軸（Scroll (Break Enchantment/Arcane)）
+Scroll (Cloudkill).MOD	OUTPUTNAME:死雲術卷軸（Scroll (Cloudkill)）
+Scroll (Cone of Cold).MOD	OUTPUTNAME:寒冰錐卷軸（Scroll (Cone of Cold)）
+Scroll (Contact Other Plane).MOD	OUTPUTNAME:異界探知卷軸（Scroll (Contact Other Plane)）
+Scroll (Dismissal/Arcane).MOD	OUTPUTNAME:驅逐術卷軸（Scroll (Dismissal/Arcane)）
+Scroll (Dominate Person).MOD	OUTPUTNAME:支配人類卷軸（Scroll (Dominate Person)）
+Scroll (Elemental Body II).MOD	OUTPUTNAME:元素形態 II卷軸（Scroll (Elemental Body II)）
+Scroll (False Vision).MOD	OUTPUTNAME:虛假景象卷軸（Scroll (False Vision)）
+Scroll (Feeblemind).MOD	OUTPUTNAME:弱智術卷軸（Scroll (Feeblemind)）
+Scroll (Hold Monster).MOD	OUTPUTNAME:怪物定身術卷軸（Scroll (Hold Monster)）
+Scroll (Mirage Arcana).MOD	OUTPUTNAME:海市蜃樓卷軸（Scroll (Mirage Arcana)）
+Scroll (Overland Flight).MOD	OUTPUTNAME:翱翔天際卷軸（Scroll (Overland Flight)）
+Scroll (Passwall).MOD	OUTPUTNAME:穿牆術卷軸（Scroll (Passwall)）
+Scroll (Persistent Image).MOD	OUTPUTNAME:長駐幻影卷軸（Scroll (Persistent Image)）
+Scroll (Plant Shape I).MOD	OUTPUTNAME:植物形態 I卷軸（Scroll (Plant Shape I)）
+Scroll (Polymorph).MOD	OUTPUTNAME:變形術卷軸（Scroll (Polymorph)）
+Scroll (Seeming).MOD	OUTPUTNAME:偽裝術卷軸（Scroll (Seeming)）
+Scroll (Sending/Arcane).MOD	OUTPUTNAME:短訊術卷軸（Scroll (Sending/Arcane)）
+Scroll (Summon Monster V/Arcane).MOD	OUTPUTNAME:召喚怪物 V卷軸（Scroll (Summon Monster V/Arcane)）
+Scroll (Telepathic Bond).MOD	OUTPUTNAME:心靈連線卷軸（Scroll (Telepathic Bond)）
+Scroll (Teleport).MOD	OUTPUTNAME:傳送術卷軸（Scroll (Teleport)）
+Scroll (Wall of Force).MOD	OUTPUTNAME:力牆術卷軸（Scroll (Wall of Force)）
+Scroll (Wall of Stone/Arcane).MOD	OUTPUTNAME:石牆術卷軸（Scroll (Wall of Stone/Arcane)）
+Scroll (Waves of Fatigue).MOD	OUTPUTNAME:疲乏波卷軸（Scroll (Waves of Fatigue)）
+Scroll (Acid Fog).MOD	OUTPUTNAME:酸霧術卷軸（Scroll (Acid Fog)）
+Scroll (Analyze Dweomer).MOD	OUTPUTNAME:解析咒文卷軸（Scroll (Analyze Dweomer)）
+Scroll (Bear's Endurance (Mass)/Arcane).MOD	OUTPUTNAME:群體熊之堅韌卷軸（Scroll (Bear's Endurance (Mass)/Arcane)）
+Scroll (Beast Shape IV).MOD	OUTPUTNAME:野獸形態 IV卷軸（Scroll (Beast Shape IV)）
+Scroll (Bull's Strength (Mass)/Arcane).MOD	OUTPUTNAME:群體牛之力量卷軸（Scroll (Bull's Strength (Mass)/Arcane)）
+Scroll (Cat's Grace (Mass)).MOD	OUTPUTNAME:群體貓之優雅卷軸（Scroll (Cat's Grace (Mass))）
+Scroll (Chain Lightning).MOD	OUTPUTNAME:連環閃電卷軸（Scroll (Chain Lightning)）
+Scroll (Circle of Death).MOD	OUTPUTNAME:死亡法陣卷軸（Scroll (Circle of Death)）
+Scroll (Contingency).MOD	OUTPUTNAME:觸發術卷軸（Scroll (Contingency)）
+Scroll (Disintegrate).MOD	OUTPUTNAME:解離術卷軸（Scroll (Disintegrate)）
+Scroll (Dispel Magic (Greater)/Arcane).MOD	OUTPUTNAME:高等解除魔法卷軸（Scroll (Dispel Magic (Greater)/Arcane)）
+Scroll (Eagle's Splendor (Mass)/Arcane).MOD	OUTPUTNAME:群體鷹之威儀卷軸（Scroll (Eagle's Splendor (Mass)/Arcane)）
+Scroll (Elemental Body III).MOD	OUTPUTNAME:元素形態 III卷軸（Scroll (Elemental Body III)）
+Scroll (Eyebite).MOD	OUTPUTNAME:攝心目光卷軸（Scroll (Eyebite)）
+Scroll (Flesh to Stone).MOD	OUTPUTNAME:石化術卷軸（Scroll (Flesh to Stone)）
+Scroll (Form of the Dragon I).MOD	OUTPUTNAME:巨龍形態 I卷軸（Scroll (Form of the Dragon I)）
+Scroll (Fox's Cunning (Mass)/Arcane).MOD	OUTPUTNAME:群體狐之狡黠卷軸（Scroll (Fox's Cunning (Mass)/Arcane)）
+Scroll (Geas/Quest/Arcane).MOD	OUTPUTNAME:指使術卷軸（Scroll (Geas/Quest/Arcane)）
+Scroll (Globe of Invulnerability).MOD	OUTPUTNAME:法術無效結界卷軸（Scroll (Globe of Invulnerability)）
+Scroll (Heroism (Greater)).MOD	OUTPUTNAME:高等英雄氣概卷軸（Scroll (Heroism (Greater))）
+Scroll (Legend Lore).MOD	OUTPUTNAME:通曉傳奇卷軸（Scroll (Legend Lore)）
+Scroll (Mislead).MOD	OUTPUTNAME:假象術卷軸（Scroll (Mislead)）
+Scroll (Move Earth).MOD	OUTPUTNAME:地動術卷軸（Scroll (Move Earth)）
+Scroll (Owl's Wisdom (Mass)/Arcane).MOD	OUTPUTNAME:群體梟之睿智卷軸（Scroll (Owl's Wisdom (Mass)/Arcane)）
+Scroll (Permanent Image).MOD	OUTPUTNAME:永恆幻影卷軸（Scroll (Permanent Image)）
+Scroll (Plant Shape II).MOD	OUTPUTNAME:植物形態 II卷軸（Scroll (Plant Shape II)）
+Scroll (Programmed Image).MOD	OUTPUTNAME:預置幻影卷軸（Scroll (Programmed Image)）
+Scroll (Repulsion/Arcane).MOD	OUTPUTNAME:排斥術卷軸（Scroll (Repulsion/Arcane)）
+Scroll (Shadow Walk).MOD	OUTPUTNAME:行影術卷軸（Scroll (Shadow Walk)）
+Scroll (Stone to Flesh).MOD	OUTPUTNAME:解除石化卷軸（Scroll (Stone to Flesh)）
+Scroll (Suggestion (Mass)).MOD	OUTPUTNAME:群體暗示術卷軸（Scroll (Suggestion (Mass))）
+Scroll (Summon Monster VI/Arcane).MOD	OUTPUTNAME:召喚怪物 VI卷軸（Scroll (Summon Monster VI/Arcane)）
+Scroll (True Seeing/Arcane).MOD	OUTPUTNAME:真知術卷軸（Scroll (True Seeing/Arcane)）
+Scroll (Undeath to Death/Arcane).MOD	OUTPUTNAME:亡靈歸亡卷軸（Scroll (Undeath to Death/Arcane)）
+Scroll (Arcane Sight (Greater)).MOD	OUTPUTNAME:高等秘法視力卷軸（Scroll (Arcane Sight (Greater))）
+Scroll (Banishment/Arcane).MOD	OUTPUTNAME:放逐術卷軸（Scroll (Banishment/Arcane)）
+Scroll (Control Undead).MOD	OUTPUTNAME:操控死靈卷軸（Scroll (Control Undead)）
+Scroll (Control Weather/Arcane).MOD	OUTPUTNAME:操控天氣卷軸（Scroll (Control Weather/Arcane)）
+Scroll (Delayed Blast Fireball).MOD	OUTPUTNAME:延遲爆裂火球卷軸（Scroll (Delayed Blast Fireball)）
+Scroll (Elemental Body IV).MOD	OUTPUTNAME:元素形態 IV卷軸（Scroll (Elemental Body IV)）
+Scroll (Finger of Death).MOD	OUTPUTNAME:死亡一指卷軸（Scroll (Finger of Death)）
+Scroll (Forcecage).MOD	OUTPUTNAME:力場監牢卷軸（Scroll (Forcecage)）
+Scroll (Form of the Dragon II).MOD	OUTPUTNAME:巨龍形態 II卷軸（Scroll (Form of the Dragon II)）
+Scroll (Giant Form I).MOD	OUTPUTNAME:巨人形態 I卷軸（Scroll (Giant Form I)）
+Scroll (Hold Person (Mass)).MOD	OUTPUTNAME:群體人類定身術卷軸（Scroll (Hold Person (Mass))）
+Scroll (Insanity).MOD	OUTPUTNAME:精神錯亂卷軸（Scroll (Insanity)）
+Scroll (Invisibility (Mass)).MOD	OUTPUTNAME:群體隱形術卷軸（Scroll (Invisibility (Mass))）
+Scroll (Limited Wish).MOD	OUTPUTNAME:有限祈願術卷軸（Scroll (Limited Wish)）
+Scroll (Mage's Magnificent Mansion).MOD	OUTPUTNAME:法師豪宅卷軸（Scroll (Mage's Magnificent Mansion)）
+Scroll (Phase Door).MOD	OUTPUTNAME:相位門卷軸（Scroll (Phase Door)）
+Scroll (Plane Shift/Arcane).MOD	OUTPUTNAME:異界傳送卷軸（Scroll (Plane Shift/Arcane)）
+Scroll (Plant Shape III).MOD	OUTPUTNAME:植物形態 III卷軸（Scroll (Plant Shape III)）
+Scroll (Polymorph (Greater)).MOD	OUTPUTNAME:高等變形術卷軸（Scroll (Polymorph (Greater))）
+Scroll (Power Word Blind).MOD	OUTPUTNAME:真言術：盲卷軸（Scroll (Power Word Blind)）
+Scroll (Prismatic Spray).MOD	OUTPUTNAME:虹光噴射卷軸（Scroll (Prismatic Spray)）
+Scroll (Project Image).MOD	OUTPUTNAME:投影術卷軸（Scroll (Project Image)）
+Scroll (Reverse Gravity).MOD	OUTPUTNAME:反重力卷軸（Scroll (Reverse Gravity)）
+Scroll (Sequester).MOD	OUTPUTNAME:隔離術卷軸（Scroll (Sequester)）
+Scroll (Scrying (Greater)/Arcane).MOD	OUTPUTNAME:高等探知卷軸（Scroll (Scrying (Greater)/Arcane)）
+Scroll (Spell Turning).MOD	OUTPUTNAME:法術反轉卷軸（Scroll (Spell Turning)）
+Scroll (Summon Monster VII/Arcane).MOD	OUTPUTNAME:召喚怪物 VII卷軸（Scroll (Summon Monster VII/Arcane)）
+Scroll (Teleport (Greater)).MOD	OUTPUTNAME:高等傳送術卷軸（Scroll (Teleport (Greater))）
+Scroll (Teleport Object).MOD	OUTPUTNAME:物品傳送術卷軸（Scroll (Teleport Object)）
+Scroll (Vision).MOD	OUTPUTNAME:靈視卷軸（Scroll (Vision)）
+Scroll (Waves of Exhaustion).MOD	OUTPUTNAME:力竭波卷軸（Scroll (Waves of Exhaustion)）
+Scroll (Charm Monster (Mass)).MOD	OUTPUTNAME:群體魅惑怪物卷軸（Scroll (Charm Monster (Mass))）
+Scroll (Demand).MOD	OUTPUTNAME:短訊暗示卷軸（Scroll (Demand)）
+Scroll (Dimensional Lock/Arcane).MOD	OUTPUTNAME:次元鎖卷軸（Scroll (Dimensional Lock/Arcane)）
+Scroll (Discern Location/Arcane).MOD	OUTPUTNAME:感知位置卷軸（Scroll (Discern Location/Arcane)）
+Scroll (Form of the Dragon III).MOD	OUTPUTNAME:巨龍形態 III卷軸（Scroll (Form of the Dragon III)）
+Scroll (Giant Form II).MOD	OUTPUTNAME:巨人形態 II卷軸（Scroll (Giant Form II)）
+Scroll (Horrid Wilting).MOD	OUTPUTNAME:凋死術卷軸（Scroll (Horrid Wilting)）
+Scroll (Incendiary Cloud).MOD	OUTPUTNAME:焚雲術卷軸（Scroll (Incendiary Cloud)）
+Scroll (Irresistible Dance).MOD	OUTPUTNAME:迷舞卷軸（Scroll (Irresistible Dance)）
+Scroll (Maze).MOD	OUTPUTNAME:迷宮術卷軸（Scroll (Maze)）
+Scroll (Mind Blank).MOD	OUTPUTNAME:心靈屏障卷軸（Scroll (Mind Blank)）
+Scroll (Moment of Prescience).MOD	OUTPUTNAME:片刻預知卷軸（Scroll (Moment of Prescience)）
+Scroll (Polar Ray).MOD	OUTPUTNAME:極冰射線卷軸（Scroll (Polar Ray)）
+Scroll (Power Word Stun).MOD	OUTPUTNAME:真言術：震卷軸（Scroll (Power Word Stun)）
+Scroll (Prismatic Wall).MOD	OUTPUTNAME:虹光法牆卷軸（Scroll (Prismatic Wall)）
+Scroll (Protection from Spells).MOD	OUTPUTNAME:防護法術卷軸（Scroll (Protection from Spells)）
+Scroll (Scintillating Pattern).MOD	OUTPUTNAME:閃光圖紋卷軸（Scroll (Scintillating Pattern)）
+Scroll (Screen).MOD	OUTPUTNAME:障幕卷軸（Scroll (Screen)）
+Scroll (Shout (Greater)).MOD	OUTPUTNAME:高等咆哮術卷軸（Scroll (Shout (Greater))）
+Scroll (Summon Monster VIII/Arcane).MOD	OUTPUTNAME:召喚怪物 VIII卷軸（Scroll (Summon Monster VIII/Arcane)）
+Scroll (Sunburst).MOD	OUTPUTNAME:陽炎爆卷軸（Scroll (Sunburst)）
+Scroll (Temporal Stasis).MOD	OUTPUTNAME:永恆靜滯卷軸（Scroll (Temporal Stasis)）
+Scroll (Dominate Monster).MOD	OUTPUTNAME:支配怪物卷軸（Scroll (Dominate Monster)）
+Scroll (Energy Drain/Arcane).MOD	OUTPUTNAME:吸能術卷軸（Scroll (Energy Drain/Arcane)）
+Scroll (Foresight).MOD	OUTPUTNAME:預警術卷軸（Scroll (Foresight)）
+Scroll (Freedom).MOD	OUTPUTNAME:解錮術卷軸（Scroll (Freedom)）
+Scroll (Hold Monster (Mass)).MOD	OUTPUTNAME:群體怪物定身術卷軸（Scroll (Hold Monster (Mass))）
+Scroll (Imprisonment).MOD	OUTPUTNAME:禁錮術卷軸（Scroll (Imprisonment)）
+Scroll (Mage's Disjunction).MOD	OUTPUTNAME:法師裂解術卷軸（Scroll (Mage's Disjunction)）
+Scroll (Meteor Swarm).MOD	OUTPUTNAME:流星爆卷軸（Scroll (Meteor Swarm)）
+Scroll (Power Word Kill).MOD	OUTPUTNAME:真言術：死卷軸（Scroll (Power Word Kill)）
+Scroll (Prismatic Sphere).MOD	OUTPUTNAME:虹光法球卷軸（Scroll (Prismatic Sphere)）
+Scroll (Refuge/Arcane).MOD	OUTPUTNAME:脫身術卷軸（Scroll (Refuge/Arcane)）
+Scroll (Shapechange).MOD	OUTPUTNAME:形體變化卷軸（Scroll (Shapechange)）
+Scroll (Soul Bind/Arcane).MOD	OUTPUTNAME:縛魂術卷軸（Scroll (Soul Bind/Arcane)）
+Scroll (Summon Monster IX/Arcane).MOD	OUTPUTNAME:召喚怪物 IX卷軸（Scroll (Summon Monster IX/Arcane)）
+Scroll (Teleportation Circle).MOD	OUTPUTNAME:傳送法陣卷軸（Scroll (Teleportation Circle)）
+Scroll (Time Stop).MOD	OUTPUTNAME:時間靜止卷軸（Scroll (Time Stop)）
+Scroll (Wail of the Banshee).MOD	OUTPUTNAME:女妖之嚎卷軸（Scroll (Wail of the Banshee)）
+Scroll (Weird).MOD	OUTPUTNAME:怪影殺手卷軸（Scroll (Weird)）
+Scroll (Wish).MOD	OUTPUTNAME:祈願術卷軸（Scroll (Wish)）
+Scroll (Bleed/Divine).MOD	OUTPUTNAME:出血術卷軸（Scroll (Bleed/Divine)）
+Scroll (Create Water).MOD	OUTPUTNAME:造水術卷軸（Scroll (Create Water)）
+Scroll (Detect Magic/Divine).MOD	OUTPUTNAME:偵測魔法卷軸（Scroll (Detect Magic/Divine)）
+Scroll (Detect Poison/Divine).MOD	OUTPUTNAME:偵測毒性卷軸（Scroll (Detect Poison/Divine)）
+Scroll (Guidance).MOD	OUTPUTNAME:神導術卷軸（Scroll (Guidance)）
+Scroll (Light/Divine).MOD	OUTPUTNAME:光亮術卷軸（Scroll (Light/Divine)）
+Scroll (Mending/Divine).MOD	OUTPUTNAME:修復術卷軸（Scroll (Mending/Divine)）
+Scroll (Purify Food and Drink).MOD	OUTPUTNAME:淨化食糧卷軸（Scroll (Purify Food and Drink)）
+Scroll (Read Magic/Divine).MOD	OUTPUTNAME:閱讀魔法卷軸（Scroll (Read Magic/Divine)）
+Scroll (Resistance/Divine).MOD	OUTPUTNAME:提升抗力卷軸（Scroll (Resistance/Divine)）
+Scroll (Stabilize).MOD	OUTPUTNAME:穩定傷勢卷軸（Scroll (Stabilize)）
+Scroll (Virtue).MOD	OUTPUTNAME:恩賜卷軸（Scroll (Virtue)）
+Scroll (Bane).MOD	OUTPUTNAME:絕望術卷軸（Scroll (Bane)）
+Scroll (Bless).MOD	OUTPUTNAME:祝福術卷軸（Scroll (Bless)）
+Scroll (Bless Water).MOD	OUTPUTNAME:祝福聖水卷軸（Scroll (Bless Water)）
+Scroll (Cause Fear/Divine).MOD	OUTPUTNAME:驚恐術卷軸（Scroll (Cause Fear/Divine)）
+Scroll (Command).MOD	OUTPUTNAME:命令術卷軸（Scroll (Command)）
+Scroll (Comprehend Languages/Divine).MOD	OUTPUTNAME:通曉語言卷軸（Scroll (Comprehend Languages/Divine)）
+Scroll (Cure Light Wounds).MOD	OUTPUTNAME:治療輕傷卷軸（Scroll (Cure Light Wounds)）
+Scroll (Curse Water).MOD	OUTPUTNAME:詛咒邪水卷軸（Scroll (Curse Water)）
+Scroll (Deathwatch).MOD	OUTPUTNAME:觀命術卷軸（Scroll (Deathwatch)）
+Scroll (Detect Chaos).MOD	OUTPUTNAME:偵測混亂卷軸（Scroll (Detect Chaos)）
+Scroll (Detect Evil).MOD	OUTPUTNAME:偵測邪惡卷軸（Scroll (Detect Evil)）
+Scroll (Detect Good).MOD	OUTPUTNAME:偵測善良卷軸（Scroll (Detect Good)）
+Scroll (Detect Law).MOD	OUTPUTNAME:偵測秩序卷軸（Scroll (Detect Law)）
+Scroll (Detect Undead/Divine).MOD	OUTPUTNAME:偵測死靈卷軸（Scroll (Detect Undead/Divine)）
+Scroll (Divine Favor).MOD	OUTPUTNAME:神恩卷軸（Scroll (Divine Favor)）
+Scroll (Doom).MOD	OUTPUTNAME:喪志術卷軸（Scroll (Doom)）
+Scroll (Endure Elements/Divine).MOD	OUTPUTNAME:忍受環境卷軸（Scroll (Endure Elements/Divine)）
+Scroll (Entropic Shield).MOD	OUTPUTNAME:熵光護盾卷軸（Scroll (Entropic Shield)）
+Scroll (Hide from Undead).MOD	OUTPUTNAME:亡靈無視術卷軸（Scroll (Hide from Undead)）
+Scroll (Inflict Light Wounds).MOD	OUTPUTNAME:造成輕傷卷軸（Scroll (Inflict Light Wounds)）
+Scroll (Magic Stone).MOD	OUTPUTNAME:魔石術卷軸（Scroll (Magic Stone)）
+Scroll (Magic Weapon/Divine).MOD	OUTPUTNAME:魔化武器卷軸（Scroll (Magic Weapon/Divine)）
+Scroll (Obscuring Mist/Divine).MOD	OUTPUTNAME:隱霧術卷軸（Scroll (Obscuring Mist/Divine)）
+Scroll (Protection from Chaos/Divine).MOD	OUTPUTNAME:防護混亂卷軸（Scroll (Protection from Chaos/Divine)）
+Scroll (Protection from Evil/Divine).MOD	OUTPUTNAME:防護邪惡卷軸（Scroll (Protection from Evil/Divine)）
+Scroll (Protection from Good/Divine).MOD	OUTPUTNAME:防護善良卷軸（Scroll (Protection from Good/Divine)）
+Scroll (Protection from Law/Divine).MOD	OUTPUTNAME:防護秩序卷軸（Scroll (Protection from Law/Divine)）
+Scroll (Remove Fear).MOD	OUTPUTNAME:移除恐懼卷軸（Scroll (Remove Fear)）
+Scroll (Sanctuary).MOD	OUTPUTNAME:聖域術卷軸（Scroll (Sanctuary)）
+Scroll (Shield of Faith).MOD	OUTPUTNAME:虔誠護盾卷軸（Scroll (Shield of Faith)）
+Scroll (Summon Monster I/Divine).MOD	OUTPUTNAME:召喚怪物 I卷軸（Scroll (Summon Monster I/Divine)）
+Scroll (Aid).MOD	OUTPUTNAME:援助術卷軸（Scroll (Aid)）
+Scroll (Align Weapon).MOD	OUTPUTNAME:陣營武器卷軸（Scroll (Align Weapon)）
+Scroll (Augury).MOD	OUTPUTNAME:占卜術卷軸（Scroll (Augury)）
+Scroll (Bear's Endurance/Divine).MOD	OUTPUTNAME:熊之堅韌卷軸（Scroll (Bear's Endurance/Divine)）
+Scroll (Bull's Strength/Divine).MOD	OUTPUTNAME:牛之力量卷軸（Scroll (Bull's Strength/Divine)）
+Scroll (Calm Emotions).MOD	OUTPUTNAME:安定心神卷軸（Scroll (Calm Emotions)）
+Scroll (Cure Moderate Wounds).MOD	OUTPUTNAME:治療中傷卷軸（Scroll (Cure Moderate Wounds)）
+Scroll (Darkness/Divine).MOD	OUTPUTNAME:黑暗術卷軸（Scroll (Darkness/Divine)）
+Scroll (Death Knell).MOD	OUTPUTNAME:死亡喪鐘卷軸（Scroll (Death Knell)）
+Scroll (Delay Poison).MOD	OUTPUTNAME:減緩毒發卷軸（Scroll (Delay Poison)）
+Scroll (Eagle's Splendor/Divine).MOD	OUTPUTNAME:鷹之威儀卷軸（Scroll (Eagle's Splendor/Divine)）
+Scroll (Enthrall).MOD	OUTPUTNAME:注目術卷軸（Scroll (Enthrall)）
+Scroll (Find Traps).MOD	OUTPUTNAME:尋找陷阱卷軸（Scroll (Find Traps)）
+Scroll (Gentle Repose/Divine).MOD	OUTPUTNAME:遺體防腐卷軸（Scroll (Gentle Repose/Divine)）
+Scroll (Hold Person/Divine).MOD	OUTPUTNAME:人類定身術卷軸（Scroll (Hold Person/Divine)）
+Scroll (Inflict Moderate Wounds).MOD	OUTPUTNAME:造成中度傷卷軸（Scroll (Inflict Moderate Wounds)）
+Scroll (Make Whole/Divine).MOD	OUTPUTNAME:完全修復術卷軸（Scroll (Make Whole/Divine)）
+Scroll (Owl's Wisdom/Divine).MOD	OUTPUTNAME:梟之睿智卷軸（Scroll (Owl's Wisdom/Divine)）
+Scroll (Remove Paralysis).MOD	OUTPUTNAME:移除麻痺卷軸（Scroll (Remove Paralysis)）
+Scroll (Resist Energy/Divine).MOD	OUTPUTNAME:抵抗能量傷害卷軸（Scroll (Resist Energy/Divine)）
+Scroll (Restoration (Lesser)).MOD	OUTPUTNAME:次等復原術卷軸（Scroll (Restoration (Lesser))）
+Scroll (Shatter/Divine).MOD	OUTPUTNAME:粉碎音波卷軸（Scroll (Shatter/Divine)）
+Scroll (Shield Other).MOD	OUTPUTNAME:護衛他人卷軸（Scroll (Shield Other)）
+Scroll (Silence).MOD	OUTPUTNAME:沉默術卷軸（Scroll (Silence)）
+Scroll (Sound Burst).MOD	OUTPUTNAME:音鳴爆卷軸（Scroll (Sound Burst)）
+Scroll (Spiritual Weapon).MOD	OUTPUTNAME:靈能武器卷軸（Scroll (Spiritual Weapon)）
+Scroll (Status).MOD	OUTPUTNAME:關照術卷軸（Scroll (Status)）
+Scroll (Summon Monster II/Divine).MOD	OUTPUTNAME:召喚怪物 II卷軸（Scroll (Summon Monster II/Divine)）
+Scroll (Undetectable Alignment).MOD	OUTPUTNAME:隱匿陣營卷軸（Scroll (Undetectable Alignment)）
+Scroll (Zone of Truth).MOD	OUTPUTNAME:誠實之域卷軸（Scroll (Zone of Truth)）
+Scroll (Animate Dead/Divine).MOD	OUTPUTNAME:操縱死屍卷軸（Scroll (Animate Dead/Divine)）
+Scroll (Bestow Curse/Divine).MOD	OUTPUTNAME:降咒卷軸（Scroll (Bestow Curse/Divine)）
+Scroll (Blindness/Deafness/Divine).MOD	OUTPUTNAME:目盲/耳聾術卷軸（Scroll (Blindness/Deafness/Divine)）
+Scroll (Contagion/Divine).MOD	OUTPUTNAME:疫病術卷軸（Scroll (Contagion/Divine)）
+Scroll (Continual Flame/Divine).MOD	OUTPUTNAME:不滅明焰卷軸（Scroll (Continual Flame/Divine)）
+Scroll (Create Food and Water).MOD	OUTPUTNAME:造糧術卷軸（Scroll (Create Food and Water)）
+Scroll (Cure Serious Wounds).MOD	OUTPUTNAME:治療重傷卷軸（Scroll (Cure Serious Wounds)）
+Scroll (Daylight/Divine).MOD	OUTPUTNAME:晝明術卷軸（Scroll (Daylight/Divine)）
+Scroll (Deeper Darkness).MOD	OUTPUTNAME:深幽黑暗術卷軸（Scroll (Deeper Darkness)）
+Scroll (Dispel Magic/Divine).MOD	OUTPUTNAME:解除魔法卷軸（Scroll (Dispel Magic/Divine)）
+Scroll (Inflict Serious Wounds).MOD	OUTPUTNAME:造成重傷卷軸（Scroll (Inflict Serious Wounds)）
+Scroll (Invisibility Purge).MOD	OUTPUTNAME:消除隱形卷軸（Scroll (Invisibility Purge)）
+Scroll (Locate Object/Divine).MOD	OUTPUTNAME:物品定位術卷軸（Scroll (Locate Object/Divine)）
+Scroll (Magic Circle Against Chaos/Divine).MOD	OUTPUTNAME:反混亂法陣卷軸（Scroll (Magic Circle Against Chaos/Divine)）
+Scroll (Magic Circle Against Evil/Divine).MOD	OUTPUTNAME:反邪惡法陣卷軸（Scroll (Magic Circle Against Evil/Divine)）
+Scroll (Magic Circle Against Good/Divine).MOD	OUTPUTNAME:反善良法陣卷軸（Scroll (Magic Circle Against Good/Divine)）
+Scroll (Magic Circle Against Law/Divine).MOD	OUTPUTNAME:反秩序法陣卷軸（Scroll (Magic Circle Against Law/Divine)）
+Scroll (Magic Vestment).MOD	OUTPUTNAME:魔化防具卷軸（Scroll (Magic Vestment)）
+Scroll (Meld into Stone).MOD	OUTPUTNAME:融身入石卷軸（Scroll (Meld into Stone)）
+Scroll (Obscure Object/Divine).MOD	OUTPUTNAME:遮蔽物品卷軸（Scroll (Obscure Object/Divine)）
+Scroll (Prayer).MOD	OUTPUTNAME:祈禱術卷軸（Scroll (Prayer)）
+Scroll (Protection from Energy/Divine).MOD	OUTPUTNAME:防護能量傷害卷軸（Scroll (Protection from Energy/Divine)）
+Scroll (Remove Blindness/Deafness).MOD	OUTPUTNAME:移除目盲/耳聾卷軸（Scroll (Remove Blindness/Deafness)）
+Scroll (Remove Curse/Divine).MOD	OUTPUTNAME:移除詛咒卷軸（Scroll (Remove Curse/Divine)）
+Scroll (Remove Disease).MOD	OUTPUTNAME:移除疾病卷軸（Scroll (Remove Disease)）
+Scroll (Searing Light).MOD	OUTPUTNAME:灼熱光輝卷軸（Scroll (Searing Light)）
+Scroll (Speak with Dead).MOD	OUTPUTNAME:死者交談卷軸（Scroll (Speak with Dead)）
+Scroll (Stone Shape/Divine).MOD	OUTPUTNAME:塑石術卷軸（Scroll (Stone Shape/Divine)）
+Scroll (Summon Monster III/Divine).MOD	OUTPUTNAME:召喚怪物 III卷軸（Scroll (Summon Monster III/Divine)）
+Scroll (Water Breathing/Divine).MOD	OUTPUTNAME:水中呼吸卷軸（Scroll (Water Breathing/Divine)）
+Scroll (Water Walk).MOD	OUTPUTNAME:水面行走卷軸（Scroll (Water Walk)）
+Scroll (Wind Wall/Divine).MOD	OUTPUTNAME:風牆術卷軸（Scroll (Wind Wall/Divine)）
+Scroll (Air Walk).MOD	OUTPUTNAME:凌空而行卷軸（Scroll (Air Walk)）
+Scroll (Chaos Hammer).MOD	OUTPUTNAME:混亂之錘卷軸（Scroll (Chaos Hammer)）
+Scroll (Cure Critical Wounds).MOD	OUTPUTNAME:治療致命傷卷軸（Scroll (Cure Critical Wounds)）
+Scroll (Death Ward).MOD	OUTPUTNAME:防死結界卷軸（Scroll (Death Ward)）
+Scroll (Dimensional Anchor/Divine).MOD	OUTPUTNAME:次元錨卷軸（Scroll (Dimensional Anchor/Divine)）
+Scroll (Discern Lies).MOD	OUTPUTNAME:辨識謊言卷軸（Scroll (Discern Lies)）
+Scroll (Dismissal/Divine).MOD	OUTPUTNAME:驅逐術卷軸（Scroll (Dismissal/Divine)）
+Scroll (Divination).MOD	OUTPUTNAME:預言術卷軸（Scroll (Divination)）
+Scroll (Divine Power).MOD	OUTPUTNAME:神能卷軸（Scroll (Divine Power)）
+Scroll (Freedom of Movement).MOD	OUTPUTNAME:行動自如卷軸（Scroll (Freedom of Movement)）
+Scroll (Holy Smite).MOD	OUTPUTNAME:聖光擊卷軸（Scroll (Holy Smite)）
+Scroll (Imbue with Spell Ability).MOD	OUTPUTNAME:法術灌輸卷軸（Scroll (Imbue with Spell Ability)）
+Scroll (Inflict Critical Wounds).MOD	OUTPUTNAME:造成致命傷卷軸（Scroll (Inflict Critical Wounds)）
+Scroll (Magic Weapon (Greater)/Divine).MOD	OUTPUTNAME:高等魔化武器卷軸（Scroll (Magic Weapon (Greater)/Divine)）
+Scroll (Neutralize Poison).MOD	OUTPUTNAME:中和毒性卷軸（Scroll (Neutralize Poison)）
+Scroll (Order's Wrath).MOD	OUTPUTNAME:秩序之怒卷軸（Scroll (Order's Wrath)）
+Scroll (Poison).MOD	OUTPUTNAME:毒擊術卷軸（Scroll (Poison)）
+Scroll (Restoration).MOD	OUTPUTNAME:復原術卷軸（Scroll (Restoration)）
+Scroll (Sending/Divine).MOD	OUTPUTNAME:短訊術卷軸（Scroll (Sending/Divine)）
+Scroll (Spell Immunity).MOD	OUTPUTNAME:法術免疫卷軸（Scroll (Spell Immunity)）
+Scroll (Summon Monster IV/Divine).MOD	OUTPUTNAME:召喚怪物 IV卷軸（Scroll (Summon Monster IV/Divine)）
+Scroll (Tongues/Divine).MOD	OUTPUTNAME:巧言術卷軸（Scroll (Tongues/Divine)）
+Scroll (Unholy Blight).MOD	OUTPUTNAME:邪影擊卷軸（Scroll (Unholy Blight)）
+Scroll (Break Enchantment/Divine).MOD	OUTPUTNAME:破除結界卷軸（Scroll (Break Enchantment/Divine)）
+Scroll (Breath of Life).MOD	OUTPUTNAME:生命之息卷軸（Scroll (Breath of Life)）
+Scroll (Command (Greater)).MOD	OUTPUTNAME:高等命令術卷軸（Scroll (Command (Greater))）
+Scroll (Commune).MOD	OUTPUTNAME:通神術卷軸（Scroll (Commune)）
+Scroll (Cure Light Wounds (Mass)).MOD	OUTPUTNAME:群體治療輕傷卷軸（Scroll (Cure Light Wounds (Mass))）
+Scroll (Dispel Chaos).MOD	OUTPUTNAME:反制混亂卷軸（Scroll (Dispel Chaos)）
+Scroll (Dispel Evil).MOD	OUTPUTNAME:反制邪惡卷軸（Scroll (Dispel Evil)）
+Scroll (Dispel Good).MOD	OUTPUTNAME:反制善良卷軸（Scroll (Dispel Good)）
+Scroll (Dispel Law).MOD	OUTPUTNAME:反制秩序卷軸（Scroll (Dispel Law)）
+Scroll (Disrupting Weapon).MOD	OUTPUTNAME:毀滅武器卷軸（Scroll (Disrupting Weapon)）
+Scroll (Flame Strike).MOD	OUTPUTNAME:焰擊術卷軸（Scroll (Flame Strike)）
+Scroll (Inflict Light Wounds (Mass)).MOD	OUTPUTNAME:群體造成輕傷卷軸（Scroll (Inflict Light Wounds (Mass))）
+Scroll (Insect Plague).MOD	OUTPUTNAME:疫病蟲群卷軸（Scroll (Insect Plague)）
+Scroll (Mark of Justice).MOD	OUTPUTNAME:審判烙印卷軸（Scroll (Mark of Justice)）
+Scroll (Plane Shift/Divine).MOD	OUTPUTNAME:異界傳送卷軸（Scroll (Plane Shift/Divine)）
+Scroll (Raise Dead).MOD	OUTPUTNAME:死者復活卷軸（Scroll (Raise Dead)）
+Scroll (Righteous Might).MOD	OUTPUTNAME:正氣如虹卷軸（Scroll (Righteous Might)）
+Scroll (Scrying/Divine).MOD	OUTPUTNAME:探知卷軸（Scroll (Scrying/Divine)）
+Scroll (Slay Living).MOD	OUTPUTNAME:殺生術卷軸（Scroll (Slay Living)）
+Scroll (Spell Resistance).MOD	OUTPUTNAME:法術抗力卷軸（Scroll (Spell Resistance)）
+Scroll (Summon Monster V/Divine).MOD	OUTPUTNAME:召喚怪物 V卷軸（Scroll (Summon Monster V/Divine)）
+Scroll (True Seeing/Divine).MOD	OUTPUTNAME:真知術卷軸（Scroll (True Seeing/Divine)）
+Scroll (Wall of Stone/Divine).MOD	OUTPUTNAME:石牆術卷軸（Scroll (Wall of Stone/Divine)）
+Scroll (Antilife Shell).MOD	OUTPUTNAME:防活物護罩卷軸（Scroll (Antilife Shell)）
+Scroll (Banishment/Divine).MOD	OUTPUTNAME:放逐術卷軸（Scroll (Banishment/Divine)）
+Scroll (Bear's Endurance (Mass)/Divine).MOD	OUTPUTNAME:群體熊之堅韌卷軸（Scroll (Bear's Endurance (Mass)/Divine)）
+Scroll (Blade Barrier).MOD	OUTPUTNAME:劍刃護壁卷軸（Scroll (Blade Barrier)）
+Scroll (Bull's Strength (Mass)/Divine).MOD	OUTPUTNAME:群體牛之力量卷軸（Scroll (Bull's Strength (Mass)/Divine)）
+Scroll (Cure Moderate Wounds (Mass)).MOD	OUTPUTNAME:群體治療中傷卷軸（Scroll (Cure Moderate Wounds (Mass))）
+Scroll (Dispel Magic (Greater)/Divine).MOD	OUTPUTNAME:高等解除魔法卷軸（Scroll (Dispel Magic (Greater)/Divine)）
+Scroll (Eagle's Splendor (Mass)/Divine).MOD	OUTPUTNAME:群體鷹之威儀卷軸（Scroll (Eagle's Splendor (Mass)/Divine)）
+Scroll (Find the Path).MOD	OUTPUTNAME:尋找捷徑卷軸（Scroll (Find the Path)）
+Scroll (Geas/Quest/Divine).MOD	OUTPUTNAME:指使術卷軸（Scroll (Geas/Quest/Divine)）
+Scroll (Harm).MOD	OUTPUTNAME:重傷術卷軸（Scroll (Harm)）
+Scroll (Heal).MOD	OUTPUTNAME:醫療術卷軸（Scroll (Heal)）
+Scroll (Heroes' Feast).MOD	OUTPUTNAME:英雄宴卷軸（Scroll (Heroes' Feast)）
+Scroll (Inflict Moderate Wounds (Mass)).MOD	OUTPUTNAME:群體造成中度傷卷軸（Scroll (Inflict Moderate Wounds (Mass))）
+Scroll (Owl's Wisdom (Mass)/Divine).MOD	OUTPUTNAME:群體梟之睿智卷軸（Scroll (Owl's Wisdom (Mass)/Divine)）
+Scroll (Summon Monster VI/Divine).MOD	OUTPUTNAME:召喚怪物 VI卷軸（Scroll (Summon Monster VI/Divine)）
+Scroll (Undeath to Death/Divine).MOD	OUTPUTNAME:亡靈歸亡卷軸（Scroll (Undeath to Death/Divine)）
+Scroll (Wind Walk).MOD	OUTPUTNAME:御風而行卷軸（Scroll (Wind Walk)）
+Scroll (Word of Recall).MOD	OUTPUTNAME:回返真言卷軸（Scroll (Word of Recall)）
+Scroll (Control Weather/Divine).MOD	OUTPUTNAME:操控天氣卷軸（Scroll (Control Weather/Divine)）
+Scroll (Cure Serious Wounds (Mass)).MOD	OUTPUTNAME:群體治療重傷卷軸（Scroll (Cure Serious Wounds (Mass))）
+Scroll (Destruction).MOD	OUTPUTNAME:灰飛煙滅卷軸（Scroll (Destruction)）
+Scroll (Inflict Serious Wounds (Mass)).MOD	OUTPUTNAME:群體造成重傷卷軸（Scroll (Inflict Serious Wounds (Mass))）
+Scroll (Refuge/Divine).MOD	OUTPUTNAME:脫身術卷軸（Scroll (Refuge/Divine)）
+Scroll (Regenerate).MOD	OUTPUTNAME:再生術卷軸（Scroll (Regenerate)）
+Scroll (Repulsion/Divine).MOD	OUTPUTNAME:排斥術卷軸（Scroll (Repulsion/Divine)）
+Scroll (Restoration (Greater)).MOD	OUTPUTNAME:高等復原術卷軸（Scroll (Restoration (Greater))）
+Scroll (Resurrection).MOD	OUTPUTNAME:復生術卷軸（Scroll (Resurrection)）
+Scroll (Scrying (Greater)/Divine).MOD	OUTPUTNAME:高等探知卷軸（Scroll (Scrying (Greater)/Divine)）
+Scroll (Summon Monster VII/Divine).MOD	OUTPUTNAME:召喚怪物 VII卷軸（Scroll (Summon Monster VII/Divine)）
+Scroll (Cloak of Chaos).MOD	OUTPUTNAME:混沌披風卷軸（Scroll (Cloak of Chaos)）
+Scroll (Cure Critical Wounds (Mass)).MOD	OUTPUTNAME:群體治療致命傷卷軸（Scroll (Cure Critical Wounds (Mass))）
+Scroll (Dimensional Lock/Divine).MOD	OUTPUTNAME:次元鎖卷軸（Scroll (Dimensional Lock/Divine)）
+Scroll (Discern Location/Divine).MOD	OUTPUTNAME:感知位置卷軸（Scroll (Discern Location/Divine)）
+Scroll (Fire Storm).MOD	OUTPUTNAME:火焰風暴卷軸（Scroll (Fire Storm)）
+Scroll (Holy Aura).MOD	OUTPUTNAME:聖潔靈光卷軸（Scroll (Holy Aura)）
+Scroll (Inflict Critical Wounds (Mass)).MOD	OUTPUTNAME:群體造成致命傷卷軸（Scroll (Inflict Critical Wounds (Mass))）
+Scroll (Shield of Law).MOD	OUTPUTNAME:秩序護盾卷軸（Scroll (Shield of Law)）
+Scroll (Spell Immunity (Greater)).MOD	OUTPUTNAME:高等法術免疫卷軸（Scroll (Spell Immunity (Greater))）
+Scroll (Summon Monster VIII/Divine).MOD	OUTPUTNAME:召喚怪物 VIII卷軸（Scroll (Summon Monster VIII/Divine)）
+Scroll (Unholy Aura).MOD	OUTPUTNAME:邪惡靈光卷軸（Scroll (Unholy Aura)）
+Scroll (Energy Drain/Divine).MOD	OUTPUTNAME:吸能術卷軸（Scroll (Energy Drain/Divine)）
+Scroll (Heal (Mass)).MOD	OUTPUTNAME:群體醫療術卷軸（Scroll (Heal (Mass))）
+Scroll (Implosion).MOD	OUTPUTNAME:內爆術卷軸（Scroll (Implosion)）
+Scroll (Miracle).MOD	OUTPUTNAME:神跡術卷軸（Scroll (Miracle)）
+Scroll (Soul Bind/Divine).MOD	OUTPUTNAME:縛魂術卷軸（Scroll (Soul Bind/Divine)）
+Scroll (Storm of Vengeance).MOD	OUTPUTNAME:復仇風暴卷軸（Scroll (Storm of Vengeance)）
+Scroll (Summon Monster IX/Divine).MOD	OUTPUTNAME:召喚怪物 IX卷軸（Scroll (Summon Monster IX/Divine)）
+Scroll (True Resurrection).MOD	OUTPUTNAME:完全復生術卷軸（Scroll (True Resurrection)）
