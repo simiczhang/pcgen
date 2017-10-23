@@ -1,8 +1,8 @@
 CAMPAIGN:Localization_Spell
 KEY:Localization_Spell
 
-SPELL:cr_spells.lst
-SPELL:apg_spells.lst
-SPELL:acg_spells.lst
-SPELL:um_spells.lst
-SPELL:uc_spells.lst
+SPELL:cr_spellmods.lst
+SPELL:apg_spellmods.lst
+SPELL:acg_spellmods.lst
+SPELL:um_spellmods.lst
+SPELL:uc_spellmods.lst

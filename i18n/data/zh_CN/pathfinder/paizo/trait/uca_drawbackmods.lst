@@ -1,0 +1,17 @@
+CATEGORY=Special Ability|Drawback ~ Attached.MOD	OUTPUTNAME:依存症（Attached）	DESC:.CLEAR	DESC:你有強烈的情感依存，你非常害怕失去某人或某物。效果：由DM選擇一項你的依存對象。每當你的依存對像受到威脅、陷入危險或被別人佔有，你的意志檢定獲得-1罰值，對抗恐懼效果的豁免獲得-2罰值。如果你依存的人或物體丟失、死亡或被摧毀，此缺陷被替換為疑慮（Doubt）。
+CATEGORY=Special Ability|Drawback ~ Avarice.MOD	OUTPUTNAME:貪婪（Avarice）	DESC:.CLEAR	DESC:你被根深蒂固的強烈貪婪所驅使。效果：每當分配財寶貨幣時，你必須獲得比同伴更多的份額，否則你就會陷入深深的嫉妒和虐待傾向之中。當財寶分配結束，而你沒能獲得比其他任何人多出至少10%%的份額，你會變得不願幫助你的隊友。你性格變得暴躁，並且在接下來一周內不能使用援護他人（aid another）行動。
+CATEGORY=Special Ability|Drawback ~ Dependent.MOD	OUTPUTNAME:依賴（Dependent）	DESC:.CLEAR	DESC:你總是過度在意別人對你的看法。效果：每當你的交涉檢定失敗了，你戰慄（shaken）一小時。
+CATEGORY=Special Ability|Drawback ~ Doubt.MOD	OUTPUTNAME:疑慮（Doubt）	DESC:.CLEAR	DESC:你缺乏自信，總覺得自己能力不足。效果：每當你技能或屬性檢定失敗，你在該類技能或屬性檢定上獲得-4罰值，持續一小時。
+CATEGORY=Special Ability|Drawback ~ Family Ties.MOD	OUTPUTNAME:顧家（Family Ties）	DESC:.CLEAR	DESC:你的家人是你的一切，當你不能回應他們的期待時你會變得消沉不已。效果：當一個家庭成員對你提出一個要求，如果你沒能通過一個DC為20的意志豁免，你必須履行這一請求，否則你的所有基於感知和魅力的檢定將會有-2罰值，直到你做到要求為止。你可以在每一天開始時重擲該意志豁免。如果你沒有家人，不能選擇該缺陷。如果你失去家人或與他們失去聯繫，這個缺陷被替換為疑慮（Doubt）。
+CATEGORY=Special Ability|Drawback ~ Headstrong.MOD	OUTPUTNAME:強迫症（Headstrong）	DESC:.CLEAR	DESC:你覺得必須按照你的世界觀去糾正別人的每一個動作和言論。效果：每當看到一個動作或聽到一種言論是有悖於你的陣營的，你必須試圖制止或將其糾正。如果你不嘗試阻止或阻止失敗（由DM審定），你戰慄（shaken）一小時。
+CATEGORY=Special Ability|Drawback ~ Hedonistic.MOD	OUTPUTNAME:享樂主義（Hedonistic）	DESC:.CLEAR	DESC:你為愉悅和舒適而生。效果：如果你一天內沒能獲得報酬或財寶（至少10GP以上或等值財物），也沒有花費至少一個小時進行娛樂或休閒活動，在這一天結束時你必須擲一次DC為20的強韌檢定。如果你失敗了，第二天開始時你會陷入疲勞。疲勞持續4個小時，或你進行了足夠的娛樂或休閒。
+CATEGORY=Special Ability|Drawback ~ Lovesick.MOD	OUTPUTNAME:花癡（Lovesick）	DESC:.CLEAR	DESC:你的整個腦部都被另一個人的身影所佔據，當你遠離它時你會陷入沮喪。效果：由DM為你選擇一個對像（如果你們啟用背景元素，可以使用表格：浪漫元素（Romantic Relationships））。在每天開始時，如果你遠離這個人，你的先攻和察覺檢定獲得-2罰值。如果你被甩了或失戀了，該缺陷被替換為疑慮（Doubt）。
+CATEGORY=Special Ability|Drawback ~ Meticulous.MOD	OUTPUTNAME:謹小慎微（Meticulous）	DESC:.CLEAR	DESC:你慣於事先規劃好所有細節，而不擅長處理不按計劃進行的事件。效果：你未經訓練的技能檢定有-2罰值。
+CATEGORY=Special Ability|Drawback ~ Paranoid.MOD	OUTPUTNAME:偏執（Paranoid）	DESC:.CLEAR	DESC:你總是覺得別人在利用你，所以你很難真正相信他人。效果：任何人試圖對你進行援護他人行動時，必須通過一個DC15的檢定而非正常的DC10。
+CATEGORY=Special Ability|Drawback ~ Power-Hungry.MOD	OUTPUTNAME:權欲（Power-Hungry）	DESC:.CLEAR	DESC:你沉迷於權力。效果：如果一個生物創造的魅惑或脅迫效果對你承諾以權力和財富，你對其的意志豁免檢定有-2罰值。
+CATEGORY=Special Ability|Drawback ~ Pride.MOD	OUTPUTNAME:驕傲（Pride）	DESC:.CLEAR	DESC:你無法拒絕涉及你的尊嚴、權威或榮譽的挑戰。效果：當有人威脅、指責或挑戰你，你對他的交涉和察言觀色檢定有-2罰值，直到他向你道歉。
+CATEGORY=Special Ability|Drawback ~ Provincial.MOD	OUTPUTNAME:小團體（Provincial）	DESC:.CLEAR	DESC:你眼裡只有自己人。效果：你對所有與你不同宗教或陣營的生物的交涉和察言觀色檢定獲得-2罰值。
+CATEGORY=Special Ability|Drawback ~ Sentimental.MOD	OUTPUTNAME:感情用事（Sentimental）	DESC:.CLEAR	DESC:你過於感性，總是在不恰當的時機走神。效果：你在避免突發事件的察覺檢定和避免陷阱和危險的反射檢定中有-2罰值。
+CATEGORY=Special Ability|Drawback ~ Vain.MOD	OUTPUTNAME:自負（Vain）	DESC:.CLEAR	DESC:你對他人態度非常敏感。效果：每當你在基於魅力的檢定上失敗，你在接下來的24小時內所有基於魅力的檢定都獲得-2罰值。
+CATEGORY=Special Ability|Drawback ~ Xenophobic.MOD	OUTPUTNAME:排外（Xenophobic）	DESC:.CLEAR	DESC:你很難理解和信任那些不同習俗和外觀的傢伙。效果：你對其他種族的生物或來自不同文化的同類的交涉和察言觀色有-2罰值。
+CATEGORY=Special Ability|Drawback ~ Zealous.MOD	OUTPUTNAME:狂熱（Zealous）	DESC:.CLEAR	DESC:你的信仰非常狂熱，情感總是壓倒你的理智。效果：如果你知道目標是一個崇拜與你不同的神的異教徒，你對它的第一次攻擊的攻擊檢定獲得-5罰值而傷害獲得+2加值。

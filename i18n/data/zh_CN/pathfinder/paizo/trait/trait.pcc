@@ -1,4 +1,6 @@
 CAMPAIGN:Localization_Trait
 KEY:Localization_Trait
 
-ABILITY:traits.lst
+ABILITY:apg_traitmods.lst
+ABILITY:uca_traitmods.lst
+ABILITY:uca_drawbackmods.lst
