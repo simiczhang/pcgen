@@ -1,0 +1,9 @@
+CAMPAIGN:Localization_Ability_Class
+KEY:Localization_Ability_Class
+
+ABILITY:acg_class_abilitymods.lst
+ABILITY:apg_class_abilitymods.lst
+ABILITY:arg_class_abilitymods.lst
+ABILITY:cr_class_abilitymods.lst
+ABILITY:uc_class_abilitymods.lst
+ABILITY:um_class_abilitymods.lst

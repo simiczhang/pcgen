@@ -1,5 +1,10 @@
 CAMPAIGN:Localization_Ability
 KEY:Localization_Ability
+
+# Class
+PCC:class/class.pcc
+# Race
+PCC:race/race.pcc
 # CRB Class Ability
 ABILITY:cr_barbarian_abilities.lst
 ABILITY:cr_bard_abilities.lst

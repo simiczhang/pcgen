@@ -1,14 +1,7 @@
 CAMPAIGN:Localization_Class
 KEY:Localization_Class
-# Classes
-CLASS:cr_classes.lst
-CLASS:apg_classes.lst
-CLASS:acg_classes.lst
-CLASS:um_classes.lst
-CLASS:uc_classes.lst
+
+# Basic
+PCC:basic/basic.pcc
 # Archetype
-ABILITY:apg_classes_archetype.lst
-ABILITY:acg_classes_archetype.lst
-ABILITY:arg_classes_archetype.lst
-ABILITY:um_classes_archetype.lst
-ABILITY:uc_classes_archetype.lst
+PCC:archetype/archetype.pcc
