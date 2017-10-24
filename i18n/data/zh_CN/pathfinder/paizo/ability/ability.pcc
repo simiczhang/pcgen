@@ -7,3 +7,5 @@ PCC:class/class.pcc
 PCC:race/race.pcc
 # Trait
 PCC:trait/trait.pcc
+# Category
+PCC:category/category.pcc
