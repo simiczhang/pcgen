@@ -1,0 +1,8 @@
+CAMPAIGN:Localization_Class_Archetype
+KEY:Localization_Class_Archetype
+
+ABILITY:apg_class_archetypemods.lst
+ABILITY:acg_class_archetypemods.lst
+ABILITY:arg_class_archetypemods.lst
+ABILITY:um_class_archetypemods.lst
+ABILITY:uc_class_archetypemods.lst

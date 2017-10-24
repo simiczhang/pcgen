@@ -1,0 +1,8 @@
+# Bard
+CATEGORY=Special Ability|Flame Dancer ~ Fire Dance.MOD	OUTPUTNAME:火舞（Fire Dance）	DESC:.CLEAR	DESC:在1級時，蹈火者學會了如何保護自己和其他人不受火焰炙烤的技藝，以及更精巧的，如何引導火焰離開自己而不是燎焦不該燒的東西。在他保持火舞表演的每一輪，蹈火者都需要進行一次表演（舞蹈或歌唱）技能檢定，所有距離蹈火者30尺內的盟友在避免被點燃（Catch on Fire），受到火焰效果影響，以及高溫效果影響的豁免檢定都可以使用蹈火者的表演技能檢定結果來作為豁免結果。除此之外，只要蹈火者保持表演，所有距離蹈火者30尺內的盟友將不會因為高溫而中暑（Heatstroke）並因此而處於疲乏狀態。火舞依賴視覺或聲音成分。本能力取代破咒曲。	
+CATEGORY=Special Ability|Flame Dancer ~ Song of the Fiery Gaze.MOD	OUTPUTNAME:觀火吟（Song of the Fiery Gaze）	DESC:.CLEAR	DESC:在3級時，蹈火者可以讓盟友毫無阻礙地看穿火焰。所有距離蹈火者30尺內且可以聽到他表演的盟友將可以看穿火焰，煙霧（Fog），和煙塵（Smoke）而不受任何影響，如同火焰秘示域先知的烈焰視覺（Gaze of Flame）啟示的基本效果。觀火吟依賴聲音成分。本能力取代提振技能。	
+CATEGORY=Special Ability|Flame Dancer ~ Fire Break.MOD	OUTPUTNAME:離火（Fire Break）	DESC:.CLEAR	DESC:在6級時，蹈火者可以命令火焰服從他的要求而減弱傷害。所有距離蹈火者30尺內且可以聽到和看到他表演的盟友將在蹈火者持續表演的時間內獲得火焰抗力20。在11級時，他提供的火焰抗力增加到30。離火依賴視覺或聲音成分。本能力取代暗示。	
+CATEGORY=Special Ability|Flame Dancer ~ Fan the Flames.MOD	OUTPUTNAME:生紅蓮（Fan the Flames）	DESC:.CLEAR	DESC:在8級時，蹈火者可以將法術燃燒之手，熾焰法球和火球術加入他的吟遊詩人法術列表（分別為1，2，3環法術），本能力取代末日喪歌。	
+CATEGORY=Special Ability|Voice of the Wild ~ Wild Knowledge.MOD	OUTPUTNAME:荒野知識（Wild Knowledge）	DESC:.CLEAR	DESC:在1級時，野性之聲曠野將他吟遊詩人等級數的一半加到知識（自然）技能檢定上，並且他可以在未受訓的情況下使用知識（自然）和知識（地理）檢定。本能力取代軼聞知識。	
+CATEGORY=Special Ability|Voice of the Wild ~ Nature Magic.MOD	OUTPUTNAME:自然魔法（Nature Magic）	DESC:.CLEAR	DESC:在1級時，野性之聲可以將一個德魯伊或遊俠列表中的1環法術替換掉一個他吟遊詩人列表中的1環吟遊詩人法術。在4,7,10,13和16級時，他還可以將其他德魯伊或遊俠法術（環數與他可以使用的吟遊詩人法術環數相同）替換掉自己吟遊詩人法術列表中的法術。每次他可以替換德魯伊和遊俠法術時，他也可以將一個舊的德魯伊或遊俠法術替換成另一個。本能力取代破咒曲，多才多藝和萬事通。	
+CATEGORY=Special Ability|Voice of the Wild ~ Song of the Wild.MOD	OUTPUTNAME:狂野之歌（Song of the Wild）	DESC:.CLEAR	DESC:在3級時，野性之聲的吟遊詩人表演可以施放一個盟友的野性，如同獵人的動物之力職業能力。這個盟友必須能聽到或看到野性之聲的表演，他的吟遊詩人等級在決定動物之力效果時視為獵人等級。在10級時，狂野之歌可以影響兩個盟友；在17級時，可以影響三個盟友。狂野之歌依賴視覺或聲音成分。本能力取代提振技能，末日喪歌和激發豪情。	
