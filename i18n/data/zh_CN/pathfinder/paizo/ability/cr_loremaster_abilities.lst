@@ -1,4 +1,0 @@
-﻿CATEGORY=Special Ability|Loremaster ~ Secret Lore.MOD	OUTPUTNAME:秘聞（Secret Lore）	DESC:.CLEAR	DESC:1級開始，博學士可從下表選擇一項秘聞，之後每2級（3級、5級、7級、9級時）可各再選擇一項。博學士等級加上智力修正決定其可選擇的秘聞。已習得的秘聞不能重複選擇。	
-CATEGORY=Special Ability|Loremaster ~ Lore.MOD	OUTPUTNAME:學識（Lore）	DESC:.CLEAR	DESC:2級開始，博學士可將他職業等級的一半加到知識檢定上，即使此為未受訓技能。這加值與吟遊詩人的逸聞知識疊加。	
-CATEGORY=Special Ability|Loremaster ~ Greater Lore.MOD	OUTPUTNAME:高等學識（Greater Lore）	DESC:.CLEAR	DESC:6級開始，博學士能夠更好地理解魔法物品。無論何時博學士鑒定魔法物品以確定它的能力時，在法術辨識技能上有+10的環境加值。	
-CATEGORY=Special Ability|Loremaster ~ True Lore.MOD	OUTPUTNAME:精準學識（True Lore）	DESC:.CLEAR	DESC:10級時，博學士的知識非常廣博。他可利用自己的知識獲得「通曉傳奇」或「解析咒文」的效果，每日可進行1次。如果要獲得「通曉傳奇」效果，不管對於問題已經獲得了多少情報，都將花費1分鐘。	

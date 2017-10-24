@@ -1,6 +1,0 @@
-﻿CATEGORY=Special Ability|Arcane Trickster ~ Ranged Legerdemain.MOD	OUTPUTNAME:遠程詭計（Ranged Legerdemain）	DESC:.CLEAR	DESC:詭術師可以在30尺距離內使用解除裝置或巧手技能。遠程工作將使技能檢定DC增加5，並且在此檢定中無法取10。遠程手法的操作對像重量必須為5磅或更輕。詭術師在該項技能上級數必須至少為1。	
-CATEGORY=Special Ability|Arcane Trickster ~ Sneak Attack.MOD	OUTPUTNAME:偷襲（Sneak Attack）	DESC:.CLEAR	DESC:此能力類似於盜賊的同名能力。每2級（2，4，6，8，和10）額外傷害值都會增加1d6。如果詭術師有來自其它原因的偷襲加值，其額外傷害加值也會累加其中。	
-CATEGORY=Special Ability|Arcane Trickster ~ Impromptu Sneak Attack.MOD	OUTPUTNAME:強行偷襲（Impromptu Sneak Attack）	DESC:.CLEAR	DESC:當詭術師達到3級時，他可以聲明他的一次近戰或遠程攻擊是偷襲（強行遠程偷襲時，目標必須位於30尺以內），該能力每天可使用1次。目標的AC失去敏捷加值，但僅對本次攻擊有效。本能力可以作用於任何目標，但不受重擊的生物同時也不承受額外的偷襲傷害（但AC仍失去敏捷加值）。當詭術師達到7級時，可以每日2次使用本能力。	
-CATEGORY=Special Ability|Arcane Trickster ~ Tricky Spells.MOD	OUTPUTNAME:詭詐施法（Tricky Spells）	DESC:.CLEAR	DESC:5級開始，詭術師可以像在使用「法術默發」和「法術定發」那樣不需語言和姿勢成分施展一個法術、而不需要提高法術位，每日3次。每提升2級獲得1次額外使用次數，最高9級時5次。詭術師在施法時宣告使用本能力。	
-CATEGORY=Special Ability|Arcane Trickster ~ Invisible Thief.MOD	OUTPUTNAME:隱形盜賊（Invisible Thief）	DESC:.CLEAR	DESC:9級開始，詭術師可以通過自由動作使自己隱形等同於詭術師等級的輪數，如同「高等隱形術」法術，使用自己的施法者等級。該能力並不需要連續使用。	
-CATEGORY=Special Ability|Arcane Trickster ~ Surprise Spells.MOD	OUTPUTNAME:奇襲施法（Surprise Spells）	DESC:.CLEAR	DESC:10級的詭術師可以將偷襲傷害加在任何攻擊措手不及目標的傷害法術上。額外傷害和法術傷害同類型。如果對方可以豁免減半法術傷害，那麼他同樣可以減半這個傷害。	
