@@ -1,0 +1,46 @@
+# Human
+CATEGORY=Special Ability|Human Racial Subtype ~ Cosmopolitan.MOD		OUTPUTNAME:熟練工（Cosmopolitan）		DESC:.CLEAR	DESC:居住在城市多年，這些人類游弋於人群之中，並能作為各行各業的熟練能手滿足僱主需求。用【街道之心】特性替換獎勵技能，用【精研】替代獎勵專長。
+CATEGORY=Special Ability|Human Racial Subtype ~ Country Folk.MOD		OUTPUTNAME:鄉巴佬（Country Folk）		DESC:.CLEAR	DESC:這些人類適合鄉村生活。用工廠之心替代獎勵技能，用精研替代獎勵專長。
+CATEGORY=Special Ability|Human Racial Subtype ~ Gutter Rat.MOD			OUTPUTNAME:窮光蛋（Gutter Rat）			DESC:.CLEAR	DESC:這些賤民生活在貧民窟和下水道，拚命工作以勉強維持生計。用【貧民窟之心】特性替換獎勵技能，用【文化交融－街道之心】替代獎勵專長。
+CATEGORY=Special Ability|Human Racial Subtype ~ Imperious Human.MOD		OUTPUTNAME:驕貴人（Imperious Human）	DESC:.CLEAR	DESC:出身皇族或統治階級的他們傲慢、自我膨脹，將他人捲入自己的野心中。用【雄辯】替代獎勵技能，用【天賦之眼】替代獎勵專長。
+CATEGORY=Special Ability|Human Racial Subtype ~ Trailblazer.MOD			OUTPUTNAME:開拓者（Trailblazer）		DESC:.CLEAR	DESC:富有適應性與進取心的這些傢伙肯定不缺急智和好運，才能在他們拓展的地域定居下來。用【野性之心】替代獎勵技能，用【天命】替代獎勵專長。GM可以根據這些人定居之處的地形，將【野性之心】改為【山脈之心】、【海洋之心】、【雪之心】或【旭日之心】。
+CATEGORY=Special Ability|Human Racial Subtype ~ Versatile Human.MOD		OUTPUTNAME:多面手（Versatile Human）	DESC:.CLEAR	DESC:雖然缺少其他人類常接受的訓練，他們與生俱來的天賦彌補了這一缺憾。用【雙重天賦】替代單項屬性+2、獎勵技能和獎勵專長。
+
+# Dwarf
+CATEGORY=Special Ability|Dwarf Racial Subtype ~ Deep Delver.MOD		OUTPUTNAME:地底掘者（Deep Delver）		DESC:.CLEAR	DESC:長居於地底的矮人擁有【礦坑視覺】和【深土戰士】種族特性。地底掘者施法者可以將【岩石敏銳】換為【岩石歌者】種族特性。
+CATEGORY=Special Ability|Dwarf Racial Subtype ~ Elder Dwarf.MOD		OUTPUTNAME:矮人長老（Elder Dwarf）		DESC:.CLEAR	DESC:遵循古老血統的傳統矮人擁有遠古敵意和史卷管理人種族特性，並擁有【魔法抗力】或【頑固】特性之一。
+CATEGORY=Special Ability|Dwarf Racial Subtype ~ Exiled Dwarf.MOD		OUTPUTNAME:流亡矮人（Exiled Dwarf）		DESC:.CLEAR	DESC:失去了家園的矮人往往擁有【不可阻擋】和【頑固】種族特性，並也常帶有【巨龍鞭笞者】特性。
+CATEGORY=Special Ability|Dwarf Racial Subtype ~ Mountain Dwarf.MOD		OUTPUTNAME:山嶺矮人（Mountain Dwarf）		DESC:.CLEAR	DESC:生活在高山險峰的矮人擁有【登山者】種族特性，並也常帶有【地表住民】特性。山嶺矮人同樣受訓於保衛家園，因此可能選擇【戒空哨兵】和【排外】特性。
+
+# Elf
+CATEGORY=Special Ability|Elf Racial Subtype ~ Arctic Elf.MOD		OUTPUTNAME:寒精靈（Arctic Elf）		DESC:.CLEAR	DESC:有些精靈在南北極地的凍土大地出生長大，並習慣了和冰砂、極夜和恐怖寒冬為伍。這些精靈擁有【黑暗視覺】、【沙漠跑者】和【元素抗力】種族特性。
+CATEGORY=Special Ability|Elf Racial Subtype ~ Dusk Elf.MOD		OUTPUTNAME:暮精靈（Dusk Elf）		DESC:.CLEAR	DESC:並非與自然地域相聯繫，有些精靈和夜幕本身相互羈絆。儘管不會像惡魔崇拜的卓爾精靈那樣邪惡，這些精靈或多或少地令魔力與黑暗和陰影等概念同調。這些精靈擁有【奧術專攻】、【黑暗視覺】、【夢語者】和【寂靜獵手】種族特性。
+CATEGORY=Special Ability|Elf Racial Subtype ~ Savage Elf.MOD		OUTPUTNAME:野精靈（Savage Elf）		DESC:.CLEAR	DESC:在那些每日都要為生存而盡死力的遠離文明之域，精靈們攻守迅捷，為保護家人平安而徹夜不眠。這些精靈擁有【永恆仇恨】和【飛毛腿】種族特性。
+CATEGORY=Special Ability|Elf Racial Subtype ~ Tower Elf.MOD		OUTPUTNAME:塔精靈（Tower Elf）		DESC:.CLEAR	DESC:有些從事魔法研究的精靈研究所其歷史可追溯數世紀，而整個部族的精靈都世代作為守護者、學徒和導師在這個自給自足的法師塔周圍生活。這些精靈擁有【奧術專攻】和【都市精靈】種族特性。
+
+# Gnomes
+CATEGORY=Special Ability|Gnome Racial Subtype ~ Dread Gnome.MOD		OUTPUTNAME:可怖侏儒（Dread Gnomes）		DESC:.CLEAR	DESC:可怖侏儒的精類血統較為黑暗，他們比起其他侏儒更加情緒化、不寬容和殘忍。儘管並非所有可怖侏儒都是邪惡的，他們確實都以看他人受苦為樂，並缺少其他表親的那種對光芒和喜悅的追求。可怖侏儒擁有【兇惡魔法】和【用毒訣竅】種族特性。
+CATEGORY=Special Ability|Gnome Racial Subtype ~ Gear Gnome.MOD		OUTPUTNAME:機巧侏儒（Gear Gnomes）		DESC:.CLEAR	DESC:有時並非一個侏儒醉心於某項工程，整個家族都會投身於這項需要世代相繼才能完成的大手筆。這些工程往往和複雜機械裝置（或者乾脆就是幢機工建築）有關，而降生於這個家族、並終生為之添磚加瓦的侏儒就被稱為機巧侏儒。機巧侏儒擁有【院士】和【精通機械】種族特性。
+CATEGORY=Special Ability|Gnome Racial Subtype ~ Lava Gnome.MOD		OUTPUTNAME:熔岩侏儒（Lava Gnomes）		DESC:.CLEAR	DESC:被岩漿之力吸引並居住在活火山下的溶洞裡，熔岩侏儒即便在其他侏儒眼中也是激情澎湃和捉摸不定的。熔岩侏儒擁有【黑暗視覺】和【縱火狂】種族特性。
+CATEGORY=Special Ability|Gnome Racial Subtype ~ Traveler Gnome.MOD		OUTPUTNAME:行旅侏儒（Traveler Gnomes）		DESC:.CLEAR	DESC:這些侏儒在旅途中降生，他們的家庭就在船舶或篷車上。行旅侏儒擁有【魔法語言學家】種族特性，並擁有【探險家】和【天賜巧舌】特性之一。
+
+# Half-Elf
+CATEGORY=Special Ability|Half-Elf Racial Subtype ~ Drow-Descended.MOD		OUTPUTNAME:卓爾後裔（Drow-Descended）		DESC:.CLEAR	DESC:這些半精靈明顯地攜帶者黑暗精靈父母的特徵，無論其企圖或人品如何，都常遭到他人的懷疑目光。這些半精靈擁有【卓爾血脈】和【卓爾魔法】種族特性。
+CATEGORY=Special Ability|Half-Elf Racial Subtype ~ Elf-Raised.MOD		OUTPUTNAME:精靈撫養（Elf-Raised）		DESC:.CLEAR	DESC:這些半精靈受到了精靈親人的呵護，並接受了典型純血精靈式的傳統文化熏陶和教育。這些半精靈擁有【祖傳武器】和【奧術訓練】種族特性。
+CATEGORY=Special Ability|Half-Elf Racial Subtype ~ Human-Raised.MOD		OUTPUTNAME:人類撫養（Human-Raised）		DESC:.CLEAR	DESC:這些半精靈在人類社群中出生長大並逐漸接受週遭環境，撫養他們的常為獨戶或教會、神殿等慈善機構。這些半精靈擁有【親和力】和【警惕性】種族特性。
+
+# Halfling
+CATEGORY=Special Ability|Halfling Racial Subtype ~ Avenging.MOD		OUTPUTNAME:鬥爭者（Avenging）		DESC:.CLEAR	DESC:不像大多數半身人，這一類型半身人對那些社會中的輕視和欺凌尋求報復。當對抗地方惡霸、怪物或者暴虐的統治部隊時，半身人勇士們戴著面具進行反擊和抗爭。他們具有以下種族特性：下盤打擊、低位防守、戰爭投石者。
+CATEGORY=Special Ability|Halfling Racial Subtype ~ Nomadic.MOD		OUTPUTNAME:旅行家（Nomadic）		DESC:.CLEAR	DESC:這一類型的半身人出生於旅途中並且大多數會一生都在旅行。他們的行動輕快並且不會放過任何一次冒險和利潤。他們具有以下種族特性：大步、語言天賦、旅者。
+CATEGORY=Special Ability|Halfling Racial Subtype ~ Slave Born.MOD		OUTPUTNAME:奴隸種（Slave Born）		DESC:.CLEAR	DESC:這些半身人花費了無數代人的積累才脫離了奴隸身份。雖然他們自由了，沉重的奴隸制度依然壓搾著他們的靈魂，使他們渴望尊重並且時常沒來由的恐懼什麼。他們具有以下種族特性：膽小鬼、奉承主義。
+
+# Half-Orc
+CATEGORY=Special Ability|Half-Orc Racial Subtype ~ Arena-Bred.MOD		OUTPUTNAME:競技士（Arena-Bred）		DESC:.CLEAR	DESC:很多半獸人為了被送進競技場而長大，雙親常常是兩位半獸人、甚至一位半獸人和一位人類。這些為角鬥場而生的半獸人失去了獸人祖先的野蠻外表，看上去更像人類。他們擁有【市民】和【技能受訓】種族特性。
+CATEGORY=Special Ability|Half-Orc Racial Subtype ~ Deep Kin.MOD		OUTPUTNAME:地底人（Deep Kin）		DESC:.CLEAR	DESC:有些半獸人生長在依然居住在永恆黑暗籠罩的地下的獸人部落。這些部落的半獸人體格稍小，並比那些地表獸人更習慣地下的世界。這些半獸人擁有【敏銳黑暗視覺】和【穴居人】種族特性。
+CATEGORY=Special Ability|Half-Orc Racial Subtype ~ Feral.MOD		OUTPUTNAME:野生兒（Feral）		DESC:.CLEAR	DESC:還在嬰兒或幼兒時便被遺棄的半獸人孩子很難在荒野中生存下來，但有少數能夠如「野孩子」般地啃出活路、堅強求生，但完全和文明無緣。野生兒擁有【林間行者】和【獠牙】種族特性。
+CATEGORY=Special Ability|Half-Orc Racial Subtype ~ Mountain Clan.MOD		OUTPUTNAME:山嶽族（Mountain Clan）		DESC:.CLEAR	DESC:多山地區的半獸人更為機敏，並對故鄉的一聲一響都極為敏感。山嶽族擁有【獸性】和【攀巖者】種族特性。
+CATEGORY=Special Ability|Half-Orc Racial Subtype ~ Mystic.MOD		OUTPUTNAME:神秘者（Mystic）		DESC:.CLEAR	DESC:獸人薩滿是野蠻的教師，他們有時會為了消除未來的潛在對手而殺害或弄殘最出色的學生。從薩滿導師的虐待中存活下來的半獸人遍體鱗傷，精神也被這種經歷所深深影響。薩滿學徒很早就學到，狡猾和幸運往往是求生之路僅有的救命稻草。他們擁有「薩滿學徒」和「神聖紋身」種族特性。
+CATEGORY=Special Ability|Half-Orc Racial Subtype ~ Deep Kin.MOD		OUTPUTNAME:地底人（Deep Kin）		DESC:.CLEAR	DESC:有些半獸人生長在依然居住在永恆黑暗籠罩的地下的獸人部落。這些部落的半獸人體格稍小，並比那些地表獸人更習慣地下的世界。這些半獸人擁有「敏銳黑暗視覺」和「穴居人」種族特性。
+CATEGORY=Special Ability|Half-Orc Racial Subtype ~ Feral.MOD		OUTPUTNAME:野生兒（Feral）		DESC:.CLEAR	DESC:還在嬰兒或幼兒時便被遺棄的半獸人孩子很難在荒野中生存下來，但有少數能夠如「野孩子」般地啃出活路、堅強求生，但完全和文明無緣。野生兒擁有「林間行者」和「獠牙」種族特性。
+CATEGORY=Special Ability|Half-Orc Racial Subtype ~ Mountain Clan.MOD		OUTPUTNAME:山嶽族（Mountain Clan）		DESC:.CLEAR	DESC:多山地區的半獸人更為機敏，並對故鄉的一聲一響都極為敏感。山嶽族擁有「獸性」和「攀岩者」種族特性。
+CATEGORY=Special Ability|Half-Orc Racial Subtype ~ Mystic.MOD		OUTPUTNAME:神秘者（Mystic）		DESC:.CLEAR	DESC:獸人薩滿是野蠻的教師，他們有時會為了消除未來的潛在對手而殺害或弄殘最出色的學生。從薩滿導師的虐待中存活下來的半獸人遍體鱗傷，精神也被這種經歷所深深影響。薩滿學徒很早就學到，狡猾和幸運往往是求生之路僅有的救命稻草。他們擁有「薩滿學徒」和「神聖紋身」種族特性。
