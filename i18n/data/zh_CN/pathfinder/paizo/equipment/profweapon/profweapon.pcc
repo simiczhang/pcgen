@@ -1,0 +1,8 @@
+CAMPAIGN:Localization_Equipment_ProfWeapon
+KEY:Localization_Equipment_ProfWeapon
+
+WEAPONPROF:apg_profweaponmods.lst
+WEAPONPROF:arg_profweaponmods.lst
+WEAPONPROF:cr_profweaponmods.lst
+WEAPONPROF:uc_profweaponmods.lst
+WEAPONPROF:ue_profweaponmods.lst

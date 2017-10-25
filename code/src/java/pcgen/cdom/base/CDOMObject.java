@@ -53,6 +53,7 @@ import pcgen.core.Equipment;
 import pcgen.core.PlayerCharacter;
 import pcgen.core.analysis.BonusActivation;
 import pcgen.core.bonus.BonusObj;
+import pcgen.system.PCGenSettings;
 
 public abstract class CDOMObject extends ConcretePrereqObject implements
 		Cloneable, BonusContainer, Loadable, Reducible, VarScoped
@@ -1179,6 +1180,12 @@ public abstract class CDOMObject extends ConcretePrereqObject implements
 		return displayName;
 	}
 
+	@Override
+	public String toString()
+	{
+		return getDisplayName();
+	}
+	
 	/**
 	 * Sets all the BonusObj's to "active"
 	 * @param pc

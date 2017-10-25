@@ -67,7 +67,7 @@ public final class DisplayUtilities
 				result.append(separator);
 			}
 			needjoin = true;
-			result.append(obj.getDisplayName());
+			result.append(obj.toString());
 		}
 
 		return result.toString();
