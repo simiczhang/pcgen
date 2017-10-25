@@ -3,6 +3,11 @@
 <!--
 -->
 <character>
+    <lang>
+    <#list outputRB?keys as key> 
+    	<${key}>${outputRB[key]}</${key}>
+    </#list>
+    </lang>
 	<export>
 		<date>${pcstring('EXPORT.DATE')}</date>
 		<time>${pcstring('EXPORT.TIME')}</time>

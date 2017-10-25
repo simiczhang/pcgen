@@ -28,20 +28,29 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.Serializable;
 import java.io.StringWriter;
+import java.net.URL;
+import java.net.URLClassLoader;
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
 import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Comparator;
+import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
+import java.util.ResourceBundle;
 import java.util.StringTokenizer;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import freemarker.template.Configuration;
+import freemarker.template.ObjectWrapper;
+import freemarker.template.Template;
+import freemarker.template.TemplateException;
+import freemarker.template.Version;
 import pcgen.cdom.base.CDOMObject;
 import pcgen.cdom.base.Constants;
 import pcgen.cdom.enumeration.ListKey;
@@ -83,16 +92,11 @@ import pcgen.io.freemarker.PCHasVarFunction;
 import pcgen.io.freemarker.PCStringDirective;
 import pcgen.io.freemarker.PCVarFunction;
 import pcgen.output.publish.OutputDB;
+import pcgen.system.ConfigurationSettings;
 import pcgen.system.PluginLoader;
 import pcgen.util.Delta;
 import pcgen.util.Logging;
 import pcgen.util.enumeration.View;
-
-import freemarker.template.Configuration;
-import freemarker.template.ObjectWrapper;
-import freemarker.template.Template;
-import freemarker.template.TemplateException;
-import freemarker.template.Version;
 
 /**
  * This class deals with exporting a PC to various types of output sheets 
@@ -335,6 +339,10 @@ public final class ExportHandler
 			input.put("gamemode", mode);
 			input.put("gamemodename", gamemode.getName());
 
+			ResourceBundle rb = ResourceBundle.getBundle("LanguageBundle", Locale.getDefault(), 
+					new URLClassLoader(new URL[] {new File(ConfigurationSettings.getLocalizedOutputsheetsDir()).toURI().toURL()}));
+			input.put("outputRB", convertResourceBundleToMap(rb));
+			
 			// Process the template
 			template.process(input, outputWriter);
 		}
@@ -359,6 +367,17 @@ public final class ExportHandler
 		}
 	}
 
+	private static Map<String, String> convertResourceBundleToMap(ResourceBundle resource) {
+        Map<String, String> map = new HashMap<>();
+
+        Enumeration<String> keys = resource.getKeys();
+        while (keys.hasMoreElements()) {
+            String key = keys.nextElement();
+            map.put(key, resource.getString(key));            
+        }
+        return map;
+    }
+	
 	/**
 	 * A helper method to prepare the template for exporting
 	 * 

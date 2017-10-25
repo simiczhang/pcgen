@@ -39,6 +39,7 @@ public final class ConfigurationSettings extends PropertyContext
 	public static final String DOCS_DIR = "docsPath";
 	public static final String PCC_FILES_DIR = "pccFilesPath";
 	public static final String LOCALIZED_PCC_FILES_DIR = "localizedPccFilesPath";
+	public static final String LOCALIZED_OUTPUTSHEETS_DIR = "localizedOutputSheetsDir";
 	
 	public static final String CUSTOM_DATA_DIR = "customPath";
 	private static ConfigurationSettings instance = null;
@@ -59,6 +60,7 @@ public final class ConfigurationSettings extends PropertyContext
 		setProperty(DOCS_DIR, "@docs");
 		setProperty(PCC_FILES_DIR, "@data");
 		setProperty(LOCALIZED_PCC_FILES_DIR, ("@i18n/data/" + SystemUtils.USER_LANGUAGE + "_" + SystemUtils.USER_COUNTRY).replace('/', File.separatorChar));
+		setProperty(LOCALIZED_OUTPUTSHEETS_DIR, ("@i18n/outputsheets/").replace('/', File.separatorChar));
 	}
 
 	@Override
@@ -72,6 +74,7 @@ public final class ConfigurationSettings extends PropertyContext
 		relativize(DOCS_DIR);
 		relativize(PCC_FILES_DIR);
 		relativize(LOCALIZED_PCC_FILES_DIR);
+		relativize(LOCALIZED_OUTPUTSHEETS_DIR);
 	}
 
 	public static String getLanguage()
@@ -158,6 +161,12 @@ public final class ConfigurationSettings extends PropertyContext
 		return getDirectory(LOCALIZED_PCC_FILES_DIR);
 	}
 
+	public static String getLocalizedOutputsheetsDir()
+	{
+		return getDirectory(LOCALIZED_OUTPUTSHEETS_DIR);
+	}
+
+	
 	public static String getSettingsDir()
 	{
 		return getDirectory(SETTINGS_FILES_PATH);
