@@ -83,7 +83,7 @@ Nine-section whip.MOD	OUTPUTNAME:九節鞭（Nine-section whip）	DESC:.CLEAR	DE
 Nunchaku.MOD	OUTPUTNAME:雙節棍（Nunchaku）	DESC:.CLEAR	DESC:雙截棍是由較短的繩索或鎖鏈連結的兩隻木棒或鐵棒。
 Pata.MOD	OUTPUTNAME:拳劍（Pata）	DESC:.CLEAR	DESC:作為拳刃的進化版本，拳劍是固定在不分指鐵手套前面的短劍。你以此武器發動的攻擊相較戳刺更像是拳擊，這是你能夠在每一擊中蓄積更強的力道。你無法用持有拳劍的手抓握任何其他東西。拳劍在抵抗針對其本身的卸武戰技時令你的CMD+10。
 Pick (Heavy).MOD	OUTPUTNAME:重型鎬（Pick (Heavy)）	DESC:.CLEAR	DESC:這把輕型鎬的加強版把手較長，可以單手或雙手使用。便於在馬背上使用，因此常被騎兵當作廉價武器。
-Pick (Heavy).MOD	OUTPUTNAME:輕型鎬（Pick (Heavy)）	DESC:.CLEAR	DESC:這件武器從作為工具的鶴嘴鋤演化而來，有著微曲的頭部、用來穿甲的尖端和錘狀的配重。
+Pick (Light).MOD	OUTPUTNAME:輕型鎬（Pick (Light)）	DESC:.CLEAR	DESC:這件武器從作為工具的鶴嘴鋤演化而來，有著微曲的頭部、用來穿甲的尖端和錘狀的配重。
 Quadrens.MOD	OUTPUTNAME:多刃匕首（Quadrens）	DESC:.CLEAR	DESC:多刃匕首看上去像是一把加粗的匕首，但有著方形格局的四支尖刺。每當你用多刃匕首造成重擊時，它會撕裂創口並造成1點出血傷害。除了用於撕開甲冑的縫隙，它的尖刺還能用來咬住對手的劍刃並將其扭斷。
 Quarterstaff.MOD	OUTPUTNAME:木棍（Quarterstaff）	DESC:.CLEAR	DESC:木棍是一根簡單的木頭棍子，長約5尺。戰鬥時一手握住末端、另一手握在棍身1/4處，能夠封擋來襲、迅捷反擊。
 Ranseur.MOD	OUTPUTNAME:刺叉（Ranseur）	DESC:.CLEAR	DESC:和三叉戟外觀相似，刺叉的一根長刺被兩根短刺所夾。

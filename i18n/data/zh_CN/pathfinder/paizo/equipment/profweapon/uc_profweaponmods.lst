@@ -1,0 +1,99 @@
+Firearms.MOD	OUTPUTNAME:火器（Firearms）
+Buckler Gun.MOD	OUTPUTNAME:圓盾槍（Buckler Gun）
+Pepperbox.MOD	OUTPUTNAME:胡椒罐手槍（Pepperbox）
+Pistol.MOD	OUTPUTNAME:手槍（Pistol）
+Pistol (Coat).MOD	OUTPUTNAME:袖槍（Pistol (Coat)）
+Pistol (Dagger).MOD	OUTPUTNAME:短刃手槍（Pistol (Dagger)）
+Pistol (Double-Barreled).MOD	OUTPUTNAME:雙管手槍（Pistol (Double-barreled)）
+Pistol (Dragon).MOD	OUTPUTNAME:龍銃（Pistol (Dragon)）
+Pistol (Sword Cane).MOD	OUTPUTNAME:杖劍手槍（Pistol (Sword Cane)）
+Blunderbuss.MOD	OUTPUTNAME:雷筒（Blunderbuss）
+Culverin.MOD	OUTPUTNAME:長管炮（Culverin）
+Double Hackbut.MOD	OUTPUTNAME:雙管架槍（Double Hackbut）
+Fire Lance.MOD	OUTPUTNAME:突火矛（Fire Lance）
+Musket.MOD	OUTPUTNAME:滑膛槍（Musket）
+Musket (Axe).MOD	OUTPUTNAME:戰斧式滑膛槍（Musket (Axe)）
+Musket (Double-Barreled).MOD	OUTPUTNAME:雙管滑膛槍（Musket (Double-Barreled)）
+Musket (Warhammer).MOD	OUTPUTNAME:戰錘式滑膛槍（Musket (Warhammer)）
+Revolver.MOD	OUTPUTNAME:左輪手槍（Revolver）
+Rifle.MOD	OUTPUTNAME:步槍（Rifle）
+Shotgun.MOD	OUTPUTNAME:霰彈槍（Shotgun）
+Butterfly Sword.MOD	OUTPUTNAME:蝴蝶雙刀（Butterfly sword）
+Iron Brush.MOD	OUTPUTNAME:判官筆（Iron brush）
+Jutte.MOD	OUTPUTNAME:十手（Jutte）
+Kerambit.MOD	OUTPUTNAME:虎牙刺（Kerambit）
+Lungchuan Tamo.MOD	OUTPUTNAME:杖隱刃（Lungchuan tamo）
+Shang Gou.MOD	OUTPUTNAME:雙鉤（Shang gou）
+Tonfa.MOD	OUTPUTNAME:旋棍（Tonfa）
+Wushu Dart.MOD	OUTPUTNAME:武師鏢（Wushu dart）
+Broadsword (Nine Ring).MOD	OUTPUTNAME:九環大刀（Broadsword (Nine Ring)）
+Double Chicken Saber.MOD	OUTPUTNAME:雞刀鐮（Double chicken saber）
+Sibat.MOD	OUTPUTNAME:倒鉤矛（Sibat）
+Hooked Lance.MOD	OUTPUTNAME:鉤鐮槍（Hooked lance）
+Monk's Spade.MOD	OUTPUTNAME:禪杖（Monk's spade）
+Naginata.MOD	OUTPUTNAME:薙刀（Naginata）
+Nodachi.MOD	OUTPUTNAME:野太刀（Nodachi）
+Sansetsukon.MOD	OUTPUTNAME:三節棍（Sansetsukon）
+Sword (Tri-Point Double-Edged).MOD	OUTPUTNAME:三尖兩刃刀（Sword (Tri-Point Double-Edged)）
+Tiger Fork.MOD	OUTPUTNAME:三股叉（Tiger fork）
+Tube Arrow Shooter.MOD	OUTPUTNAME:袖箭（Tube arrow shooter）
+Poisoned Sand Tube.MOD	OUTPUTNAME:毒砂管（Poisoned sand tube）
+Dan Bong.MOD	OUTPUTNAME:短棒（Dan bong）
+Emei Piercer.MOD	OUTPUTNAME:峨眉刺（Emei piercer）
+Fighting Fan.MOD	OUTPUTNAME:鐵骨扇（Fighting fan）
+Tekko-Kagi (Iron Claw).MOD	OUTPUTNAME:手甲鉤（Tekko-Kagi (Iron Claw)）
+Wakizashi.MOD	OUTPUTNAME:脅差（Wakizashi）
+Katana.MOD	OUTPUTNAME:武士刀（Katana）
+Nine-Section Whip.MOD	OUTPUTNAME:九節鞭（Nine-section whip）
+Urumi.MOD	OUTPUTNAME:軟劍（Urumi）
+Bo Staff.MOD	OUTPUTNAME:長棒（Bo staff）
+Kama (Double-Chained).MOD	OUTPUTNAME:雙鐮（Kama (Double-chained)）
+Katana (Double Walking Stick).MOD	OUTPUTNAME:手杖刀（Katana (Double Walking Stick)）
+Kusarigama (Sickle and Chain).MOD	OUTPUTNAME:鎖鐮（Kusarigama (Sickle and Chain)）
+Kyoketsu Shoge.MOD	OUTPUTNAME:距拔（Kyoketsu shoge）
+Meteor Hammer.MOD	OUTPUTNAME:流星錘（Meteor hammer）
+Sword (Seven-Branched).MOD	OUTPUTNAME:七支刀（Sword (Seven-branched)）
+Tetsubo.MOD	OUTPUTNAME:金碎棒（Tetsubo）
+Rope Dart.MOD	OUTPUTNAME:繩鏢（Rope dart）
+Scizore.MOD	OUTPUTNAME:角鬥剪（Scizore）
+Amentum.MOD	OUTPUTNAME:投槍索（Amentum）
+Aklys.MOD	OUTPUTNAME:飛鉤杖（Aklys）
+Knuckle Axe.MOD	OUTPUTNAME:指斧（Knuckle axe）
+Madu.MOD	OUTPUTNAME:馬杜（Madu）
+Pata.MOD	OUTPUTNAME:拳劍（Pata）
+Quadrens.MOD	OUTPUTNAME:多刃匕首（Quadrens）
+Scorpion Whip.MOD	OUTPUTNAME:蠍尾鞭（Scorpion whip）
+Sica.MOD	OUTPUTNAME:鉤刀（Sica）
+Hooked Axe.MOD	OUTPUTNAME:鉤斧（Hooked axe）
+Shotel.MOD	OUTPUTNAME:鉤劍（Shotel）
+Flying Blade.MOD	OUTPUTNAME:旋刃（Flying blade）
+Throwing Shield.MOD	OUTPUTNAME:飛盾（Throwing shield）
+Mattock.MOD	OUTPUTNAME:鶴嘴鋤（Mattock）
+Rhomphaia.MOD	OUTPUTNAME:長柄逆刃刀（Rhomphaia）
+Harpoon.MOD	OUTPUTNAME:魚叉（Harpoon）
+Kestros.MOD	OUTPUTNAME:投鏢索（Kestros）
+Mere Club.MOD	OUTPUTNAME:石磨棒（Mere club）
+Terbutje.MOD	OUTPUTNAME:石刃劍（Terbutje）
+Tepoztopilli.MOD	OUTPUTNAME:石刃戰棍（Tepoztopilli）
+Atlatl.MOD	OUTPUTNAME:擲鏢器（Atlatl）
+Taiaha.MOD	OUTPUTNAME:棍矛（Taiaha）
+Terbutje (Great).MOD	OUTPUTNAME:石刃大劍（Terbutje (Great)）
+Wahaika.MOD	OUTPUTNAME:魚嘴棒（Wahaika）
+Ballista (Light).MOD	OUTPUTNAME:弩炮(輕型)（Ballista (Light)）
+Cannon.MOD	OUTPUTNAME:加農火炮（Cannon）
+Ballista (Heavy).MOD	OUTPUTNAME:弩炮(重型)（Ballista (Heavy)）
+Cannon (Fiend's Mouth).MOD	OUTPUTNAME:鬼頭火炮（Cannon (Fiend's Mouth)）
+Firedrake.MOD	OUTPUTNAME:炎蛟炮（Firedrake）
+Ballista (Gate Breaker).MOD	OUTPUTNAME:弩炮(破城型)（Ballista (Gate Breaker)）
+Firewyrm.MOD	OUTPUTNAME:炎龍炮（Firewyrm）
+Bombard (Light).MOD	OUTPUTNAME:臼炮(輕型)（Bombard (Light)）
+Catapult (Light).MOD	OUTPUTNAME:投石車(輕型)（Catapult (Light)）
+Trebuchet (Light).MOD	OUTPUTNAME:拋石機(輕型)（Trebuchet (Light)）
+Bombard (Standard).MOD	OUTPUTNAME:臼炮(中型)（Bombard (Standard)）
+Catapult (Standard).MOD	OUTPUTNAME:投石車(中型)（Catapult (Standard)）
+Springal (Arrow).MOD	OUTPUTNAME:投射器(巨矢型)（Springal (Arrow)）
+Springal (Rocket).MOD	OUTPUTNAME:投射器(火箭型)（Springal (Rocket)）
+Trebuchet (Standard).MOD	OUTPUTNAME:拋石機(中型)（Trebuchet (Standard)）
+Bombard (Heavy).MOD	OUTPUTNAME:臼炮(重型)（Bombard (Heavy)）
+Catapult (Heavy).MOD	OUTPUTNAME:投石車(重型)（Catapult (Heavy)）
+Trebuchet (Heavy).MOD	OUTPUTNAME:拋石機(重型)（Trebuchet (Heavy)）
