@@ -67,7 +67,7 @@ public final class DisplayUtilities
 				result.append(separator);
 			}
 			needjoin = true;
-			result.append(obj.toString());
+			result.append(obj);
 		}
 
 		return result.toString();

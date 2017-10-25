@@ -1179,12 +1179,6 @@ public abstract class CDOMObject extends ConcretePrereqObject implements
 	{
 		return displayName;
 	}
-
-	@Override
-	public String toString()
-	{
-		return getDisplayName();
-	}
 	
 	/**
 	 * Sets all the BonusObj's to "active"
