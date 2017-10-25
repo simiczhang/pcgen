@@ -1,1 +1,79 @@
+Grapple.MOD	OUTPUTNAME:擒抱（Grapple）
+Spells (Ray).MOD	OUTPUTNAME:法術（射線）（Spells (Ray)
+Spells (Touch).MOD	OUTPUTNAME:法術（接觸）（Spells (Touch)）
+Splash Weapon.MOD	OUTPUTNAME:濺射武器（Splash Weapon）
+Unarmed Strike.MOD	OUTPUTNAME:徒手打擊（Unarmed strike）
+Shieldbash.MOD	OUTPUTNAME:盾擊（Shieldbash）
+Gauntlet.MOD	OUTPUTNAME:鐵手套（Gauntlet）
+Dagger.MOD	OUTPUTNAME:匕首（Dagger）
+Dagger (Punching).MOD	OUTPUTNAME:拳刃（Dagger (Punching)）
+Gauntlet (Spiked).MOD	OUTPUTNAME:帶刺鐵手套（Gauntlet (Spiked)）
+Mace (Light).MOD	OUTPUTNAME:輕型硬頭錘（Mace (Light)）
+Sickle.MOD	OUTPUTNAME:鐮刀（Sickle）
+Club.MOD	OUTPUTNAME:木棒（Club）
+Mace (Heavy).MOD	OUTPUTNAME:重型硬頭錘（Mace (Heavy)）
+Morningstar.MOD	OUTPUTNAME:釘頭錘（Morningstar）
+Shortspear.MOD	OUTPUTNAME:短矛（Shortspear）
+Longspear.MOD	OUTPUTNAME:長矛（Longspear）
+Quarterstaff.MOD	OUTPUTNAME:木棍（Quarterstaff）
+Spear.MOD	OUTPUTNAME:矛（Spear）
+Blowgun.MOD	OUTPUTNAME:吹箭（Blowgun）
+Crossbow (Heavy).MOD	OUTPUTNAME:重弩（Crossbow (Heavy)）
+Crossbow (Light).MOD	OUTPUTNAME:輕弩（Crossbow (Light)）
+Dart.MOD	OUTPUTNAME:飛鏢（Dart）
+Javelin.MOD	OUTPUTNAME:標槍（Javelin）
+Sling.MOD	OUTPUTNAME:投石索（Sling）
+Axe (Throwing).MOD	OUTPUTNAME:飛斧（Axe (Throwing)）
+Hammer (Light).MOD	OUTPUTNAME:輕錘（Hammer (Light)）
+Handaxe.MOD	OUTPUTNAME:手斧（Handaxe）
+Kukri.MOD	OUTPUTNAME:反曲刀（Kukri）
+Pick (Light).MOD	OUTPUTNAME:輕型鎬（Pick (Light)）
+Sap.MOD	OUTPUTNAME:悶棍（Sap）
+Spiked Armor.MOD	OUTPUTNAME:甲刺（Spiked armor）
+Starknife.MOD	OUTPUTNAME:星刃（Starknife）
+Sword (Short).MOD	OUTPUTNAME:短劍（Sword (Short)）
 Battleaxe.MOD	OUTPUTNAME:戰斧（Battleaxe）
+Flail.MOD	OUTPUTNAME:鏈枷（Flail）
+Longsword.MOD	OUTPUTNAME:長劍（Longsword）
+Pick (Heavy).MOD	OUTPUTNAME:重型鎬（Pick (Heavy)）
+Rapier.MOD	OUTPUTNAME:細劍（Rapier）
+Scimitar.MOD	OUTPUTNAME:彎刀（Scimitar）
+Trident.MOD	OUTPUTNAME:三叉戟（Trident）
+Warhammer.MOD	OUTPUTNAME:戰錘（Warhammer）
+Falchion.MOD	OUTPUTNAME:彎刃大刀（Falchion）
+Glaive.MOD	OUTPUTNAME:大砍刀（Glaive）
+Greataxe.MOD	OUTPUTNAME:巨斧（Greataxe）
+Greatclub.MOD	OUTPUTNAME:巨木棒（Greatclub）
+Flail (Heavy).MOD	OUTPUTNAME:重型鏈枷（Flail (Heavy)）
+Greatsword.MOD	OUTPUTNAME:巨劍（Greatsword）
+Guisarme.MOD	OUTPUTNAME:長勾刀（Guisarme）
+Halberd.MOD	OUTPUTNAME:戟（Halberd）
+Lance.MOD	OUTPUTNAME:長槍（Lance）
+Ranseur.MOD	OUTPUTNAME:刺叉（Ranseur）
+Scythe.MOD	OUTPUTNAME:巨鐮（Scythe）
+Sword (Bastard).MOD	OUTPUTNAME:重劍（Sword (Bastard)）
+Waraxe (Dwarven).MOD	OUTPUTNAME:矮人重斧（Waraxe (Dwarven)）
+Longbow.MOD	OUTPUTNAME:長弓（Longbow）
+Shortbow.MOD	OUTPUTNAME:短弓（Shortbow）
+Kama.MOD	OUTPUTNAME:單鐮（Kama）
+Nunchaku.MOD	OUTPUTNAME:雙節棍（Nunchaku）
+Sai.MOD	OUTPUTNAME:筆架叉（Sai）
+Siangham.MOD	OUTPUTNAME:破魔錐（Siangham）
+Whip.MOD	OUTPUTNAME:長鞭（Whip）
+Axe (Orc Double).MOD	OUTPUTNAME:獸人雙頭斧（Axe (Orc Double)）
+Chain (Spiked).MOD	OUTPUTNAME:刺鏈（Chain (Spiked)）
+Curve Blade (Elven).MOD	OUTPUTNAME:精靈曲劍（Curve Blade (Elven)）
+Flail (Dire).MOD	OUTPUTNAME:雙頭鏈枷（Flail (Dire)）
+Hammer (Gnome Hooked).MOD	OUTPUTNAME:侏儒鉤錘（Hammer (Gnome Hooked)）
+Sword (Two-Bladed).MOD	OUTPUTNAME:雙刃劍（Sword (Two-bladed)）
+Urgrosh (Dwarven).MOD	OUTPUTNAME:矮人矛斧（Urgrosh (Dwarven)）
+Bolas.MOD	OUTPUTNAME:套牛繩（Bolas）
+Crossbow (Hand).MOD	OUTPUTNAME:手弩（Crossbow (Hand)）
+Crossbow (Repeating Heavy).MOD	OUTPUTNAME:連發重弩（Crossbow (Repeating Heavy)）
+Crossbow (Repeating Light).MOD	OUTPUTNAME:連發輕弩（Crossbow (Repeating Light)）
+Net.MOD	OUTPUTNAME:捕網（Net）
+Shuriken.MOD	OUTPUTNAME:手裡劍（Shuriken）
+Sling Staff (Halfling).MOD	OUTPUTNAME:半身人投石杖（Sling Staff (Halfling)）
+Flurry of Blows.MOD	OUTPUTNAME:疾風連擊（Flurry of Blows）
+Improvised Weapon.MOD	OUTPUTNAME:臨時武器（Improvised Weapon）
+Rock.MOD	OUTPUTNAME:石塊（Rock） 
