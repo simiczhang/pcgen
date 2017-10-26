@@ -25,16 +25,16 @@ $Date: 2014-06-12 11:36:12 +1000 (Thu, 12 Jun 2014) $
 		font-size:xx-small;
 	}
 	.ab {
-		font-family: Scala Sans, sans-serif;
+		font-family: Scala Sans, sans-serif, SimSun;
 	}
 	.abb, .abt, .h {
-		font-family: sans-serif;
+		font-family: sans-serif, SimSun;
 	}
 	.font6, .border6, .topline {  font-size:xx-small; }
-	.font7 {  font-family: Arial, sans-serif; font-size:x-small; }
-	.font8 {  font-family: Arial, sans-serif; font-size:x-small; }
-	.font9, .font10 {  font-family: Arial, sans-serif; font-size:small; }
-	.font14 {  font-family: Arial, sans-serif; font-size:large; }
+	.font7 {  font-family: Arial, sans-serif, SimSun; font-size:x-small; }
+	.font8 {  font-family: Arial, sans-serif, SimSun; font-size:x-small; }
+	.font9, .font10 {  font-family: Arial, sans-serif, SimSun; font-size:small; }
+	.font14 {  font-family: Arial, sans-serif, SimSun; font-size:large; }
 	.h { font-size:small; vertical-align: bottom; }
 	.ab { font-size:medium; text-align:center; color:white; background:black; }
 	.sa-table th { font-size:9pt; text-align:center; color:white; background:black; text-transform:uppercase;}
@@ -47,14 +47,14 @@ $Date: 2014-06-12 11:36:12 +1000 (Thu, 12 Jun 2014) $
 	.sptab { text-align:center; }
 	.sptab1 { text-align:left; }
 	.sptab2 { text-align:right; }
-	.notetab { font-family: Arial, sans-serif; vertical-align:top;border: 1px solid black; text-align:left;font-size:x-small;}
-	.skl { font-family: Arial, sans-serif; font-size: small; font-weight:bold; text-align:center; vertical-align:middle; border: 4px solid black;}
-	.spname { font-family: Arial, sans-serif; vertical-align:top; text-align:left;font-size:x-small;}
-	.sptop { font-family: Arial, sans-serif; vertical-align:top;border: 1px solid black; text-align:center;font-size:x-small; color:white;}
-	.splevel {  font-family: Arial, sans-serif; background:black; text-align:center;font-size:small; color:white;}
-	.sphead {  font-family: Arial, sans-serif; background:black; text-align:center;font-size:medium; color:white;}
-	.notehead {  font-family: Arial, sans-serif; background:black; text-align:center;font-size:medium; color:white;}
-	.biodata { font-family: Arial, sans-serif; vertical-align:bottom; text-align:left;font-size:small;}
+	.notetab { font-family: Arial, sans-serif, SimSun; vertical-align:top;border: 1px solid black; text-align:left;font-size:x-small;}
+	.skl { font-family: Arial, sans-serif, SimSun; font-size: small; font-weight:bold; text-align:center; vertical-align:middle; border: 4px solid black;}
+	.spname { font-family: Arial, sans-serif, SimSun; vertical-align:top; text-align:left;font-size:x-small;}
+	.sptop { font-family: Arial, sans-serif, SimSun; vertical-align:top;border: 1px solid black; text-align:center;font-size:x-small; color:white;}
+	.splevel {  font-family: Arial, sans-serif, SimSun; background:black; text-align:center;font-size:small; color:white;}
+	.sphead {  font-family: Arial, sans-serif, SimSun; background:black; text-align:center;font-size:medium; color:white;}
+	.notehead {  font-family: Arial, sans-serif, SimSun; background:black; text-align:center;font-size:medium; color:white;}
+	.biodata { font-family: Arial, sans-serif, SimSun; vertical-align:bottom; text-align:left;font-size:small;}
 	.topline {
 		border-top-width:1px;
 		border-top: 1pt solid black;
