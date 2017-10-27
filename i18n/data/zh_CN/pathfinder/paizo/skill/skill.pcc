@@ -1,4 +1,8 @@
 CAMPAIGN:Localization_Skill
 KEY:Localization_Skill
 
+SKILL:b2_skillmods.lst
+SKILL:ce_skillmods.lst
 SKILL:cr_skillmods.lst
+SKILL:uc_skillmods.lst
+SKILL:ue_skillmods.lst

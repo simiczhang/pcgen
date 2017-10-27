@@ -1,98 +1,98 @@
-Acrobatics.MOD	OUTPUTNAME:特技 (Acrobatics)
+Acrobatics.MOD	OUTPUTNAME:特技 (Acrobatics)	TYPE:防具檢定減值技能
 Appraise.MOD	OUTPUTNAME:估價 (Appraise)
 Bluff.MOD	OUTPUTNAME:唬騙 (Bluff)	
-Climb.MOD	OUTPUTNAME:攀爬 (Climb)
-Craft (Alchemy).MOD	OUTPUTNAME:工藝 (煉金術) (Craft (Alchemy))	
-Craft (Armor).MOD	OUTPUTNAME:工藝 (打造護甲) (Craft (Armor))
-Craft (Baskets).MOD	OUTPUTNAME:工藝 (器具編織) (Craft (Baskets)))
-Craft (Blacksmithing).MOD	OUTPUTNAME:工藝 (鐵匠技術) (Craft (Blacksmithing))
-Craft (Books).MOD	OUTPUTNAME:工藝 (書籍裝訂) (Craft (Books))
-Craft (Bows).MOD	OUTPUTNAME:工藝 (弓矢製作) (Craft (Bows))
-Craft (Calligraphy).MOD	OUTPUTNAME:工藝 (書法藝術) (Craft (Calligraphy))
-Craft (Carpentry).MOD	OUTPUTNAME:工藝 (木工技術) (Craft (Carpentry))
-Craft (Cloth).MOD	OUTPUTNAME:工藝 (紡織布匹) (Craft (Cloth))
-Craft (Clothing).MOD	OUTPUTNAME:工藝 (裁剪衣物) (Craft (Clothing))
-Craft (Gemcutting).MOD	OUTPUTNAME:工藝 (宝石雕琢) (Craft (Gemcutting))
-Craft (Glass).MOD	OUTPUTNAME:工藝 (吹制玻璃) (Craft (Glass))
-Craft (Jewelry).MOD	OUTPUTNAME:工藝 (珠寶加工) (Craft (Jewelry))
-Craft (Leather).MOD	OUTPUTNAME:工藝 (鞣制皮革) (Craft (Leather))
-Craft (Locks).MOD	OUTPUTNAME:工藝 (設計鎖具) (Craft (Locks))
-Craft (Paintings).MOD	OUTPUTNAME:工藝 (繪畫藝術) (Craft (Paintings))
-Craft (Pottery).MOD	OUTPUTNAME:工藝 (燒製陶器) (Craft (Pottery))
-Craft (Sculptures).MOD	OUTPUTNAME:工藝 (製作雕塑) (Craft (Sculptures))
-Craft (Ships).MOD	OUTPUTNAME:工藝 (修建船隻) (Craft (Ships))
-Craft (Shoes).MOD	OUTPUTNAME:工藝 (製作鞋履) (Craft (Shoes))
-Craft (Stonemasonry).MOD	OUTPUTNAME:工藝 (石工技術) (Craft (Stonemasonry))
-Craft (Traps).MOD	OUTPUTNAME:工藝 (布設陷阱) (Craft (Traps))
-Craft (Weapons).MOD	OUTPUTNAME:工藝 (鍛造武器) (Craft (Weapons))
-Craft (Untrained).MOD	OUTPUTNAME:工藝 (未受訓) (Craft (Untrained))
+Climb.MOD	OUTPUTNAME:攀爬 (Climb)	TYPE:防具檢定減值技能
+Craft (Alchemy).MOD	OUTPUTNAME:工藝 (煉金術) (Craft (Alchemy))	TYPE:工藝	
+Craft (Armor).MOD	OUTPUTNAME:工藝 (打造護甲) (Craft (Armor))	TYPE:工藝
+Craft (Baskets).MOD	OUTPUTNAME:工藝 (器具編織) (Craft (Baskets)))	TYPE:工藝
+Craft (Blacksmithing).MOD	OUTPUTNAME:工藝 (鐵匠技術) (Craft (Blacksmithing))	TYPE:工藝
+Craft (Books).MOD	OUTPUTNAME:工藝 (書籍裝訂) (Craft (Books))	TYPE:工藝
+Craft (Bows).MOD	OUTPUTNAME:工藝 (弓矢製作) (Craft (Bows))	TYPE:工藝
+Craft (Calligraphy).MOD	OUTPUTNAME:工藝 (書法藝術) (Craft (Calligraphy))	TYPE:工藝
+Craft (Carpentry).MOD	OUTPUTNAME:工藝 (木工技術) (Craft (Carpentry))	TYPE:工藝
+Craft (Cloth).MOD	OUTPUTNAME:工藝 (紡織布匹) (Craft (Cloth))	TYPE:工藝
+Craft (Clothing).MOD	OUTPUTNAME:工藝 (裁剪衣物) (Craft (Clothing))	TYPE:工藝
+Craft (Gemcutting).MOD	OUTPUTNAME:工藝 (宝石雕琢) (Craft (Gemcutting))	TYPE:工藝
+Craft (Glass).MOD	OUTPUTNAME:工藝 (吹制玻璃) (Craft (Glass))	TYPE:工藝
+Craft (Jewelry).MOD	OUTPUTNAME:工藝 (珠寶加工) (Craft (Jewelry))	TYPE:工藝
+Craft (Leather).MOD	OUTPUTNAME:工藝 (鞣制皮革) (Craft (Leather))	TYPE:工藝
+Craft (Locks).MOD	OUTPUTNAME:工藝 (設計鎖具) (Craft (Locks))	TYPE:工藝
+Craft (Paintings).MOD	OUTPUTNAME:工藝 (繪畫藝術) (Craft (Paintings))	TYPE:工藝
+Craft (Pottery).MOD	OUTPUTNAME:工藝 (燒製陶器) (Craft (Pottery))	TYPE:工藝
+Craft (Sculptures).MOD	OUTPUTNAME:工藝 (製作雕塑) (Craft (Sculptures))	TYPE:工藝
+Craft (Ships).MOD	OUTPUTNAME:工藝 (修建船隻) (Craft (Ships))	TYPE:工藝
+Craft (Shoes).MOD	OUTPUTNAME:工藝 (製作鞋履) (Craft (Shoes))	TYPE:工藝
+Craft (Stonemasonry).MOD	OUTPUTNAME:工藝 (石工技術) (Craft (Stonemasonry))	TYPE:工藝
+Craft (Traps).MOD	OUTPUTNAME:工藝 (布設陷阱) (Craft (Traps))	TYPE:工藝
+Craft (Weapons).MOD	OUTPUTNAME:工藝 (鍛造武器) (Craft (Weapons))	TYPE:工藝
+Craft (Untrained).MOD	OUTPUTNAME:工藝 (未受訓) (Craft (Untrained))	TYPE:工藝
 Diplomacy.MOD	OUTPUTNAME:交涉 (Diplomacy)	
-Disable Device.MOD	OUTPUTNAME:解除裝置 (Disable Device)
+Disable Device.MOD	OUTPUTNAME:解除裝置 (Disable Device)	TYPE:防具檢定減值技能
 Disguise.MOD	OUTPUTNAME:易容 (Disguise)	
-Escape Artist.MOD	OUTPUTNAME:脫逃 (Escape Artist)	
-Fly.MOD	OUTPUTNAME:飛行 (Fly)	
+Escape Artist.MOD	OUTPUTNAME:脫逃 (Escape Artist)		TYPE:防具檢定減值技能
+Fly.MOD	OUTPUTNAME:飛行 (Fly)		TYPE:防具檢定減值技能
 Handle Animal.MOD	OUTPUTNAME:馴養動物 (Handle Animal)	
 Heal.MOD	OUTPUTNAME:醫療 (Heal)	
 Intimidate.MOD	OUTPUTNAME:威嚇 (Intimidate)	
-Knowledge (Arcana).MOD	OUTPUTNAME:知識 (奧秘) (Knowledge (Arcana))	
-Knowledge (Dungeoneering).MOD	OUTPUTNAME:知識 (地城) (Knowledge (Dungeoneering))	
-Knowledge (Engineering).MOD	OUTPUTNAME:知識 (工程) (Knowledge (Engineering))	
-Knowledge (Geography).MOD	OUTPUTNAME:知識 (地理) (Knowledge (Geography))	
-Knowledge (History).MOD	OUTPUTNAME:知識 (歷史) (Knowledge (History))	
-Knowledge (Local).MOD	OUTPUTNAME:知識 (地方) (Knowledge (Local))	
-Knowledge (Nature).MOD	OUTPUTNAME:知識 (自然) (Knowledge (Nature))	
-Knowledge (Nobility).MOD	OUTPUTNAME:知識 (貴族) (Knowledge (Nobility))	
-Knowledge (Planes).MOD	OUTPUTNAME:知識 (位面) (Knowledge (Planes))	
-Knowledge (Religion).MOD	OUTPUTNAME:知識 (宗教) (Knowledge (Religion))	
-Knowledge (Untrained).MOD	OUTPUTNAME:知識 (未受訓) (Knowledge (Untrained))	
+Knowledge (Arcana).MOD	OUTPUTNAME:知識 (奧秘) (Knowledge (Arcana))	TYPE:知識	
+Knowledge (Dungeoneering).MOD	OUTPUTNAME:知識 (地城) (Knowledge (Dungeoneering))	TYPE:知識
+Knowledge (Engineering).MOD	OUTPUTNAME:知識 (工程) (Knowledge (Engineering))	TYPE:知識	
+Knowledge (Geography).MOD	OUTPUTNAME:知識 (地理) (Knowledge (Geography))	TYPE:知識	
+Knowledge (History).MOD	OUTPUTNAME:知識 (歷史) (Knowledge (History))	TYPE:知識	
+Knowledge (Local).MOD	OUTPUTNAME:知識 (地方) (Knowledge (Local))	TYPE:知識	
+Knowledge (Nature).MOD	OUTPUTNAME:知識 (自然) (Knowledge (Nature))	TYPE:知識	
+Knowledge (Nobility).MOD	OUTPUTNAME:知識 (貴族) (Knowledge (Nobility))	TYPE:知識	
+Knowledge (Planes).MOD	OUTPUTNAME:知識 (位面) (Knowledge (Planes))	TYPE:知識	
+Knowledge (Religion).MOD	OUTPUTNAME:知識 (宗教) (Knowledge (Religion))	TYPE:知識	
+Knowledge (Untrained).MOD	OUTPUTNAME:知識 (未受訓) (Knowledge (Untrained))	TYPE:知識	
 Linguistics.MOD	OUTPUTNAME:語言學 (Liguistics)	
 Perception.MOD	OUTPUTNAME:察覺 (Perception)
-Perform (Act).MOD	OUTPUTNAME:表演 (戲劇) (Perform (Act))	
-Perform (Comedy).MOD	OUTPUTNAME:表演 (喜劇) (Perform (Comedy))	
-Perform (Dance).MOD	OUTPUTNAME:表演 (舞蹈) (Perform (Dance))	
-Perform (Keyboard Instruments).MOD	OUTPUTNAME:表演 (鍵盤) (Perform (Keyboard Instruments))	
-Perform (Oratory).MOD	OUTPUTNAME:表演 (朗誦) (Perform (Oratory))	
-Perform (Percussion Instruments).MOD	OUTPUTNAME:表演 (打擊) (Perform (Percussion Instruments))	
-Perform (Sing).MOD	OUTPUTNAME:表演 (演唱) (Perform (Sing))	
-Perform (String Instruments).MOD	OUTPUTNAME:表演 (絃樂) (Perform (String Instruments))	
-Perform (Wind Instruments).MOD	OUTPUTNAME:表演 (吹奏) (Perform (Wind Instruments))	
-Perform (Untrained).MOD	OUTPUTNAME:表演 (未受訓) (Perform (Untrained))	
-Profession (Architect).MOD	OUTPUTNAME:專業 (建築師) (Profession (Architect))
-Profession (Baker).MOD	OUTPUTNAME:專業 (麵包師) (Profession (Baker))
-Profession (Barrister).MOD	OUTPUTNAME:專業 (律師) (Profession (Barrister))
-Profession (Brewer).MOD	OUTPUTNAME:專業 (釀酒師) (Profession (Brewer))
-Profession (Butcher).MOD	OUTPUTNAME:專業 (屠夫) (Profession (Butcher))
-Profession (Clerk).MOD	OUTPUTNAME:專業 (職員) (Profession (Clerk))
-Profession (Cook).MOD	OUTPUTNAME:專業 (廚師) (Profession (Cook))
-Profession (Courtesan).MOD	OUTPUTNAME:專業 (公關) (Profession (Courtesan))
-Profession (Driver).MOD	OUTPUTNAME:專業 (車伕) (Profession (Driver))
-Profession (Engineer).MOD	OUTPUTNAME:專業 (工程師) (Profession (Engineer))
-Profession (Farmer).MOD	OUTPUTNAME:專業 (農民) (Profession (Farmer))
-Profession (Fisherman).MOD	OUTPUTNAME:專業 (漁民) (Profession (Fisherman))
-Profession (Gambler).MOD	OUTPUTNAME:專業 (賭徒) (Profession (Gambler))
-Profession (Gardener).MOD	OUTPUTNAME:專業 (園丁) (Profession (Gardener))
-Profession (Herbalist).MOD	OUTPUTNAME:專業 (採藥人) (Profession (Herbalist))
-Profession (Innkeeper).MOD	OUTPUTNAME:專業 (酒吧老闆) (Profession (Innkeeper))
-Profession (Librarian).MOD	OUTPUTNAME:專業 (圖書管理員) (Profession (Librarian))
-Profession (Merchant).MOD	OUTPUTNAME:專業 (商人) (Profession (Merchant))
-Profession (Midwife).MOD	OUTPUTNAME:專業 (接生婆) (Profession (Midwife))
-Profession (Miller).MOD	OUTPUTNAME:專業 (磨坊工人) (Profession (Miller))
-Profession (Miner).MOD	OUTPUTNAME:專業 (礦工) (Profession (Miner))
-Profession (Porter).MOD	OUTPUTNAME:專業 (碼頭工) (Profession (Porter))
-Profession (Sailor).MOD	OUTPUTNAME:專業 (水手) (Profession (Sailor))
-Profession (Scribe).MOD	OUTPUTNAME:專業 (抄寫員) (Profession (Scribe))
-Profession (Shepherd).MOD	OUTPUTNAME:專業 (牧人) (Profession (Shepherd))
-Profession (Soldier).MOD	OUTPUTNAME:專業 (士兵) (Profession (Soldier))
-Profession (Soothsayer).MOD	OUTPUTNAME:專業 (預言家) (Profession (Soothsayer))
-Profession (Stable Master).MOD	OUTPUTNAME:專業 (馬店老闆) (Profession (Stable Master))
-Profession (Tanner).MOD	OUTPUTNAME:專業 (皮匠) (Profession (Tanner))
-Profession (Trapper).MOD	OUTPUTNAME:專業 (獵人) (Profession (Trapper))
-Profession (Woodcutter).MOD	OUTPUTNAME:專業 (伐木工) (Profession (Woodcutter))
-Ride.MOD	OUTPUTNAME:騎術 (Ride)
+Perform (Act).MOD	OUTPUTNAME:表演 (戲劇) (Perform (Act))	TYPE:表演	
+Perform (Comedy).MOD	OUTPUTNAME:表演 (喜劇) (Perform (Comedy))	TYPE:表演	
+Perform (Dance).MOD	OUTPUTNAME:表演 (舞蹈) (Perform (Dance))	TYPE:表演	
+Perform (Keyboard Instruments).MOD	OUTPUTNAME:表演 (鍵盤) (Perform (Keyboard Instruments))	TYPE:表演	
+Perform (Oratory).MOD	OUTPUTNAME:表演 (朗誦) (Perform (Oratory))	TYPE:表演	
+Perform (Percussion Instruments).MOD	OUTPUTNAME:表演 (打擊) (Perform (Percussion Instruments))	TYPE:表演	
+Perform (Sing).MOD	OUTPUTNAME:表演 (演唱) (Perform (Sing))	TYPE:表演	
+Perform (String Instruments).MOD	OUTPUTNAME:表演 (絃樂) (Perform (String Instruments))	TYPE:表演	
+Perform (Wind Instruments).MOD	OUTPUTNAME:表演 (吹奏) (Perform (Wind Instruments))	TYPE:表演
+Perform (Untrained).MOD	OUTPUTNAME:表演 (未受訓) (Perform (Untrained))	TYPE:表演	
+Profession (Architect).MOD	OUTPUTNAME:專業 (建築師) (Profession (Architect))	TYPE:專業
+Profession (Baker).MOD	OUTPUTNAME:專業 (麵包師) (Profession (Baker))	TYPE:專業
+Profession (Barrister).MOD	OUTPUTNAME:專業 (律師) (Profession (Barrister))	TYPE:專業
+Profession (Brewer).MOD	OUTPUTNAME:專業 (釀酒師) (Profession (Brewer))	TYPE:專業
+Profession (Butcher).MOD	OUTPUTNAME:專業 (屠夫) (Profession (Butcher))	TYPE:專業
+Profession (Clerk).MOD	OUTPUTNAME:專業 (職員) (Profession (Clerk))	TYPE:專業
+Profession (Cook).MOD	OUTPUTNAME:專業 (廚師) (Profession (Cook))	TYPE:專業
+Profession (Courtesan).MOD	OUTPUTNAME:專業 (公關) (Profession (Courtesan))	TYPE:專業
+Profession (Driver).MOD	OUTPUTNAME:專業 (車伕) (Profession (Driver))	TYPE:專業
+Profession (Engineer).MOD	OUTPUTNAME:專業 (工程師) (Profession (Engineer))	TYPE:專業
+Profession (Farmer).MOD	OUTPUTNAME:專業 (農民) (Profession (Farmer))	TYPE:專業
+Profession (Fisherman).MOD	OUTPUTNAME:專業 (漁民) (Profession (Fisherman))	TYPE:專業
+Profession (Gambler).MOD	OUTPUTNAME:專業 (賭徒) (Profession (Gambler))	TYPE:專業
+Profession (Gardener).MOD	OUTPUTNAME:專業 (園丁) (Profession (Gardener))	TYPE:專業
+Profession (Herbalist).MOD	OUTPUTNAME:專業 (採藥人) (Profession (Herbalist))	TYPE:專業
+Profession (Innkeeper).MOD	OUTPUTNAME:專業 (酒吧老闆) (Profession (Innkeeper))	TYPE:專業
+Profession (Librarian).MOD	OUTPUTNAME:專業 (圖書管理員) (Profession (Librarian))	TYPE:專業
+Profession (Merchant).MOD	OUTPUTNAME:專業 (商人) (Profession (Merchant))	TYPE:專業
+Profession (Midwife).MOD	OUTPUTNAME:專業 (接生婆) (Profession (Midwife))	TYPE:專業
+Profession (Miller).MOD	OUTPUTNAME:專業 (磨坊工人) (Profession (Miller))	TYPE:專業
+Profession (Miner).MOD	OUTPUTNAME:專業 (礦工) (Profession (Miner))	TYPE:專業
+Profession (Porter).MOD	OUTPUTNAME:專業 (碼頭工) (Profession (Porter))	TYPE:專業
+Profession (Sailor).MOD	OUTPUTNAME:專業 (水手) (Profession (Sailor))	TYPE:專業
+Profession (Scribe).MOD	OUTPUTNAME:專業 (抄寫員) (Profession (Scribe))	TYPE:專業
+Profession (Shepherd).MOD	OUTPUTNAME:專業 (牧人) (Profession (Shepherd))	TYPE:專業
+Profession (Soldier).MOD	OUTPUTNAME:專業 (士兵) (Profession (Soldier))	TYPE:專業
+Profession (Soothsayer).MOD	OUTPUTNAME:專業 (預言家) (Profession (Soothsayer))	TYPE:專業
+Profession (Stable Master).MOD	OUTPUTNAME:專業 (馬店老闆) (Profession (Stable Master))	TYPE:專業
+Profession (Tanner).MOD	OUTPUTNAME:專業 (皮匠) (Profession (Tanner))	TYPE:專業
+Profession (Trapper).MOD	OUTPUTNAME:專業 (獵人) (Profession (Trapper))	TYPE:專業
+Profession (Woodcutter).MOD	OUTPUTNAME:專業 (伐木工) (Profession (Woodcutter))	TYPE:專業
+Ride.MOD	OUTPUTNAME:騎術 (Ride)	TYPE:防具檢定減值技能
 Sense Motive.MOD	OUTPUTNAME:察言觀色 (Sense Motive)
-Sleight of Hand.MOD	OUTPUTNAME:巧手 (Sleight of Hand)
+Sleight of Hand.MOD	OUTPUTNAME:巧手 (Sleight of Hand)	TYPE:防具檢定減值技能
 Spellcraft.MOD	OUTPUTNAME:法術辨識 (Spellcraft)
-Stealth.MOD	OUTPUTNAME:隱匿 (Stealth)
+Stealth.MOD	OUTPUTNAME:隱匿 (Stealth)	TYPE:防具檢定減值技能
 Survival.MOD	OUTPUTNAME:生存 (Survival)
-Swim.MOD	OUTPUTNAME:游泳 (Swim)
+Swim.MOD	OUTPUTNAME:游泳 (Swim)	TYPE:防具檢定減值技能
 Use Magic Device.MOD	OUTPUTNAME:使用魔法裝置 (Use Magic Device)
