@@ -61,7 +61,19 @@ public final class LanguageBundle
 	 */
 	public static String getString(String key)
 	{
-		return getProperty(key);
+		return getProperty(key, key + UNDEFINED);
+	}
+	
+	/**
+	 * Convenience method to retrieve a localised string with default parameters.
+	 * author: kanerry 17-10-29
+	 * @param key The key of the property to be retrieved.
+	 * @param defaultValue The default value to be returned if key not found
+	 * @return String The localised string.
+	 */
+	public static String getString(String key, String defaultValue)
+	{
+		return getProperty(key, defaultValue);
 	}
 
 	/**
@@ -102,6 +114,17 @@ public final class LanguageBundle
 	 */
 	private static String getProperty(String key)
 	{
+		return getProperty(key, key + UNDEFINED);
+	}
+	
+	/**
+	 * author: kanerry 17-10-29
+	 * @param key
+	 * @param defaultValue
+	 * @return property
+	 */
+	private static String getProperty(String key, String defaultValue)
+	{
 		if (bundle == null)
 		{
 			init();
@@ -114,7 +137,7 @@ public final class LanguageBundle
 		}
 		catch (MissingResourceException mre)
 		{
-			value = key + UNDEFINED;
+			value = defaultValue;
 		}
 		return value;
 	}

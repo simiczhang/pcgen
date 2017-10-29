@@ -1085,7 +1085,9 @@ public class PurchaseInfoTab extends FlippingSplitPane implements CharacterInfoT
 									if (!type.equals(subType))
 									{
 										paths.add(new TreeViewPath<>(
-                                                pobj, type, subType));
+                                                pobj, 
+                                                LanguageBundle.getString("in_ieCategory" + type.replace(" ", ""), type), 
+                                                LanguageBundle.getString("in_ieCategory" + subType.replace(" ", ""), subType)));
 									}
 								}
 							}
@@ -1103,7 +1105,7 @@ public class PurchaseInfoTab extends FlippingSplitPane implements CharacterInfoT
 						{
 							if (primaryTypes.contains(type))
 							{
-								paths.add(new TreeViewPath<>(pobj, type));
+								paths.add(new TreeViewPath<>(pobj, LanguageBundle.getString("in_ieCategory" + type.replace(" ", ""), type)));
 							}
 						}
 						return paths;
