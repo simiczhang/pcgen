@@ -841,7 +841,8 @@ first page
 						<xsl:call-template name="attrib">
 							<xsl:with-param name="attribute" select="'checklist.title'"/>
 						</xsl:call-template>
-						<fo:block font-size="10pt" font-weight="bold" text-align="center">
+						<fo:block font-weight="bold" text-align="center">
+						    <xsl:attribute name="font-size"><xsl:value-of select="/character/lang/output_template_checklists_title_font_size" /></xsl:attribute>
 							<xsl:value-of select="header"/>
 						</fo:block>
 					</fo:table-cell>

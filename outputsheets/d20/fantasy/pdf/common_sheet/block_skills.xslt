@@ -123,8 +123,8 @@
 						<xsl:call-template name="attrib"><xsl:with-param name="attribute" select="'skills.header'"/></xsl:call-template>
 						<fo:table-cell><fo:block/></fo:table-cell>
 						<fo:table-cell number-columns-spanned="2" border-top-width="1pt" border-left-width="0pt" border-right-width="0pt" border-bottom-width="0pt">
-							<fo:block text-align="left" space-before.optimum="4pt" line-height="4pt" font-size="5pt">
-								<xsl:text>TOTAL SKILLPOINTS: </xsl:text>
+							<fo:block text-align="left" space-before.optimum="4pt" line-height="10pt" font-size="5pt">
+								<xsl:value-of select="/character/lang/output_skills_total_skillpoints" /><xsl:text><!--TOTAL SKILLPOINTS-->: </xsl:text>
 								<xsl:choose>
 								<xsl:when test="skillpoints/eclipse_total &gt; 0">	
 									<xsl:value-of select="skillpoints/eclipse_total"/>
@@ -132,7 +132,7 @@
 								<xsl:otherwise>
 								<xsl:value-of select="skillpoints/total"/>
 								<xsl:if test="skillpoints/unused &gt; 0">
-									<xsl:text> (UNUSED: </xsl:text>
+									<xsl:value-of select="/character/lang/output_skills_unused" /><xsl:text> (<!--UNUSED-->: </xsl:text>
 									<xsl:value-of select="skillpoints/unused"/>
 									<xsl:text>)</xsl:text>
 								</xsl:if>
@@ -141,11 +141,11 @@
 							</fo:block>
 						</fo:table-cell>
 						<fo:table-cell number-columns-spanned="4">
-							<fo:block text-align="end" line-height="10pt" font-weight="bold" font-size="10pt">SKILLS</fo:block>
+							<fo:block text-align="end" line-height="10pt" font-weight="bold" font-size="10pt"><xsl:value-of select="/character/lang/output_skills_skills" /><!--SKILLS--></fo:block>
 						</fo:table-cell>
 						<fo:table-cell number-columns-spanned="10">
-								<fo:block text-align="end" space-before.optimum="4pt" line-height="4pt" font-size="5pt">
-									<xsl:text>MAX RANKS: </xsl:text>
+								<fo:block text-align="end" space-before.optimum="4pt" line-height="10pt" font-size="5pt">
+									<xsl:value-of select="/character/lang/output_skills_max_ranks" /><xsl:text><!--MAX RANKS-->: </xsl:text>
 									<xsl:value-of select="max_class_skill_level"/>/<xsl:value-of select="max_cross_class_skill_level"/>
 								</fo:block>
 						</fo:table-cell>
@@ -155,33 +155,43 @@
 						<xsl:call-template name="attrib"><xsl:with-param name="attribute" select="'skills.header'"/></xsl:call-template>
 						<fo:table-cell><fo:block/></fo:table-cell>
 						<fo:table-cell number-columns-spanned="2">
-							<fo:block font-weight="bold" font-size="8pt">
-								SKILL NAME
+							<fo:block font-weight="bold">
+								<xsl:attribute name="font-size"><xsl:value-of select="/character/lang/output_skills_skill_name_font_size" /></xsl:attribute>
+								<xsl:value-of select="/character/lang/output_skills_skill_name" /><!--SKILL NAME-->
 							</fo:block>
 						</fo:table-cell>
 						<fo:table-cell number-columns-spanned="3">
-							<fo:block font-size="3pt">
-								KEY ABILITY
+							<fo:block>
+								<xsl:attribute name="font-size"><xsl:value-of select="/character/lang/output_skills_key_ability_font_size" /></xsl:attribute>
+								<xsl:value-of select="/character/lang/output_skills_key_ability" /><!--KEY ABILITY-->
 							</fo:block>
 						</fo:table-cell>
 						<fo:table-cell number-columns-spanned="3">
-							<fo:block text-align="center" font-size="3pt">
-								SKILL MODIFIER
+							<fo:block text-align="center">
+								
+								<xsl:attribute name="font-size"><xsl:value-of select="/character/lang/output_skills_skill_modifier_font_size" /></xsl:attribute>
+								<xsl:value-of select="/character/lang/output_skills_skill_modifier" /><!--SKILL MODIFIER-->
 							</fo:block>
 						</fo:table-cell>
 						<fo:table-cell number-columns-spanned="3">
-							<fo:block text-align="center" font-size="3pt">
-								ABILITY MODIFIER
+							<fo:block text-align="center">
+								
+								<xsl:attribute name="font-size"><xsl:value-of select="/character/lang/output_skills_ability_modifier_font_size" /></xsl:attribute>
+								<xsl:value-of select="/character/lang/output_skills_ability_modifier" /><!--ABILITY MODIFIER-->
 							</fo:block>
 						</fo:table-cell>
 						<fo:table-cell number-columns-spanned="3">
-							<fo:block text-align="center" font-size="3pt">
-								RANKS
+							<fo:block text-align="center">
+								
+								<xsl:attribute name="font-size"><xsl:value-of select="/character/lang/output_skills_ranks_font_size" /></xsl:attribute>
+								<xsl:value-of select="/character/lang/output_skills_ranks" /><!--RANKS-->
 							</fo:block>
 						</fo:table-cell>
 						<fo:table-cell number-columns-spanned="2">
-							<fo:block text-align="center" font-size="3pt">
-								MISC MODIFIER
+							<fo:block text-align="center">
+								
+								<xsl:attribute name="font-size"><xsl:value-of select="/character/lang/output_skills_misc_modifier_font_size" /></xsl:attribute>
+								<xsl:value-of select="/character/lang/output_skills_misc_modifier" /><!--MISC MODIFIER-->
 							</fo:block>
 						</fo:table-cell>
 					</fo:table-row>
@@ -216,7 +226,7 @@
 										</xsl:if>
 									</fo:block>
 								</fo:table-cell>
-								<fo:table-cell>
+								<fo:table-cell padding-top="1pt">
 									<xsl:choose>
 									<!-->	<xsl:when test="string-length(name) &lt; 40">-->
 										<xsl:when test="not(contains(type, 'SkillUse')) and string-length(name) &lt; 40">
@@ -252,13 +262,14 @@
 									</xsl:choose>
 								</fo:table-cell>
 								<fo:table-cell number-columns-spanned="2"><fo:block/></fo:table-cell>
-								<fo:table-cell>
+								<fo:table-cell padding-top="1pt">
 									<fo:block space-before.optimum="1pt" font-size="8pt">
-										<xsl:value-of select="ability"/>
+									    <xsl:variable name="abilityShortName" select="ability"/>
+										<xsl:value-of select="/character/lang/*[name() = concat('output_stat_', $abilityShortName)]"/>
 									</fo:block>
 								</fo:table-cell>
 								<fo:table-cell number-columns-spanned="2"><fo:block/></fo:table-cell>
-								<fo:table-cell>
+								<fo:table-cell padding-top="1pt">
 									<xsl:call-template name="attrib"><xsl:with-param name="attribute" select="concat('skills.', $shade, '.total')"/></xsl:call-template>
 									<fo:block text-align="center" space-before.optimum="1pt" font-size="8pt">
 										<xsl:choose>
@@ -271,21 +282,21 @@
 										</xsl:choose>
 									</fo:block>
 								</fo:table-cell>
-								<fo:table-cell number-columns-spanned="2">
+								<fo:table-cell number-columns-spanned="2" padding-top="3pt">
 									<fo:block text-align="center" space-before.optimum="3pt" line-height="6pt" font-size="6pt">=</fo:block>
 								</fo:table-cell>
 								<fo:table-cell>
-									<fo:block text-align="center" space-before.optimum="1pt" font-size="8pt">
+									<fo:block text-align="center" space-before.optimum="1pt" font-size="8pt" padding-top="1pt">
 										<xsl:value-of select="ability_mod"/>
 									</fo:block>
 								</fo:table-cell>
 								<fo:table-cell number-columns-spanned="2">
-									<fo:block text-align="center" space-before.optimum="3pt" line-height="6pt" font-size="6pt">
+									<fo:block text-align="center" space-before.optimum="3pt" line-height="6pt" font-size="6pt" padding-top="3pt">
 										<xsl:if test="ranks &gt; 0">+</xsl:if>
 									</fo:block>
 								</fo:table-cell>
 								<fo:table-cell>
-									<fo:block text-align="center" space-before.optimum="1pt" font-size="8pt">
+									<fo:block text-align="center" space-before.optimum="1pt" font-size="8pt" padding-top="1pt">
 										<xsl:if test="ranks &gt; 0">
 											<xsl:if test="contains(type, 'SkillUse')">[</xsl:if>
 											<xsl:choose>
@@ -305,12 +316,12 @@
 									</fo:block>
 								</fo:table-cell>
 								<fo:table-cell number-columns-spanned="2">
-									<fo:block text-align="center" space-before.optimum="3pt" line-height="6pt" font-size="6pt">
+									<fo:block text-align="center" space-before.optimum="3pt" line-height="6pt" font-size="6pt" padding-top="3pt">
 										<xsl:if test="misc_mod!=0">+</xsl:if>
 									</fo:block>
 								</fo:table-cell>
 								<fo:table-cell>
-									<fo:block text-align="center" space-before.optimum="1pt" font-size="8pt">
+									<fo:block text-align="center" space-before.optimum="1pt" font-size="8pt" padding-top="1pt">
 										<xsl:if test="misc_mod!=0">
 											<xsl:value-of select="misc_mod"/>
 										</xsl:if>
@@ -325,9 +336,9 @@
 											<xsl:message>Test</xsl:message>
 						<fo:table-cell number-columns-spanned="17" padding-top="1pt">
 							<fo:block text-align="center" font-size="6pt">
-								<fo:inline font-family="ZapfDingbats">&#x2713;</fo:inline>: can be used untrained.
-								<fo:inline font-family="ZapfDingbats">&#x2717;</fo:inline>: exclusive skills.
-								*: Skill Mastery.
+								<fo:inline font-family="ZapfDingbats">&#x2713;</fo:inline>: <xsl:value-of select="/character/lang/output_skills_untrained"/><!-- can be used untrained. -->
+								<fo:inline font-family="ZapfDingbats">&#x2717;</fo:inline>: <xsl:value-of select="/character/lang/output_skills_exclusive"/><!-- exclusive skills. -->
+								*: <xsl:value-of select="/character/lang/output_skills_mastery"/><!--Skill Mastery.-->
 							</fo:block>
 						</fo:table-cell>
 					</fo:table-row>
