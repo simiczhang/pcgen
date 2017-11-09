@@ -3,17 +3,17 @@ LEATHER.MOD	OUTPUTNAME:皮革
 ROPE.MOD	OUTPUTNAME:繩織
 STEEL.MOD	OUTPUTNAME:鋼鐵
 WOOD.MOD	OUTPUTNAME:木材
-Adamantine (Ammo).MOD	OUTPUTNAME:精金
-Adamantine (Light Armor).MOD	OUTPUTNAME:精金
-Adamantine (Medium Armor).MOD	OUTPUTNAME:精金
-Adamantine (Heavy Armor).MOD	OUTPUTNAME:精金
-Adamantine (Weapon).MOD	OUTPUTNAME:精金
-Alchemical Silver.MOD	OUTPUTNAME:煉銀
-Cold Iron.MOD	OUTPUTNAME:寒鐵
-Darkwood.MOD	OUTPUTNAME:黑木
-Dragonhide.MOD	OUTPUTNAME:龍革
-Mithral (Light Armor).MOD	OUTPUTNAME:秘銀
-Mithral (Medium Armor).MOD	OUTPUTNAME:秘銀
-Mithral (Heavy Armor).MOD	OUTPUTNAME:秘銀
-Mithral (Shield).MOD	OUTPUTNAME:秘銀
-Mithral (Item).MOD	OUTPUTNAME:秘銀
+Adamantine (Ammo).MOD	OUTPUTNAME:精金	SPROP:.CLEAR	SPROP:忽略硬度小于20
+Adamantine (Light Armor).MOD	OUTPUTNAME:精金	SPROP:.CLEAR	SPROP:40点生命值/英尺, 硬度20
+Adamantine (Medium Armor).MOD	OUTPUTNAME:精金	SPROP:.CLEAR	SPROP:40点生命值/英尺, 硬度20
+Adamantine (Heavy Armor).MOD	OUTPUTNAME:精金	SPROP:.CLEAR	SPROP:40点生命值/英尺, 硬度20
+Adamantine (Weapon).MOD	OUTPUTNAME:精金	SPROP:.CLEAR	SPROP:忽略硬度小于20
+Alchemical Silver.MOD	OUTPUTNAME:煉銀	SPROP:.CLEAR	SPROP:10点生命值/英尺, 硬度8
+Cold Iron.MOD	OUTPUTNAME:寒鐵	SPROP:.CLEAR	SPROP:30点生命值/英尺, 硬度10
+Darkwood.MOD	OUTPUTNAME:黑木	SPROP:.CLEAR	SPROP:10点生命值/英尺, 硬度5
+Dragonhide.MOD	OUTPUTNAME:龍革	SPROP:.CLEAR	SPROP:10点生命值/英尺, 硬度10
+Mithral (Light Armor).MOD	OUTPUTNAME:秘銀	SPROP:.CLEAR	SPROP:30点生命值/英尺, 硬度15
+Mithral (Medium Armor).MOD	OUTPUTNAME:秘銀	SPROP:.CLEAR	SPROP:30点生命值/英尺, 硬度15
+Mithral (Heavy Armor).MOD	OUTPUTNAME:秘銀	SPROP:.CLEAR	SPROP:30点生命值/英尺, 硬度15
+Mithral (Shield).MOD	OUTPUTNAME:秘銀	SPROP:.CLEAR	SPROP:30点生命值/英尺, 硬度15
+Mithral (Item).MOD	OUTPUTNAME:秘銀	SPROP:.CLEAR	SPROP:30点生命值/英尺, 硬度15
