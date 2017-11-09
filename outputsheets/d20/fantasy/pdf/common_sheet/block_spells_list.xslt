@@ -187,7 +187,7 @@
 				<xsl:call-template name="attrib">
 					<xsl:with-param name="attribute" select="'spelllist.known.header.centre'"/>
 				</xsl:call-template>
-				<fo:block font-size="6pt" font-weight="bold" space-start="2pt" space-before="3pt" space-after="1pt"> LEVEL</fo:block>
+				<fo:block font-size="6pt" font-weight="bold" space-start="2pt" space-before="3pt" space-after="1pt"> <xsl:value-of select="$output_spells_level"/><!-- LEVEL --></fo:block>
 			</fo:table-cell>
 			<xsl:for-each select="level">
 				<fo:table-cell>
@@ -988,7 +988,7 @@
 										<xsl:with-param name="attribute" select="'spells.memorized.level'"/>
 									</xsl:call-template>
 									<fo:block font-size="7pt">
-										Level <xsl:value-of select="@number"/>
+										<xsl:value-of select="$output_spells_level"/><!-- Level--> <xsl:value-of select="@number"/>
 									</fo:block>
 								</fo:table-cell>
 							</fo:table-row>

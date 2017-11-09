@@ -109,7 +109,7 @@
 							<xsl:value-of select="concat(@spelllistclass, ' Infusions')"/>
 						</xsl:when>
 						<xsl:otherwise>
-							<xsl:value-of select="concat(@spelllistclass, ' Spells')"/>
+							<xsl:value-of select="concat(@spelllistclass, ' ', $output_spells)"/>
 						</xsl:otherwise>
 					</xsl:choose>
 				</xsl:variable>
@@ -194,7 +194,7 @@
 				<xsl:call-template name="attrib">
 					<xsl:with-param name="attribute" select="'spelllist.known.header.centre'"/>
 				</xsl:call-template>
-				<fo:block font-size="6pt" font-weight="bold" space-start="2pt" space-before="3pt" space-after="1pt"> LEVEL</fo:block>
+				<fo:block font-size="6pt" font-weight="bold" space-start="2pt" space-before="3pt" space-after="1pt"> <xsl:value-of select="$output_spells_level"/><!-- LEVEL --></fo:block>
 			</fo:table-cell>
 			<xsl:for-each select="level">
 				<fo:table-cell>
@@ -259,7 +259,7 @@
 				<xsl:call-template name="attrib">
 					<xsl:with-param name="attribute" select="'spelllist.known.header.centre'"/>
 				</xsl:call-template>
-				<fo:block font-size="6pt" font-weight="bold" space-start="2pt" space-before="3pt" space-after="1pt">PER DAY</fo:block>
+				<fo:block font-size="6pt" font-weight="bold" space-start="2pt" space-before="3pt" space-after="1pt"><xsl:value-of select="$output_spells_per_day"/><!-- PER DAY --></fo:block>
 			</fo:table-cell>
 			<xsl:for-each select="level">
 				<fo:table-cell>
@@ -305,7 +305,7 @@
 					<xsl:with-param name="attribute" select="'spelllist.known.header.centre'"/>
 				</xsl:call-template>
 		<!-->	xsl:use-attribute-sets="spelllist.known.header">-->
-				<fo:block font-size="6pt" font-weight="bold" space-start="2pt" space-before="2pt" space-after="1pt">Concentration</fo:block>
+				<fo:block font-size="6pt" font-weight="bold" space-start="2pt" space-before="2pt" space-after="1pt"><xsl:value-of select="$output_spells_concentration"/><!-- Concentration--></fo:block>
 			</fo:table-cell>
 			<fo:table-cell>
 				<xsl:call-template name="attrib">
@@ -338,7 +338,7 @@
 										<xsl:with-param name="count" select="@cast"/>
 									</xsl:call-template>
 					<fo:block font-size="12pt">
-						LEVEL <xsl:value-of select="@number"/> / Per Day:<xsl:value-of select="@cast"/> / Caster Level:<xsl:value-of select="spell/basecasterlevel"/>
+						<xsl:value-of select="$output_spells_level"/><!-- LEVEL --> <xsl:value-of select="@number"/> / <xsl:value-of select="$output_spells_per_day"/><!-- Per Day-->:<xsl:value-of select="@cast"/> / <xsl:value-of select="$output_spells_caster_level"/><!-- Caster Level-->:<xsl:value-of select="spell/basecasterlevel"/>
 					<xsl:if test="concentration != ''">
 							<fo:inline> / </fo:inline>
 						<fo:inline font-style="italic" font-weight="bold">Concentration:</fo:inline>
@@ -424,7 +424,7 @@
 					<xsl:call-template name="attrib">
 						<xsl:with-param name="attribute" select="'spelllist.footer'"/>
 					</xsl:call-template>
-					<fo:block font-size="5pt">* =Domain/Speciality Spell
+					<fo:block font-size="5pt">* =<xsl:value-of select="$output_spells_domain_speciality_spells"/>><!-- Domain/Speciality Spell -->
 					</fo:block>
 				</fo:table-cell>
 			</fo:table-row>
@@ -452,22 +452,22 @@
 				</fo:block>
 			</fo:table-cell>
 			<fo:table-cell padding-top="1pt" number-columns-spanned="1">
-				<fo:block text-align="start" font-size="5pt" font-weight="bold">Name</fo:block>
+				<fo:block text-align="start" font-size="5pt" font-weight="bold"><xsl:value-of select="$output_spells_name"/><!-- Name --></fo:block>
 			</fo:table-cell>
 			<fo:table-cell padding-top="1pt">
-				<fo:block text-align="start" font-size="5pt" font-weight="bold">School</fo:block>
+				<fo:block text-align="start" font-size="5pt" font-weight="bold"><xsl:value-of select="$output_spells_school"/><!-- School --></fo:block>
 			</fo:table-cell>
 			<fo:table-cell padding-top="1pt">
-				<fo:block text-align="start" font-size="5pt" font-weight="bold">Time</fo:block>
+				<fo:block text-align="start" font-size="5pt" font-weight="bold"><xsl:value-of select="$output_spells_time"/><!-- Time --></fo:block>
 			</fo:table-cell>
 			<fo:table-cell padding-top="1pt">
-				<fo:block text-align="start" font-size="5pt" font-weight="bold">Duration</fo:block>
+				<fo:block text-align="start" font-size="5pt" font-weight="bold"><xsl:value-of select="$output_spells_duration"/><!-- Duration --></fo:block>
 			</fo:table-cell>
 			<fo:table-cell padding-top="1pt">
-				<fo:block text-align="start" font-size="5pt" font-weight="bold">Range</fo:block>
+				<fo:block text-align="start" font-size="5pt" font-weight="bold"><xsl:value-of select="$output_spells_range"/><!-- Range --></fo:block>
 			</fo:table-cell>
 			<fo:table-cell padding-top="1pt" number-columns-spanned="1">
-				<fo:block text-align="right" font-size="5pt" font-weight="bold">Source</fo:block>		<!--> Source / Now target is taking both blocks-->
+				<fo:block text-align="right" font-size="5pt" font-weight="bold"><xsl:value-of select="$output_spells_source"/><!-- Source --></fo:block>		<!--> Source / Now target is taking both blocks-->
 			</fo:table-cell>
 		</fo:table-row>
 	</xsl:template>
@@ -595,27 +595,27 @@
 			</xsl:call-template>
 			<fo:table-cell padding-top="1pt" number-columns-spanned="7">
 <!-- Set Up Alternate FONT SIZE		<xsl:if test="string-length(effect) &gt; 100">-->
-				<fo:block text-align="start" font-size="5pt">
+				<fo:block text-align="start" font-size="6pt">
 					<xsl:if test="string-length(components) &gt; 0">
 						<fo:inline font-weight="bold">[<xsl:value-of select="components"/>]</fo:inline>
 						<fo:inline> </fo:inline>
 					</xsl:if>
-					<fo:inline font-weight="bold"> TARGET: </fo:inline><xsl:value-of select="target"/>
+					<fo:inline font-weight="bold"> <xsl:value-of select="$output_spells_target"/><!-- TARGET -->: </fo:inline><xsl:value-of select="target"/>
 					<fo:inline>; </fo:inline>
-					<fo:inline font-style="italic" font-weight="bold" font-size="5pt">EFFECT: </fo:inline>
-					<fo:inline font-size="5pt"><xsl:value-of select="effect"/></fo:inline>
+					<fo:inline font-style="italic" font-weight="bold" font-size="6pt"><xsl:value-of select="$output_spells_effect"/><!-- EFFECT -->: </fo:inline>
+					<fo:inline font-size="6pt"><xsl:value-of select="effect"/></fo:inline>
 					<xsl:if test="string-length(spell_resistance) &gt; 0 or dc &gt; 0"><fo:inline> [</fo:inline>
 							<xsl:if test="string-length(spell_resistance) &gt; 0">
-								<fo:inline font-weight="bold">SR:</fo:inline>
+								<fo:inline font-weight="bold"><xsl:value-of select="$output_spells_sr"/><!-- SR -->:</fo:inline>
 								<xsl:value-of select="spell_resistance"/>
 							</xsl:if>
 							<xsl:choose>
 								<xsl:when test="dc &gt; 0">
-									<fo:inline>; </fo:inline><fo:inline font-weight="bold">DC:</fo:inline> <xsl:value-of select="dc"/> 
+									<fo:inline>; </fo:inline><fo:inline font-weight="bold"><xsl:value-of select="$output_spells_dc"/><!-- DC -->:</fo:inline> <xsl:value-of select="dc"/> 
 									<fo:inline>, </fo:inline> <xsl:value-of select="saveinfo"/>
 								</xsl:when>
 								<xsl:when test="/character/house_var/spelldisplaydc &gt; 0">
-									<fo:inline>; </fo:inline><fo:inline font-weight="bold">DC: N/A</fo:inline>
+									<fo:inline>; </fo:inline><fo:inline font-weight="bold"><xsl:value-of select="$output_spells_dc"/><!-- DC -->: N/A</fo:inline>
 								</xsl:when>
 								<xsl:otherwise>
 								</xsl:otherwise>
@@ -759,27 +759,27 @@
 						<fo:inline font-weight="bold">[<xsl:value-of select="components"/>]</fo:inline>
 						<fo:inline> </fo:inline>
 					</xsl:if>
-						<fo:inline font-weight="bold"> TARGET: </fo:inline><xsl:value-of select="target"/>
+						<fo:inline font-weight="bold"> <xsl:value-of select="$output_spells_target"/><!-- TARGET -->: </fo:inline><xsl:value-of select="target"/>
 						<fo:inline>; </fo:inline>
-						<fo:inline font-style="italic" font-weight="bold" font-size="5pt">EFFECT: </fo:inline>
+						<fo:inline font-style="italic" font-weight="bold" font-size="6pt"><xsl:value-of select="$output_spells_effect"/><!-- EFFECT -->: </fo:inline>
 						<xsl:if test="string-length(effect) &gt; 150">
-							<fo:inline font-size="7pt"><xsl:value-of select="effect"/></fo:inline>
+							<fo:inline font-size="6pt"><xsl:value-of select="effect"/></fo:inline>
 						</xsl:if>
 						<xsl:if test="string-length(effect) &lt; 151">
-							<fo:inline font-size="5pt"><xsl:value-of select="effect"/></fo:inline>
+							<fo:inline font-size="6pt"><xsl:value-of select="effect"/></fo:inline>
 						</xsl:if>
 						<xsl:if test="string-length(spell_resistance) &gt; 0 or dc &gt; 0"><fo:inline> [</fo:inline>
 							<xsl:if test="string-length(spell_resistance) &gt; 0">
-								<fo:inline font-weight="bold">SR:</fo:inline>
+								<fo:inline font-weight="bold"><xsl:value-of select="$output_spells_sr"/><!-- SR -->:</fo:inline>
 								<xsl:value-of select="spell_resistance"/>
 							</xsl:if>
 							<xsl:choose>
 								<xsl:when test="dc &gt; 0">
-									<fo:inline>; </fo:inline><fo:inline font-weight="bold">DC:</fo:inline> <xsl:value-of select="dc"/> 
+									<fo:inline>; </fo:inline><fo:inline font-weight="bold"><xsl:value-of select="$output_spells_dc"/><!-- DC -->:</fo:inline> <xsl:value-of select="dc"/> 
 									<fo:inline>, </fo:inline> <xsl:value-of select="saveinfo"/>
 								</xsl:when>
 								<xsl:when test="/character/house_var/spelldisplaydc &gt; 0">
-									<fo:inline>; </fo:inline><fo:inline font-weight="bold">DC: N/A</fo:inline>
+									<fo:inline>; </fo:inline><fo:inline font-weight="bold"><xsl:value-of select="$output_spells_dc"/><!-- DC -->: N/A</fo:inline>
 								</xsl:when>
 								<xsl:otherwise>
 								</xsl:otherwise>
@@ -993,7 +993,7 @@
 										<xsl:with-param name="attribute" select="'spells.memorized.level'"/>
 									</xsl:call-template>
 									<fo:block font-size="7pt">
-										Level <xsl:value-of select="@number"/>
+										<xsl:value-of select="$output_spells_level"/><!-- Level --> <xsl:value-of select="@number"/>
 									</fo:block>
 								</fo:table-cell>
 							</fo:table-row>

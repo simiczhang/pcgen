@@ -85,7 +85,8 @@
 						</fo:table-cell>
 						<fo:table-cell text-align="center">
 							<fo:block font-size="8pt">
-								<xsl:value-of select="type"/>
+								<xsl:variable name="armorType" select="type"/>							
+								<xsl:value-of select="/character/lang/*[name() = concat('output_armor_type_',$armorType)]"/>
 							</fo:block>
 						</fo:table-cell>
 						<fo:table-cell text-align="center">

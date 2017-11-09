@@ -120,4 +120,44 @@
 	<xsl:variable name="output_equipment_cost_font_size" select="/character/lang/output_equipment_cost_font_size"/>
 	<xsl:variable name="output_equipment_cost_padding_top" select="/character/lang/output_equipment_cost_padding_top"/>
 	<xsl:variable name="output_equipment_total" select="/character/lang/output_equipment_total"/>
+	
+	<xsl:variable name="output_equipment_weight_allowance" select="/character/lang/output_equipment_weight_allowance"/>
+	<xsl:variable name="output_equipment_weight_light" select="/character/lang/output_equipment_weight_light"/>
+	<xsl:variable name="output_equipment_weight_medium" select="/character/lang/output_equipment_weight_medium"/>
+	<xsl:variable name="output_equipment_weight_heavy" select="/character/lang/output_equipment_weight_heavy"/>
+	<xsl:variable name="output_equipment_weight_lift_over_head" select="/character/lang/output_equipment_weight_lift_over_head"/>
+	<xsl:variable name="output_equipment_weight_lift_off_ground" select="/character/lang/output_equipment_weight_lift_off_ground"/>
+	<xsl:variable name="output_equipment_weight_push_drag" select="/character/lang/output_equipment_weight_push_drag"/>
+	
+	<xsl:variable name="output_money" select="/character/lang/output_money"/>
+	<xsl:variable name="output_money_total" select="/character/lang/output_money_total"/>
+	<xsl:variable name="output_unspent_funds" select="/character/lang/output_unspent_funds"/>
+	
+	<xsl:variable name="output_magic" select="/character/lang/output_magic"/>
+	<xsl:variable name="output_languages" select="/character/lang/output_languages"/>
+	<xsl:variable name="output_other_companions" select="/character/lang/output_other_companions"/>
+	<xsl:variable name="output_trait" select="/character/lang/output_trait"/>
+	<xsl:variable name="output_feats" select="/character/lang/output_feats"/>
+	<xsl:variable name="output_special_qualities" select="/character/lang/output_special_qualities"/>
+	<xsl:variable name="output_special_attacks" select="/character/lang/output_special_attacks"/>
+	<xsl:variable name="output_proficiencies" select="/character/lang/output_proficiencies"/>
+	
+	<xsl:variable name="output_spells" select="/character/lang/output_spells"/>
+	<xsl:variable name="output_spells_level" select="/character/lang/output_spells_level"/>
+	<xsl:variable name="output_spells_concentration" select="/character/lang/output_spells_concentration"/>
+	<xsl:variable name="output_spells_per_day" select="/character/lang/output_spells_per_day"/>
+	<xsl:variable name="output_spells_caster_level" select="/character/lang/output_spells_caster_level"/>
+	<xsl:variable name="output_spells_effect" select="/character/lang/output_spells_effect"/>
+	<xsl:variable name="output_spells_dc" select="/character/lang/output_spells_dc"/>
+	<xsl:variable name="output_spells_sr" select="/character/lang/output_spells_sr"/>
+	<xsl:variable name="output_spells_target" select="/character/lang/output_spells_target"/>
+	
+	<xsl:variable name="output_spells_name" select="/character/lang/output_spells_name"/>
+	<xsl:variable name="output_spells_school" select="/character/lang/output_spells_school"/>
+	<xsl:variable name="output_spells_time" select="/character/lang/output_spells_time"/>
+	<xsl:variable name="output_spells_duration" select="/character/lang/output_spells_duration"/>
+	<xsl:variable name="output_spells_range" select="/character/lang/output_spells_range"/>
+	<xsl:variable name="output_spells_source" select="/character/lang/output_spells_source"/>
+	<xsl:variable name="output_spells_domain_speciality_spells" select="/character/lang/output_spells_domain_speciality_spells"/>	
+	
 </xsl:stylesheet>	

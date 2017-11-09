@@ -257,36 +257,36 @@
 						<xsl:call-template name="attrib">
 							<xsl:with-param name="attribute" select="'weight.title'"/>
 						</xsl:call-template>
-						<fo:block font-size="9pt">WEIGHT ALLOWANCE</fo:block>
+						<fo:block font-size="7pt"><xsl:value-of select="$output_equipment_weight_allowance"/><!-- WEIGHT ALLOWANCE --></fo:block>
 					</fo:table-cell>
 				</fo:table-row>
 				<fo:table-row keep-with-next.within-column="always">
 											<xsl:message>Test</xsl:message>
 					<xsl:call-template name="weight.entry">
-						<xsl:with-param name="title" select="'Light'"/>
+						<xsl:with-param name="title" select="$output_equipment_weight_light"/>
 						<xsl:with-param name="value" select="light"/>
 					</xsl:call-template>
 					<xsl:call-template name="weight.entry">
-						<xsl:with-param name="title" select="'Medium'"/>
+						<xsl:with-param name="title" select="$output_equipment_weight_medium"/>
 						<xsl:with-param name="value" select="medium"/>
 					</xsl:call-template>
 					<xsl:call-template name="weight.entry">
-						<xsl:with-param name="title" select="'Heavy'"/>
+						<xsl:with-param name="title" select="$output_equipment_weight_heavy"/>
 						<xsl:with-param name="value" select="heavy"/>
 					</xsl:call-template>
 				</fo:table-row>
 				<fo:table-row keep-with-next.within-column="always">
 											<xsl:message>Test</xsl:message>
 					<xsl:call-template name="weight.entry">
-						<xsl:with-param name="title" select="'Lift over head'"/>
+						<xsl:with-param name="title" select="$output_equipment_weight_lift_over_head"/>
 						<xsl:with-param name="value" select="lift_over_head"/>
 					</xsl:call-template>
 					<xsl:call-template name="weight.entry">
-						<xsl:with-param name="title" select="'Lift off ground'"/>
+						<xsl:with-param name="title" select="$output_equipment_weight_lift_off_ground"/>
 						<xsl:with-param name="value" select="lift_off_ground"/>
 					</xsl:call-template>
 					<xsl:call-template name="weight.entry">
-						<xsl:with-param name="title" select="'Push / Drag'"/>
+						<xsl:with-param name="title" select="$output_equipment_weight_push_drag"/>
 						<xsl:with-param name="value" select="push_drag"/>
 					</xsl:call-template>
 				</fo:table-row>
@@ -317,7 +317,7 @@
 							<xsl:call-template name="attrib">
 								<xsl:with-param name="attribute" select="'money.title'"/>
 							</xsl:call-template>
-							<fo:block font-size="9pt">MONEY</fo:block>
+							<fo:block font-size="9pt"><xsl:value-of select="$output_money"/><!-- MONEY--></fo:block>
 						</fo:table-cell>
 					</fo:table-row>
 				</fo:table-header>
@@ -335,9 +335,9 @@
 										<xsl:with-param name="RunningTotal" select="0"/>
 									</xsl:call-template>
 								</xsl:variable>
-								Total= <xsl:value-of select="format-number($TotalValue, '##,##0.#')"/> gp
+								<xsl:value-of select="$output_money_total"/><!-- Total-->= <xsl:value-of select="format-number($TotalValue, '##,##0.#')"/> gp
 								<xsl:if test="misc/gold != 0">
-								[Unspent Funds = <xsl:value-of select="misc/gold"/> gp]
+								[<xsl:value-of select="$output_unspent_funds"/><!-- Unspent Funds--> = <xsl:value-of select="misc/gold"/> gp]
 								</xsl:if>
 							</fo:block>
 						</fo:table-cell>
@@ -448,7 +448,7 @@
 							<xsl:call-template name="attrib">
 								<xsl:with-param name="attribute" select="'magic.title'"/>
 							</xsl:call-template>
-							<fo:block font-size="9pt">MAGIC</fo:block>
+							<fo:block font-size="9pt"><xsl:value-of select="$output_magic"/><!-- MAGIC--></fo:block>
 						</fo:table-cell>
 					</fo:table-row>
 				</fo:table-header>

@@ -1197,20 +1197,21 @@
 					<fo:table-cell><fo:block/></fo:table-cell>
 
 					<fo:table-cell>
+						<xsl:variable name="equipmentLoad" select="/character/equipment/total/load"/>
 						<xsl:call-template name="attrib">
 							<xsl:with-param name="attribute" select="'initiative.total'"/>
 						</xsl:call-template>
 						<xsl:if test="(/character/equipment/total/load = 'Medium' or /character/equipment/total/load = 'Heavy' or /character/equipment/total/load = 'Overload')">
 						<fo:block font-size="10pt" font-weight="bold" color="red">
-							<xsl:attribute name="font-family">Noto Sans</xsl:attribute>
-							<xsl:value-of select="/character/equipment/total/load"/>
+							<xsl:attribute name="padding-top"><xsl:value-of select="/character/lang/output_encumbrance_padding_top" /></xsl:attribute>
+							<xsl:value-of select="/character/lang/*[name() = concat('output_encumbrance_',$equipmentLoad)]"/>
 							<fo:inline font-size="6" font-weight="italics"> (rules applied)</fo:inline>
 						</fo:block>
 						</xsl:if>
 						<xsl:if test="/character/equipment/total/load = 'Light'">
 						<fo:block space-before.optimum="2pt" font-size="10pt">
-						    <xsl:attribute name="font-family">Noto Sans</xsl:attribute>
-							<xsl:value-of select="/character/equipment/total/load"/>
+							<xsl:attribute name="padding-top"><xsl:value-of select="/character/lang/output_encumbrance_padding_top" /></xsl:attribute>
+						    <xsl:value-of select="/character/lang/*[name() = concat('output_encumbrance_',$equipmentLoad)]"/>
 						</fo:block>
 						</xsl:if>
 

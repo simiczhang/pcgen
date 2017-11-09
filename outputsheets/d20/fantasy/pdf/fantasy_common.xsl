@@ -301,7 +301,7 @@
 										<fo:block font-size="7pt" font-weight="bold"><xsl:value-of select="./*[name()=$name.tag]"/></fo:block>
 									</fo:table-cell>
 									<fo:table-cell padding="0pt" text-align="end">
-										<fo:block  font-size="7pt" font-weight="bold">[<xsl:value-of select="source"/>]</fo:block>
+										<fo:block  font-size="5pt" font-weight="bold">[<xsl:value-of select="source"/>]</fo:block>
 									</fo:table-cell>
 								</xsl:when>
 								<xsl:otherwise>
