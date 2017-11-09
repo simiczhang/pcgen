@@ -100,7 +100,7 @@ first page
 		<xsl:param name="attribute"/>
 		<xsl:param name="name" />
 		<xsl:param name="uses" />
-		<xsl:param name="uses.title" select="'Uses per day'" />
+		<xsl:param name="uses.title" select="$output_template_use_per_day" />
 		<xsl:param name="description.title" select="''"/>
 		<xsl:param name="description" />
 		<xsl:param name="width" select="'wide'" />
@@ -853,8 +853,8 @@ first page
 							<xsl:call-template name="attrib">
 							<xsl:with-param name="attribute" select="'checklist'"/>
 						</xsl:call-template>
-						<fo:block font-size="8pt" text-align="center">
-							<xsl:value-of select="check_type"/>
+						<fo:block font-size="8pt" text-align="center" padding-top="1pt">
+							<xsl:value-of select="$output_template_use_per_day"/><!--  <xsl:value-of select="check_type"/> TODO mostly check type is use per day-->
 						</fo:block>
 					</fo:table-cell>
 					<fo:table-cell padding-top="1pt" padding-left="9pt">
@@ -874,9 +874,9 @@ first page
 						<xsl:call-template name="attrib">
 							<xsl:with-param name="attribute" select="'checklist'"/>
 						</xsl:call-template>
-						<fo:block font-size="5pt" font-weight="bold">
+						<fo:block font-size="7pt" font-weight="bold">
 						<xsl:if test="name != ''"> <xsl:value-of select="name"/>:</xsl:if>
-							<fo:inline font-size="5pt" font-weight="normal"><xsl:value-of select="description"/><xsl:if test="source != ''"> [<xsl:value-of select="source"/>]</xsl:if></fo:inline>
+							<fo:inline font-size="7pt" font-weight="normal"><xsl:value-of select="description"/><xsl:if test="source != ''"> [<xsl:value-of select="source"/>]</xsl:if></fo:inline>
 						</fo:block>
 					</fo:table-cell>
 				</fo:table-row>

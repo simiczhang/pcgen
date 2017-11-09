@@ -1313,7 +1313,7 @@
 		<!-- BEGIN Saves table -->
 		<xsl:variable name="output_save_column_width" select="/character/lang/output_save_column_width"/>
 		<fo:table table-layout="fixed" width="100%">
-			<fo:table-column column-width="$output_save_column_width"/>
+			<fo:table-column column-width="{$output_save_column_width}"/>
 			<fo:table-column column-width="2mm"/>
 			<fo:table-column column-width="7mm"/>
 			<fo:table-column column-width="2mm"/>

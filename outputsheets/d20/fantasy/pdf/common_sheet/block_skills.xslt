@@ -109,13 +109,13 @@
 				<fo:table-column column-width="6mm"/>
 			</xsl:variable>
 
-			<fo:table table-layout="fixed" width="100%" border-collapse="collapse">
+			<fo:table table-layout="fixed" width="100%" border-collapse="collapse" margin-top="2pt">
 				<xsl:call-template name="attrib"><xsl:with-param name="attribute" select="'skills.border'"/></xsl:call-template>
 				<xsl:copy-of select="$columns"/>
 				<fo:table-body>
-					<fo:table-row height="2pt">
+					<fo:table-row height="1pt">
 											<xsl:message>Test</xsl:message>
-						<fo:table-cell><fo:block/></fo:table-cell>
+						<fo:table-cell  ><fo:block/></fo:table-cell>
 
 					</fo:table-row>
 					<fo:table-row>
