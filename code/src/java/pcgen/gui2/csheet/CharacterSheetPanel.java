@@ -190,7 +190,7 @@ public class CharacterSheetPanel extends HtmlPanel implements CharacterSelection
 			character.export(handler, buf);
 
 			final String genText = out.toString().replace(COLOR_TAG, cssColor.getCssfile());
-			ByteArrayInputStream instream = new ByteArrayInputStream(genText.getBytes());
+			ByteArrayInputStream instream = new ByteArrayInputStream(genText.getBytes("UTF-8"));
 
 			URI root = new URI("file", ConfigurationSettings.getPreviewDir().replaceAll("\\\\", "/"), null);
 			return theDocBuilder.parse(new InputSourceImpl(instream, root.toString(), "UTF-8"));
