@@ -23,12 +23,12 @@
 					<xsl:with-param name="attribute" select="'equipment.border'"/>
 				</xsl:call-template>
 				<fo:table-column>
-					<xsl:attribute name="column-width"><xsl:value-of select="0.5 * ($pagePrintableWidth - 2) - 43" />mm</xsl:attribute>
+					<xsl:attribute name="column-width"><xsl:value-of select="0.5 * ($pagePrintableWidth - 2) - $output_equipment_column_1_width" />mm</xsl:attribute>
 				</fo:table-column>
-				<fo:table-column column-width="19mm"/>
-				<fo:table-column column-width="6mm"/>
-				<fo:table-column column-width="8mm"/>
-				<fo:table-column column-width="10mm"/>
+				<fo:table-column column-width="{$output_equipment_column_2_width}"/>
+				<fo:table-column column-width="{$output_equipment_column_3_width}"/>
+				<fo:table-column column-width="{$output_equipment_column_4_width}"/>
+				<fo:table-column column-width="{$output_equipment_column_5_width}"/>
 				<fo:table-header>
 					<fo:table-row>
 											<xsl:message>Test</xsl:message>
@@ -36,7 +36,7 @@
 							<xsl:call-template name="attrib">
 								<xsl:with-param name="attribute" select="'equipment.title'"/>
 							</xsl:call-template>
-							<fo:block font-size="9pt">EQUIPMENT</fo:block>
+							<fo:block font-size="{$output_equipment_equipment_font_size}" padding-top="{$output_equipment_equipment_padding_top}"><xsl:value-of select="$output_equipment_equipment"/><!-- EQUIPMENT--></fo:block>
 						</fo:table-cell>
 					</fo:table-row>
 					<fo:table-row>
@@ -45,16 +45,16 @@
 							<xsl:with-param name="attribute" select="'equipment.title'"/>
 						</xsl:call-template>
 						<fo:table-cell>
-							<fo:block font-size="7pt">ITEM</fo:block>
+							<fo:block font-size="{$output_equipment_item_font_size}" padding-top="{$output_equipment_item_padding_top}"><xsl:value-of select="$output_equipment_item"/><!-- ITEM--></fo:block>
 						</fo:table-cell>
 						<fo:table-cell>
-							<fo:block font-size="7pt">LOCATION</fo:block>
+							<fo:block font-size="{$output_equipment_location_font_size}" padding-top="{$output_equipment_location_padding_top}"><xsl:value-of select="$output_equipment_location"/><!-- LOCATION--></fo:block>
 						</fo:table-cell>
 						<fo:table-cell>
-							<fo:block font-size="7pt">QTY</fo:block>
+							<fo:block font-size="{$output_equipment_qty_font_size}" padding-top="{$output_equipment_qty_padding_top}"><xsl:value-of select="$output_equipment_qty"/><!-- QTY--></fo:block>
 						</fo:table-cell>
 						<fo:table-cell number-columns-spanned="2">
-							<fo:block font-size="7pt">WT / COST</fo:block>
+							<fo:block font-size="{$output_equipment_cost_font_size}" padding-top="{$output_equipment_cost_padding_top}"><xsl:value-of select="$output_equipment_cost"/><!-- WT / COST--></fo:block>
 						</fo:table-cell>
 <!-->						<fo:table-cell padding-top="1pt">
 							<fo:block font-size="7pt"></fo:block>
@@ -68,10 +68,10 @@
 							<xsl:with-param name="attribute" select="'equipment.title'"/>
 						</xsl:call-template>
 						<fo:table-cell>
-							<fo:block font-size="7pt">TOTAL WEIGHT CARRIED/VALUE</fo:block>
+							<fo:block font-size="7pt" padding-top="1pt"><xsl:value-of select="$output_equipment_total"/><!-- TOTAL WEIGHT CARRIED/VALUE --></fo:block>
 						</fo:table-cell>
 						<fo:table-cell>
-							<fo:block font-size="7pt">
+							<fo:block font-size="7pt" padding-top="1pt">
 								<xsl:value-of select="total/weight"/>
 							</fo:block>
 						</fo:table-cell>
@@ -101,7 +101,7 @@
 											<xsl:message>Test</xsl:message>
 							<xsl:call-template name="attrib"><xsl:with-param name="attribute" select="concat('equipment.', $shade)"/></xsl:call-template>
 							<fo:table-cell>
-								<fo:block space-before.optimum="1pt" font-size="8pt">
+								<fo:block space-before.optimum="1pt" font-size="6pt" line-height="10pt">
 									<xsl:if test="contains(type, 'MAGIC') or contains(type, 'PSIONIC')">
 										<xsl:attribute name="font-weight">bold</xsl:attribute>
 									</xsl:if>
@@ -114,12 +114,12 @@
 									<xsl:value-of select="special_properties"/>
 									<xsl:value-of select="quality"/>
 								</fo:block>	-->
-								<fo:block space-before.optimum="1pt" font-size="5pt">
+								<fo:block space-before.optimum="1pt" font-size="6pt">
 									<xsl:value-of select="note"/>
 								</fo:block>
 								<!-- Display the number of charges left if any -->
 								<xsl:if test="charges &gt; 0">
-									<fo:block font-size="7pt" font-family="ZapfDingbats">
+									<fo:block font-size="6pt" font-family="ZapfDingbats">
 										<xsl:call-template name="for.loop">
 											<xsl:with-param name="count" select="charges"/>
 										</xsl:call-template>
@@ -136,14 +136,14 @@
 								</xsl:if>	-->
 								<!-- Replaced quantity with checkbox, though quatity will net same result with > 0 -->
 								<xsl:if test="contains(type, 'AMMUNITION') and checkbox > 0">
-									<fo:block font-size="7pt" font-family="ZapfDingbats">
+									<fo:block font-size="6pt" font-family="ZapfDingbats">
 										<xsl:call-template name="for.loop">
 											<xsl:with-param name="count" select="checkbox"/>
 										</xsl:call-template>
 									</fo:block>
 								</xsl:if>
 								<xsl:if test="contains(type, 'CONSUMABLE') and checkbox > 0">
-									<fo:block font-size="7pt" font-family="ZapfDingbats">
+									<fo:block font-size="6pt" font-family="ZapfDingbats">
 										<xsl:call-template name="for.loop">
 											<xsl:with-param name="count" select="checkbox"/>
 										</xsl:call-template>
@@ -151,17 +151,17 @@
 								</xsl:if>
 							</fo:table-cell>
 							<fo:table-cell text-align="center">
-								<fo:block space-before.optimum="1pt" font-size="7pt">
+								<fo:block space-before.optimum="1pt" font-size="6pt">
 									<xsl:value-of select="location"/>
 								</fo:block>
 							</fo:table-cell>
 							<fo:table-cell>
-								<fo:block text-align="center" space-before.optimum="1pt" font-size="7pt">
+								<fo:block text-align="center" space-before.optimum="1pt" font-size="6pt">
 									<xsl:value-of select="quantity"/>
 								</fo:block>
 							</fo:table-cell>
 							<fo:table-cell number-columns-spanned="2">
-								<fo:block text-align="center" space-before.optimum="1pt" font-size="7pt">
+								<fo:block text-align="center" space-before.optimum="1pt" font-size="6pt">
 									<xsl:value-of select="format-number(weight, '##,##0.#')"/>
 									<xsl:if test="quantity &gt; 1">
 										(<xsl:value-of select="format-number(weight * quantity, '##,##0.#')"/>)
@@ -257,36 +257,36 @@
 						<xsl:call-template name="attrib">
 							<xsl:with-param name="attribute" select="'weight.title'"/>
 						</xsl:call-template>
-						<fo:block font-size="9pt">WEIGHT ALLOWANCE</fo:block>
+						<fo:block font-size="7pt"><xsl:value-of select="$output_equipment_weight_allowance"/><!-- WEIGHT ALLOWANCE --></fo:block>
 					</fo:table-cell>
 				</fo:table-row>
 				<fo:table-row keep-with-next.within-column="always">
 											<xsl:message>Test</xsl:message>
 					<xsl:call-template name="weight.entry">
-						<xsl:with-param name="title" select="'Light'"/>
+						<xsl:with-param name="title" select="$output_equipment_weight_light"/>
 						<xsl:with-param name="value" select="light"/>
 					</xsl:call-template>
 					<xsl:call-template name="weight.entry">
-						<xsl:with-param name="title" select="'Medium'"/>
+						<xsl:with-param name="title" select="$output_equipment_weight_medium"/>
 						<xsl:with-param name="value" select="medium"/>
 					</xsl:call-template>
 					<xsl:call-template name="weight.entry">
-						<xsl:with-param name="title" select="'Heavy'"/>
+						<xsl:with-param name="title" select="$output_equipment_weight_heavy"/>
 						<xsl:with-param name="value" select="heavy"/>
 					</xsl:call-template>
 				</fo:table-row>
 				<fo:table-row keep-with-next.within-column="always">
 											<xsl:message>Test</xsl:message>
 					<xsl:call-template name="weight.entry">
-						<xsl:with-param name="title" select="'Lift over head'"/>
+						<xsl:with-param name="title" select="$output_equipment_weight_lift_over_head"/>
 						<xsl:with-param name="value" select="lift_over_head"/>
 					</xsl:call-template>
 					<xsl:call-template name="weight.entry">
-						<xsl:with-param name="title" select="'Lift off ground'"/>
+						<xsl:with-param name="title" select="$output_equipment_weight_lift_off_ground"/>
 						<xsl:with-param name="value" select="lift_off_ground"/>
 					</xsl:call-template>
 					<xsl:call-template name="weight.entry">
-						<xsl:with-param name="title" select="'Push / Drag'"/>
+						<xsl:with-param name="title" select="$output_equipment_weight_push_drag"/>
 						<xsl:with-param name="value" select="push_drag"/>
 					</xsl:call-template>
 				</fo:table-row>
@@ -317,7 +317,7 @@
 							<xsl:call-template name="attrib">
 								<xsl:with-param name="attribute" select="'money.title'"/>
 							</xsl:call-template>
-							<fo:block font-size="9pt">MONEY</fo:block>
+							<fo:block font-size="9pt"><xsl:value-of select="$output_money"/><!-- MONEY--></fo:block>
 						</fo:table-cell>
 					</fo:table-row>
 				</fo:table-header>
@@ -335,9 +335,9 @@
 										<xsl:with-param name="RunningTotal" select="0"/>
 									</xsl:call-template>
 								</xsl:variable>
-								Total= <xsl:value-of select="format-number($TotalValue, '##,##0.#')"/> gp
+								<xsl:value-of select="$output_money_total"/><!-- Total-->= <xsl:value-of select="format-number($TotalValue, '##,##0.#')"/> gp
 								<xsl:if test="misc/gold != 0">
-								[Unspent Funds = <xsl:value-of select="misc/gold"/> gp]
+								[<xsl:value-of select="$output_unspent_funds"/><!-- Unspent Funds--> = <xsl:value-of select="misc/gold"/> gp]
 								</xsl:if>
 							</fo:block>
 						</fo:table-cell>
@@ -448,7 +448,7 @@
 							<xsl:call-template name="attrib">
 								<xsl:with-param name="attribute" select="'magic.title'"/>
 							</xsl:call-template>
-							<fo:block font-size="9pt">MAGIC</fo:block>
+							<fo:block font-size="9pt"><xsl:value-of select="$output_magic"/><!-- MAGIC--></fo:block>
 						</fo:table-cell>
 					</fo:table-row>
 				</fo:table-header>

@@ -5066,7 +5066,7 @@ public class PlayerCharacter implements Cloneable, VariableContainer
 		final StringTokenizer aTok = new StringTokenizer(tokenString, ".");
 		final String[] tokens = new String[aTok.countTokens()];
 		int save = 0;
-		String saveType = check.toString();
+		String saveType = check.getKeyName();
 
 		for (int i = 0; aTok.hasMoreTokens(); ++i)
 		{

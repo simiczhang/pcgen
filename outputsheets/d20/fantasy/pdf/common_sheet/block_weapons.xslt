@@ -370,31 +370,31 @@
 						<xsl:call-template name="attrib">
 							<xsl:with-param name="attribute" select="'weapon.title'"/>
 						</xsl:call-template>
-						<fo:block font-weight="bold" font-size="9pt">UNARMED</fo:block>
+						<fo:block font-weight="bold" font-size="8pt"><xsl:value-of select="$output_weapon_unarmed"/><!--unarmed--></fo:block>
 					</fo:table-cell>
 					<fo:table-cell>
 						<xsl:call-template name="attrib">
 							<xsl:with-param name="attribute" select="'weapon.title'"/>
 						</xsl:call-template>
-						<fo:block font-size="6pt">TOTAL ATTACK BONUS</fo:block>
+						<fo:block font-size="6pt"><xsl:value-of select="$output_weapon_total_attack_bonus"/><!--TOTAL ATTACK BONUS--></fo:block>
 					</fo:table-cell>
 					<fo:table-cell>
 						<xsl:call-template name="attrib">
 							<xsl:with-param name="attribute" select="'weapon.title'"/>
 						</xsl:call-template>
-						<fo:block font-size="6pt">DAMAGE</fo:block>
+						<fo:block font-size="6pt"><xsl:value-of select="$output_weapon_damage"/><!--DAMAGE--></fo:block>
 					</fo:table-cell>
 					<fo:table-cell>
 						<xsl:call-template name="attrib">
 							<xsl:with-param name="attribute" select="'weapon.title'"/>
 						</xsl:call-template>
-						<fo:block font-size="6pt">CRITICAL</fo:block>
+						<fo:block font-size="6pt"><xsl:value-of select="$output_weapon_critical"/><!--CRITICAL--></fo:block>
 					</fo:table-cell>
 					<fo:table-cell>
 						<xsl:call-template name="attrib">
 							<xsl:with-param name="attribute" select="'weapon.title'"/>
 						</xsl:call-template>
-						<fo:block font-size="6pt">REACH</fo:block>
+						<fo:block font-size="6pt"><xsl:value-of select="$output_weapon_reach"/><!--REACH--></fo:block>
 					</fo:table-cell>
 				</fo:table-row>
 				<fo:table-row>
@@ -451,8 +451,8 @@
 						<xsl:call-template name="attrib">
 							<xsl:with-param name="attribute" select="'weapon.title'"/>
 						</xsl:call-template>
-						<fo:block font-size="8pt" font-weight="bold">
-							<xsl:text>Special Properties:</xsl:text>
+						<fo:block font-size="6pt" font-weight="bold">
+							<xsl:value-of select="$output_weapon_sp"/><xsl:text>:</xsl:text>
 						</fo:block>
 					</fo:table-cell>
 					<fo:table-cell number-columns-spanned="4">
@@ -917,15 +917,15 @@
 		</xsl:for-each>
 		<xsl:if test="position() &gt;= $first_weapon">
 			<fo:block font-size="5pt" space-before="2mm" color="black">
-				<fo:inline font-weight="bold">*</fo:inline>: weapon is equipped
+				<fo:inline font-weight="bold">*</fo:inline>: <xsl:value-of select="$output_weapon_weapon_is_equipped"/><!--weapon is equipped-->
 			</fo:block>
 			<fo:block font-size="5pt" space-before="1pt" color="black">
-				<fo:inline font-weight="bold">1H-P</fo:inline>: One handed, in primary hand.
-				<fo:inline font-weight="bold">1H-O</fo:inline>: One handed, in off hand.
-				<fo:inline font-weight="bold">2H</fo:inline>: Two handed.
-				<fo:inline font-weight="bold">2W-P-(OH)</fo:inline>: 2 weapons, primary hand (off hand weapon is heavy).
-				<fo:inline font-weight="bold">2W-P-(OL)</fo:inline>: 2 weapons, primary hand (off hand weapon is light).
-				<fo:inline font-weight="bold">2W-OH</fo:inline>: 2 weapons, off hand.
+				<fo:inline font-weight="bold">1H-P</fo:inline>: <xsl:value-of select="$output_weapon_1hp"/><!--One handed, in primary hand.-->
+				<fo:inline font-weight="bold">1H-O</fo:inline>: <xsl:value-of select="$output_weapon_1ho"/><!--One handed, in off hand.-->
+				<fo:inline font-weight="bold">2H</fo:inline>: <xsl:value-of select="$output_weapon_2h"/><!--Two handed.-->
+				<fo:inline font-weight="bold">2W-P-(OH)</fo:inline>: <xsl:value-of select="$output_weapon_2wp_oh"/><!--2 weapons, primary hand (off hand weapon is heavy).-->
+				<fo:inline font-weight="bold">2W-P-(OL)</fo:inline>: <xsl:value-of select="$output_weapon_2wp_ol"/><!--2 weapons, primary hand (off hand weapon is light).-->
+				<fo:inline font-weight="bold">2W-OH</fo:inline>: <xsl:value-of select="$output_weapon_2w_oh"/><!--2 weapons, off hand.-->
 			</fo:block>
 		</xsl:if>
 	</xsl:template>
@@ -956,7 +956,7 @@
 						<xsl:call-template name="attrib">
 							<xsl:with-param name="attribute" select="'weapon.title'"/>
 						</xsl:call-template>
-						<fo:block font-weight="bold" font-size="10pt">
+						<fo:block font-weight="bold" padding-top="{$output_weapon_padding_top}" font-size="{$output_weapon_font_size}">
 							<xsl:variable name="name" select="substring-before(name/short,'(')"/>
 							<xsl:variable name="description" select="substring-after(name/short,'(')"/>
 							<xsl:value-of select="$name"/>
@@ -975,31 +975,31 @@
 						<xsl:call-template name="attrib">
 							<xsl:with-param name="attribute" select="'weapon.title'"/>
 						</xsl:call-template>
-						<fo:block font-size="6pt">HAND</fo:block>
+						<fo:block font-size="6pt"><xsl:value-of select="$output_weapon_hand"/><!--HAND--></fo:block>
 					</fo:table-cell>
 					<fo:table-cell>
 						<xsl:call-template name="attrib">
 							<xsl:with-param name="attribute" select="'weapon.title'"/>
 						</xsl:call-template>
-						<fo:block font-size="6pt">TYPE</fo:block>
+						<fo:block font-size="6pt"><xsl:value-of select="$output_weapon_type"/><!--TYPE--></fo:block>
 					</fo:table-cell>
 					<fo:table-cell>
 						<xsl:call-template name="attrib">
 							<xsl:with-param name="attribute" select="'weapon.title'"/>
 						</xsl:call-template>
-						<fo:block font-size="6pt">SIZE</fo:block>
+						<fo:block font-size="6pt"><xsl:value-of select="$output_weapon_size"/><!--SIZE--></fo:block>
 					</fo:table-cell>
 					<fo:table-cell>
 						<xsl:call-template name="attrib">
 							<xsl:with-param name="attribute" select="'weapon.title'"/>
 						</xsl:call-template>
-						<fo:block font-size="6pt">CRITICAL</fo:block>
+						<fo:block font-size="6pt"><xsl:value-of select="$output_weapon_critical"/><!--CRITICAL--></fo:block>
 					</fo:table-cell>
 					<fo:table-cell>
 						<xsl:call-template name="attrib">
 							<xsl:with-param name="attribute" select="'weapon.title'"/>
 						</xsl:call-template>
-						<fo:block font-size="6pt">REACH</fo:block>
+						<fo:block font-size="6pt"><xsl:value-of select="$output_weapon_reach"/><!--REACH--></fo:block>
 					</fo:table-cell>
 				</fo:table-row>
 				<fo:table-row keep-with-previous.within-page="always">
@@ -1092,7 +1092,7 @@
 						<xsl:call-template name="attrib">
 							<xsl:with-param name="attribute" select="'equipment.border'"/>
 						</xsl:call-template>
-						<fo:block font-size="6pt" font-weight="bold">Special Properties: <xsl:value-of select="special_properties"/></fo:block>
+						<fo:block font-size="6pt" font-weight="bold"><xsl:value-of select="$output_weapon_sp"/><!--Special Properties-->: <xsl:value-of select="special_properties"/></fo:block>
 					</fo:table-cell>
 				</xsl:if>
 				<xsl:if test="special_properties = ''">
@@ -1222,19 +1222,19 @@
 		
 		<fo:table-cell>
 			<xsl:call-template name="attrib"><xsl:with-param name="attribute" select="'weapon.title'"/></xsl:call-template>
-			<fo:block font-size="5pt" font-weight="bold" space-before="1pt">
+			<fo:block font-size="5pt" font-weight="bold" space-before="1pt" padding-top="1pt">
 				<xsl:value-of select="$title"/>
 			</fo:block>
 		</fo:table-cell>
 		<fo:table-cell>
 			<xsl:call-template name="attrib"><xsl:with-param name="attribute" select="'weapon.hilight'"/></xsl:call-template>
-			<fo:block font-size="7pt" space-before="1pt">
+			<fo:block font-size="7pt" space-before="1pt" padding-top="1pt">
 				<xsl:value-of select="$tohit"/>
 			</fo:block>
 		</fo:table-cell>
 		<fo:table-cell>
 			<xsl:call-template name="attrib"><xsl:with-param name="attribute" select="'weapon.hilight'"/></xsl:call-template>
-			<fo:block font-size="7pt" space-before="1pt">
+			<fo:block font-size="7pt" space-before="1pt" padding-top="1pt">
 				<xsl:value-of select="$damage"/>
 			</fo:block>
 		</fo:table-cell>
@@ -1273,11 +1273,11 @@
 					</fo:table-cell>
 					<fo:table-cell>
 						<xsl:call-template name="attrib"><xsl:with-param name="attribute" select="'weapon.title'"/></xsl:call-template>
-						<fo:block font-size="6pt" font-weight="bold" space-before="1pt">To Hit</fo:block>
+						<fo:block font-size="6pt" font-weight="bold" space-before="1pt"><xsl:value-of select="$output_weapon_to_hit"/><!--To Hit--></fo:block>
 					</fo:table-cell>
 					<fo:table-cell>
 						<xsl:call-template name="attrib"><xsl:with-param name="attribute" select="'weapon.title'"/></xsl:call-template>
-						<fo:block font-size="6pt" font-weight="bold" space-before="1pt">Dam</fo:block>
+						<fo:block font-size="6pt" font-weight="bold" space-before="1pt"><xsl:value-of select="$output_weapon_dam"/><!--Dam--></fo:block>
 					</fo:table-cell>
 					<fo:table-cell>
 						<xsl:call-template name="attrib"><xsl:with-param name="attribute" select="'weapon.title'"/></xsl:call-template>
@@ -1285,11 +1285,11 @@
 					</fo:table-cell>
 					<fo:table-cell>
 						<xsl:call-template name="attrib"><xsl:with-param name="attribute" select="'weapon.title'"/></xsl:call-template>
-						<fo:block font-size="6pt" font-weight="bold" space-before="1pt">To Hit</fo:block>
+						<fo:block font-size="6pt" font-weight="bold" space-before="1pt"><xsl:value-of select="$output_weapon_to_hit"/><!--To Hit--></fo:block>
 					</fo:table-cell>
 					<fo:table-cell>
 						<xsl:call-template name="attrib"><xsl:with-param name="attribute" select="'weapon.title'"/></xsl:call-template>
-						<fo:block font-size="6pt" font-weight="bold" space-before="1pt">Dam</fo:block>
+						<fo:block font-size="6pt" font-weight="bold" space-before="1pt"><xsl:value-of select="$output_weapon_dam"/><!--Dam--></fo:block>
 					</fo:table-cell>
 				</fo:table-row>
 				<xsl:if test="not(w1_h1_p/to_hit = /character/export/invalidtext/tohit and w1_h1_p/damage = /character/export/invalidtext/damage and w2_p_oh/to_hit = /character/export/invalidtext/tohit and w2_p_oh/damage = /character/export/invalidtext/damage)">

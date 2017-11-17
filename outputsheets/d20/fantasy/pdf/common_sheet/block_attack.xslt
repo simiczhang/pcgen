@@ -9,7 +9,7 @@
 
 	<xsl:import href="../../../../xsltsl-1.1/stdlib.xsl"/>
 	<xsl:import href="../inc_pagedimensions.xslt"/>
-
+    <xsl:import href="../i18n.xslt"/>
 	<!--
 ====================================
 ====================================
@@ -75,7 +75,7 @@
 			<fo:table-body>
 				<xsl:call-template name="to_hit.header" />
 				<xsl:apply-templates select="melee" mode="to_hit">
-					<xsl:with-param name="title" select="'MELEE'"/>
+					<xsl:with-param name="title" select="$output_attack_type_melee"/>
 				</xsl:apply-templates>
 				<fo:table-row height="2.5pt">
 											<xsl:message>Test</xsl:message>
@@ -83,7 +83,7 @@
 
 				</fo:table-row>
 				<xsl:apply-templates select="ranged" mode="to_hit">
-					<xsl:with-param name="title" select="'RANGED'"/>
+					<xsl:with-param name="title" select="$output_attack_type_ranged"/>
 				</xsl:apply-templates>
 				<fo:table-row height="2.5pt">
 											<xsl:message>Test</xsl:message>
@@ -94,7 +94,7 @@
 					<xsl:with-param name="title" select="'GRAPPLE'"/>
 				</xsl:apply-templates>
 				<xsl:apply-templates select="cmb" mode="to_hit">
-					<xsl:with-param name="title" select="'CMB'"/>
+					<xsl:with-param name="title" select="$output_attack_type_cmb"/>
 				</xsl:apply-templates>
 			</fo:table-body>
 		</fo:table>
@@ -108,22 +108,22 @@
 											<xsl:message>Test</xsl:message>
 			<fo:table-cell><fo:block/></fo:table-cell>
 
-			<xsl:call-template name="attack.header.entry"><xsl:with-param name="title" select="'TOTAL'"/><xsl:with-param name="font.size" select="'6pt'"/></xsl:call-template>
-			<xsl:call-template name="attack.header.entry"><xsl:with-param name="title" select="'BASE ATTACK BONUS'"/></xsl:call-template>
-			<xsl:call-template name="attack.header.entry"><xsl:with-param name="title" select="'STAT'"/></xsl:call-template>
-			<xsl:call-template name="attack.header.entry"><xsl:with-param name="title" select="'SIZE'"/></xsl:call-template>
-			<xsl:call-template name="attack.header.entry"><xsl:with-param name="title" select="'MISC'"/></xsl:call-template>
-			<xsl:call-template name="attack.header.entry"><xsl:with-param name="title" select="'EPIC'"/></xsl:call-template>
-			<xsl:call-template name="attack.header.entry"><xsl:with-param name="title" select="'TEMP'"/></xsl:call-template>
+			<xsl:call-template name="attack.header.entry"><xsl:with-param name="title" select="$output_attack_total"/><xsl:with-param name="font.size" select="'6pt'"/></xsl:call-template>
+			<xsl:call-template name="attack.header.entry"><xsl:with-param name="title" select="$output_attack_base_attack_bonus"/></xsl:call-template>
+			<xsl:call-template name="attack.header.entry"><xsl:with-param name="title" select="$output_attack_stat"/></xsl:call-template>
+			<xsl:call-template name="attack.header.entry"><xsl:with-param name="title" select="$output_attack_size"/></xsl:call-template>
+			<xsl:call-template name="attack.header.entry"><xsl:with-param name="title" select="$output_attack_misc"/></xsl:call-template>
+			<xsl:call-template name="attack.header.entry"><xsl:with-param name="title" select="$output_attack_epic"/></xsl:call-template>
+			<xsl:call-template name="attack.header.entry"><xsl:with-param name="title" select="$output_attack_temp"/></xsl:call-template>
 		</fo:table-row>
 	</xsl:template>
 	<xsl:template name="attack.header.entry">
 		<xsl:param name="title"/>
-		<xsl:param name="font.size" select="'4pt'"/>
+		<xsl:param name="font.size" select="$output_attack_font_size"/>
 		<fo:table-cell><fo:block/></fo:table-cell>
 
 		<fo:table-cell display-align="after">
-			<fo:block text-align="center" font-size="6pt">
+			<fo:block text-align="center" font-size="6pt" padding-top="{$output_attack_padding_top}">
 				<xsl:attribute name="font-size"><xsl:value-of select="$font.size"/></xsl:attribute>
 				<xsl:value-of select="$title"/>
 			</fo:block>
@@ -138,10 +138,10 @@
 				<xsl:call-template name="attrib">
 					<xsl:with-param name="attribute" select="'tohit.title'"/>
 				</xsl:call-template>
-				<fo:block space-before.optimum="0.5pt" line-height="10pt" font-weight="bold" font-size="10pt" space-before="1pt">
+				<fo:block space-before.optimum="0.5pt" line-height="{$output_attack_title_line_height}" font-weight="bold" font-size="{$output_attack_title_font_size}" padding-top="{$output_attack_padding_top}" space-before="1pt">
 					<xsl:value-of select="$title"/>
 				</fo:block>
-				<fo:block line-height="4pt" font-size="4pt">attack bonus</fo:block>
+				<xsl:if test="$output_attack_title_show_second_line = 'true'"><fo:block line-height="4pt" font-size="4pt">attack bonus</fo:block></xsl:if>
 			</fo:table-cell>
 			<fo:table-cell><fo:block/></fo:table-cell>
 
@@ -180,20 +180,20 @@
 	<xsl:template match="cmb" mode="moves">
 		<!-- BEGIN CMB table -->
 		<fo:table table-layout="fixed" width="100%" >
-			<fo:table-column column-width="8mm"/>
-			<fo:table-column column-width="1mm"/>
-			<fo:table-column column-width="19mm"/>
-			<fo:table-column column-width="1mm"/>
-			<fo:table-column column-width="19mm"/>
-			<fo:table-column column-width="1mm"/>
-			<fo:table-column column-width="19mm"/>
-			<fo:table-column column-width="1mm"/>
-			<fo:table-column column-width="19mm"/>
-			<fo:table-column column-width="1mm"/>
-			<fo:table-column column-width="6mm"/>
-			<fo:table-column column-width="1mm"/>
-			<fo:table-column column-width="8mm"/>
-			<fo:table-column column-width="0mm"/>
+			<fo:table-column column-width="{$output_attack_cmb_column_1_width}"/>
+			<fo:table-column column-width="{$output_attack_cmb_column_2_width}"/>
+			<fo:table-column column-width="{$output_attack_cmb_column_3_width}"/>
+			<fo:table-column column-width="{$output_attack_cmb_column_4_width}"/>
+			<fo:table-column column-width="{$output_attack_cmb_column_5_width}"/>
+			<fo:table-column column-width="{$output_attack_cmb_column_6_width}"/>
+			<fo:table-column column-width="{$output_attack_cmb_column_7_width}"/>
+			<fo:table-column column-width="{$output_attack_cmb_column_8_width}"/>
+			<fo:table-column column-width="{$output_attack_cmb_column_9_width}"/>
+			<fo:table-column column-width="{$output_attack_cmb_column_10_width}"/>
+			<fo:table-column column-width="{$output_attack_cmb_column_11_width}"/>
+			<fo:table-column column-width="{$output_attack_cmb_column_12_width}"/>
+			<fo:table-column column-width="{$output_attack_cmb_column_13_width}"/>
+			<fo:table-column column-width="{$output_attack_cmb_column_14_width}"/>
 
 <!--			<fo:table-column column-width="13mm"/>
 			<fo:table-column>
@@ -212,8 +212,8 @@
 						<xsl:call-template name="attrib">
 							<xsl:with-param name="attribute" select="'tohit.title'" />
 						</xsl:call-template>
-						<fo:block space-before.optimum="0.5pt" line-height="8pt" font-weight="bold" font-size="8pt" space-before="1pt">
-							<xsl:value-of select="'CMB'"/>
+						<fo:block space-before.optimum="0.5pt" line-height="8pt" font-weight="bold" font-size="{$output_attack_cmb_2_font_size}" space-before="1pt">
+							<xsl:value-of select="$output_attack_cmb_2"/>
 						</fo:block>
 					</fo:table-cell>
 					<fo:table-cell><fo:block/></fo:table-cell>
@@ -239,8 +239,8 @@
 						<xsl:call-template name="attrib">
 							<xsl:with-param name="attribute" select="'tohit.title'" />
 						</xsl:call-template>
-						<fo:block space-before.optimum="0.5pt" line-height="8pt" font-weight="bold" font-size="8pt" space-before="1pt">
-							<xsl:value-of select="'CMD'"/>
+						<fo:block space-before.optimum="0.5pt" line-height="8pt" font-weight="bold" font-size="{$output_attack_cmd_font_size}" space-before="1pt">
+							<xsl:value-of select="$output_attack_cmd"/>
 						</fo:block>
 					</fo:table-cell>
 					<fo:table-cell><fo:block/></fo:table-cell>
@@ -262,12 +262,12 @@
 											<xsl:message>Test END</xsl:message>
 			<fo:table-cell><fo:block/></fo:table-cell>
 
-			<xsl:call-template name="attack.header.entry"><xsl:with-param name="title" select="'GRAPPLE'"/></xsl:call-template>
-			<xsl:call-template name="attack.header.entry"><xsl:with-param name="title" select="'TRIP'"/></xsl:call-template>
-			<xsl:call-template name="attack.header.entry"><xsl:with-param name="title" select="'DISARM'"/></xsl:call-template>
-			<xsl:call-template name="attack.header.entry"><xsl:with-param name="title" select="'SUNDER'"/></xsl:call-template>
-			<xsl:call-template name="attack.header.entry"><xsl:with-param name="title" select="'BULL RUSH'"/></xsl:call-template>
-			<xsl:call-template name="attack.header.entry"><xsl:with-param name="title" select="'OVERRUN'"/></xsl:call-template>
+			<xsl:call-template name="attack.header.entry"><xsl:with-param name="title" select="$output_attack_cm_grapple"/></xsl:call-template>
+			<xsl:call-template name="attack.header.entry"><xsl:with-param name="title" select="$output_attack_cm_trip"/></xsl:call-template>
+			<xsl:call-template name="attack.header.entry"><xsl:with-param name="title" select="$output_attack_cm_disarm"/></xsl:call-template>
+			<xsl:call-template name="attack.header.entry"><xsl:with-param name="title" select="$output_attack_cm_sunder"/></xsl:call-template>
+			<xsl:call-template name="attack.header.entry"><xsl:with-param name="title" select="$output_attack_cm_bull_rush"/></xsl:call-template>
+			<xsl:call-template name="attack.header.entry"><xsl:with-param name="title" select="$output_attack_cm_overrun"/></xsl:call-template>
 <!--			<xsl:call-template name="attack.header.entry"><xsl:with-param name="title" select="'BASE'"/><xsl:with-param name="font.size" select="'6pt'"/></xsl:call-template> -->
 		</fo:table-row>
 	</xsl:template>
@@ -279,7 +279,7 @@
 			<xsl:call-template name="attrib">
 				<xsl:with-param name="attribute" select="'tohit'"/>
 			</xsl:call-template>
-			<fo:block space-before.optimum="3pt" font-size="8pt">
+			<fo:block space-before.optimum="3pt" font-size="8pt" padding-top="{$output_attack_value_padding_top}">
 				<xsl:value-of select="$value"/>
 			</fo:block>
 		</fo:table-cell>
@@ -287,7 +287,7 @@
 			<xsl:call-template name="attrib">
 				<xsl:with-param name="attribute" select="'tohit'"/>
 			</xsl:call-template>
-			<fo:block space-before.optimum="5pt" font-size="6pt">
+			<fo:block space-before.optimum="5pt" font-size="6pt" padding-top="{$output_attack_separate_padding_top}">
 				<xsl:value-of select="$separator"/>
 			</fo:block>
 		</fo:table-cell>
@@ -297,14 +297,14 @@
 		<xsl:param name="value" />
 		<xsl:param name="bab" />
 		<xsl:param name="separator" select="'+'"/>
-		<xsl:param name="fontsize" select="'6pt'"/>
+		<xsl:param name="fontsize" select="'8pt'"/>
 											<xsl:message>Test END</xsl:message>
 		<fo:table-cell>
 											<xsl:message>Test END</xsl:message>
 			<xsl:call-template name="attrib">
 				<xsl:with-param name="attribute" select="'tohit'"/>
 			</xsl:call-template>
-			<fo:block space-before.optimum="3pt" font-size="6pt">
+			<fo:block space-before.optimum="3pt" padding-top="1pt">
 				<xsl:attribute name="font-size"><xsl:value-of select="$fontsize"/></xsl:attribute>
 				<xsl:call-template name="process.attack.string">
 					<xsl:with-param name="attack" select="$value"/>

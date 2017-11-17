@@ -626,7 +626,8 @@
 						<xsl:call-template name="attrib">
 							<xsl:with-param name="attribute" select="'bio'"/>
 						</xsl:call-template>
-						<fo:block font-size="8pt">
+						<fo:block>
+							<xsl:attribute name="font-size"><xsl:value-of select="/character/lang/output_alignment_font_size" /></xsl:attribute>
 							<xsl:value-of select="alignment/long"/>	
 						</fo:block>
 					</fo:table-cell>

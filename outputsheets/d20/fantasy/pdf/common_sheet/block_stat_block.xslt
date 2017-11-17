@@ -54,37 +54,37 @@
 				<fo:table-row>
 											<xsl:message>Test</xsl:message>
 					<fo:table-cell>
-						<fo:block text-align="center" font-size="4pt">ABILITY NAME</fo:block>
+						<fo:block text-align="center" font-size="4pt"><xsl:value-of select="/character/lang/output_stat_ability_name"/><!--ABILITY NAME--></fo:block>
 					</fo:table-cell>
 					<fo:table-cell><fo:block/></fo:table-cell>
 
 					<fo:table-cell>
-						<fo:block text-align="center" font-size="4pt">BASE SCORE</fo:block>
+						<fo:block text-align="center" font-size="4pt"><xsl:value-of select="/character/lang/output_stat_base_score"/><!--BASE SCORE--></fo:block>
 					</fo:table-cell>
 					<fo:table-cell><fo:block/></fo:table-cell>
 
 					<fo:table-cell>
-						<fo:block text-align="center" font-size="4pt">BASE MOD</fo:block>
+						<fo:block text-align="center" font-size="4pt"><xsl:value-of select="/character/lang/output_stat_base_mod"/><!--BASE MOD--></fo:block>
 					</fo:table-cell>
 					<fo:table-cell><fo:block/></fo:table-cell>
 
 					<fo:table-cell>
-						<fo:block text-align="center" font-size="4pt">ABILITY SCORE</fo:block>
+						<fo:block text-align="center" font-size="4pt"><xsl:value-of select="/character/lang/output_stat_ability_score"/><!--ABILITY SCORE--></fo:block>
 					</fo:table-cell>
 					<fo:table-cell><fo:block/></fo:table-cell>
 
 					<fo:table-cell>
-						<fo:block text-align="center" font-size="4pt">ABILITY MOD</fo:block>
+						<fo:block text-align="center" font-size="4pt"><xsl:value-of select="/character/lang/output_stat_ability_mod"/><!--ABILITY MOD--></fo:block>
 					</fo:table-cell>
 					<fo:table-cell><fo:block/></fo:table-cell>
 
 					<fo:table-cell>
-						<fo:block text-align="center" font-size="4pt">TEMP SCORE</fo:block>
+						<fo:block text-align="center" font-size="4pt"><xsl:value-of select="/character/lang/output_stat_temp_score"/><!--TEMP SCORE--></fo:block>
 					</fo:table-cell>
 					<fo:table-cell><fo:block/></fo:table-cell>
 
 					<fo:table-cell>
-						<fo:block text-align="center" font-size="4pt">TEMP MOD</fo:block>
+						<fo:block text-align="center" font-size="4pt"><xsl:value-of select="/character/lang/output_stat_temp_mod"/><!--TEMP MOD--></fo:block>
 					</fo:table-cell>
 				</fo:table-row>
 				<xsl:for-each select="ability">
@@ -94,11 +94,17 @@
 							<xsl:call-template name="attrib">
 								<xsl:with-param name="attribute" select="'stat.title'"/>
 							</xsl:call-template>
+							<xsl:variable name="statShortName" select="name/short"/>
+							<xsl:variable name="statShowLongName" select="/character/lang/output_stat_show_long_name"/>
+							
 							<fo:block line-height="10pt" font-weight="bold" font-size="10pt" space-before="1pt">
-								<xsl:value-of select="name/short"/>
+							    <xsl:attribute name="font-size"><xsl:value-of select="/character/lang/output_stat_font_short_name_font_size" /></xsl:attribute>
+								<xsl:attribute name="padding-top"><xsl:value-of select="/character/lang/output_stat_font_short_name_padding_top" /></xsl:attribute>
+								<xsl:value-of select="/character/lang/*[name() = concat('output_stat_',$statShortName)]"/>
 							</fo:block>
 							<fo:block line-height="4pt" font-size="4pt">
-								<xsl:value-of select="name/long"/>
+								
+								<xsl:if test="$statShowLongName!='false'"><xsl:value-of select="name/long"/></xsl:if>
 							</fo:block>
 						</fo:table-cell>
 						<fo:table-cell><fo:block/></fo:table-cell>
@@ -108,6 +114,8 @@
 								<xsl:with-param name="attribute" select="'stat.base.score'"/>
 							</xsl:call-template>
 							<fo:block space-before.optimum="2pt" font-size="10pt">
+								<xsl:attribute name="font-family">Noto Sans</xsl:attribute>
+								<xsl:attribute name="padding-top"><xsl:value-of select="/character/lang/output_stat_score_padding_top" /></xsl:attribute>
 								<xsl:value-of select="base"/>
 							</fo:block>
 						</fo:table-cell>
@@ -118,6 +126,8 @@
 								<xsl:with-param name="attribute" select="'stat.base.modifier'"/>
 							</xsl:call-template>
 							<fo:block space-before.optimum="2pt" font-size="10pt">
+								<xsl:attribute name="font-family">Noto Sans</xsl:attribute>
+								<xsl:attribute name="padding-top"><xsl:value-of select="/character/lang/output_stat_score_padding_top" /></xsl:attribute>
 								<xsl:value-of select="basemod"/>
 							</fo:block>
 						</fo:table-cell>
@@ -128,6 +138,8 @@
 								<xsl:with-param name="attribute" select="'stat.score'"/>
 							</xsl:call-template>
 							<fo:block space-before.optimum="2pt" font-size="10pt">
+								<xsl:attribute name="font-family">Noto Sans</xsl:attribute>
+								<xsl:attribute name="padding-top"><xsl:value-of select="/character/lang/output_stat_score_padding_top" /></xsl:attribute>
 								<xsl:value-of select="no_temp_score"/>
 							</fo:block>
 						</fo:table-cell>
@@ -138,6 +150,8 @@
 								<xsl:with-param name="attribute" select="'stat.modifier'"/>
 							</xsl:call-template>
 							<fo:block space-before.optimum="2pt" font-size="10pt">
+								<xsl:attribute name="font-family">Noto Sans</xsl:attribute>
+								<xsl:attribute name="padding-top"><xsl:value-of select="/character/lang/output_stat_score_padding_top" /></xsl:attribute>
 								<xsl:value-of select="no_temp_modifier"/>
 							</fo:block>
 						</fo:table-cell>
@@ -148,6 +162,8 @@
 								<xsl:with-param name="attribute" select="'stat.temp.score'"/>
 							</xsl:call-template>
 							<fo:block space-before.optimum="2pt" font-size="10pt">
+								<xsl:attribute name="font-family">Noto Sans</xsl:attribute>
+								<xsl:attribute name="padding-top"><xsl:value-of select="/character/lang/output_stat_score_padding_top" /></xsl:attribute>
 								<xsl:if test="score != no_temp_score">
 									<xsl:value-of select="score"/>
 								</xsl:if>
@@ -160,6 +176,8 @@
 								<xsl:with-param name="attribute" select="'stat.temp.modifier'"/>
 							</xsl:call-template>
 							<fo:block space-before.optimum="2pt" font-size="10pt">
+								<xsl:attribute name="font-family">Noto Sans</xsl:attribute>
+								<xsl:attribute name="padding-top"><xsl:value-of select="/character/lang/output_stat_score_padding_top" /></xsl:attribute>
 								<xsl:if test="score != no_temp_score">
 									<xsl:value-of select="modifier"/>
 								</xsl:if>

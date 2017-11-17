@@ -41,7 +41,7 @@
 		<!-- BEGIN weapon_proficiencies Table -->
 		<xsl:call-template name="list">
 			<xsl:with-param name="attribute" select="'proficiencies'"/>
-			<xsl:with-param name="title" select="'Proficiencies'"/>
+			<xsl:with-param name="title" select="$output_proficiencies"/>
 			<xsl:with-param name="value" select="." />
 		</xsl:call-template>
 		<!-- END weapon_proficiencies Table -->
@@ -56,7 +56,7 @@
 		<!-- BEGIN Languages Table -->
 		<xsl:call-template name="list">
 			<xsl:with-param name="attribute" select="'languages'"/>
-			<xsl:with-param name="title" select="'Languages'"/>
+			<xsl:with-param name="title" select="$output_languages"/>
 			<xsl:with-param name="value" select="." />
 		</xsl:call-template>
 		<!-- END Languages Table -->
@@ -406,7 +406,7 @@
 							<xsl:call-template name="attrib">
 								<xsl:with-param name="attribute" select="'magic.title'"/>
 							</xsl:call-template>
-							<fo:block font-size="9pt">Other Companions</fo:block>
+							<fo:block font-size="9pt"><xsl:value-of select="$output_other_companions"/><!-- Other Companions --></fo:block>
 						</fo:table-cell>
 					</fo:table-row>
 				</fo:table-header>

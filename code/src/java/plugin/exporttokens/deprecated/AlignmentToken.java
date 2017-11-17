@@ -70,7 +70,7 @@ public class AlignmentToken extends AbstractExportToken
 			return "";
 		}
 		final PCAlignment alignment = display.getPCAlignment();
-		return alignment == null ? "None" : alignment.getDisplayName();
+		return alignment == null ? "None" : (alignment.getOutputName() != null? alignment.getOutputName() : alignment.getDisplayName());
 	}
 
 	/**

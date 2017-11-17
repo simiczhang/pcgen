@@ -23,45 +23,45 @@
 		<fo:table table-layout="fixed" width="100%" border-collapse="collapse" space-before="2mm">
 			<xsl:call-template name="attrib"><xsl:with-param name="attribute" select="'protection.border'"/></xsl:call-template>
 			<fo:table-column>
-				<xsl:attribute name="column-width"><xsl:value-of select="0.55 * $pagePrintableWidth - 49" />mm</xsl:attribute>
+				<xsl:attribute name="column-width"><xsl:value-of select="$output_armor_table_width * $pagePrintableWidth - 49" />mm</xsl:attribute>
 			</fo:table-column>
-			<fo:table-column column-width="12mm"/>
-			<fo:table-column column-width="6mm"/>
-			<fo:table-column column-width="8mm"/>
-			<fo:table-column column-width="6mm"/>
-			<fo:table-column column-width="15mm"/>
+			<fo:table-column column-width="{$output_armor_column_1_width}"/>
+			<fo:table-column column-width="{$output_armor_column_2_width}"/>
+			<fo:table-column column-width="{$output_armor_column_3_width}"/>
+			<fo:table-column column-width="{$output_armor_column_4_width}"/>
+			<fo:table-column column-width="{$output_armor_column_5_width}"/>
 			<fo:table-header>
 				<fo:table-row>
 											<xsl:message>Test</xsl:message>
 					<xsl:call-template name="attrib"><xsl:with-param name="attribute" select="'protection.title'"/></xsl:call-template>
-					<fo:table-cell padding-top="1pt">
-						<fo:block font-size="7pt">
-							ARMOR
+					<fo:table-cell padding-top="{$output_armor_armor_padding_top}">
+						<fo:block font-size="{$output_armor_armor_font_size}">
+							<xsl:value-of select="$output_armor_armor"/><!--ARMOR-->
 						</fo:block>
 					</fo:table-cell>
-					<fo:table-cell padding-top="3pt">
-						<fo:block font-size="4pt">
-							TYPE
+					<fo:table-cell padding-top="{$output_armor_type_padding_top}">
+						<fo:block font-size="{$output_armor_type_font_size}">
+							<xsl:value-of select="$output_armor_type"/><!--TYPE-->
 						</fo:block>
 					</fo:table-cell>
-					<fo:table-cell padding-top="3pt">
-						<fo:block font-size="4pt">
-							AC
+					<fo:table-cell padding-top="{$output_armor_ac_padding_top}">
+						<fo:block font-size="{$output_armor_ac_font_size}">
+							<xsl:value-of select="$output_armor_ac"/><!--AC-->
 						</fo:block>
 					</fo:table-cell>
-					<fo:table-cell padding-top="3pt">
-						<fo:block font-size="4pt">
-							MAXDEX
+					<fo:table-cell padding-top="{$output_armor_maxdex_padding_top}">
+						<fo:block font-size="{$output_armor_maxdex_font_size}">
+							<xsl:value-of select="$output_armor_maxdex"/><!--MAXDEX-->
 						</fo:block>
 					</fo:table-cell>
-					<fo:table-cell padding-top="3pt">
-						<fo:block font-size="4pt">
-							CHECK
+					<fo:table-cell padding-top="{$output_armor_check_padding_top}">
+						<fo:block font-size="{$output_armor_check_font_size}">
+							<xsl:value-of select="$output_armor_check"/><!--CHECK-->
 						</fo:block>
 					</fo:table-cell>
-					<fo:table-cell padding-top="3pt">
-						<fo:block font-size="4pt">
-							SPELL FAILURE
+					<fo:table-cell padding-top="{$output_armor_spell_failure_padding_top}">
+						<fo:block font-size="{$output_armor_spell_failure_font_size}">
+							<xsl:value-of select="$output_armor_spell_failure"/><!--SPELL FAILURE-->
 						</fo:block>
 					</fo:table-cell>
 				</fo:table-row>
@@ -85,7 +85,8 @@
 						</fo:table-cell>
 						<fo:table-cell text-align="center">
 							<fo:block font-size="8pt">
-								<xsl:value-of select="type"/>
+								<xsl:variable name="armorType" select="type"/>							
+								<xsl:value-of select="/character/lang/*[name() = concat('output_armor_type_',$armorType)]"/>
 							</fo:block>
 						</fo:table-cell>
 						<fo:table-cell text-align="center">
